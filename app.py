@@ -18,7 +18,7 @@ with tabs[0]:
     
     # DataFrame yükleme
     df = pd.read_csv(
-        "/home/enes/Desktop/pipelines/single_sample/data_bayram_hoca/return_files/barcode07.tsv",
+        "data/barcode06.tsv",
         sep="\t"
     )
     
@@ -30,7 +30,7 @@ with tabs[0]:
 with tabs[1]:
     st.subheader("İstatistik")
     st.write("Genomic Fraction Bar-Chart")
-    genome_fraction = pd.read_csv("/home/enes/Desktop/pipelines/single_sample/data_bayram_hoca/statistics_bam/qualimap/barcode06/raw_data_qualimapReport/genome_fraction_coverage.txt", sep="\t")
+    genome_fraction = pd.read_csv("data/genome_fraction_coverage.txt", sep="\t")
     st.bar_chart(genome_fraction.set_index("#Coverage (X)")) 
     st.write("Genomic Fraction Raw Data")
     st.dataframe(genome_fraction,width="stretch", height=600)
