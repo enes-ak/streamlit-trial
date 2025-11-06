@@ -23,7 +23,7 @@ with tabs[0]:
     )
     
     # Tabloyu tam genişlik ve yüksek göster
-    st.dataframe(df, width="stretch", height=600)
+    st.dataframe(df, width="stretch", height=700)
 
 
 
@@ -33,4 +33,4 @@ with tabs[1]:
     genome_fraction = pd.read_csv("data/genome_fraction_coverage.txt", sep="\t")
     st.bar_chart(genome_fraction.set_index("#Coverage (X)")) 
     st.write("Genomic Fraction Raw Data")
-    st.dataframe(genome_fraction,width="stretch", height=600)
+    st.dataframe(genome_fraction,width="stretch", height=700)
