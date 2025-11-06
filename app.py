@@ -11,7 +11,7 @@ st.set_page_config(
 st.markdown("## Massive Analyser RIP ⚰️")
 
 # Tek sekme oluştur
-tabs = st.tabs(["Varyant Tablosu", "İstatistikkkkk"])
+tabs = st.tabs(["Varyant Tablosu", "İstatistik"])
 
 with tabs[0]:
     st.subheader("Varyant Tablosu")
