@@ -11,10 +11,10 @@ st.set_page_config(
 st.markdown("## Massive Analyser RIP ⚰️")
 
 # Tek sekme oluştur
-tabs = st.tabs(["Varyant Tablosu", "İstatistik"])
+tabs = st.tabs(["Variant Table", "Statistics"])
 
 with tabs[0]:
-    st.subheader("Varyant Tablosu")
+    st.subheader("Variant Table")
     
     # DataFrame yükleme
     df = pd.read_csv(
@@ -28,7 +28,7 @@ with tabs[0]:
 
 
 with tabs[1]:
-    st.subheader("İstatistik")
+    st.subheader("Statistics")
     st.write("Genomic Fraction Bar-Chart")
     genome_fraction = pd.read_csv("data/genome_fraction_coverage.txt", sep="\t")
     st.bar_chart(genome_fraction.set_index("#Coverage (X)")) 
