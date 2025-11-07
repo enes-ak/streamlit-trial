@@ -1,0 +1,212 @@
+{
+  "build": "pyhd8ed1ab_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "humanfriendly >=9.1"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/coloredlogs-15.0.1-pyhd8ed1ab_4",
+  "files": [
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/LICENSE.txt",
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/coloredlogs-15.0.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/coloredlogs.pth",
+    "lib/python3.11/site-packages/coloredlogs/__init__.py",
+    "lib/python3.11/site-packages/coloredlogs/cli.py",
+    "lib/python3.11/site-packages/coloredlogs/converter/__init__.py",
+    "lib/python3.11/site-packages/coloredlogs/converter/colors.py",
+    "lib/python3.11/site-packages/coloredlogs/demo.py",
+    "lib/python3.11/site-packages/coloredlogs/syslog.py",
+    "lib/python3.11/site-packages/coloredlogs/tests.py",
+    "lib/python3.11/site-packages/coloredlogs/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/coloredlogs/__pycache__/cli.cpython-311.pyc",
+    "lib/python3.11/site-packages/coloredlogs/converter/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/coloredlogs/converter/__pycache__/colors.cpython-311.pyc",
+    "lib/python3.11/site-packages/coloredlogs/__pycache__/demo.cpython-311.pyc",
+    "lib/python3.11/site-packages/coloredlogs/__pycache__/syslog.cpython-311.pyc",
+    "lib/python3.11/site-packages/coloredlogs/__pycache__/tests.cpython-311.pyc",
+    "bin/coloredlogs"
+  ],
+  "fn": "coloredlogs-15.0.1-pyhd8ed1ab_4.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/coloredlogs-15.0.1-pyhd8ed1ab_4",
+    "type": 1
+  },
+  "md5": "b866ff7007b934d564961066c8195983",
+  "name": "coloredlogs",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/coloredlogs-15.0.1-pyhd8ed1ab_4.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "0bef4ffb1855b65570304f2018c6d44e4bab97bd5df8716ecd7800014d717267",
+        "sha256_in_prefix": "0bef4ffb1855b65570304f2018c6d44e4bab97bd5df8716ecd7800014d717267",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c70381cfe32cb975eac01449aaad8c1c05fd8cbafa42ceb34885c93f7d415f9c",
+        "sha256_in_prefix": "c70381cfe32cb975eac01449aaad8c1c05fd8cbafa42ceb34885c93f7d415f9c",
+        "size_in_bytes": 12386
+      },
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "64fe28deb8e2f4dd8f4530fda2704d1d5156fd0fb9fc01f383991af57bbba4a8",
+        "sha256_in_prefix": "64fe28deb8e2f4dd8f4530fda2704d1d5156fd0fb9fc01f383991af57bbba4a8",
+        "size_in_bytes": 1899
+      },
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bac27f602d5be9a72728c016f36d41ba617f6be78b762eaa13178b2291f3449f",
+        "sha256_in_prefix": "bac27f602d5be9a72728c016f36d41ba617f6be78b762eaa13178b2291f3449f",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "8f1f7ca53bc05268ee9f01407260e89e87db0c5debe10938eec20650ada19abe",
+        "sha256_in_prefix": "8f1f7ca53bc05268ee9f01407260e89e87db0c5debe10938eec20650ada19abe",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "site-packages/coloredlogs-15.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0f72ee46fbac110f3129484fa303d498f58d9bcf054b0f2db37c76ba5bc24b24",
+        "sha256_in_prefix": "0f72ee46fbac110f3129484fa303d498f58d9bcf054b0f2db37c76ba5bc24b24",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/coloredlogs.pth",
+        "path_type": "hardlink",
+        "sha256": "dda83a855986efa5cd87f0248b0199c0086eb0e8e7fece7d6741959c5ce39536",
+        "sha256_in_prefix": "dda83a855986efa5cd87f0248b0199c0086eb0e8e7fece7d6741959c5ce39536",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "site-packages/coloredlogs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1716a2235a50d09cd161bc762b97ff02bf566b599e64b8395ca1961ca80f04da",
+        "sha256_in_prefix": "1716a2235a50d09cd161bc762b97ff02bf566b599e64b8395ca1961ca80f04da",
+        "size_in_bytes": 64423
+      },
+      {
+        "_path": "site-packages/coloredlogs/cli.py",
+        "path_type": "hardlink",
+        "sha256": "89a1e05157873e5e6221e70a1b558932c94e24429d844bac6f18fb078af5b072",
+        "sha256_in_prefix": "89a1e05157873e5e6221e70a1b558932c94e24429d844bac6f18fb078af5b072",
+        "size_in_bytes": 3493
+      },
+      {
+        "_path": "site-packages/coloredlogs/converter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b74f1ef55f3e11df72f5e35262fdf1d431f485781a5c7266416a79e23fdada79",
+        "sha256_in_prefix": "b74f1ef55f3e11df72f5e35262fdf1d431f485781a5c7266416a79e23fdada79",
+        "size_in_bytes": 18353
+      },
+      {
+        "_path": "site-packages/coloredlogs/converter/colors.py",
+        "path_type": "hardlink",
+        "sha256": "d4dd8fa426be11830c5b20ba0f0ed21b6597d600baec5f45e4eb5e7855b9d923",
+        "sha256_in_prefix": "d4dd8fa426be11830c5b20ba0f0ed21b6597d600baec5f45e4eb5e7855b9d923",
+        "size_in_bytes": 5387
+      },
+      {
+        "_path": "site-packages/coloredlogs/demo.py",
+        "path_type": "hardlink",
+        "sha256": "09a3d518e07aac2b490f27aa9345412e2d2dd398e05049e2b81fff558a39921a",
+        "sha256_in_prefix": "09a3d518e07aac2b490f27aa9345412e2d2dd398e05049e2b81fff558a39921a",
+        "size_in_bytes": 1825
+      },
+      {
+        "_path": "site-packages/coloredlogs/syslog.py",
+        "path_type": "hardlink",
+        "sha256": "f97c91533236d102934ed56a84902d7d873e963c3472bb23c6a8d60e3aab72a5",
+        "sha256_in_prefix": "f97c91533236d102934ed56a84902d7d873e963c3472bb23c6a8d60e3aab72a5",
+        "size_in_bytes": 11849
+      },
+      {
+        "_path": "site-packages/coloredlogs/tests.py",
+        "path_type": "hardlink",
+        "sha256": "a1efe95a74c67cd108eeca58dff540eb67d7ff4f59115155111bebf6c04caa73",
+        "sha256_in_prefix": "a1efe95a74c67cd108eeca58dff540eb67d7ff4f59115155111bebf6c04caa73",
+        "size_in_bytes": 30791
+      },
+      {
+        "_path": "lib/python3.11/site-packages/coloredlogs/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/coloredlogs/__pycache__/cli.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/coloredlogs/converter/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/coloredlogs/converter/__pycache__/colors.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/coloredlogs/__pycache__/demo.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/coloredlogs/__pycache__/syslog.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/coloredlogs/__pycache__/tests.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/coloredlogs",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8021c76eeadbdd5784b881b165242db9449783e12ce26d6234060026fd6a8680",
+  "size": 43758,
+  "subdir": "noarch",
+  "timestamp": 1733928076000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/coloredlogs-15.0.1-pyhd8ed1ab_4.conda",
+  "version": "15.0.1"
+}

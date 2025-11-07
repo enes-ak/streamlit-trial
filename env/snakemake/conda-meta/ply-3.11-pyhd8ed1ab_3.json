@@ -1,0 +1,169 @@
+{
+  "build": "pyhd8ed1ab_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/ply-3.11-pyhd8ed1ab_3",
+  "files": [
+    "lib/python3.11/site-packages/ply-3.11.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/ply-3.11.dist-info/METADATA",
+    "lib/python3.11/site-packages/ply-3.11.dist-info/RECORD",
+    "lib/python3.11/site-packages/ply-3.11.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/ply-3.11.dist-info/WHEEL",
+    "lib/python3.11/site-packages/ply-3.11.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/ply-3.11.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/ply/__init__.py",
+    "lib/python3.11/site-packages/ply/cpp.py",
+    "lib/python3.11/site-packages/ply/ctokens.py",
+    "lib/python3.11/site-packages/ply/lex.py",
+    "lib/python3.11/site-packages/ply/yacc.py",
+    "lib/python3.11/site-packages/ply/ygen.py",
+    "lib/python3.11/site-packages/ply/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/ply/__pycache__/cpp.cpython-311.pyc",
+    "lib/python3.11/site-packages/ply/__pycache__/ctokens.cpython-311.pyc",
+    "lib/python3.11/site-packages/ply/__pycache__/lex.cpython-311.pyc",
+    "lib/python3.11/site-packages/ply/__pycache__/yacc.cpython-311.pyc",
+    "lib/python3.11/site-packages/ply/__pycache__/ygen.cpython-311.pyc"
+  ],
+  "fn": "ply-3.11-pyhd8ed1ab_3.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/ply-3.11-pyhd8ed1ab_3",
+    "type": 1
+  },
+  "md5": "fd5062942bfa1b0bd5e0d2a4397b099e",
+  "name": "ply",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/ply-3.11-pyhd8ed1ab_3.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/ply-3.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ply-3.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0995a6ca70f859ccd1c41c9da52945eb3fa21921f33e50e20821f58f670a933b",
+        "sha256_in_prefix": "0995a6ca70f859ccd1c41c9da52945eb3fa21921f33e50e20821f58f670a933b",
+        "size_in_bytes": 850
+      },
+      {
+        "_path": "site-packages/ply-3.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a72f9f03339002ee434d396992b7bbcad8341a3aba4e9273bed80ccfa7295a31",
+        "sha256_in_prefix": "a72f9f03339002ee434d396992b7bbcad8341a3aba4e9273bed80ccfa7295a31",
+        "size_in_bytes": 1198
+      },
+      {
+        "_path": "site-packages/ply-3.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ply-3.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/ply-3.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "88f693e0361ffe827c7544968b7540cdc7119ed969c7606daf273c365b6c67f2",
+        "sha256_in_prefix": "88f693e0361ffe827c7544968b7540cdc7119ed969c7606daf273c365b6c67f2",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/ply-3.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8036011d143b572d2d6340235f226d69dbd4d8b0da3ac1ea86157bd001ac8ac7",
+        "sha256_in_prefix": "8036011d143b572d2d6340235f226d69dbd4d8b0da3ac1ea86157bd001ac8ac7",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/ply/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b31ea204817ffd6288794d22c36592a12a8185c947179121053734c038a04d5f",
+        "sha256_in_prefix": "b31ea204817ffd6288794d22c36592a12a8185c947179121053734c038a04d5f",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/ply/cpp.py",
+        "path_type": "hardlink",
+        "sha256": "293835dd1e5229e89cc199bb6c83cbe3829c40145c1ec99e1063b020156f2e4a",
+        "sha256_in_prefix": "293835dd1e5229e89cc199bb6c83cbe3829c40145c1ec99e1063b020156f2e4a",
+        "size_in_bytes": 33639
+      },
+      {
+        "_path": "site-packages/ply/ctokens.py",
+        "path_type": "hardlink",
+        "sha256": "1a6c9660363d9e5e85d56250f6b99c405821d459c00c5967a7f4c18d3704b2a5",
+        "sha256_in_prefix": "1a6c9660363d9e5e85d56250f6b99c405821d459c00c5967a7f4c18d3704b2a5",
+        "size_in_bytes": 3155
+      },
+      {
+        "_path": "site-packages/ply/lex.py",
+        "path_type": "hardlink",
+        "sha256": "6da6d12129c801fcc7a3b5aa2d8176a86092687d1bb4cf1ddf3b601da2b7480d",
+        "sha256_in_prefix": "6da6d12129c801fcc7a3b5aa2d8176a86092687d1bb4cf1ddf3b601da2b7480d",
+        "size_in_bytes": 42905
+      },
+      {
+        "_path": "site-packages/ply/yacc.py",
+        "path_type": "hardlink",
+        "sha256": "105d38deb207ad72581ba8dc6f5e5323648bc1d0a834e4195c237fd4cdfe2389",
+        "sha256_in_prefix": "105d38deb207ad72581ba8dc6f5e5323648bc1d0a834e4195c237fd4cdfe2389",
+        "size_in_bytes": 137736
+      },
+      {
+        "_path": "site-packages/ply/ygen.py",
+        "path_type": "hardlink",
+        "sha256": "4d19e4660c79041078dd0b29bb6278815b69781badf31ad3119a0b6cd3746fa3",
+        "sha256_in_prefix": "4d19e4660c79041078dd0b29bb6278815b69781badf31ad3119a0b6cd3746fa3",
+        "size_in_bytes": 2246
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ply/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ply/__pycache__/cpp.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ply/__pycache__/ctokens.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ply/__pycache__/lex.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ply/__pycache__/yacc.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ply/__pycache__/ygen.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bae453e5cecf19cab23c2e8929c6e30f4866d996a8058be16c797ed4b935461f",
+  "size": 49052,
+  "subdir": "noarch",
+  "timestamp": 1733239818000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ply-3.11-pyhd8ed1ab_3.conda",
+  "version": "3.11"
+}

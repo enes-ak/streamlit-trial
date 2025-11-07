@@ -1,0 +1,12 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=${prefix}
+libdir=/home/enes/miniconda3/envs/snakemake/lib
+includedir=/home/enes/miniconda3/envs/snakemake/include
+
+Name: absl_bounded_utf8_length_sequence
+Description: Abseil bounded_utf8_length_sequence library
+URL: https://abseil.io/
+Version: 20250814
+Requires: absl_bits = 20250814, absl_config = 20250814
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

@@ -1,0 +1,12 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=${prefix}
+libdir=/home/enes/miniconda3/envs/snakemake/lib
+includedir=/home/enes/miniconda3/envs/snakemake/include
+
+Name: absl_layout
+Description: Abseil layout library
+URL: https://abseil.io/
+Version: 20250814
+Requires: absl_config = 20250814, absl_core_headers = 20250814, absl_debugging_internal = 20250814, absl_meta = 20250814, absl_strings = 20250814, absl_span = 20250814, absl_utility = 20250814
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

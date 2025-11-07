@@ -1,0 +1,230 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "veracitools",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/ubiquerg-0.8.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/ubiquerg-0.8.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/ubiquerg-0.8.0.dist-info/LICENSE.txt",
+    "lib/python3.11/site-packages/ubiquerg-0.8.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/ubiquerg-0.8.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/ubiquerg-0.8.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/ubiquerg-0.8.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/ubiquerg-0.8.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/ubiquerg-0.8.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/ubiquerg/__init__.py",
+    "lib/python3.11/site-packages/ubiquerg/_version.py",
+    "lib/python3.11/site-packages/ubiquerg/cli_tools.py",
+    "lib/python3.11/site-packages/ubiquerg/collection.py",
+    "lib/python3.11/site-packages/ubiquerg/environment.py",
+    "lib/python3.11/site-packages/ubiquerg/file_locking.py",
+    "lib/python3.11/site-packages/ubiquerg/files.py",
+    "lib/python3.11/site-packages/ubiquerg/paths.py",
+    "lib/python3.11/site-packages/ubiquerg/system.py",
+    "lib/python3.11/site-packages/ubiquerg/web.py",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/cli_tools.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/collection.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/environment.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/file_locking.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/files.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/paths.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/system.cpython-311.pyc",
+    "lib/python3.11/site-packages/ubiquerg/__pycache__/web.cpython-311.pyc"
+  ],
+  "fn": "ubiquerg-0.8.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/ubiquerg-0.8.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "41408dc37271d5d0f99e2e10336cf40d",
+  "name": "ubiquerg",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/ubiquerg-0.8.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/ubiquerg-0.8.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ubiquerg-0.8.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a01e991836b891cce7ce724a26c2cb14570e6728bc63a7b626fd2b268ce0a7e2",
+        "sha256_in_prefix": "a01e991836b891cce7ce724a26c2cb14570e6728bc63a7b626fd2b268ce0a7e2",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/ubiquerg-0.8.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8e4edb7899780c4ce4c05c7ed97e5e85182955e12eff1670dea924623197be4e",
+        "sha256_in_prefix": "8e4edb7899780c4ce4c05c7ed97e5e85182955e12eff1670dea924623197be4e",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "site-packages/ubiquerg-0.8.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b5c7f2cf0103b1b78c98d07b313c9fb87cbe6d8c34ba0efc337dec0c4e65ac50",
+        "sha256_in_prefix": "b5c7f2cf0103b1b78c98d07b313c9fb87cbe6d8c34ba0efc337dec0c4e65ac50",
+        "size_in_bytes": 1935
+      },
+      {
+        "_path": "site-packages/ubiquerg-0.8.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ubiquerg-0.8.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff85c499599a0455ad7a4486adb7ce18d8c2d88e6552bd2565245b9419652050",
+        "sha256_in_prefix": "ff85c499599a0455ad7a4486adb7ce18d8c2d88e6552bd2565245b9419652050",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/ubiquerg-0.8.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f8f0ce9d673b836db815149f8f32c820921b824309570fb9ee17bb7a6988d059",
+        "sha256_in_prefix": "f8f0ce9d673b836db815149f8f32c820921b824309570fb9ee17bb7a6988d059",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/ubiquerg-0.8.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0a97fe57d35537a129d319e898d6fc0c039a8ba4718750633b8d1ec3cf91ceac",
+        "sha256_in_prefix": "0a97fe57d35537a129d319e898d6fc0c039a8ba4718750633b8d1ec3cf91ceac",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/ubiquerg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "da58b9f041442f980e8ea22803c5fd9bdb0aa3978e7b3d67c083d764853e2a81",
+        "sha256_in_prefix": "da58b9f041442f980e8ea22803c5fd9bdb0aa3978e7b3d67c083d764853e2a81",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "site-packages/ubiquerg/_version.py",
+        "path_type": "hardlink",
+        "sha256": "88f95809c233bb35bb4f61ca0e499894c911239d5d04b7cd4713cf896adfc3d5",
+        "sha256_in_prefix": "88f95809c233bb35bb4f61ca0e499894c911239d5d04b7cd4713cf896adfc3d5",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/ubiquerg/cli_tools.py",
+        "path_type": "hardlink",
+        "sha256": "a71621d43783320bd4f94ee8abe4db3621a106fc1a65f349e8d3908940936a22",
+        "sha256_in_prefix": "a71621d43783320bd4f94ee8abe4db3621a106fc1a65f349e8d3908940936a22",
+        "size_in_bytes": 8982
+      },
+      {
+        "_path": "site-packages/ubiquerg/collection.py",
+        "path_type": "hardlink",
+        "sha256": "d433fc75f9bbe10a3f989cc5a6d3d8e9be8f3429ef6496c5a08b30b847bf2908",
+        "sha256_in_prefix": "d433fc75f9bbe10a3f989cc5a6d3d8e9be8f3429ef6496c5a08b30b847bf2908",
+        "size_in_bytes": 3970
+      },
+      {
+        "_path": "site-packages/ubiquerg/environment.py",
+        "path_type": "hardlink",
+        "sha256": "d1c58032a9c347f44c8789b731529d7a27193f5bed097a7cb47dac3e4a972fbc",
+        "sha256_in_prefix": "d1c58032a9c347f44c8789b731529d7a27193f5bed097a7cb47dac3e4a972fbc",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "site-packages/ubiquerg/file_locking.py",
+        "path_type": "hardlink",
+        "sha256": "de92000e68cd8a60acdd51ed2f09647486e853a37128da93eb08d625be014a17",
+        "sha256_in_prefix": "de92000e68cd8a60acdd51ed2f09647486e853a37128da93eb08d625be014a17",
+        "size_in_bytes": 13482
+      },
+      {
+        "_path": "site-packages/ubiquerg/files.py",
+        "path_type": "hardlink",
+        "sha256": "a84a1bd4c33a8b2a7fbcd1f371a48b8119379baa334a5540bce8ef9dc0fc219e",
+        "sha256_in_prefix": "a84a1bd4c33a8b2a7fbcd1f371a48b8119379baa334a5540bce8ef9dc0fc219e",
+        "size_in_bytes": 8084
+      },
+      {
+        "_path": "site-packages/ubiquerg/paths.py",
+        "path_type": "hardlink",
+        "sha256": "6d8b1cc9c02ba939607badf6ac68b64a57ef67628e84b533b9e61e44b853993e",
+        "sha256_in_prefix": "6d8b1cc9c02ba939607badf6ac68b64a57ef67628e84b533b9e61e44b853993e",
+        "size_in_bytes": 3721
+      },
+      {
+        "_path": "site-packages/ubiquerg/system.py",
+        "path_type": "hardlink",
+        "sha256": "72cb297fe123ccd863f3343fdf8ddf12fedc4991765f39ee763b500651c04874",
+        "sha256_in_prefix": "72cb297fe123ccd863f3343fdf8ddf12fedc4991765f39ee763b500651c04874",
+        "size_in_bytes": 2357
+      },
+      {
+        "_path": "site-packages/ubiquerg/web.py",
+        "path_type": "hardlink",
+        "sha256": "85ef4549443ebc4c31f5de387a89b4fd009c9be40cf340e16155c8b5b7a840ae",
+        "sha256_in_prefix": "85ef4549443ebc4c31f5de387a89b4fd009c9be40cf340e16155c8b5b7a840ae",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/cli_tools.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/collection.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/environment.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/file_locking.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/files.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/paths.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/system.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ubiquerg/__pycache__/web.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ad56b48194d59a640be34432b0acdebe6e5520a86f5e2d0eabab567fc4976d53",
+  "size": 20698,
+  "subdir": "noarch",
+  "timestamp": 1719492750000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ubiquerg-0.8.0-pyhd8ed1ab_0.conda",
+  "version": "0.8.0"
+}

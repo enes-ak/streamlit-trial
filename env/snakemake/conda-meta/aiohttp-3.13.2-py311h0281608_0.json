@@ -1,0 +1,1163 @@
+{
+  "build": "py311h0281608_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "python_abi 3.11.* *_cp311",
+    "python >=3.11,<3.12.0a0",
+    "libgcc >=14",
+    "attrs >=17.3.0",
+    "multidict >=4.5,<7.0",
+    "frozenlist >=1.1.1",
+    "propcache >=0.2.0",
+    "yarl >=1.17.0,<2.0",
+    "aiohappyeyeballs >=2.5.0",
+    "aiosignal >=1.4.0"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/aiohttp-3.13.2-py311h0281608_0",
+  "files": [
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/METADATA",
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/RECORD",
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/WHEEL",
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/licenses/LICENSE.txt",
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/licenses/vendor/llhttp/LICENSE",
+    "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/aiohttp/.hash/_cparser.pxd.hash",
+    "lib/python3.11/site-packages/aiohttp/.hash/_find_header.pxd.hash",
+    "lib/python3.11/site-packages/aiohttp/.hash/_http_parser.pyx.hash",
+    "lib/python3.11/site-packages/aiohttp/.hash/_http_writer.pyx.hash",
+    "lib/python3.11/site-packages/aiohttp/.hash/hdrs.py.hash",
+    "lib/python3.11/site-packages/aiohttp/__init__.py",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/_cookie_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/abc.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/base_protocol.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/client.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/client_exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/client_middleware_digest_auth.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/client_middlewares.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/client_proto.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/client_reqrep.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/client_ws.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/compression_utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/connector.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/cookiejar.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/formdata.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/hdrs.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/http.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/http_exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/http_parser.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/http_websocket.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/http_writer.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/log.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/multipart.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/payload.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/payload_streamer.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/pytest_plugin.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/resolver.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/streams.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/tcp_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/test_utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/tracing.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/typedefs.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_app.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_fileresponse.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_log.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_middlewares.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_protocol.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_request.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_response.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_routedef.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_runner.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_server.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_urldispatcher.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/web_ws.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/__pycache__/worker.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/_cookie_helpers.py",
+    "lib/python3.11/site-packages/aiohttp/_cparser.pxd",
+    "lib/python3.11/site-packages/aiohttp/_find_header.pxd",
+    "lib/python3.11/site-packages/aiohttp/_headers.pxi",
+    "lib/python3.11/site-packages/aiohttp/_http_parser.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/aiohttp/_http_parser.pyx",
+    "lib/python3.11/site-packages/aiohttp/_http_writer.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/aiohttp/_http_writer.pyx",
+    "lib/python3.11/site-packages/aiohttp/_websocket/.hash/mask.pxd.hash",
+    "lib/python3.11/site-packages/aiohttp/_websocket/.hash/mask.pyx.hash",
+    "lib/python3.11/site-packages/aiohttp/_websocket/.hash/reader_c.pxd.hash",
+    "lib/python3.11/site-packages/aiohttp/_websocket/__init__.py",
+    "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/models.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/reader.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/reader_c.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/reader_py.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/writer.cpython-311.pyc",
+    "lib/python3.11/site-packages/aiohttp/_websocket/helpers.py",
+    "lib/python3.11/site-packages/aiohttp/_websocket/mask.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/aiohttp/_websocket/mask.pxd",
+    "lib/python3.11/site-packages/aiohttp/_websocket/mask.pyx",
+    "lib/python3.11/site-packages/aiohttp/_websocket/models.py",
+    "lib/python3.11/site-packages/aiohttp/_websocket/reader.py",
+    "lib/python3.11/site-packages/aiohttp/_websocket/reader_c.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/aiohttp/_websocket/reader_c.pxd",
+    "lib/python3.11/site-packages/aiohttp/_websocket/reader_c.py",
+    "lib/python3.11/site-packages/aiohttp/_websocket/reader_py.py",
+    "lib/python3.11/site-packages/aiohttp/_websocket/writer.py",
+    "lib/python3.11/site-packages/aiohttp/abc.py",
+    "lib/python3.11/site-packages/aiohttp/base_protocol.py",
+    "lib/python3.11/site-packages/aiohttp/client.py",
+    "lib/python3.11/site-packages/aiohttp/client_exceptions.py",
+    "lib/python3.11/site-packages/aiohttp/client_middleware_digest_auth.py",
+    "lib/python3.11/site-packages/aiohttp/client_middlewares.py",
+    "lib/python3.11/site-packages/aiohttp/client_proto.py",
+    "lib/python3.11/site-packages/aiohttp/client_reqrep.py",
+    "lib/python3.11/site-packages/aiohttp/client_ws.py",
+    "lib/python3.11/site-packages/aiohttp/compression_utils.py",
+    "lib/python3.11/site-packages/aiohttp/connector.py",
+    "lib/python3.11/site-packages/aiohttp/cookiejar.py",
+    "lib/python3.11/site-packages/aiohttp/formdata.py",
+    "lib/python3.11/site-packages/aiohttp/hdrs.py",
+    "lib/python3.11/site-packages/aiohttp/helpers.py",
+    "lib/python3.11/site-packages/aiohttp/http.py",
+    "lib/python3.11/site-packages/aiohttp/http_exceptions.py",
+    "lib/python3.11/site-packages/aiohttp/http_parser.py",
+    "lib/python3.11/site-packages/aiohttp/http_websocket.py",
+    "lib/python3.11/site-packages/aiohttp/http_writer.py",
+    "lib/python3.11/site-packages/aiohttp/log.py",
+    "lib/python3.11/site-packages/aiohttp/multipart.py",
+    "lib/python3.11/site-packages/aiohttp/payload.py",
+    "lib/python3.11/site-packages/aiohttp/payload_streamer.py",
+    "lib/python3.11/site-packages/aiohttp/py.typed",
+    "lib/python3.11/site-packages/aiohttp/pytest_plugin.py",
+    "lib/python3.11/site-packages/aiohttp/resolver.py",
+    "lib/python3.11/site-packages/aiohttp/streams.py",
+    "lib/python3.11/site-packages/aiohttp/tcp_helpers.py",
+    "lib/python3.11/site-packages/aiohttp/test_utils.py",
+    "lib/python3.11/site-packages/aiohttp/tracing.py",
+    "lib/python3.11/site-packages/aiohttp/typedefs.py",
+    "lib/python3.11/site-packages/aiohttp/web.py",
+    "lib/python3.11/site-packages/aiohttp/web_app.py",
+    "lib/python3.11/site-packages/aiohttp/web_exceptions.py",
+    "lib/python3.11/site-packages/aiohttp/web_fileresponse.py",
+    "lib/python3.11/site-packages/aiohttp/web_log.py",
+    "lib/python3.11/site-packages/aiohttp/web_middlewares.py",
+    "lib/python3.11/site-packages/aiohttp/web_protocol.py",
+    "lib/python3.11/site-packages/aiohttp/web_request.py",
+    "lib/python3.11/site-packages/aiohttp/web_response.py",
+    "lib/python3.11/site-packages/aiohttp/web_routedef.py",
+    "lib/python3.11/site-packages/aiohttp/web_runner.py",
+    "lib/python3.11/site-packages/aiohttp/web_server.py",
+    "lib/python3.11/site-packages/aiohttp/web_urldispatcher.py",
+    "lib/python3.11/site-packages/aiohttp/web_ws.py",
+    "lib/python3.11/site-packages/aiohttp/worker.py"
+  ],
+  "fn": "aiohttp-3.13.2-py311h0281608_0.conda",
+  "license": "MIT AND Apache-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/aiohttp-3.13.2-py311h0281608_0",
+    "type": 1
+  },
+  "md5": "730c505b9f2bbe0e88ef62379b6101fc",
+  "name": "aiohttp",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/aiohttp-3.13.2-py311h0281608_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "df1afc67261322787dd3d4ea09d6612880b7ee0e674e0c8ff8d8ffca0942b390",
+        "sha256_in_prefix": "df1afc67261322787dd3d4ea09d6612880b7ee0e674e0c8ff8d8ffca0942b390",
+        "size_in_bytes": 8135
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f64c5b089bb0798b0821ab2420a1240db92c63860ce804e67b8c992d166fc9a4",
+        "sha256_in_prefix": "f64c5b089bb0798b0821ab2420a1240db92c63860ce804e67b8c992d166fc9a4",
+        "size_in_bytes": 10013
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "21355d6298931a7af2a886ce4748b5c1c7484a8f183c9ce5c7cac0ca871a6f33",
+        "sha256_in_prefix": "21355d6298931a7af2a886ce4748b5c1c7484a8f183c9ce5c7cac0ca871a6f33",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "dd967bf1bb4027154d06d8bfeff368a32b181fe5732988da1d04e4a0c91b1768",
+        "sha256_in_prefix": "dd967bf1bb4027154d06d8bfeff368a32b181fe5732988da1d04e4a0c91b1768",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "9f80d0db7d755a941db4572172c270ecbd8f082ba215ddd095985942ed94a9eb",
+        "sha256_in_prefix": "9f80d0db7d755a941db4572172c270ecbd8f082ba215ddd095985942ed94a9eb",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/licenses/vendor/llhttp/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ebca854e0134cd256d673627c20499f42577eb74bacf08b9f25b626a73c91277",
+        "sha256_in_prefix": "ebca854e0134cd256d673627c20499f42577eb74bacf08b9f25b626a73c91277",
+        "size_in_bytes": 1105
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp-3.13.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8aff8921a69c99397e852868dd09a985c2a76d1458c75b2de3bca3cffd7bf11a",
+        "sha256_in_prefix": "8aff8921a69c99397e852868dd09a985c2a76d1458c75b2de3bca3cffd7bf11a",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/.hash/_cparser.pxd.hash",
+        "path_type": "hardlink",
+        "sha256": "a63b3eb045cdc3f7a28d718079dc06f811e7945a7c07bb0e0a051a80859a5360",
+        "sha256_in_prefix": "a63b3eb045cdc3f7a28d718079dc06f811e7945a7c07bb0e0a051a80859a5360",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/.hash/_find_header.pxd.hash",
+        "path_type": "hardlink",
+        "sha256": "fe66e90fabccf825422aadee954bec380cf959da3cf30ac3cdfa4eb0c41a30d0",
+        "sha256_in_prefix": "fe66e90fabccf825422aadee954bec380cf959da3cf30ac3cdfa4eb0c41a30d0",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/.hash/_http_parser.pyx.hash",
+        "path_type": "hardlink",
+        "sha256": "8eee031bfb8dbfcad30faa6edc8ba7135cacc7765b1f83a38901d46ff5114a80",
+        "sha256_in_prefix": "8eee031bfb8dbfcad30faa6edc8ba7135cacc7765b1f83a38901d46ff5114a80",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/.hash/_http_writer.pyx.hash",
+        "path_type": "hardlink",
+        "sha256": "f6dc4e87bb7b737cbebcb9a2b84639765b665ef128d0263253853ce77cb2bfd1",
+        "sha256_in_prefix": "f6dc4e87bb7b737cbebcb9a2b84639765b665ef128d0263253853ce77cb2bfd1",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/.hash/hdrs.py.hash",
+        "path_type": "hardlink",
+        "sha256": "bfa21a29bb318ec750c41ce16f90233f4c7ff46deb51ef380fb6af7fb008e1cb",
+        "sha256_in_prefix": "bfa21a29bb318ec750c41ce16f90233f4c7ff46deb51ef380fb6af7fb008e1cb",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "609da338e494d214936e5a066e2e7e8ed7037d29a9069d914d011002dd1c70e0",
+        "sha256_in_prefix": "609da338e494d214936e5a066e2e7e8ed7037d29a9069d914d011002dd1c70e0",
+        "size_in_bytes": 8302
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d3c01df2c996e4fdebc6504a6344f43d8adc98ed9e696665e82dbdd1eda2108",
+        "sha256_in_prefix": "0d3c01df2c996e4fdebc6504a6344f43d8adc98ed9e696665e82dbdd1eda2108",
+        "size_in_bytes": 6588
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/_cookie_helpers.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0849f1a104bdd0ab275fcff671a52ce1f4eb0c1c4a76409301c2b736ae932db6",
+        "sha256_in_prefix": "0849f1a104bdd0ab275fcff671a52ce1f4eb0c1c4a76409301c2b736ae932db6",
+        "size_in_bytes": 11698
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/abc.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "89dbe181c55898d5853bc4fd3eaf19e99d6a1ee102005e07e8d60b003c0ed7b4",
+        "sha256_in_prefix": "89dbe181c55898d5853bc4fd3eaf19e99d6a1ee102005e07e8d60b003c0ed7b4",
+        "size_in_bytes": 14167
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/base_protocol.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6ac209714d2cdeeb12e10b6dbede8935e2a51c2979a37e9fdbfd4ca2817d800",
+        "sha256_in_prefix": "c6ac209714d2cdeeb12e10b6dbede8935e2a51c2979a37e9fdbfd4ca2817d800",
+        "size_in_bytes": 4874
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/client.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e0fce9d82420d5094d49ee6ae801be27c596e29b80ce50521908d0f2c467887",
+        "sha256_in_prefix": "3e0fce9d82420d5094d49ee6ae801be27c596e29b80ce50521908d0f2c467887",
+        "size_in_bytes": 61073
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/client_exceptions.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "95af9530e7aa80fa582b3d9067373756c9624508539ebdcc8dacc0b47288cd80",
+        "sha256_in_prefix": "95af9530e7aa80fa582b3d9067373756c9624508539ebdcc8dacc0b47288cd80",
+        "size_in_bytes": 19969
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/client_middleware_digest_auth.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d20d300231b373124b83f311c725656038e2b4dfc6c6121a7fda1c8ed425fa3",
+        "sha256_in_prefix": "4d20d300231b373124b83f311c725656038e2b4dfc6c6121a7fda1c8ed425fa3",
+        "size_in_bytes": 18129
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/client_middlewares.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ebdb8482b0cc0f383937703ade0845c92880bf443d626abd9af085ffa14eaad",
+        "sha256_in_prefix": "7ebdb8482b0cc0f383937703ade0845c92880bf443d626abd9af085ffa14eaad",
+        "size_in_bytes": 2486
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/client_proto.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "6bbab5d155571a53a424b7d58eb6a36240000587b026647c0e35772711e12479",
+        "sha256_in_prefix": "6bbab5d155571a53a424b7d58eb6a36240000587b026647c0e35772711e12479",
+        "size_in_bytes": 14695
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/client_reqrep.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "be4bb8b1b437261f6118975aefcf00ea90b495acae470b9731ad0d5fce98f9f1",
+        "sha256_in_prefix": "be4bb8b1b437261f6118975aefcf00ea90b495acae470b9731ad0d5fce98f9f1",
+        "size_in_bytes": 67861
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/client_ws.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4f17ee00a58fa0837b3949986049be8975d8a808ee77c3a6e15109e0cba90de",
+        "sha256_in_prefix": "f4f17ee00a58fa0837b3949986049be8975d8a808ee77c3a6e15109e0cba90de",
+        "size_in_bytes": 23488
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/compression_utils.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed1c0f857aa4d516354e1dbdf240f41254c701a67c7fbb1f6ff0909de3bd0436",
+        "sha256_in_prefix": "ed1c0f857aa4d516354e1dbdf240f41254c701a67c7fbb1f6ff0909de3bd0436",
+        "size_in_bytes": 18330
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/connector.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a44bb02ed0476adbc28af8ff9a1c964444443cd5ba9fd9539e07310adaeb7c1",
+        "sha256_in_prefix": "0a44bb02ed0476adbc28af8ff9a1c964444443cd5ba9fd9539e07310adaeb7c1",
+        "size_in_bytes": 81281
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/cookiejar.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d2c647cbae9ef211d8517700d0c4600da2ecdf464e05b41d05e40da99f94a54",
+        "sha256_in_prefix": "0d2c647cbae9ef211d8517700d0c4600da2ecdf464e05b41d05e40da99f94a54",
+        "size_in_bytes": 24347
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/formdata.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5a45004c35e16b156e665d8707ff4b7ae2f089be4f9e5a72d570c13a93fba50b",
+        "sha256_in_prefix": "5a45004c35e16b156e665d8707ff4b7ae2f089be4f9e5a72d570c13a93fba50b",
+        "size_in_bytes": 8362
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/hdrs.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "69e5ce1fc3a825c090cf56ba124a21068d38671884e48d5ca2751ceb0e4b057f",
+        "sha256_in_prefix": "69e5ce1fc3a825c090cf56ba124a21068d38671884e48d5ca2751ceb0e4b057f",
+        "size_in_bytes": 10523
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/helpers.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "049d6625fa636dea58ab88069e057da379b068734ed95b8aa28ff05967fec2ea",
+        "sha256_in_prefix": "049d6625fa636dea58ab88069e057da379b068734ed95b8aa28ff05967fec2ea",
+        "size_in_bytes": 48875
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/http.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fa8053d8b3d3f3cb36153360b3aaf6a8ee07dbe9c567e6b237810a793913d71",
+        "sha256_in_prefix": "5fa8053d8b3d3f3cb36153360b3aaf6a8ee07dbe9c567e6b237810a793913d71",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/http_exceptions.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e3cf364f616aee2e6ea08d334cb905baf2adbc48e6345926d5a810935ece92d",
+        "sha256_in_prefix": "9e3cf364f616aee2e6ea08d334cb905baf2adbc48e6345926d5a810935ece92d",
+        "size_in_bytes": 7422
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/http_parser.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "39a2b68813faee58a900fc1a388aca5fb184f1bbfc8ba7d92b64fd8f930b49e0",
+        "sha256_in_prefix": "39a2b68813faee58a900fc1a388aca5fb184f1bbfc8ba7d92b64fd8f930b49e0",
+        "size_in_bytes": 40389
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/http_websocket.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a43b9b8f33c51500412ed1238ef51cedc516e9a0b0a84e552d6e4cebd99c0d87",
+        "sha256_in_prefix": "a43b9b8f33c51500412ed1238ef51cedc516e9a0b0a84e552d6e4cebd99c0d87",
+        "size_in_bytes": 1038
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/http_writer.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "cceceb8dcf80968db73e83317ec35b60dcae8ca92618f74df2e0b73e13680855",
+        "sha256_in_prefix": "cceceb8dcf80968db73e83317ec35b60dcae8ca92618f74df2e0b73e13680855",
+        "size_in_bytes": 15748
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/log.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "222118828a6d33c703a93d91dc302e45475180d85adfd07c4efcf0ad00b6dca5",
+        "sha256_in_prefix": "222118828a6d33c703a93d91dc302e45475180d85adfd07c4efcf0ad00b6dca5",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/multipart.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b23c899c7bff3e2d837e94ae0068b81c529092a0804f0e298db30804ac1258b6",
+        "sha256_in_prefix": "b23c899c7bff3e2d837e94ae0068b81c529092a0804f0e298db30804ac1258b6",
+        "size_in_bytes": 57245
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/payload.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "605d54887da0a25cc8335d9d9c04b578a5370fc9ad38f5cd36109aedacc620fb",
+        "sha256_in_prefix": "605d54887da0a25cc8335d9d9c04b578a5370fc9ad38f5cd36109aedacc620fb",
+        "size_in_bytes": 52858
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/payload_streamer.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "24627d05f5f70a3d51386af9a0b8c78b4c46d085c5ee961afe9d95796210e09b",
+        "sha256_in_prefix": "24627d05f5f70a3d51386af9a0b8c78b4c46d085c5ee961afe9d95796210e09b",
+        "size_in_bytes": 4985
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/pytest_plugin.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "31c6d6449264c8b244f724a22d19304b7c8d6428b0b70cdc489fbe9d6dfc6ccb",
+        "sha256_in_prefix": "31c6d6449264c8b244f724a22d19304b7c8d6428b0b70cdc489fbe9d6dfc6ccb",
+        "size_in_bytes": 21158
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/resolver.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "02fdd54befedd6e67d37dae2e415e70b6a6d615de78da5aa378c9f97e0239afc",
+        "sha256_in_prefix": "02fdd54befedd6e67d37dae2e415e70b6a6d615de78da5aa378c9f97e0239afc",
+        "size_in_bytes": 11472
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/streams.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5641db0871d70cabb73e007c1036decdbc19fc11c1ba4e03cf6473c78cd7e2a",
+        "sha256_in_prefix": "b5641db0871d70cabb73e007c1036decdbc19fc11c1ba4e03cf6473c78cd7e2a",
+        "size_in_bytes": 32889
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/tcp_helpers.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a6c60b93f242a9ab87763b6a9f26f4694f95ce92f8cb2429fec9e8fcbf8adc7",
+        "sha256_in_prefix": "4a6c60b93f242a9ab87763b6a9f26f4694f95ce92f8cb2429fec9e8fcbf8adc7",
+        "size_in_bytes": 1976
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/test_utils.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4d6c8dccfcc010247f53b2a343f2069f218e306da8e60d0d532e36b59be5e7d",
+        "sha256_in_prefix": "c4d6c8dccfcc010247f53b2a343f2069f218e306da8e60d0d532e36b59be5e7d",
+        "size_in_bytes": 37388
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/tracing.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ef6230b2c1e6a6fb4e44eadf069587449841b1999db2cd0b3991f803e7f2a21",
+        "sha256_in_prefix": "0ef6230b2c1e6a6fb4e44eadf069587449841b1999db2cd0b3991f803e7f2a21",
+        "size_in_bytes": 23558
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/typedefs.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "241d7f50744fd5d696b3386879f5a07f1d45011221272a955e71a32308fe54c6",
+        "sha256_in_prefix": "241d7f50744fd5d696b3386879f5a07f1d45011221272a955e71a32308fe54c6",
+        "size_in_bytes": 2661
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3eb3dc5aeada249da8c6733f031f68655723d8f3e513742b02996b1aa6b3c53d",
+        "sha256_in_prefix": "3eb3dc5aeada249da8c6733f031f68655723d8f3e513742b02996b1aa6b3c53d",
+        "size_in_bytes": 19136
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_app.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "84383e38bbdd88ba85b063f1bf68d41adeed39df0e54300fc841491759a8e316",
+        "sha256_in_prefix": "84383e38bbdd88ba85b063f1bf68d41adeed39df0e54300fc841491759a8e316",
+        "size_in_bytes": 30211
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_exceptions.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "146f5c5c8e0bb0574b5dcd90efe6f246b6ca8719077784b8359959c76583aa58",
+        "sha256_in_prefix": "146f5c5c8e0bb0574b5dcd90efe6f246b6ca8719077784b8359959c76583aa58",
+        "size_in_bytes": 18151
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_fileresponse.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "433351c9f11e86d6b71437f44b86aa81f001cb5df13835e25969f7fd87fd51bd",
+        "sha256_in_prefix": "433351c9f11e86d6b71437f44b86aa81f001cb5df13835e25969f7fd87fd51bd",
+        "size_in_bytes": 18626
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_log.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "24c8da3837c73c964529fbef3a76e301a70e2d72614ba1ed58632894d37314d8",
+        "sha256_in_prefix": "24c8da3837c73c964529fbef3a76e301a70e2d72614ba1ed58632894d37314d8",
+        "size_in_bytes": 11586
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_middlewares.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "a168035ebdd8445aa2a515beec4854b6dec7e26f6976e69c24342f515d77f63a",
+        "sha256_in_prefix": "a168035ebdd8445aa2a515beec4854b6dec7e26f6976e69c24342f515d77f63a",
+        "size_in_bytes": 5974
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_protocol.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4134e3d9dc29eaa97ba6e2741c57ca691af4eddb46c61905c81034df053a8d2",
+        "sha256_in_prefix": "f4134e3d9dc29eaa97ba6e2741c57ca691af4eddb46c61905c81034df053a8d2",
+        "size_in_bytes": 33225
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_request.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "aff0a029677d0255fda6dc95777e3214ad4c84ad2378fe5f98a1642e2f5c240e",
+        "sha256_in_prefix": "aff0a029677d0255fda6dc95777e3214ad4c84ad2378fe5f98a1642e2f5c240e",
+        "size_in_bytes": 41133
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_response.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "982d2f7abaa63ac70aa59b9d9447361134bebc13f41dd537495af4e53e6e989d",
+        "sha256_in_prefix": "982d2f7abaa63ac70aa59b9d9447361134bebc13f41dd537495af4e53e6e989d",
+        "size_in_bytes": 41157
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_routedef.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "40b799ea99e71fb6c80bfcbd3fa1e463f157f53614e75a40b3aceb1f8d89d7d5",
+        "sha256_in_prefix": "40b799ea99e71fb6c80bfcbd3fa1e463f157f53614e75a40b3aceb1f8d89d7d5",
+        "size_in_bytes": 12826
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_runner.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7210617d81c01cbe92f1ef3599fa7f569b32c7228ddc08b0de9e8c5cbe6c8dcc",
+        "sha256_in_prefix": "7210617d81c01cbe92f1ef3599fa7f569b32c7228ddc08b0de9e8c5cbe6c8dcc",
+        "size_in_bytes": 20734
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_server.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "edfb84ea98855cd7aba679c866ef624abccd3eeebe26eebbf1e4be2390134665",
+        "sha256_in_prefix": "edfb84ea98855cd7aba679c866ef624abccd3eeebe26eebbf1e4be2390134665",
+        "size_in_bytes": 5389
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_urldispatcher.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "909c021283a1b5ca008e10012c96e9b23a937537b7a1fd453efd4970229e73d4",
+        "sha256_in_prefix": "909c021283a1b5ca008e10012c96e9b23a937537b7a1fd453efd4970229e73d4",
+        "size_in_bytes": 75890
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/web_ws.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "33c1c00d26e00680c82f31e002545f71bc3bc9c78e1085dd93acf30b328bea37",
+        "sha256_in_prefix": "33c1c00d26e00680c82f31e002545f71bc3bc9c78e1085dd93acf30b328bea37",
+        "size_in_bytes": 33471
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/__pycache__/worker.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fe6cf8c77cc9703bb7c1f431f4264fd93344f812134f595fc3ac301135f2b60",
+        "sha256_in_prefix": "5fe6cf8c77cc9703bb7c1f431f4264fd93344f812134f595fc3ac301135f2b60",
+        "size_in_bytes": 12369
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_cookie_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "20d0bed4c4d053bc89a81566578f05c37d24cd91f8eca75552b3ff6db7e91afb",
+        "sha256_in_prefix": "20d0bed4c4d053bc89a81566578f05c37d24cd91f8eca75552b3ff6db7e91afb",
+        "size_in_bytes": 13647
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_cparser.pxd",
+        "path_type": "hardlink",
+        "sha256": "5276d46021e0e0d7577e0c9155800cbf62932d60a50783fec42aefb63febedec",
+        "sha256_in_prefix": "5276d46021e0e0d7577e0c9155800cbf62932d60a50783fec42aefb63febedec",
+        "size_in_bytes": 4295
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_find_header.pxd",
+        "path_type": "hardlink",
+        "sha256": "d067f01423cddb3c442933b5fcc039b18ab651fcec1bc91c577693aafc25cf78",
+        "sha256_in_prefix": "d067f01423cddb3c442933b5fcc039b18ab651fcec1bc91c577693aafc25cf78",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_headers.pxi",
+        "path_type": "hardlink",
+        "sha256": "9fbd35936f1d54f8f0467c798fa2e92612d37e3eddaaedaf26dedfd0eeb43b28",
+        "sha256_in_prefix": "9fbd35936f1d54f8f0467c798fa2e92612d37e3eddaaedaf26dedfd0eeb43b28",
+        "size_in_bytes": 2007
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_http_parser.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "39d5d923b838deb588dbb398bcee6deeb429ba7ee05118eaff6e4c941480430b",
+        "sha256_in_prefix": "39d5d923b838deb588dbb398bcee6deeb429ba7ee05118eaff6e4c941480430b",
+        "size_in_bytes": 455752
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_http_parser.pyx",
+        "path_type": "hardlink",
+        "sha256": "b660353da267ec7f14d67c97b681c9578e29c58573a9701fd548096983dac36f",
+        "sha256_in_prefix": "b660353da267ec7f14d67c97b681c9578e29c58573a9701fd548096983dac36f",
+        "size_in_bytes": 28219
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_http_writer.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "5c92bdc78dd7ca2965b99c610f43be9e1c1a9ff909bb318cf022dcc8d639bf98",
+        "sha256_in_prefix": "5c92bdc78dd7ca2965b99c610f43be9e1c1a9ff909bb318cf022dcc8d639bf98",
+        "size_in_bytes": 72064
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_http_writer.pyx",
+        "path_type": "hardlink",
+        "sha256": "56514404ce87a15bfc6b400026d73a270165b2fdbe70313cfa007de29ddd7e14",
+        "sha256_in_prefix": "56514404ce87a15bfc6b400026d73a270165b2fdbe70313cfa007de29ddd7e14",
+        "size_in_bytes": 4664
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/.hash/mask.pxd.hash",
+        "path_type": "hardlink",
+        "sha256": "634cc175d93f724de98bdf8117331ca6472f08abf0bd9e064ed6456fdbb59f14",
+        "sha256_in_prefix": "634cc175d93f724de98bdf8117331ca6472f08abf0bd9e064ed6456fdbb59f14",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/.hash/mask.pyx.hash",
+        "path_type": "hardlink",
+        "sha256": "f74a30a5760cf3f90899ae0a51c3b18564a4f94bf8355301a0261e14cd41dddd",
+        "sha256_in_prefix": "f74a30a5760cf3f90899ae0a51c3b18564a4f94bf8355301a0261e14cd41dddd",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/.hash/reader_c.pxd.hash",
+        "path_type": "hardlink",
+        "sha256": "e717f7a286e4eafc78c5b266fb1b59d7f42e7c1f1f605b4b415d8c35da94735c",
+        "sha256_in_prefix": "e717f7a286e4eafc78c5b266fb1b59d7f42e7c1f1f605b4b415d8c35da94735c",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "31aaf747dfef04dfc46b896c5bb8930155c3ece2acc0a3c6a85e71812cadefb9",
+        "sha256_in_prefix": "31aaf747dfef04dfc46b896c5bb8930155c3ece2acc0a3c6a85e71812cadefb9",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "afcaabffde01fb501966404c0b217098c0f890a24be74b7b00d4da4b22d572c9",
+        "sha256_in_prefix": "afcaabffde01fb501966404c0b217098c0f890a24be74b7b00d4da4b22d572c9",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/helpers.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4ca52de523e2f758ee57d59bee3f880308ab20a5eaa3731e18f35b1eacc826a",
+        "sha256_in_prefix": "b4ca52de523e2f758ee57d59bee3f880308ab20a5eaa3731e18f35b1eacc826a",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/models.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "85ec2413ba03e6bac524c597eb590eda583a5f6eee8df1d413ddb1cfa1fe4907",
+        "sha256_in_prefix": "85ec2413ba03e6bac524c597eb590eda583a5f6eee8df1d413ddb1cfa1fe4907",
+        "size_in_bytes": 3944
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/reader.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "34e5fb2bcd651553575c2c622cb7b3d6bf14abcc43501baa9cb8e8d666705dfc",
+        "sha256_in_prefix": "34e5fb2bcd651553575c2c622cb7b3d6bf14abcc43501baa9cb8e8d666705dfc",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/reader_c.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "b15ca459d12bb0f81bf67a64783d5eab319e6df717d289b8e638f298098bb668",
+        "sha256_in_prefix": "b15ca459d12bb0f81bf67a64783d5eab319e6df717d289b8e638f298098bb668",
+        "size_in_bytes": 18513
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/reader_py.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "42b809f07102d090601ec9b1a8cbb9b8618accb744917deeeba9e66f1814490b",
+        "sha256_in_prefix": "42b809f07102d090601ec9b1a8cbb9b8618accb744917deeeba9e66f1814490b",
+        "size_in_bytes": 18514
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/__pycache__/writer.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "90c79b90fe8251d7b3e947164c3bba978a8de6b904cd594e1e2bf9cea3bf2e82",
+        "sha256_in_prefix": "90c79b90fe8251d7b3e947164c3bba978a8de6b904cd594e1e2bf9cea3bf2e82",
+        "size_in_bytes": 11186
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "3fe5cbbfc2146a284acc37a7554a9f294e4325b584e47bc6f2e86f5192bc21ce",
+        "sha256_in_prefix": "3fe5cbbfc2146a284acc37a7554a9f294e4325b584e47bc6f2e86f5192bc21ce",
+        "size_in_bytes": 5038
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/mask.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "c900dc6c89e3ea355bae6c83108e3f3f42c1bdf3a0f7b37dc94b013bea30adc7",
+        "sha256_in_prefix": "c900dc6c89e3ea355bae6c83108e3f3f42c1bdf3a0f7b37dc94b013bea30adc7",
+        "size_in_bytes": 50072
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/mask.pxd",
+        "path_type": "hardlink",
+        "sha256": "b01999d409b29bd916e067bc963d5f2d9ee63cfc9ae0bccb769910131417bf93",
+        "sha256_in_prefix": "b01999d409b29bd916e067bc963d5f2d9ee63cfc9ae0bccb769910131417bf93",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/mask.pyx",
+        "path_type": "hardlink",
+        "sha256": "0478ceb55d0ed30ef1a7da742cd003449bc69a07cf9fdb06789bd2b347cbfffe",
+        "sha256_in_prefix": "0478ceb55d0ed30ef1a7da742cd003449bc69a07cf9fdb06789bd2b347cbfffe",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/models.py",
+        "path_type": "hardlink",
+        "sha256": "5c0ce3b3ff0962ccd65c8819e91dd946b17eb57f50ffa2e20f8f56458a23a293",
+        "sha256_in_prefix": "5c0ce3b3ff0962ccd65c8819e91dd946b17eb57f50ffa2e20f8f56458a23a293",
+        "size_in_bytes": 2121
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/reader.py",
+        "path_type": "hardlink",
+        "sha256": "782e2a4b4739b0e790d9e6c01cb681a48693545692297efda58db1be1dcfab2c",
+        "sha256_in_prefix": "782e2a4b4739b0e790d9e6c01cb681a48693545692297efda58db1be1dcfab2c",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/reader_c.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "1512d0f04c2cad75d4aee23d43a80ebabb2ec3f1ec288058097ef354787c673c",
+        "sha256_in_prefix": "1512d0f04c2cad75d4aee23d43a80ebabb2ec3f1ec288058097ef354787c673c",
+        "size_in_bytes": 231080
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/reader_c.pxd",
+        "path_type": "hardlink",
+        "sha256": "9e5fe78ed0ebce5414d2b8e01868d90c1facc20b84d2d5ff6c23e86e44a155ae",
+        "sha256_in_prefix": "9e5fe78ed0ebce5414d2b8e01868d90c1facc20b84d2d5ff6c23e86e44a155ae",
+        "size_in_bytes": 2625
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/reader_c.py",
+        "path_type": "hardlink",
+        "sha256": "812b04fe2481afbf8e46f3a6824093ec9a63e3f8f7f39e22fc2a7cf127b5ffa1",
+        "sha256_in_prefix": "812b04fe2481afbf8e46f3a6824093ec9a63e3f8f7f39e22fc2a7cf127b5ffa1",
+        "size_in_bytes": 18791
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/reader_py.py",
+        "path_type": "hardlink",
+        "sha256": "812b04fe2481afbf8e46f3a6824093ec9a63e3f8f7f39e22fc2a7cf127b5ffa1",
+        "sha256_in_prefix": "812b04fe2481afbf8e46f3a6824093ec9a63e3f8f7f39e22fc2a7cf127b5ffa1",
+        "size_in_bytes": 18791
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/_websocket/writer.py",
+        "path_type": "hardlink",
+        "sha256": "d8ebd292d3e6361fe0db487571726dd97bbcbba22fb309cf8ddbabecec016c99",
+        "sha256_in_prefix": "d8ebd292d3e6361fe0db487571726dd97bbcbba22fb309cf8ddbabecec016c99",
+        "size_in_bytes": 11261
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/abc.py",
+        "path_type": "hardlink",
+        "sha256": "33ae85e12ea6d346c8127ef2e216bf5cb4cc0e6550f5d3e285f395074a467cea",
+        "sha256_in_prefix": "33ae85e12ea6d346c8127ef2e216bf5cb4cc0e6550f5d3e285f395074a467cea",
+        "size_in_bytes": 7149
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/base_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "4e9f1cc543d0beff6450f937c3a940ce4e9dd8c033577b1cc08ff71a8dc2e3b7",
+        "sha256_in_prefix": "4e9f1cc543d0beff6450f937c3a940ce4e9dd8c033577b1cc08ff71a8dc2e3b7",
+        "size_in_bytes": 3025
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/client.py",
+        "path_type": "hardlink",
+        "sha256": "7ce41fc1c2142f5346015455e030e3ebec22a41cde0fc299a66ce13be2cb2a9e",
+        "sha256_in_prefix": "7ce41fc1c2142f5346015455e030e3ebec22a41cde0fc299a66ce13be2cb2a9e",
+        "size_in_bytes": 58357
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/client_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "bb229bc48da979984a97b9442c1331dd47aeb0d91fa5e98f5a9185ab4afa25e3",
+        "sha256_in_prefix": "bb229bc48da979984a97b9442c1331dd47aeb0d91fa5e98f5a9185ab4afa25e3",
+        "size_in_bytes": 11367
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/client_middleware_digest_auth.py",
+        "path_type": "hardlink",
+        "sha256": "048a102797962f934d90f3a67b34c6adc796221a3c1130ef4bc34abd7fb75ddc",
+        "sha256_in_prefix": "048a102797962f934d90f3a67b34c6adc796221a3c1130ef4bc34abd7fb75ddc",
+        "size_in_bytes": 17088
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/client_middlewares.py",
+        "path_type": "hardlink",
+        "sha256": "90fe4df4233340f3063c813275e55488b5132ecc3c565f06af8a8059876edef3",
+        "sha256_in_prefix": "90fe4df4233340f3063c813275e55488b5132ecc3c565f06af8a8059876edef3",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/client_proto.py",
+        "path_type": "hardlink",
+        "sha256": "e7afd6b4b4ad6460453d82b3804818eafdb8264855d72e891269aec5e253d92a",
+        "sha256_in_prefix": "e7afd6b4b4ad6460453d82b3804818eafdb8264855d72e891269aec5e253d92a",
+        "size_in_bytes": 12110
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/client_reqrep.py",
+        "path_type": "hardlink",
+        "sha256": "7844440eb67433c6454edd708c776e47e3fcfec9b8d0aeb980dcfe88c1986ac9",
+        "sha256_in_prefix": "7844440eb67433c6454edd708c776e47e3fcfec9b8d0aeb980dcfe88c1986ac9",
+        "size_in_bytes": 53391
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/client_ws.py",
+        "path_type": "hardlink",
+        "sha256": "d42223217c32cce308630e808d4112e3ea94c1bc951d6d6c7892907e0fd1b5af",
+        "sha256_in_prefix": "d42223217c32cce308630e808d4112e3ea94c1bc951d6d6c7892907e0fd1b5af",
+        "size_in_bytes": 15109
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/compression_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0a69f86e29ba883614493d45a7ae840510f3233ff78144012e0e0791b1258eb7",
+        "sha256_in_prefix": "0a69f86e29ba883614493d45a7ae840510f3233ff78144012e0e0791b1258eb7",
+        "size_in_bytes": 10408
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/connector.py",
+        "path_type": "hardlink",
+        "sha256": "5907ad2a8496ed79c703daf8a3d396c0edfe9fbca63b005dd9383fc47370d01b",
+        "sha256_in_prefix": "5907ad2a8496ed79c703daf8a3d396c0edfe9fbca63b005dd9383fc47370d01b",
+        "size_in_bytes": 68456
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/cookiejar.py",
+        "path_type": "hardlink",
+        "sha256": "7b6f19310c09e4fd2f6cf5f5397e127bbfa4df3786be870512acc6870a46e779",
+        "sha256_in_prefix": "7b6f19310c09e4fd2f6cf5f5397e127bbfa4df3786be870512acc6870a46e779",
+        "size_in_bytes": 18922
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/formdata.py",
+        "path_type": "hardlink",
+        "sha256": "c6a60c6d4a35aa82d83eecd8f765de478a7211efb0f8335c4e80110c5dc65210",
+        "sha256_in_prefix": "c6a60c6d4a35aa82d83eecd8f765de478a7211efb0f8335c4e80110c5dc65210",
+        "size_in_bytes": 6384
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/hdrs.py",
+        "path_type": "hardlink",
+        "sha256": "dab8f933203eeb245d60f856e542a45b888d5a110094620e4811f90f816628d1",
+        "sha256_in_prefix": "dab8f933203eeb245d60f856e542a45b888d5a110094620e4811f90f816628d1",
+        "size_in_bytes": 5111
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "435df4ecf0849d6cf844ff1cad4c3c764e7c734605d848b7272c2429f471cf91",
+        "sha256_in_prefix": "435df4ecf0849d6cf844ff1cad4c3c764e7c734605d848b7272c2429f471cf91",
+        "size_in_bytes": 30629
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/http.py",
+        "path_type": "hardlink",
+        "sha256": "f28f23f311fbd0e5a39df4d603d578e0d47bf3940fc443eb52dccc5e2015a707",
+        "sha256_in_prefix": "f28f23f311fbd0e5a39df4d603d578e0d47bf3940fc443eb52dccc5e2015a707",
+        "size_in_bytes": 1842
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/http_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "01969f14782d024020aca65ff3360f53c557d9dab7dbe540a0ff9467104b5347",
+        "sha256_in_prefix": "01969f14782d024020aca65ff3360f53c557d9dab7dbe540a0ff9467104b5347",
+        "size_in_bytes": 2960
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/http_parser.py",
+        "path_type": "hardlink",
+        "sha256": "7c0081348e3b9fd86754f59f9b9009b9fb9ececa18385fd52e9e1ba6d623bd02",
+        "sha256_in_prefix": "7c0081348e3b9fd86754f59f9b9009b9fb9ececa18385fd52e9e1ba6d623bd02",
+        "size_in_bytes": 37377
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/http_websocket.py",
+        "path_type": "hardlink",
+        "sha256": "f155c52b0e8a4141263e0e3c1ad44c077eefd204caec0d229e8c57b83c4c6447",
+        "sha256_in_prefix": "f155c52b0e8a4141263e0e3c1ad44c077eefd204caec0d229e8c57b83c4c6447",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/http_writer.py",
+        "path_type": "hardlink",
+        "sha256": "7db46d28f612a916ed01daff82aa63176fb8b08d4448bf1d3c317ec58fe600c6",
+        "sha256_in_prefix": "7db46d28f612a916ed01daff82aa63176fb8b08d4448bf1d3c317ec58fe600c6",
+        "size_in_bytes": 12446
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/log.py",
+        "path_type": "hardlink",
+        "sha256": "05b34ac7d7b754c226d31623648d087010684bbc2375e21e49a88913bfaa2b68",
+        "sha256_in_prefix": "05b34ac7d7b754c226d31623648d087010684bbc2375e21e49a88913bfaa2b68",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/multipart.py",
+        "path_type": "hardlink",
+        "sha256": "eaae9046328556a696cd36dcedb92e06d5ec4da42ae5bd81847c4b06f00495a7",
+        "sha256_in_prefix": "eaae9046328556a696cd36dcedb92e06d5ec4da42ae5bd81847c4b06f00495a7",
+        "size_in_bytes": 40040
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/payload.py",
+        "path_type": "hardlink",
+        "sha256": "3ba9ec60d50b2fb01e33673227a4d85fbde77159cbe71270b7901e831c0c2aac",
+        "sha256_in_prefix": "3ba9ec60d50b2fb01e33673227a4d85fbde77159cbe71270b7901e831c0c2aac",
+        "size_in_bytes": 40874
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/payload_streamer.py",
+        "path_type": "hardlink",
+        "sha256": "673118c9fcdc8c65a45642b75d1da906d852092232918bd8dd6af97064367937",
+        "sha256_in_prefix": "673118c9fcdc8c65a45642b75d1da906d852092232918bd8dd6af97064367937",
+        "size_in_bytes": 2211
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/py.typed",
+        "path_type": "hardlink",
+        "sha256": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "sha256_in_prefix": "b28c3db284f03fd4ff80401049587b19bf3ce79874e0dc2686cd967be2518193",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/pytest_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "cf85f0aa6b0a7722422b16c6880e6415ff74cdc79dbe89aa93846a8d96e128d9",
+        "sha256_in_prefix": "cf85f0aa6b0a7722422b16c6880e6415ff74cdc79dbe89aa93846a8d96e128d9",
+        "size_in_bytes": 12901
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/resolver.py",
+        "path_type": "hardlink",
+        "sha256": "82cadf52915ff221e57077c9bd8fb57e20475b73d1bd154d6f994d641837ce56",
+        "sha256_in_prefix": "82cadf52915ff221e57077c9bd8fb57e20475b73d1bd154d6f994d641837ce56",
+        "size_in_bytes": 10031
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/streams.py",
+        "path_type": "hardlink",
+        "sha256": "710c68e85caefc70d60e96decc64553c8558b55b536d22d117b839d750cd992b",
+        "sha256_in_prefix": "710c68e85caefc70d60e96decc64553c8558b55b536d22d117b839d750cd992b",
+        "size_in_bytes": 22601
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/tcp_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "05269da9559a0693050d15a785a691f78d4df4c88367b6dd4ebc6009bd025be3",
+        "sha256_in_prefix": "05269da9559a0693050d15a785a691f78d4df4c88367b6dd4ebc6009bd025be3",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "6494b36568c2efa2926edc1d75329c3fabc7a5497fa337c07f717dddec261d15",
+        "sha256_in_prefix": "6494b36568c2efa2926edc1d75329c3fabc7a5497fa337c07f717dddec261d15",
+        "size_in_bytes": 23016
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/tracing.py",
+        "path_type": "hardlink",
+        "sha256": "fba69a5ba97427db890f8e4bcd1e1c8a3607d23eb6a6dd14fe79ff695cc592ee",
+        "sha256_in_prefix": "fba69a5ba97427db890f8e4bcd1e1c8a3607d23eb6a6dd14fe79ff695cc592ee",
+        "size_in_bytes": 14558
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/typedefs.py",
+        "path_type": "hardlink",
+        "sha256": "c1496ac1ef4cc3d5bc8d3dc7b1825c624d34a8fdc430fcf79d39185e678d378f",
+        "sha256_in_prefix": "c1496ac1ef4cc3d5bc8d3dc7b1825c624d34a8fdc430fcf79d39185e678d378f",
+        "size_in_bytes": 1657
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web.py",
+        "path_type": "hardlink",
+        "sha256": "27348d99e8e0e46e987850279088197f2b6a6d4f3ab0dbbce38c982a6a14a6ab",
+        "sha256_in_prefix": "27348d99e8e0e46e987850279088197f2b6a6d4f3ab0dbbce38c982a6a14a6ab",
+        "size_in_bytes": 17852
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_app.py",
+        "path_type": "hardlink",
+        "sha256": "94653f68030dfa1df0cbe2d34c78ba49e287f3276dd46e75057702b29803e590",
+        "sha256_in_prefix": "94653f68030dfa1df0cbe2d34c78ba49e287f3276dd46e75057702b29803e590",
+        "size_in_bytes": 19452
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ee722e8b0859dfdbc927d2ab5aa02b03941c59b51daa4cf608bc04a496a978df",
+        "sha256_in_prefix": "ee722e8b0859dfdbc927d2ab5aa02b03941c59b51daa4cf608bc04a496a978df",
+        "size_in_bytes": 10360
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_fileresponse.py",
+        "path_type": "hardlink",
+        "sha256": "5f36aef0432b58dac5837bb8ea1e1412d7a0f771b8cd8abde0253abf2d078aa1",
+        "sha256_in_prefix": "5f36aef0432b58dac5837bb8ea1e1412d7a0f771b8cd8abde0253abf2d078aa1",
+        "size_in_bytes": 16362
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_log.py",
+        "path_type": "hardlink",
+        "sha256": "ad7e43ef12ce5f607a04c76267e72199efca7c97d6e485c4a05c0b7e47e46a3b",
+        "sha256_in_prefix": "ad7e43ef12ce5f607a04c76267e72199efca7c97d6e485c4a05c0b7e47e46a3b",
+        "size_in_bytes": 7865
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_middlewares.py",
+        "path_type": "hardlink",
+        "sha256": "b0523402078d8ddc808eecfdd90b4c2299e098948ec6ba9ed897dbb3804d52ed",
+        "sha256_in_prefix": "b0523402078d8ddc808eecfdd90b4c2299e098948ec6ba9ed897dbb3804d52ed",
+        "size_in_bytes": 4165
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_protocol.py",
+        "path_type": "hardlink",
+        "sha256": "73c6b43ca1aa7e12008aad916e832ccb5351cdae1d9e3ea09d7216bc951e085d",
+        "sha256_in_prefix": "73c6b43ca1aa7e12008aad916e832ccb5351cdae1d9e3ea09d7216bc951e085d",
+        "size_in_bytes": 27015
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_request.py",
+        "path_type": "hardlink",
+        "sha256": "ccdf7a3a531196b08538c469761ef2f6bbc73f41e6f336af0b43850a3d309528",
+        "sha256_in_prefix": "ccdf7a3a531196b08538c469761ef2f6bbc73f41e6f336af0b43850a3d309528",
+        "size_in_bytes": 29833
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_response.py",
+        "path_type": "hardlink",
+        "sha256": "3ca73388d5382e67ed5ea295be844cac06ce7950a5a5237e8b39c7b2259ece65",
+        "sha256_in_prefix": "3ca73388d5382e67ed5ea295be844cac06ce7950a5a5237e8b39c7b2259ece65",
+        "size_in_bytes": 29341
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_routedef.py",
+        "path_type": "hardlink",
+        "sha256": "553d46031e81adac280e1e51c01c01bb9c120014aa816c007bbe00502c99004a",
+        "sha256_in_prefix": "553d46031e81adac280e1e51c01c01bb9c120014aa816c007bbe00502c99004a",
+        "size_in_bytes": 6110
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_runner.py",
+        "path_type": "hardlink",
+        "sha256": "bf51b59ca88e3908059d3491e0831ce88f5178414331a1ed30bbcefeba0333e0",
+        "sha256_in_prefix": "bf51b59ca88e3908059d3491e0831ce88f5178414331a1ed30bbcefeba0333e0",
+        "size_in_bytes": 11786
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_server.py",
+        "path_type": "hardlink",
+        "sha256": "fbd58329402247d965fab49dc174aa1ba6236a85bbf5dd51e32d01192aa050c0",
+        "sha256_in_prefix": "fbd58329402247d965fab49dc174aa1ba6236a85bbf5dd51e32d01192aa050c0",
+        "size_in_bytes": 2888
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_urldispatcher.py",
+        "path_type": "hardlink",
+        "sha256": "debcaed593a972aefd21834c77a123616990fe2e896ec2734bf21a574ca86018",
+        "sha256_in_prefix": "debcaed593a972aefd21834c77a123616990fe2e896ec2734bf21a574ca86018",
+        "size_in_bytes": 44203
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/web_ws.py",
+        "path_type": "hardlink",
+        "sha256": "948b609b26ad91787433a118ec9a199d2664525e91d30bfc07cf17e082ea41b5",
+        "sha256_in_prefix": "948b609b26ad91787433a118ec9a199d2664525e91d30bfc07cf17e082ea41b5",
+        "size_in_bytes": 22739
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiohttp/worker.py",
+        "path_type": "hardlink",
+        "sha256": "cd3d2258de57cded7de1b3bafd58c7a2ed31ee547f93432f88de8a69d9e4db68",
+        "sha256_in_prefix": "cd3d2258de57cded7de1b3bafd58c7a2ed31ee547f93432f88de8a69d9e4db68",
+        "size_in_bytes": 8152
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "224f1d7d909b3d76789b2427006eb130f0f101194bc6f0eff234263f40018770",
+  "size": 1016795,
+  "subdir": "linux-64",
+  "timestamp": 1761726627000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/aiohttp-3.13.2-py311h0281608_0.conda",
+  "version": "3.13.2"
+}

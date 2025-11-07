@@ -1,0 +1,1086 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "pytest-faulthandler >=2"
+  ],
+  "depends": [
+    "python >=3.10",
+    "colorama >=0.4",
+    "packaging >=20",
+    "tomli >=1",
+    "exceptiongroup >=1",
+    "iniconfig >=1",
+    "pluggy >=1.5,<2",
+    "pygments >=2.7.2"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/pytest-8.4.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/_pytest/__init__.py",
+    "lib/python3.11/site-packages/_pytest/_argcomplete.py",
+    "lib/python3.11/site-packages/_pytest/_code/__init__.py",
+    "lib/python3.11/site-packages/_pytest/_code/code.py",
+    "lib/python3.11/site-packages/_pytest/_code/source.py",
+    "lib/python3.11/site-packages/_pytest/_io/__init__.py",
+    "lib/python3.11/site-packages/_pytest/_io/pprint.py",
+    "lib/python3.11/site-packages/_pytest/_io/saferepr.py",
+    "lib/python3.11/site-packages/_pytest/_io/terminalwriter.py",
+    "lib/python3.11/site-packages/_pytest/_io/wcwidth.py",
+    "lib/python3.11/site-packages/_pytest/_py/__init__.py",
+    "lib/python3.11/site-packages/_pytest/_py/error.py",
+    "lib/python3.11/site-packages/_pytest/_py/path.py",
+    "lib/python3.11/site-packages/_pytest/_version.py",
+    "lib/python3.11/site-packages/_pytest/assertion/__init__.py",
+    "lib/python3.11/site-packages/_pytest/assertion/rewrite.py",
+    "lib/python3.11/site-packages/_pytest/assertion/truncate.py",
+    "lib/python3.11/site-packages/_pytest/assertion/util.py",
+    "lib/python3.11/site-packages/_pytest/cacheprovider.py",
+    "lib/python3.11/site-packages/_pytest/capture.py",
+    "lib/python3.11/site-packages/_pytest/compat.py",
+    "lib/python3.11/site-packages/_pytest/config/__init__.py",
+    "lib/python3.11/site-packages/_pytest/config/argparsing.py",
+    "lib/python3.11/site-packages/_pytest/config/compat.py",
+    "lib/python3.11/site-packages/_pytest/config/exceptions.py",
+    "lib/python3.11/site-packages/_pytest/config/findpaths.py",
+    "lib/python3.11/site-packages/_pytest/debugging.py",
+    "lib/python3.11/site-packages/_pytest/deprecated.py",
+    "lib/python3.11/site-packages/_pytest/doctest.py",
+    "lib/python3.11/site-packages/_pytest/faulthandler.py",
+    "lib/python3.11/site-packages/_pytest/fixtures.py",
+    "lib/python3.11/site-packages/_pytest/freeze_support.py",
+    "lib/python3.11/site-packages/_pytest/helpconfig.py",
+    "lib/python3.11/site-packages/_pytest/hookspec.py",
+    "lib/python3.11/site-packages/_pytest/junitxml.py",
+    "lib/python3.11/site-packages/_pytest/legacypath.py",
+    "lib/python3.11/site-packages/_pytest/logging.py",
+    "lib/python3.11/site-packages/_pytest/main.py",
+    "lib/python3.11/site-packages/_pytest/mark/__init__.py",
+    "lib/python3.11/site-packages/_pytest/mark/expression.py",
+    "lib/python3.11/site-packages/_pytest/mark/structures.py",
+    "lib/python3.11/site-packages/_pytest/monkeypatch.py",
+    "lib/python3.11/site-packages/_pytest/nodes.py",
+    "lib/python3.11/site-packages/_pytest/outcomes.py",
+    "lib/python3.11/site-packages/_pytest/pastebin.py",
+    "lib/python3.11/site-packages/_pytest/pathlib.py",
+    "lib/python3.11/site-packages/_pytest/py.typed",
+    "lib/python3.11/site-packages/_pytest/pytester.py",
+    "lib/python3.11/site-packages/_pytest/pytester_assertions.py",
+    "lib/python3.11/site-packages/_pytest/python.py",
+    "lib/python3.11/site-packages/_pytest/python_api.py",
+    "lib/python3.11/site-packages/_pytest/raises.py",
+    "lib/python3.11/site-packages/_pytest/recwarn.py",
+    "lib/python3.11/site-packages/_pytest/reports.py",
+    "lib/python3.11/site-packages/_pytest/runner.py",
+    "lib/python3.11/site-packages/_pytest/scope.py",
+    "lib/python3.11/site-packages/_pytest/setuponly.py",
+    "lib/python3.11/site-packages/_pytest/setupplan.py",
+    "lib/python3.11/site-packages/_pytest/skipping.py",
+    "lib/python3.11/site-packages/_pytest/stash.py",
+    "lib/python3.11/site-packages/_pytest/stepwise.py",
+    "lib/python3.11/site-packages/_pytest/terminal.py",
+    "lib/python3.11/site-packages/_pytest/threadexception.py",
+    "lib/python3.11/site-packages/_pytest/timing.py",
+    "lib/python3.11/site-packages/_pytest/tmpdir.py",
+    "lib/python3.11/site-packages/_pytest/tracemalloc.py",
+    "lib/python3.11/site-packages/_pytest/unittest.py",
+    "lib/python3.11/site-packages/_pytest/unraisableexception.py",
+    "lib/python3.11/site-packages/_pytest/warning_types.py",
+    "lib/python3.11/site-packages/_pytest/warnings.py",
+    "lib/python3.11/site-packages/py.py",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/METADATA",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/RECORD",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/WHEEL",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/licenses/AUTHORS",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/pytest-8.4.2.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/pytest/__init__.py",
+    "lib/python3.11/site-packages/pytest/__main__.py",
+    "lib/python3.11/site-packages/pytest/py.typed",
+    "lib/python3.11/site-packages/_pytest/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/_argcomplete.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_code/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_code/__pycache__/code.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_code/__pycache__/source.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_io/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_io/__pycache__/pprint.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_io/__pycache__/saferepr.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_py/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_py/__pycache__/error.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/_py/__pycache__/path.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/assertion/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/assertion/__pycache__/truncate.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/assertion/__pycache__/util.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/cacheprovider.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/capture.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/config/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/config/__pycache__/argparsing.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/config/__pycache__/compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/config/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/config/__pycache__/findpaths.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/debugging.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/deprecated.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/doctest.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/faulthandler.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/fixtures.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/freeze_support.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/helpconfig.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/hookspec.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/junitxml.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/legacypath.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/logging.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/main.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/mark/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/mark/__pycache__/expression.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/mark/__pycache__/structures.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/monkeypatch.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/nodes.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/outcomes.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/pastebin.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/pathlib.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/pytester.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/pytester_assertions.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/python.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/python_api.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/raises.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/recwarn.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/reports.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/runner.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/scope.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/setuponly.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/setupplan.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/skipping.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/stash.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/stepwise.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/terminal.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/threadexception.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/timing.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/tmpdir.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/tracemalloc.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/unittest.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/unraisableexception.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/warning_types.cpython-311.pyc",
+    "lib/python3.11/site-packages/_pytest/__pycache__/warnings.cpython-311.pyc",
+    "lib/python3.11/site-packages/__pycache__/py.cpython-311.pyc",
+    "lib/python3.11/site-packages/pytest/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pytest/__pycache__/__main__.cpython-311.pyc",
+    "bin/pytest",
+    "bin/py.test"
+  ],
+  "fn": "pytest-8.4.2-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/pytest-8.4.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "1f987505580cb972cf28dc5f74a0f81b",
+  "name": "pytest",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/pytest-8.4.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/_pytest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e087512619d6e571b62a568990ec67e7f4c2f56790e6d5c3485eed6dbe2f12ca",
+        "sha256_in_prefix": "e087512619d6e571b62a568990ec67e7f4c2f56790e6d5c3485eed6dbe2f12ca",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "site-packages/_pytest/_argcomplete.py",
+        "path_type": "hardlink",
+        "sha256": "821d299daebaa782d56f60fc493e39ebc586c6f7489c64f8de6eac95886a36a5",
+        "sha256_in_prefix": "821d299daebaa782d56f60fc493e39ebc586c6f7489c64f8de6eac95886a36a5",
+        "size_in_bytes": 3776
+      },
+      {
+        "_path": "site-packages/_pytest/_code/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "04a6e8c286100032a300999359d43c49240b6c106c874f9d663dd31a3b67eb23",
+        "sha256_in_prefix": "04a6e8c286100032a300999359d43c49240b6c106c874f9d663dd31a3b67eb23",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "site-packages/_pytest/_code/code.py",
+        "path_type": "hardlink",
+        "sha256": "dd65e749e715745d53814ee845057a6f745f7ba5ee5cf356c6c29d6c10dea78d",
+        "sha256_in_prefix": "dd65e749e715745d53814ee845057a6f745f7ba5ee5cf356c6c29d6c10dea78d",
+        "size_in_bytes": 55913
+      },
+      {
+        "_path": "site-packages/_pytest/_code/source.py",
+        "path_type": "hardlink",
+        "sha256": "b6cb300ffd6b61df05ecff729683b53aa596118330dff9b967c1ebdd29c0ee91",
+        "sha256_in_prefix": "b6cb300ffd6b61df05ecff729683b53aa596118330dff9b967c1ebdd29c0ee91",
+        "size_in_bytes": 7773
+      },
+      {
+        "_path": "site-packages/_pytest/_io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a642c5dbd54416be8396bdde3ad24bf2c7f8ed12c5b7525fe17d436413e56267",
+        "sha256_in_prefix": "a642c5dbd54416be8396bdde3ad24bf2c7f8ed12c5b7525fe17d436413e56267",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "site-packages/_pytest/_io/pprint.py",
+        "path_type": "hardlink",
+        "sha256": "18b04a2fa7669d1afdd869d53243733242aac74f0ea7bb5d2527a1dc07b0a276",
+        "sha256_in_prefix": "18b04a2fa7669d1afdd869d53243733242aac74f0ea7bb5d2527a1dc07b0a276",
+        "size_in_bytes": 19622
+      },
+      {
+        "_path": "site-packages/_pytest/_io/saferepr.py",
+        "path_type": "hardlink",
+        "sha256": "1e1c7917eef98b3d3785d93e58ef3a066cbd441b911ecb898fe614ce8cdfae0a",
+        "sha256_in_prefix": "1e1c7917eef98b3d3785d93e58ef3a066cbd441b911ecb898fe614ce8cdfae0a",
+        "size_in_bytes": 4082
+      },
+      {
+        "_path": "site-packages/_pytest/_io/terminalwriter.py",
+        "path_type": "hardlink",
+        "sha256": "4faed984761221a38fdd1b5073110b927c8c6d59750ce67f6ee0cf1868802446",
+        "sha256_in_prefix": "4faed984761221a38fdd1b5073110b927c8c6d59750ce67f6ee0cf1868802446",
+        "size_in_bytes": 8849
+      },
+      {
+        "_path": "site-packages/_pytest/_io/wcwidth.py",
+        "path_type": "hardlink",
+        "sha256": "714109ef8521c1e202c1b2af536aba9e865c3600f442504407d09f6a41986aa0",
+        "sha256_in_prefix": "714109ef8521c1e202c1b2af536aba9e865c3600f442504407d09f6a41986aa0",
+        "size_in_bytes": 1289
+      },
+      {
+        "_path": "site-packages/_pytest/_py/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/_pytest/_py/error.py",
+        "path_type": "hardlink",
+        "sha256": "90643b17cfdf67a615061031faef669134014f1d2a231c6754c0b40a088e77bd",
+        "sha256_in_prefix": "90643b17cfdf67a615061031faef669134014f1d2a231c6754c0b40a088e77bd",
+        "size_in_bytes": 3475
+      },
+      {
+        "_path": "site-packages/_pytest/_py/path.py",
+        "path_type": "hardlink",
+        "sha256": "3a7c6dce12bc7d38ae0dd3b548416078f78a36d715c7b47613a094d24d3c400a",
+        "sha256_in_prefix": "3a7c6dce12bc7d38ae0dd3b548416078f78a36d715c7b47613a094d24d3c400a",
+        "size_in_bytes": 49220
+      },
+      {
+        "_path": "site-packages/_pytest/_version.py",
+        "path_type": "hardlink",
+        "sha256": "d4f4c97b5ed3883c26d6b3b3b195533a347441bb00261b34df1af95545889203",
+        "sha256_in_prefix": "d4f4c97b5ed3883c26d6b3b3b195533a347441bb00261b34df1af95545889203",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "site-packages/_pytest/assertion/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3a39c99b88fa5478306232af5bc77e28579f8c474e48e345178cf5d28f6bede8",
+        "sha256_in_prefix": "3a39c99b88fa5478306232af5bc77e28579f8c474e48e345178cf5d28f6bede8",
+        "size_in_bytes": 7120
+      },
+      {
+        "_path": "site-packages/_pytest/assertion/rewrite.py",
+        "path_type": "hardlink",
+        "sha256": "f231048ab925ef8585f309a1022470438ae2c77ffab1de0e98693e65547c316c",
+        "sha256_in_prefix": "f231048ab925ef8585f309a1022470438ae2c77ffab1de0e98693e65547c316c",
+        "size_in_bytes": 48636
+      },
+      {
+        "_path": "site-packages/_pytest/assertion/truncate.py",
+        "path_type": "hardlink",
+        "sha256": "5b82328464f47ea754c206532d69f0df8febe1a16bb48e0175a75c81bb3e56b8",
+        "sha256_in_prefix": "5b82328464f47ea754c206532d69f0df8febe1a16bb48e0175a75c81bb3e56b8",
+        "size_in_bytes": 5437
+      },
+      {
+        "_path": "site-packages/_pytest/assertion/util.py",
+        "path_type": "hardlink",
+        "sha256": "ddf80fa6b54357bb82682e7ec89ea3bf1ce9d90a97c5eed3c5e925770b8997ed",
+        "sha256_in_prefix": "ddf80fa6b54357bb82682e7ec89ea3bf1ce9d90a97c5eed3c5e925770b8997ed",
+        "size_in_bytes": 20713
+      },
+      {
+        "_path": "site-packages/_pytest/cacheprovider.py",
+        "path_type": "hardlink",
+        "sha256": "ae00499f39afb1f266423f8ab431b58269b30ae3f353da996dff9c62fbab6030",
+        "sha256_in_prefix": "ae00499f39afb1f266423f8ab431b58269b30ae3f353da996dff9c62fbab6030",
+        "size_in_bytes": 22375
+      },
+      {
+        "_path": "site-packages/_pytest/capture.py",
+        "path_type": "hardlink",
+        "sha256": "92e96e989751747bbbce8a2c3abe257c747471ee8bb0eb616aef41cabc3cc55e",
+        "sha256_in_prefix": "92e96e989751747bbbce8a2c3abe257c747471ee8bb0eb616aef41cabc3cc55e",
+        "size_in_bytes": 36829
+      },
+      {
+        "_path": "site-packages/_pytest/compat.py",
+        "path_type": "hardlink",
+        "sha256": "2f941a4e516816bced282a7b9e45c076729d5552a6443369184d5219ae8dcc8b",
+        "sha256_in_prefix": "2f941a4e516816bced282a7b9e45c076729d5552a6443369184d5219ae8dcc8b",
+        "size_in_bytes": 10662
+      },
+      {
+        "_path": "site-packages/_pytest/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9a0857d7dec27c5389986a98aecf61f5ab869e46e72dabb8e54695a4b9641eda",
+        "sha256_in_prefix": "9a0857d7dec27c5389986a98aecf61f5ab869e46e72dabb8e54695a4b9641eda",
+        "size_in_bytes": 72712
+      },
+      {
+        "_path": "site-packages/_pytest/config/argparsing.py",
+        "path_type": "hardlink",
+        "sha256": "93984fb88d1969e32a22d4b4c513ba75eb89c95ee600a1f5d1ca0d64baf8f15b",
+        "sha256_in_prefix": "93984fb88d1969e32a22d4b4c513ba75eb89c95ee600a1f5d1ca0d64baf8f15b",
+        "size_in_bytes": 19102
+      },
+      {
+        "_path": "site-packages/_pytest/config/compat.py",
+        "path_type": "hardlink",
+        "sha256": "7630edfd74cfc170c88279e8a6d8b6655aeab70ccee6115688c86053976020ce",
+        "sha256_in_prefix": "7630edfd74cfc170c88279e8a6d8b6655aeab70ccee6115688c86053976020ce",
+        "size_in_bytes": 2947
+      },
+      {
+        "_path": "site-packages/_pytest/config/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "9542a73ada51a8afaa34be897ce3fef2d46aa661d4df8095c60b91e72d107dbc",
+        "sha256_in_prefix": "9542a73ada51a8afaa34be897ce3fef2d46aa661d4df8095c60b91e72d107dbc",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "site-packages/_pytest/config/findpaths.py",
+        "path_type": "hardlink",
+        "sha256": "e3bbb530cc5d160d60f88b177e2d8f6baed6db507c639af0d8ba0c42650a61be",
+        "sha256_in_prefix": "e3bbb530cc5d160d60f88b177e2d8f6baed6db507c639af0d8ba0c42650a61be",
+        "size_in_bytes": 8404
+      },
+      {
+        "_path": "site-packages/_pytest/debugging.py",
+        "path_type": "hardlink",
+        "sha256": "26457b39bef0439dd3146910d136bdea300c606b9b81d5e212cdfd4fb14fcc74",
+        "sha256_in_prefix": "26457b39bef0439dd3146910d136bdea300c606b9b81d5e212cdfd4fb14fcc74",
+        "size_in_bytes": 13947
+      },
+      {
+        "_path": "site-packages/_pytest/deprecated.py",
+        "path_type": "hardlink",
+        "sha256": "b0ef548aa11dcbd67e342bc3a18600d10b5a7d8a2001bee53f933d37f1e99da9",
+        "sha256_in_prefix": "b0ef548aa11dcbd67e342bc3a18600d10b5a7d8a2001bee53f933d37f1e99da9",
+        "size_in_bytes": 3147
+      },
+      {
+        "_path": "site-packages/_pytest/doctest.py",
+        "path_type": "hardlink",
+        "sha256": "4cb4a02707763cfe7dbd2e16baed6153571a5fea33b170fd466aa3fac6f55df9",
+        "sha256_in_prefix": "4cb4a02707763cfe7dbd2e16baed6153571a5fea33b170fd466aa3fac6f55df9",
+        "size_in_bytes": 26259
+      },
+      {
+        "_path": "site-packages/_pytest/faulthandler.py",
+        "path_type": "hardlink",
+        "sha256": "6e4854441dbef9131221c5a19b689fcdae3e1a5cc850fff9125bbb4fb7be2c3b",
+        "sha256_in_prefix": "6e4854441dbef9131221c5a19b689fcdae3e1a5cc850fff9125bbb4fb7be2c3b",
+        "size_in_bytes": 3683
+      },
+      {
+        "_path": "site-packages/_pytest/fixtures.py",
+        "path_type": "hardlink",
+        "sha256": "41dfd72c1e6da619906bf84945694c1cb9b919bad18303278fac35630c8c7748",
+        "sha256_in_prefix": "41dfd72c1e6da619906bf84945694c1cb9b919bad18303278fac35630c8c7748",
+        "size_in_bytes": 77746
+      },
+      {
+        "_path": "site-packages/_pytest/freeze_support.py",
+        "path_type": "hardlink",
+        "sha256": "5fde08c62a6a79b780fc7833261f1d6e3a869ebb44405b8c202e612bb486597c",
+        "sha256_in_prefix": "5fde08c62a6a79b780fc7833261f1d6e3a869ebb44405b8c202e612bb486597c",
+        "size_in_bytes": 1300
+      },
+      {
+        "_path": "site-packages/_pytest/helpconfig.py",
+        "path_type": "hardlink",
+        "sha256": "2e53c2b4dfd8c8c55c7e19f60cab2d040f8dd8810c7ccc8fcd607edd156ed9c1",
+        "sha256_in_prefix": "2e53c2b4dfd8c8c55c7e19f60cab2d040f8dd8810c7ccc8fcd607edd156ed9c1",
+        "size_in_bytes": 9386
+      },
+      {
+        "_path": "site-packages/_pytest/hookspec.py",
+        "path_type": "hardlink",
+        "sha256": "ca5ce6d785970ed31a20bd5134bac4715892fcc8528eab2158276df93ef11e72",
+        "sha256_in_prefix": "ca5ce6d785970ed31a20bd5134bac4715892fcc8528eab2158276df93ef11e72",
+        "size_in_bytes": 42849
+      },
+      {
+        "_path": "site-packages/_pytest/junitxml.py",
+        "path_type": "hardlink",
+        "sha256": "51ea93fb20122b8aa5f2c412b9cf946b6daf719cde470f6ca2c50430bed4135d",
+        "sha256_in_prefix": "51ea93fb20122b8aa5f2c412b9cf946b6daf719cde470f6ca2c50430bed4135d",
+        "size_in_bytes": 25441
+      },
+      {
+        "_path": "site-packages/_pytest/legacypath.py",
+        "path_type": "hardlink",
+        "sha256": "fe5eaff1a90d31f4dce53023bdb73a33efedd79ee9f5013afb5d7c58cd0346df",
+        "sha256_in_prefix": "fe5eaff1a90d31f4dce53023bdb73a33efedd79ee9f5013afb5d7c58cd0346df",
+        "size_in_bytes": 16588
+      },
+      {
+        "_path": "site-packages/_pytest/logging.py",
+        "path_type": "hardlink",
+        "sha256": "4d9ebb2503ffdd896dd29d750f627af0bfe8b3d825b2e82032f79cd07963b5bf",
+        "sha256_in_prefix": "4d9ebb2503ffdd896dd29d750f627af0bfe8b3d825b2e82032f79cd07963b5bf",
+        "size_in_bytes": 35234
+      },
+      {
+        "_path": "site-packages/_pytest/main.py",
+        "path_type": "hardlink",
+        "sha256": "1cfc8743fd192849d2309353de3eb8b42dcd83801e1d11b1169dbc75198333d7",
+        "sha256_in_prefix": "1cfc8743fd192849d2309353de3eb8b42dcd83801e1d11b1169dbc75198333d7",
+        "size_in_bytes": 37689
+      },
+      {
+        "_path": "site-packages/_pytest/mark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9c10b7314f9f297389f3f4042d39796323ad15cdfa79fff9f656ca5c3298ea2b",
+        "sha256_in_prefix": "9c10b7314f9f297389f3f4042d39796323ad15cdfa79fff9f656ca5c3298ea2b",
+        "size_in_bytes": 9885
+      },
+      {
+        "_path": "site-packages/_pytest/mark/expression.py",
+        "path_type": "hardlink",
+        "sha256": "479294ca4b54891406267817a2cbe4b206e430b581998a842e149157fe9e5f1d",
+        "sha256_in_prefix": "479294ca4b54891406267817a2cbe4b206e430b581998a842e149157fe9e5f1d",
+        "size_in_bytes": 10154
+      },
+      {
+        "_path": "site-packages/_pytest/mark/structures.py",
+        "path_type": "hardlink",
+        "sha256": "e3d48717cd5125017f48833f33d277eed0d3a8d04042f7fba6cd7d45f5544632",
+        "sha256_in_prefix": "e3d48717cd5125017f48833f33d277eed0d3a8d04042f7fba6cd7d45f5544632",
+        "size_in_bytes": 22972
+      },
+      {
+        "_path": "site-packages/_pytest/monkeypatch.py",
+        "path_type": "hardlink",
+        "sha256": "9df03b926213009d706e3cbe451d22079d97c623da42982caa720419abadd5c5",
+        "sha256_in_prefix": "9df03b926213009d706e3cbe451d22079d97c623da42982caa720419abadd5c5",
+        "size_in_bytes": 14625
+      },
+      {
+        "_path": "site-packages/_pytest/nodes.py",
+        "path_type": "hardlink",
+        "sha256": "693b0385b2c45646767200bc517416e776c10c3e58ee5ed937007491be4d868e",
+        "sha256_in_prefix": "693b0385b2c45646767200bc517416e776c10c3e58ee5ed937007491be4d868e",
+        "size_in_bytes": 26540
+      },
+      {
+        "_path": "site-packages/_pytest/outcomes.py",
+        "path_type": "hardlink",
+        "sha256": "0cf472a92cec467fb4c9c32f6f52cbee41282f56f134f739464e210bdc689abc",
+        "sha256_in_prefix": "0cf472a92cec467fb4c9c32f6f52cbee41282f56f134f739464e210bdc689abc",
+        "size_in_bytes": 10502
+      },
+      {
+        "_path": "site-packages/_pytest/pastebin.py",
+        "path_type": "hardlink",
+        "sha256": "a7ddb326d48dcfdfb10c4173a90df37a662081745a0e7c43e97e08ca2b5ebdb0",
+        "sha256_in_prefix": "a7ddb326d48dcfdfb10c4173a90df37a662081745a0e7c43e97e08ca2b5ebdb0",
+        "size_in_bytes": 4155
+      },
+      {
+        "_path": "site-packages/_pytest/pathlib.py",
+        "path_type": "hardlink",
+        "sha256": "8127808359baaa711775862b32bfbe0a7e5c16a2e8c9923d60ddd45f031b66fa",
+        "sha256_in_prefix": "8127808359baaa711775862b32bfbe0a7e5c16a2e8c9923d60ddd45f031b66fa",
+        "size_in_bytes": 37622
+      },
+      {
+        "_path": "site-packages/_pytest/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/_pytest/pytester.py",
+        "path_type": "hardlink",
+        "sha256": "cd662381ffb9e9a3e6ada74ef54838c2784b6ba4912f9681dcaff43bfbb2a217",
+        "sha256_in_prefix": "cd662381ffb9e9a3e6ada74ef54838c2784b6ba4912f9681dcaff43bfbb2a217",
+        "size_in_bytes": 61960
+      },
+      {
+        "_path": "site-packages/_pytest/pytester_assertions.py",
+        "path_type": "hardlink",
+        "sha256": "c57fc76c53c1f91cff34d0edb53637f5fb7bff064bbcf81040155ebd209e5660",
+        "sha256_in_prefix": "c57fc76c53c1f91cff34d0edb53637f5fb7bff064bbcf81040155ebd209e5660",
+        "size_in_bytes": 2253
+      },
+      {
+        "_path": "site-packages/_pytest/python.py",
+        "path_type": "hardlink",
+        "sha256": "ebf31a8738065ad418c354ceeed99562926055587c664501e9f8d194e4078202",
+        "sha256_in_prefix": "ebf31a8738065ad418c354ceeed99562926055587c664501e9f8d194e4078202",
+        "size_in_bytes": 66627
+      },
+      {
+        "_path": "site-packages/_pytest/python_api.py",
+        "path_type": "hardlink",
+        "sha256": "a81cd75fce62fee5e50eab99567bdc19118c3f5b29a452eaeff1411ba051bbfd",
+        "sha256_in_prefix": "a81cd75fce62fee5e50eab99567bdc19118c3f5b29a452eaeff1411ba051bbfd",
+        "size_in_bytes": 31323
+      },
+      {
+        "_path": "site-packages/_pytest/raises.py",
+        "path_type": "hardlink",
+        "sha256": "22e1d3740ad3abaa4edf886334510768a67de59509124f60592d14c54248dc5c",
+        "sha256_in_prefix": "22e1d3740ad3abaa4edf886334510768a67de59509124f60592d14c54248dc5c",
+        "size_in_bytes": 60196
+      },
+      {
+        "_path": "site-packages/_pytest/recwarn.py",
+        "path_type": "hardlink",
+        "sha256": "94d46cf8aade4cd06be47a1922a5a3e26e9544eeffd457fe81c061998860fe52",
+        "sha256_in_prefix": "94d46cf8aade4cd06be47a1922a5a3e26e9544eeffd457fe81c061998860fe52",
+        "size_in_bytes": 13245
+      },
+      {
+        "_path": "site-packages/_pytest/reports.py",
+        "path_type": "hardlink",
+        "sha256": "ca2213f977ab6e01e8bbc0fb7527282fd62fa41af206575b262b574977d63910",
+        "sha256_in_prefix": "ca2213f977ab6e01e8bbc0fb7527282fd62fa41af206575b262b574977d63910",
+        "size_in_bytes": 21406
+      },
+      {
+        "_path": "site-packages/_pytest/runner.py",
+        "path_type": "hardlink",
+        "sha256": "10f2433cca73efa0f9772c6cc190119a6e85d67f5ac61f181549c14e4e6438cf",
+        "sha256_in_prefix": "10f2433cca73efa0f9772c6cc190119a6e85d67f5ac61f181549c14e4e6438cf",
+        "size_in_bytes": 19543
+      },
+      {
+        "_path": "site-packages/_pytest/scope.py",
+        "path_type": "hardlink",
+        "sha256": "a41ee3b228acb61d7a3c115a715d58c5ddcf8f7600c767669529866c6e26c3a0",
+        "sha256_in_prefix": "a41ee3b228acb61d7a3c115a715d58c5ddcf8f7600c767669529866c6e26c3a0",
+        "size_in_bytes": 2738
+      },
+      {
+        "_path": "site-packages/_pytest/setuponly.py",
+        "path_type": "hardlink",
+        "sha256": "06c46b0b81110d5af8dbed86fcbd00c61354e175706ccb32e52d253af2abf300",
+        "sha256_in_prefix": "06c46b0b81110d5af8dbed86fcbd00c61354e175706ccb32e52d253af2abf300",
+        "size_in_bytes": 3167
+      },
+      {
+        "_path": "site-packages/_pytest/setupplan.py",
+        "path_type": "hardlink",
+        "sha256": "97ec9c14dc4364fc98e76c21e1fef26aa87367b496d628d22a740b9aacc36560",
+        "sha256_in_prefix": "97ec9c14dc4364fc98e76c21e1fef26aa87367b496d628d22a740b9aacc36560",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "site-packages/_pytest/skipping.py",
+        "path_type": "hardlink",
+        "sha256": "93ccee856c3c5a5a251a905efdabf9d507da3e99e63986143ddf99ea1ba80160",
+        "sha256_in_prefix": "93ccee856c3c5a5a251a905efdabf9d507da3e99e63986143ddf99ea1ba80160",
+        "size_in_bytes": 10623
+      },
+      {
+        "_path": "site-packages/_pytest/stash.py",
+        "path_type": "hardlink",
+        "sha256": "e69137903c78abce794d6f5a56f61376b9242a530353afb1897e25b8aa491202",
+        "sha256_in_prefix": "e69137903c78abce794d6f5a56f61376b9242a530353afb1897e25b8aa491202",
+        "size_in_bytes": 3090
+      },
+      {
+        "_path": "site-packages/_pytest/stepwise.py",
+        "path_type": "hardlink",
+        "sha256": "903f350eb9e19dc94a06631f6aec1099b78c6d852fbb0d3bc395a73649887444",
+        "sha256_in_prefix": "903f350eb9e19dc94a06631f6aec1099b78c6d852fbb0d3bc395a73649887444",
+        "size_in_bytes": 7689
+      },
+      {
+        "_path": "site-packages/_pytest/terminal.py",
+        "path_type": "hardlink",
+        "sha256": "abdf73bd6dc01710f53857e4d10bcbec07a11d655b3cc59fee4e4413bdd69b19",
+        "sha256_in_prefix": "abdf73bd6dc01710f53857e4d10bcbec07a11d655b3cc59fee4e4413bdd69b19",
+        "size_in_bytes": 60419
+      },
+      {
+        "_path": "site-packages/_pytest/threadexception.py",
+        "path_type": "hardlink",
+        "sha256": "85371ca73654aeb4240d1395140a87817c00538f3571ae0cab8080e1807b9b2e",
+        "sha256_in_prefix": "85371ca73654aeb4240d1395140a87817c00538f3571ae0cab8080e1807b9b2e",
+        "size_in_bytes": 4953
+      },
+      {
+        "_path": "site-packages/_pytest/timing.py",
+        "path_type": "hardlink",
+        "sha256": "d3c7253f93c900be15cf34ea970f3f7f847d98bfcc9f336acfb262e7a2083ef0",
+        "sha256_in_prefix": "d3c7253f93c900be15cf34ea970f3f7f847d98bfcc9f336acfb262e7a2083ef0",
+        "size_in_bytes": 3065
+      },
+      {
+        "_path": "site-packages/_pytest/tmpdir.py",
+        "path_type": "hardlink",
+        "sha256": "236918c090160c1f6b935e162ff44ab273a700221d5f40ac15892be75e4503ee",
+        "sha256_in_prefix": "236918c090160c1f6b935e162ff44ab273a700221d5f40ac15892be75e4503ee",
+        "size_in_bytes": 11263
+      },
+      {
+        "_path": "site-packages/_pytest/tracemalloc.py",
+        "path_type": "hardlink",
+        "sha256": "942501fd85006fa475beaabf6fe2d26125f2f9389d6e7da6eed7f3996014ae39",
+        "sha256_in_prefix": "942501fd85006fa475beaabf6fe2d26125f2f9389d6e7da6eed7f3996014ae39",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "site-packages/_pytest/unittest.py",
+        "path_type": "hardlink",
+        "sha256": "fa27e8be64df87e4672c607573d50204fa60d2b1d031769a773d3c7d47ea1e47",
+        "sha256_in_prefix": "fa27e8be64df87e4672c607573d50204fa60d2b1d031769a773d3c7d47ea1e47",
+        "size_in_bytes": 19249
+      },
+      {
+        "_path": "site-packages/_pytest/unraisableexception.py",
+        "path_type": "hardlink",
+        "sha256": "74d681a411e4381e293884a868c75abb6a23ac6a1cfe2e2ec7be835572cb4fec",
+        "sha256_in_prefix": "74d681a411e4381e293884a868c75abb6a23ac6a1cfe2e2ec7be835572cb4fec",
+        "size_in_bytes": 5179
+      },
+      {
+        "_path": "site-packages/_pytest/warning_types.py",
+        "path_type": "hardlink",
+        "sha256": "e1b3539b2c95bead67a62a54e19fe2ad28263d0ba628e88cca5bc09fb83c317f",
+        "sha256_in_prefix": "e1b3539b2c95bead67a62a54e19fe2ad28263d0ba628e88cca5bc09fb83c317f",
+        "size_in_bytes": 4239
+      },
+      {
+        "_path": "site-packages/_pytest/warnings.py",
+        "path_type": "hardlink",
+        "sha256": "6134f838964a4e033bc6a937e3cf8d1d930758298c927c70c3a6c3c226d1050b",
+        "sha256_in_prefix": "6134f838964a4e033bc6a937e3cf8d1d930758298c927c70c3a6c3c226d1050b",
+        "size_in_bytes": 5237
+      },
+      {
+        "_path": "site-packages/py.py",
+        "path_type": "hardlink",
+        "sha256": "b71675b5d9845ba0814e9e88767f88dac3b3cc0d3128da028bd45edbb523e871",
+        "sha256_in_prefix": "b71675b5d9845ba0814e9e88767f88dac3b3cc0d3128da028bd45edbb523e871",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "93d6c5ef0a9714d53716243035037b77fa7d5f970596c48433887cf57f7f675a",
+        "sha256_in_prefix": "93d6c5ef0a9714d53716243035037b77fa7d5f970596c48433887cf57f7f675a",
+        "size_in_bytes": 7656
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e9c1110ce5c59d660d092949d90164c88356b8414fd609c0583fdc45cb9892f8",
+        "sha256_in_prefix": "e9c1110ce5c59d660d092949d90164c88356b8414fd609c0583fdc45cb9892f8",
+        "size_in_bytes": 10484
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c671b89b2fbd345aa81d8e38b445d03446c6a92edd0dfd3b72eabd7e53fab22b",
+        "sha256_in_prefix": "c671b89b2fbd345aa81d8e38b445d03446c6a92edd0dfd3b72eabd7e53fab22b",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f083eb1cf1f72cd650eefe6d34439c35365893f4a178d83ae23b1333d7aba8be",
+        "sha256_in_prefix": "f083eb1cf1f72cd650eefe6d34439c35365893f4a178d83ae23b1333d7aba8be",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/licenses/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "c2017d6288262cf9c39aecc8e51df3422a9f2bbca1e4b55d28491022070c7577",
+        "sha256_in_prefix": "c2017d6288262cf9c39aecc8e51df3422a9f2bbca1e4b55d28491022070c7577",
+        "size_in_bytes": 7369
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+        "sha256_in_prefix": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "site-packages/pytest-8.4.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cb2863be65c7efe24e6a84087663501cfba8042c4ec974b78c8b61b3fe82f00e",
+        "sha256_in_prefix": "cb2863be65c7efe24e6a84087663501cfba8042c4ec974b78c8b61b3fe82f00e",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/pytest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "66993a5e3905005e0981159b4794d10b1adacf341a58a44d696ad2c4442dcdc6",
+        "sha256_in_prefix": "66993a5e3905005e0981159b4794d10b1adacf341a58a44d696ad2c4442dcdc6",
+        "size_in_bytes": 5373
+      },
+      {
+        "_path": "site-packages/pytest/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "a150eb186a3b3744cdcb35e7b546e57204ca6e11c65ad8af717e530bbb4470aa",
+        "sha256_in_prefix": "a150eb186a3b3744cdcb35e7b546e57204ca6e11c65ad8af717e530bbb4470aa",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "site-packages/pytest/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/_argcomplete.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_code/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_code/__pycache__/code.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_code/__pycache__/source.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_io/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_io/__pycache__/pprint.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_io/__pycache__/saferepr.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_io/__pycache__/terminalwriter.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_io/__pycache__/wcwidth.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_py/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_py/__pycache__/error.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/_py/__pycache__/path.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/assertion/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/assertion/__pycache__/rewrite.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/assertion/__pycache__/truncate.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/assertion/__pycache__/util.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/cacheprovider.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/capture.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/config/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/config/__pycache__/argparsing.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/config/__pycache__/compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/config/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/config/__pycache__/findpaths.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/debugging.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/deprecated.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/doctest.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/faulthandler.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/fixtures.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/freeze_support.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/helpconfig.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/hookspec.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/junitxml.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/legacypath.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/logging.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/main.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/mark/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/mark/__pycache__/expression.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/mark/__pycache__/structures.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/monkeypatch.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/nodes.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/outcomes.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/pastebin.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/pathlib.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/pytester.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/pytester_assertions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/python.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/python_api.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/raises.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/recwarn.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/reports.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/runner.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/scope.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/setuponly.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/setupplan.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/skipping.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/stash.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/stepwise.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/terminal.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/threadexception.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/timing.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/tmpdir.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/tracemalloc.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/unittest.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/unraisableexception.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/warning_types.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/_pytest/__pycache__/warnings.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/__pycache__/py.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pytest/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pytest/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/pytest",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/py.test",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "41053d9893e379a3133bb9b557b98a3d2142fca474fb6b964ba5d97515f78e2d",
+  "size": 276734,
+  "subdir": "noarch",
+  "timestamp": 1757011891000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pytest-8.4.2-pyhd8ed1ab_0.conda",
+  "version": "8.4.2"
+}

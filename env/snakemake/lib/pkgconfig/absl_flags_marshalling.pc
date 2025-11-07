@@ -1,0 +1,12 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=${prefix}
+libdir=/home/enes/miniconda3/envs/snakemake/lib
+includedir=/home/enes/miniconda3/envs/snakemake/include
+
+Name: absl_flags_marshalling
+Description: Abseil flags_marshalling library
+URL: https://abseil.io/
+Version: 20250814
+Requires: absl_config = 20250814, absl_core_headers = 20250814, absl_log_severity = 20250814, absl_int128 = 20250814, absl_optional = 20250814, absl_strings = 20250814, absl_str_format = 20250814
+Libs: -L${libdir}  -labsl_flags_marshalling 
+Cflags: -I${includedir} -DNOMINMAX

@@ -1,0 +1,177 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/throttler-1.2.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/throttler-1.2.2.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/throttler-1.2.2.dist-info/LICENSE",
+    "lib/python3.11/site-packages/throttler-1.2.2.dist-info/METADATA",
+    "lib/python3.11/site-packages/throttler-1.2.2.dist-info/RECORD",
+    "lib/python3.11/site-packages/throttler-1.2.2.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/throttler-1.2.2.dist-info/WHEEL",
+    "lib/python3.11/site-packages/throttler-1.2.2.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/throttler-1.2.2.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/throttler/__init__.py",
+    "lib/python3.11/site-packages/throttler/decorators.py",
+    "lib/python3.11/site-packages/throttler/execution_timer.py",
+    "lib/python3.11/site-packages/throttler/throttler.py",
+    "lib/python3.11/site-packages/throttler/throttler_simultaneous.py",
+    "lib/python3.11/site-packages/throttler/timer.py",
+    "lib/python3.11/site-packages/throttler/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/throttler/__pycache__/decorators.cpython-311.pyc",
+    "lib/python3.11/site-packages/throttler/__pycache__/execution_timer.cpython-311.pyc",
+    "lib/python3.11/site-packages/throttler/__pycache__/throttler.cpython-311.pyc",
+    "lib/python3.11/site-packages/throttler/__pycache__/throttler_simultaneous.cpython-311.pyc",
+    "lib/python3.11/site-packages/throttler/__pycache__/timer.cpython-311.pyc"
+  ],
+  "fn": "throttler-1.2.2-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/throttler-1.2.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "6fc48bef3b400c82abaee323a9d4e290",
+  "name": "throttler",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/throttler-1.2.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/throttler-1.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/throttler-1.2.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "01e022eff3ff9361af38b8c7f9b925062f1e9fa30be92d153eb685b3dc5561ca",
+        "sha256_in_prefix": "01e022eff3ff9361af38b8c7f9b925062f1e9fa30be92d153eb685b3dc5561ca",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "site-packages/throttler-1.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ff85307e9e270f15fddf5fcc7ba4ed2fbf7715de3c251f9a6290a385ab47de1d",
+        "sha256_in_prefix": "ff85307e9e270f15fddf5fcc7ba4ed2fbf7715de3c251f9a6290a385ab47de1d",
+        "size_in_bytes": 7361
+      },
+      {
+        "_path": "site-packages/throttler-1.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dfdea9fbf62dd531561d25de56c5763cbdd62936751b90963588a1dc6e145660",
+        "sha256_in_prefix": "dfdea9fbf62dd531561d25de56c5763cbdd62936751b90963588a1dc6e145660",
+        "size_in_bytes": 1493
+      },
+      {
+        "_path": "site-packages/throttler-1.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/throttler-1.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "02d046e925cbdca17fbf43712dfd1e87254e87472895df896c9617346a2b0ba4",
+        "sha256_in_prefix": "02d046e925cbdca17fbf43712dfd1e87254e87472895df896c9617346a2b0ba4",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/throttler-1.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "02b191244db3d1bdc885f7a77ae3bcf0cfed4463d1f708fe364bde5f771aa682",
+        "sha256_in_prefix": "02b191244db3d1bdc885f7a77ae3bcf0cfed4463d1f708fe364bde5f771aa682",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/throttler-1.2.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "dc075252337542faa48aec96c02d8defca82b9a84840884c662de507800ea9fa",
+        "sha256_in_prefix": "dc075252337542faa48aec96c02d8defca82b9a84840884c662de507800ea9fa",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/throttler/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b1dbe4bfd7f7c752f41d5f4301ccc94dafa15eacafca521b8fb9481fd9b36d9d",
+        "sha256_in_prefix": "b1dbe4bfd7f7c752f41d5f4301ccc94dafa15eacafca521b8fb9481fd9b36d9d",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "site-packages/throttler/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "e1e6e67b458336e5d432d7ee1bd515962b9a86fcbe42aa84082260c18f22575a",
+        "sha256_in_prefix": "e1e6e67b458336e5d432d7ee1bd515962b9a86fcbe42aa84082260c18f22575a",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "site-packages/throttler/execution_timer.py",
+        "path_type": "hardlink",
+        "sha256": "78a588d58fd63d7e27b4b75944b016afe0045ac03d50844dc55ef170a2519037",
+        "sha256_in_prefix": "78a588d58fd63d7e27b4b75944b016afe0045ac03d50844dc55ef170a2519037",
+        "size_in_bytes": 1425
+      },
+      {
+        "_path": "site-packages/throttler/throttler.py",
+        "path_type": "hardlink",
+        "sha256": "567a2ae1a372456cccfbb2c3f0684ffdfb1fa14fc1ab0043a9fc586f20b2a5de",
+        "sha256_in_prefix": "567a2ae1a372456cccfbb2c3f0684ffdfb1fa14fc1ab0043a9fc586f20b2a5de",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "site-packages/throttler/throttler_simultaneous.py",
+        "path_type": "hardlink",
+        "sha256": "ab0b8d3cab8e8b400ab75718d15d9dddc5a1481dbdf4b09d2e405ec0a3ff4536",
+        "sha256_in_prefix": "ab0b8d3cab8e8b400ab75718d15d9dddc5a1481dbdf4b09d2e405ec0a3ff4536",
+        "size_in_bytes": 688
+      },
+      {
+        "_path": "site-packages/throttler/timer.py",
+        "path_type": "hardlink",
+        "sha256": "4ed330772a41b5be77fc9ce2cc74cf6c489d0192ef9f8e2b28cba8675f5bec84",
+        "sha256_in_prefix": "4ed330772a41b5be77fc9ce2cc74cf6c489d0192ef9f8e2b28cba8675f5bec84",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "lib/python3.11/site-packages/throttler/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/throttler/__pycache__/decorators.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/throttler/__pycache__/execution_timer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/throttler/__pycache__/throttler.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/throttler/__pycache__/throttler_simultaneous.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/throttler/__pycache__/timer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cdd2067b03db7ed7a958de74edc1a4f8c4ae6d0aa1a61b5b70b89de5013f0f78",
+  "size": 12341,
+  "subdir": "noarch",
+  "timestamp": 1691135604000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/throttler-1.2.2-pyhd8ed1ab_0.conda",
+  "version": "1.2.2"
+}

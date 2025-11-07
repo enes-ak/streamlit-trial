@@ -1,0 +1,12 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=${prefix}
+libdir=/home/enes/miniconda3/envs/snakemake/lib
+includedir=/home/enes/miniconda3/envs/snakemake/include
+
+Name: absl_random_internal_distribution_caller
+Description: Abseil random_internal_distribution_caller library
+URL: https://abseil.io/
+Version: 20250814
+Requires: absl_config = 20250814, absl_utility = 20250814, absl_fast_type_id = 20250814, absl_type_traits = 20250814
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

@@ -1,0 +1,931 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.10",
+    "proto-plus >=1.25.0,<2.0.0",
+    "google-auth >=2.14.1,<3.0.0",
+    "googleapis-common-protos >=1.56.2,<2.0.0",
+    "protobuf >=3.19.5,<7.0.0,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5",
+    "requests >=2.18.0,<3.0.0"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/google-api-core-2.28.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/google/api_core/__init__.py",
+    "lib/python3.11/site-packages/google/api_core/_python_package_support.py",
+    "lib/python3.11/site-packages/google/api_core/_python_version_support.py",
+    "lib/python3.11/site-packages/google/api_core/_rest_streaming_base.py",
+    "lib/python3.11/site-packages/google/api_core/bidi.py",
+    "lib/python3.11/site-packages/google/api_core/bidi_async.py",
+    "lib/python3.11/site-packages/google/api_core/bidi_base.py",
+    "lib/python3.11/site-packages/google/api_core/client_info.py",
+    "lib/python3.11/site-packages/google/api_core/client_logging.py",
+    "lib/python3.11/site-packages/google/api_core/client_options.py",
+    "lib/python3.11/site-packages/google/api_core/datetime_helpers.py",
+    "lib/python3.11/site-packages/google/api_core/exceptions.py",
+    "lib/python3.11/site-packages/google/api_core/extended_operation.py",
+    "lib/python3.11/site-packages/google/api_core/future/__init__.py",
+    "lib/python3.11/site-packages/google/api_core/future/_helpers.py",
+    "lib/python3.11/site-packages/google/api_core/future/async_future.py",
+    "lib/python3.11/site-packages/google/api_core/future/base.py",
+    "lib/python3.11/site-packages/google/api_core/future/polling.py",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/__init__.py",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/client_info.py",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/config.py",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/config_async.py",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/method.py",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/method_async.py",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/routing_header.py",
+    "lib/python3.11/site-packages/google/api_core/general_helpers.py",
+    "lib/python3.11/site-packages/google/api_core/grpc_helpers.py",
+    "lib/python3.11/site-packages/google/api_core/grpc_helpers_async.py",
+    "lib/python3.11/site-packages/google/api_core/iam.py",
+    "lib/python3.11/site-packages/google/api_core/operation.py",
+    "lib/python3.11/site-packages/google/api_core/operation_async.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__init__.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/abstract_operations_base_client.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/abstract_operations_client.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/operations_async_client.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/operations_client.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/operations_client_config.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/operations_rest_client_async.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/pagers.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/pagers_async.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/pagers_base.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__init__.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/transports/base.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/transports/rest.py",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/transports/rest_asyncio.py",
+    "lib/python3.11/site-packages/google/api_core/page_iterator.py",
+    "lib/python3.11/site-packages/google/api_core/page_iterator_async.py",
+    "lib/python3.11/site-packages/google/api_core/path_template.py",
+    "lib/python3.11/site-packages/google/api_core/protobuf_helpers.py",
+    "lib/python3.11/site-packages/google/api_core/py.typed",
+    "lib/python3.11/site-packages/google/api_core/rest_helpers.py",
+    "lib/python3.11/site-packages/google/api_core/rest_streaming.py",
+    "lib/python3.11/site-packages/google/api_core/rest_streaming_async.py",
+    "lib/python3.11/site-packages/google/api_core/retry/__init__.py",
+    "lib/python3.11/site-packages/google/api_core/retry/retry_base.py",
+    "lib/python3.11/site-packages/google/api_core/retry/retry_streaming.py",
+    "lib/python3.11/site-packages/google/api_core/retry/retry_streaming_async.py",
+    "lib/python3.11/site-packages/google/api_core/retry/retry_unary.py",
+    "lib/python3.11/site-packages/google/api_core/retry/retry_unary_async.py",
+    "lib/python3.11/site-packages/google/api_core/retry_async.py",
+    "lib/python3.11/site-packages/google/api_core/timeout.py",
+    "lib/python3.11/site-packages/google/api_core/universe.py",
+    "lib/python3.11/site-packages/google/api_core/version.py",
+    "lib/python3.11/site-packages/google/api_core/version_header.py",
+    "lib/python3.11/site-packages/google_api_core-2.28.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/google_api_core-2.28.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/google_api_core-2.28.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/google_api_core-2.28.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/google_api_core-2.28.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/google_api_core-2.28.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/google_api_core-2.28.1.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/google_api_core-2.28.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/_python_package_support.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/_python_version_support.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/_rest_streaming_base.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/bidi.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/bidi_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/bidi_base.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/client_info.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/client_logging.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/client_options.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/datetime_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/extended_operation.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/future/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/future/__pycache__/_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/future/__pycache__/async_future.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/future/__pycache__/base.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/future/__pycache__/polling.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/client_info.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/config.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/config_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/method.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/method_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/routing_header.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/general_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/grpc_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/grpc_helpers_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/iam.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/operation.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/operation_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/abstract_operations_base_client.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/abstract_operations_client.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/operations_async_client.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/operations_client.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/operations_client_config.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/operations_rest_client_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/pagers.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/pagers_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/pagers_base.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__pycache__/base.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__pycache__/rest.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__pycache__/rest_asyncio.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/page_iterator.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/page_iterator_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/path_template.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/protobuf_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/rest_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/rest_streaming.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/rest_streaming_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/retry/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_base.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_streaming.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_streaming_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_unary.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_unary_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/retry_async.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/timeout.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/universe.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/version.cpython-311.pyc",
+    "lib/python3.11/site-packages/google/api_core/__pycache__/version_header.cpython-311.pyc"
+  ],
+  "fn": "google-api-core-2.28.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/google-api-core-2.28.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "4f543962961d34db6b5c72ebe827caf7",
+  "name": "google-api-core",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/google-api-core-2.28.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/google/api_core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f24c3ef667f24c375c896823e12d5cd42d41d1cedb8bda9bc1b447fbdda6c714",
+        "sha256_in_prefix": "f24c3ef667f24c375c896823e12d5cd42d41d1cedb8bda9bc1b447fbdda6c714",
+        "size_in_bytes": 1584
+      },
+      {
+        "_path": "site-packages/google/api_core/_python_package_support.py",
+        "path_type": "hardlink",
+        "sha256": "c4666b910350f0af1ddae160a7202a6431c62d37f83aae66f5ec6ca52d7e620f",
+        "sha256_in_prefix": "c4666b910350f0af1ddae160a7202a6431c62d37f83aae66f5ec6ca52d7e620f",
+        "size_in_bytes": 9464
+      },
+      {
+        "_path": "site-packages/google/api_core/_python_version_support.py",
+        "path_type": "hardlink",
+        "sha256": "1491319ffc55917b64be32d0cee9a50323f5169350bec62533968d2057d913c1",
+        "sha256_in_prefix": "1491319ffc55917b64be32d0cee9a50323f5169350bec62533968d2057d913c1",
+        "size_in_bytes": 10336
+      },
+      {
+        "_path": "site-packages/google/api_core/_rest_streaming_base.py",
+        "path_type": "hardlink",
+        "sha256": "02590f7bbd6fd244547963f9ca7e8dd4a6f10b12a1afebdf40e0a0a05eb1f191",
+        "sha256_in_prefix": "02590f7bbd6fd244547963f9ca7e8dd4a6f10b12a1afebdf40e0a0a05eb1f191",
+        "size_in_bytes": 4351
+      },
+      {
+        "_path": "site-packages/google/api_core/bidi.py",
+        "path_type": "hardlink",
+        "sha256": "2d5e98dd39fbe866ed5ad3a37e395be0e8ba96d603fa3d90000b8f310b07db33",
+        "sha256_in_prefix": "2d5e98dd39fbe866ed5ad3a37e395be0e8ba96d603fa3d90000b8f310b07db33",
+        "size_in_bytes": 27630
+      },
+      {
+        "_path": "site-packages/google/api_core/bidi_async.py",
+        "path_type": "hardlink",
+        "sha256": "bdbb694fa3ff43cd79167dfdb9a5dd8954209f0b550772d04c334c33d74a705a",
+        "sha256_in_prefix": "bdbb694fa3ff43cd79167dfdb9a5dd8954209f0b550772d04c334c33d74a705a",
+        "size_in_bytes": 8726
+      },
+      {
+        "_path": "site-packages/google/api_core/bidi_base.py",
+        "path_type": "hardlink",
+        "sha256": "0b9592b619c8def2b92be2edafafd86afc86622d4c0228d3c3e6589e2e552255",
+        "sha256_in_prefix": "0b9592b619c8def2b92be2edafafd86afc86622d4c0228d3c3e6589e2e552255",
+        "size_in_bytes": 3495
+      },
+      {
+        "_path": "site-packages/google/api_core/client_info.py",
+        "path_type": "hardlink",
+        "sha256": "035cb38b120b769e79464f07bb59bb4069673a1e8218c5a128b362f53528b515",
+        "sha256_in_prefix": "035cb38b120b769e79464f07bb59bb4069673a1e8218c5a128b362f53528b515",
+        "size_in_bytes": 4092
+      },
+      {
+        "_path": "site-packages/google/api_core/client_logging.py",
+        "path_type": "hardlink",
+        "sha256": "a3b56b729279caa21f76904318a4c82156aa21f9793e9aff03188e7f22881939",
+        "sha256_in_prefix": "a3b56b729279caa21f76904318a4c82156aa21f9793e9aff03188e7f22881939",
+        "size_in_bytes": 5023
+      },
+      {
+        "_path": "site-packages/google/api_core/client_options.py",
+        "path_type": "hardlink",
+        "sha256": "d76120457fbaa6a060edab3192703d788b370a308d9afa31846bcab77cc678d9",
+        "sha256_in_prefix": "d76120457fbaa6a060edab3192703d788b370a308d9afa31846bcab77cc678d9",
+        "size_in_bytes": 6860
+      },
+      {
+        "_path": "site-packages/google/api_core/datetime_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "e60162ee7d2bfb1548990763eab40a370939f26d8b70c17d5a58971876c1b030",
+        "sha256_in_prefix": "e60162ee7d2bfb1548990763eab40a370939f26d8b70c17d5a58971876c1b030",
+        "size_in_bytes": 9034
+      },
+      {
+        "_path": "site-packages/google/api_core/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "e555e16e47060ab7e3a3ab733f8842561eaf6a4a8633b91949ec158faa424bc3",
+        "sha256_in_prefix": "e555e16e47060ab7e3a3ab733f8842561eaf6a4a8633b91949ec158faa424bc3",
+        "size_in_bytes": 21150
+      },
+      {
+        "_path": "site-packages/google/api_core/extended_operation.py",
+        "path_type": "hardlink",
+        "sha256": "afdc5239b94d177e65c27da1aeb8d443e7f7243a28d1ae19f31c0ecbf564bcbd",
+        "sha256_in_prefix": "afdc5239b94d177e65c27da1aeb8d443e7f7243a28d1ae19f31c0ecbf564bcbd",
+        "size_in_bytes": 8632
+      },
+      {
+        "_path": "site-packages/google/api_core/future/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eec4e8c4d36ef5cff1a9ca663bc75badc48b38ec6996760e3925e3397f50217c",
+        "sha256_in_prefix": "eec4e8c4d36ef5cff1a9ca663bc75badc48b38ec6996760e3925e3397f50217c",
+        "size_in_bytes": 702
+      },
+      {
+        "_path": "site-packages/google/api_core/future/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "8c0ea6d8bd5aaa538903ef4d742d410e8b0f92c650ec598b2d85833abb1038f7",
+        "sha256_in_prefix": "8c0ea6d8bd5aaa538903ef4d742d410e8b0f92c650ec598b2d85833abb1038f7",
+        "size_in_bytes": 1248
+      },
+      {
+        "_path": "site-packages/google/api_core/future/async_future.py",
+        "path_type": "hardlink",
+        "sha256": "eeb38ad2dcee77c302a14c0ef408c5fb73900ed10bc21b69d8e365b520771842",
+        "sha256_in_prefix": "eeb38ad2dcee77c302a14c0ef408c5fb73900ed10bc21b69d8e365b520771842",
+        "size_in_bytes": 5355
+      },
+      {
+        "_path": "site-packages/google/api_core/future/base.py",
+        "path_type": "hardlink",
+        "sha256": "487cae75a992591ec4c94b18690f97ac61a42de6029527d77ec1c81d2a832182",
+        "sha256_in_prefix": "487cae75a992591ec4c94b18690f97ac61a42de6029527d77ec1c81d2a832182",
+        "size_in_bytes": 1763
+      },
+      {
+        "_path": "site-packages/google/api_core/future/polling.py",
+        "path_type": "hardlink",
+        "sha256": "d07530d5ba7b64b804a8cb70b2fc485cd30741b1e0b0fe93a66a55acc6e32762",
+        "sha256_in_prefix": "d07530d5ba7b64b804a8cb70b2fc485cd30741b1e0b0fe93a66a55acc6e32762",
+        "size_in_bytes": 14349
+      },
+      {
+        "_path": "site-packages/google/api_core/gapic_v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "afa902c0ace74973d3611773e02dfce1fb1c79f6b0feb5cfd9bcc9767cc4567c",
+        "sha256_in_prefix": "afa902c0ace74973d3611773e02dfce1fb1c79f6b0feb5cfd9bcc9767cc4567c",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "site-packages/google/api_core/gapic_v1/client_info.py",
+        "path_type": "hardlink",
+        "sha256": "16199e1ee4a0148c420976853dbe10769a01cd1e05553cb6f7dedf917a2b5db3",
+        "sha256_in_prefix": "16199e1ee4a0148c420976853dbe10769a01cd1e05553cb6f7dedf917a2b5db3",
+        "size_in_bytes": 2421
+      },
+      {
+        "_path": "site-packages/google/api_core/gapic_v1/config.py",
+        "path_type": "hardlink",
+        "sha256": "e62b0e3983d26425e90dc243262c264f1193528d118f1249bd6db28ea051e012",
+        "sha256_in_prefix": "e62b0e3983d26425e90dc243262c264f1193528d118f1249bd6db28ea051e012",
+        "size_in_bytes": 6300
+      },
+      {
+        "_path": "site-packages/google/api_core/gapic_v1/config_async.py",
+        "path_type": "hardlink",
+        "sha256": "fe3ac1e58bfaaf1c5253a2b0ccec5643e1bfc799978a5a5214082743fea4b6b5",
+        "sha256_in_prefix": "fe3ac1e58bfaaf1c5253a2b0ccec5643e1bfc799978a5a5214082743fea4b6b5",
+        "size_in_bytes": 1728
+      },
+      {
+        "_path": "site-packages/google/api_core/gapic_v1/method.py",
+        "path_type": "hardlink",
+        "sha256": "4a732a46828a091a61f71a6742f436f521a309df565691c43caeb45feb8fc963",
+        "sha256_in_prefix": "4a732a46828a091a61f71a6742f436f521a309df565691c43caeb45feb8fc963",
+        "size_in_bytes": 9494
+      },
+      {
+        "_path": "site-packages/google/api_core/gapic_v1/method_async.py",
+        "path_type": "hardlink",
+        "sha256": "2fc0475774a4bca4c3a954a89c3b9463538844c3c4a9fb0eb138ad61143f5304",
+        "sha256_in_prefix": "2fc0475774a4bca4c3a954a89c3b9463538844c3c4a9fb0eb138ad61143f5304",
+        "size_in_bytes": 2090
+      },
+      {
+        "_path": "site-packages/google/api_core/gapic_v1/routing_header.py",
+        "path_type": "hardlink",
+        "sha256": "90928e629352da681265ae10b7c21bd90e4e35f370a49c1b365a1527c7b6c0cb",
+        "sha256_in_prefix": "90928e629352da681265ae10b7c21bd90e4e35f370a49c1b365a1527c7b6c0cb",
+        "size_in_bytes": 3093
+      },
+      {
+        "_path": "site-packages/google/api_core/general_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "186830bdd60c2c8891bd4aa88dddee28130e3c82e92bbf19539c1ef95447b701",
+        "sha256_in_prefix": "186830bdd60c2c8891bd4aa88dddee28130e3c82e92bbf19539c1ef95447b701",
+        "size_in_bytes": 2284
+      },
+      {
+        "_path": "site-packages/google/api_core/grpc_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "702dacb085108ac2bcd4090aa941a36215c403b9c4f642ea92c1e4f5689f8e86",
+        "sha256_in_prefix": "702dacb085108ac2bcd4090aa941a36215c403b9c4f642ea92c1e4f5689f8e86",
+        "size_in_bytes": 25028
+      },
+      {
+        "_path": "site-packages/google/api_core/grpc_helpers_async.py",
+        "path_type": "hardlink",
+        "sha256": "0c68b2f73f58e6f711a1e59ca3b69326c4197a63a99942c13a7552d4d731ce6f",
+        "sha256_in_prefix": "0c68b2f73f58e6f711a1e59ca3b69326c4197a63a99942c13a7552d4d731ce6f",
+        "size_in_bytes": 13224
+      },
+      {
+        "_path": "site-packages/google/api_core/iam.py",
+        "path_type": "hardlink",
+        "sha256": "046cfadc7b4e3f9ff9a07f59b3ddd13f463a42c86dcb678e8451188ff0a813ae",
+        "sha256_in_prefix": "046cfadc7b4e3f9ff9a07f59b3ddd13f463a42c86dcb678e8451188ff0a813ae",
+        "size_in_bytes": 13213
+      },
+      {
+        "_path": "site-packages/google/api_core/operation.py",
+        "path_type": "hardlink",
+        "sha256": "98759acb6beb35b1258afe58585cf25c1cb06d0772fd53d6f7c0402e1e75e0f0",
+        "sha256_in_prefix": "98759acb6beb35b1258afe58585cf25c1cb06d0772fd53d6f7c0402e1e75e0f0",
+        "size_in_bytes": 13198
+      },
+      {
+        "_path": "site-packages/google/api_core/operation_async.py",
+        "path_type": "hardlink",
+        "sha256": "5ddba7c1563a68a03e2b438afb9fdd61baa36ef1750cb4d85142f820eced95de",
+        "sha256_in_prefix": "5ddba7c1563a68a03e2b438afb9fdd61baa36ef1750cb4d85142f820eced95de",
+        "size_in_bytes": 8046
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9dcbf10063abba76cc351a10f67d48a35a759d137f2d5e43bad579d9489d57c9",
+        "sha256_in_prefix": "9dcbf10063abba76cc351a10f67d48a35a759d137f2d5e43bad579d9489d57c9",
+        "size_in_bytes": 1638
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/abstract_operations_base_client.py",
+        "path_type": "hardlink",
+        "sha256": "268025596c6e8ff4e96c0bfd18206debf04c85f96f22847eae0f533d2389de2b",
+        "sha256_in_prefix": "268025596c6e8ff4e96c0bfd18206debf04c85f96f22847eae0f533d2389de2b",
+        "size_in_bytes": 14861
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/abstract_operations_client.py",
+        "path_type": "hardlink",
+        "sha256": "8ffba508b269caa1a1d5263ccf992cb3d89805f3b013f5d7093ab04002a9c9e2",
+        "sha256_in_prefix": "8ffba508b269caa1a1d5263ccf992cb3d89805f3b013f5d7093ab04002a9c9e2",
+        "size_in_bytes": 16073
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/operations_async_client.py",
+        "path_type": "hardlink",
+        "sha256": "d4110d7b1db2da8be5087957478bf909f8aa936a37e830561333f20820ae75b5",
+        "sha256_in_prefix": "d4110d7b1db2da8be5087957478bf909f8aa936a37e830561333f20820ae75b5",
+        "size_in_bytes": 14794
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/operations_client.py",
+        "path_type": "hardlink",
+        "sha256": "f9f99b46fff62ffe5c26fef459fc9b470f445322e51c1fb04db0be9f422ae058",
+        "sha256_in_prefix": "f9f99b46fff62ffe5c26fef459fc9b470f445322e51c1fb04db0be9f422ae058",
+        "size_in_bytes": 15274
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/operations_client_config.py",
+        "path_type": "hardlink",
+        "sha256": "bfb07416255ce69f47867a4f635ff7148a2615d03e27ee258a5a267a80bd4a44",
+        "sha256_in_prefix": "bfb07416255ce69f47867a4f635ff7148a2615d03e27ee258a5a267a80bd4a44",
+        "size_in_bytes": 2285
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/operations_rest_client_async.py",
+        "path_type": "hardlink",
+        "sha256": "a8c615a34f18d237d2539ddd987483bceeff50bdf1f03cc9829be7c00693cb21",
+        "sha256_in_prefix": "a8c615a34f18d237d2539ddd987483bceeff50bdf1f03cc9829be7c00693cb21",
+        "size_in_bytes": 14616
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/pagers.py",
+        "path_type": "hardlink",
+        "sha256": "5985ea20634831b417fb63946e2ab3dd95d272f23f88ec4a8f190de9b4cfd584",
+        "sha256_in_prefix": "5985ea20634831b417fb63946e2ab3dd95d272f23f88ec4a8f190de9b4cfd584",
+        "size_in_bytes": 2463
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/pagers_async.py",
+        "path_type": "hardlink",
+        "sha256": "49d141f9e5ed3a36421d620281589aa3ab711c9aa0b3bbe1b2ca3a1d3fe7a4ea",
+        "sha256_in_prefix": "49d141f9e5ed3a36421d620281589aa3ab711c9aa0b3bbe1b2ca3a1d3fe7a4ea",
+        "size_in_bytes": 2624
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/pagers_base.py",
+        "path_type": "hardlink",
+        "sha256": "aa58b322939d53e25579020c68f44806691cb208435f6150633e551f7fa5f6cd",
+        "sha256_in_prefix": "aa58b322939d53e25579020c68f44806691cb208435f6150633e551f7fa5f6cd",
+        "size_in_bytes": 2652
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/transports/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "360e550cc92cf7b40d7db92115244a9af37052fdff21098b52ccc219378962f1",
+        "sha256_in_prefix": "360e550cc92cf7b40d7db92115244a9af37052fdff21098b52ccc219378962f1",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/transports/base.py",
+        "path_type": "hardlink",
+        "sha256": "0e2fa6c25cf72e72b7acd65fda4eeb3b671e5f10d1b196426e261e940d145e17",
+        "sha256_in_prefix": "0e2fa6c25cf72e72b7acd65fda4eeb3b671e5f10d1b196426e261e940d145e17",
+        "size_in_bytes": 11716
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/transports/rest.py",
+        "path_type": "hardlink",
+        "sha256": "d77e677c9862ffbc0b4438a5d2fdd6536bb68c795cdbf06c133c83747b4de7e4",
+        "sha256_in_prefix": "d77e677c9862ffbc0b4438a5d2fdd6536bb68c795cdbf06c133c83747b4de7e4",
+        "size_in_bytes": 20911
+      },
+      {
+        "_path": "site-packages/google/api_core/operations_v1/transports/rest_asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "b01afa2b97fa3d8b55faf2dd50cdff0637a92b5bd048825d0f48822c0d7e78e5",
+        "sha256_in_prefix": "b01afa2b97fa3d8b55faf2dd50cdff0637a92b5bd048825d0f48822c0d7e78e5",
+        "size_in_bytes": 26130
+      },
+      {
+        "_path": "site-packages/google/api_core/page_iterator.py",
+        "path_type": "hardlink",
+        "sha256": "15731fa9b865558004563a688f2b58022525b95358015482e3531d7c0847017e",
+        "sha256_in_prefix": "15731fa9b865558004563a688f2b58022525b95358015482e3531d7c0847017e",
+        "size_in_bytes": 20330
+      },
+      {
+        "_path": "site-packages/google/api_core/page_iterator_async.py",
+        "path_type": "hardlink",
+        "sha256": "4dbb97a2b4613f5c1c4130f7ada04985681224fd49c093bf9c2289a6109b55dc",
+        "sha256_in_prefix": "4dbb97a2b4613f5c1c4130f7ada04985681224fd49c093bf9c2289a6109b55dc",
+        "size_in_bytes": 10294
+      },
+      {
+        "_path": "site-packages/google/api_core/path_template.py",
+        "path_type": "hardlink",
+        "sha256": "2f2aaac3c3840aec393bbcbdc75049bdf35b6046e6c789674c6a9cea8a52c879",
+        "sha256_in_prefix": "2f2aaac3c3840aec393bbcbdc75049bdf35b6046e6c789674c6a9cea8a52c879",
+        "size_in_bytes": 11685
+      },
+      {
+        "_path": "site-packages/google/api_core/protobuf_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "72dfcfdb3ea260dbee9b4159e548fef7aa9ff3743ff7d4cfd6a706c2f94effd7",
+        "sha256_in_prefix": "72dfcfdb3ea260dbee9b4159e548fef7aa9ff3743ff7d4cfd6a706c2f94effd7",
+        "size_in_bytes": 12448
+      },
+      {
+        "_path": "site-packages/google/api_core/py.typed",
+        "path_type": "hardlink",
+        "sha256": "abc7601fd9759a85178ae7c70558ea23432e272e017bd6b7acd1fc665fec2020",
+        "sha256_in_prefix": "abc7601fd9759a85178ae7c70558ea23432e272e017bd6b7acd1fc665fec2020",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/google/api_core/rest_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "d83b089d9887bf4b0b77d75f2c86c42f6bc32502326d6831964c673456a13e72",
+        "sha256_in_prefix": "d83b089d9887bf4b0b77d75f2c86c42f6bc32502326d6831964c673456a13e72",
+        "size_in_bytes": 3529
+      },
+      {
+        "_path": "site-packages/google/api_core/rest_streaming.py",
+        "path_type": "hardlink",
+        "sha256": "03076e27bb586b4fe2061144a8263af7a35598d1965829ba838c274eaa158d2e",
+        "sha256_in_prefix": "03076e27bb586b4fe2061144a8263af7a35598d1965829ba838c274eaa158d2e",
+        "size_in_bytes": 2209
+      },
+      {
+        "_path": "site-packages/google/api_core/rest_streaming_async.py",
+        "path_type": "hardlink",
+        "sha256": "e46bb3adf6051df476d9df60b8eb57bd9d44f951c20aeb09c9629547139c16e1",
+        "sha256_in_prefix": "e46bb3adf6051df476d9df60b8eb57bd9d44f951c20aeb09c9629547139c16e1",
+        "size_in_bytes": 3340
+      },
+      {
+        "_path": "site-packages/google/api_core/retry/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a182d2c140eda82be01e847fc01db19b7d6a3521d1b96a1506aecdda146c34a",
+        "sha256_in_prefix": "5a182d2c140eda82be01e847fc01db19b7d6a3521d1b96a1506aecdda146c34a",
+        "size_in_bytes": 2088
+      },
+      {
+        "_path": "site-packages/google/api_core/retry/retry_base.py",
+        "path_type": "hardlink",
+        "sha256": "7b502caec8e9f09a23fff192f67d2d88c7ac7983791d6a1c1cad9c6d38723c75",
+        "sha256_in_prefix": "7b502caec8e9f09a23fff192f67d2d88c7ac7983791d6a1c1cad9c6d38723c75",
+        "size_in_bytes": 12890
+      },
+      {
+        "_path": "site-packages/google/api_core/retry/retry_streaming.py",
+        "path_type": "hardlink",
+        "sha256": "b30e81c7bc3d1b594af0a080627da9c34859d76b0f4000fd878a2d0b605722e4",
+        "sha256_in_prefix": "b30e81c7bc3d1b594af0a080627da9c34859d76b0f4000fd878a2d0b605722e4",
+        "size_in_bytes": 11032
+      },
+      {
+        "_path": "site-packages/google/api_core/retry/retry_streaming_async.py",
+        "path_type": "hardlink",
+        "sha256": "818b39296cd0f511dbd397223eea29b4e9b955608e4bb7e588d1b4d3a35dbde8",
+        "sha256_in_prefix": "818b39296cd0f511dbd397223eea29b4e9b955608e4bb7e588d1b4d3a35dbde8",
+        "size_in_bytes": 14517
+      },
+      {
+        "_path": "site-packages/google/api_core/retry/retry_unary.py",
+        "path_type": "hardlink",
+        "sha256": "5fcc0807384a3297f73e53a6320a2d220836d47befd7a8546f77fc776d219c37",
+        "sha256_in_prefix": "5fcc0807384a3297f73e53a6320a2d220836d47befd7a8546f77fc776d219c37",
+        "size_in_bytes": 13517
+      },
+      {
+        "_path": "site-packages/google/api_core/retry/retry_unary_async.py",
+        "path_type": "hardlink",
+        "sha256": "ecf00d9378f1e9d04a29464a777c9bd9314f0583bd97bb978384260719b08504",
+        "sha256_in_prefix": "ecf00d9378f1e9d04a29464a777c9bd9314f0583bd97bb978384260719b08504",
+        "size_in_bytes": 9594
+      },
+      {
+        "_path": "site-packages/google/api_core/retry_async.py",
+        "path_type": "hardlink",
+        "sha256": "febd11398790a9d013b51331faaffaa386cf9aa1733f28ebfe857795f9680d23",
+        "sha256_in_prefix": "febd11398790a9d013b51331faaffaa386cf9aa1733f28ebfe857795f9680d23",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "site-packages/google/api_core/timeout.py",
+        "path_type": "hardlink",
+        "sha256": "85e8a5d04eac72ec8590cbf299b4766c0df76662526af1ff4a644d2bd929a9c3",
+        "sha256_in_prefix": "85e8a5d04eac72ec8590cbf299b4766c0df76662526af1ff4a644d2bd929a9c3",
+        "size_in_bytes": 10279
+      },
+      {
+        "_path": "site-packages/google/api_core/universe.py",
+        "path_type": "hardlink",
+        "sha256": "93f2b927423790a422336c841efc5ea805b15c4419289d927c394c007fab434f",
+        "sha256_in_prefix": "93f2b927423790a422336c841efc5ea805b15c4419289d927c394c007fab434f",
+        "size_in_bytes": 2952
+      },
+      {
+        "_path": "site-packages/google/api_core/version.py",
+        "path_type": "hardlink",
+        "sha256": "1fd70001c44dbf5136f364a3681978d228bba773402821a692c5ade7008c9fd3",
+        "sha256_in_prefix": "1fd70001c44dbf5136f364a3681978d228bba773402821a692c5ade7008c9fd3",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "site-packages/google/api_core/version_header.py",
+        "path_type": "hardlink",
+        "sha256": "b84157a2c0a9f141fb5e1ce71b9190b1e4d8b563682475d13c0e79ec35ac5310",
+        "sha256_in_prefix": "b84157a2c0a9f141fb5e1ce71b9190b1e4d8b563682475d13c0e79ec35ac5310",
+        "size_in_bytes": 1046
+      },
+      {
+        "_path": "site-packages/google_api_core-2.28.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/google_api_core-2.28.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "423f4ecf33d38a31045534682f6bf595a9c491ec50d2f6c013943cbd4ac9e7b4",
+        "sha256_in_prefix": "423f4ecf33d38a31045534682f6bf595a9c491ec50d2f6c013943cbd4ac9e7b4",
+        "size_in_bytes": 3296
+      },
+      {
+        "_path": "site-packages/google_api_core-2.28.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8b8c1d12cd05cc832df32bdabe41c3ed1898345918820348dce80cc3a31263d1",
+        "sha256_in_prefix": "8b8c1d12cd05cc832df32bdabe41c3ed1898345918820348dce80cc3a31263d1",
+        "size_in_bytes": 11089
+      },
+      {
+        "_path": "site-packages/google_api_core-2.28.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/google_api_core-2.28.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/google_api_core-2.28.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "29b46e0cb8d1aaa956327d3977004078a4e44e5815e2fe628a5d80faecf6327f",
+        "sha256_in_prefix": "29b46e0cb8d1aaa956327d3977004078a4e44e5815e2fe628a5d80faecf6327f",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/google_api_core-2.28.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/google_api_core-2.28.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "sha256_in_prefix": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/_python_package_support.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/_python_version_support.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/_rest_streaming_base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/bidi.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/bidi_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/bidi_base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/client_info.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/client_logging.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/client_options.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/datetime_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/extended_operation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/future/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/future/__pycache__/_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/future/__pycache__/async_future.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/future/__pycache__/base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/future/__pycache__/polling.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/client_info.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/config.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/config_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/method.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/method_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/gapic_v1/__pycache__/routing_header.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/general_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/grpc_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/grpc_helpers_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/iam.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/operation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/operation_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/abstract_operations_base_client.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/abstract_operations_client.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/operations_async_client.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/operations_client.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/operations_client_config.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/operations_rest_client_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/pagers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/pagers_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/__pycache__/pagers_base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__pycache__/base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__pycache__/rest.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/operations_v1/transports/__pycache__/rest_asyncio.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/page_iterator.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/page_iterator_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/path_template.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/protobuf_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/rest_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/rest_streaming.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/rest_streaming_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/retry/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_streaming.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_streaming_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_unary.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/retry/__pycache__/retry_unary_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/retry_async.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/timeout.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/universe.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google/api_core/__pycache__/version_header.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3dde5af0fdafae40315c278cd63ed531282f651868b1cb259d96234bc138dce0",
+  "size": 98155,
+  "subdir": "noarch",
+  "timestamp": 1761990483000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-api-core-2.28.1-pyhd8ed1ab_0.conda",
+  "version": "2.28.1"
+}

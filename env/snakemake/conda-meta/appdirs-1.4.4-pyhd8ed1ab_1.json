@@ -1,0 +1,112 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/appdirs-1.4.4-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.11/site-packages/appdirs-1.4.4.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/appdirs-1.4.4.dist-info/LICENSE.txt",
+    "lib/python3.11/site-packages/appdirs-1.4.4.dist-info/METADATA",
+    "lib/python3.11/site-packages/appdirs-1.4.4.dist-info/RECORD",
+    "lib/python3.11/site-packages/appdirs-1.4.4.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/appdirs-1.4.4.dist-info/WHEEL",
+    "lib/python3.11/site-packages/appdirs-1.4.4.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/appdirs-1.4.4.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/appdirs.py",
+    "lib/python3.11/site-packages/__pycache__/appdirs.cpython-311.pyc"
+  ],
+  "fn": "appdirs-1.4.4-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/appdirs-1.4.4-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "f4e90937bbfc3a4a92539545a37bb448",
+  "name": "appdirs",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/appdirs-1.4.4-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/appdirs-1.4.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/appdirs-1.4.4.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "36ddb4d0a745a93ab203203d7190814b1b89727d254caff48c7a7afbbd47000b",
+        "sha256_in_prefix": "36ddb4d0a745a93ab203203d7190814b1b89727d254caff48c7a7afbbd47000b",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "site-packages/appdirs-1.4.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "da49ed48d8746b94535bbfe75287b3b24e746c77eb5e9ee241234d11633c1c69",
+        "sha256_in_prefix": "da49ed48d8746b94535bbfe75287b3b24e746c77eb5e9ee241234d11633c1c69",
+        "size_in_bytes": 8991
+      },
+      {
+        "_path": "site-packages/appdirs-1.4.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7d557a73c16759309168949bd483d2ffe88dd80504a957f3d5555f2d3443e3dc",
+        "sha256_in_prefix": "7d557a73c16759309168949bd483d2ffe88dd80504a957f3d5555f2d3443e3dc",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "site-packages/appdirs-1.4.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/appdirs-1.4.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/appdirs-1.4.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b390a1faaf3d591d6110ce519130f6bf4accdc4e511e5226d25e4e38404c0b57",
+        "sha256_in_prefix": "b390a1faaf3d591d6110ce519130f6bf4accdc4e511e5226d25e4e38404c0b57",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/appdirs-1.4.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9ca9dc13c094a9911127a56e4162f8fdb92e9d23c335f9fb299a9be13af96043",
+        "sha256_in_prefix": "9ca9dc13c094a9911127a56e4162f8fdb92e9d23c335f9fb299a9be13af96043",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/appdirs.py",
+        "path_type": "hardlink",
+        "sha256": "83df6cdac5e19ef4c49bbf688f86d62344e86a973efd298a28d5ef3971e45627",
+        "sha256_in_prefix": "83df6cdac5e19ef4c49bbf688f86d62344e86a973efd298a28d5ef3971e45627",
+        "size_in_bytes": 24720
+      },
+      {
+        "_path": "lib/python3.11/site-packages/__pycache__/appdirs.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5b9ef6d338525b332e17c3ed089ca2f53a5d74b7a7b432747d29c6466e39346d",
+  "size": 14835,
+  "subdir": "noarch",
+  "timestamp": 1733754069000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/appdirs-1.4.4-pyhd8ed1ab_1.conda",
+  "version": "1.4.4"
+}

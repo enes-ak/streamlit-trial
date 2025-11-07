@@ -1,0 +1,1 @@
+-L/home/enes/miniconda3/envs/snakemake/lib -lCgl

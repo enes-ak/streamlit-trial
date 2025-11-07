@@ -1,0 +1,340 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "typer >=0.7.0",
+    "pandas >=2.0.0",
+    "requests >=2.28.2",
+    "pydantic >=2.5.0",
+    "coloredlogs >=15.0.1",
+    "peppy >=0.40.5",
+    "ubiquerg >=0.6.3"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/pephubclient-0.4.4-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/LICENSE.txt",
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/METADATA",
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/RECORD",
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/WHEEL",
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/pephubclient-0.4.4.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/pephubclient/__init__.py",
+    "lib/python3.11/site-packages/pephubclient/__main__.py",
+    "lib/python3.11/site-packages/pephubclient/cli.py",
+    "lib/python3.11/site-packages/pephubclient/constants.py",
+    "lib/python3.11/site-packages/pephubclient/exceptions.py",
+    "lib/python3.11/site-packages/pephubclient/files_manager.py",
+    "lib/python3.11/site-packages/pephubclient/helpers.py",
+    "lib/python3.11/site-packages/pephubclient/models.py",
+    "lib/python3.11/site-packages/pephubclient/modules/__init__.py",
+    "lib/python3.11/site-packages/pephubclient/modules/sample.py",
+    "lib/python3.11/site-packages/pephubclient/modules/view.py",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/__init__.py",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/const.py",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/exceptions.py",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/models.py",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/pephub_oauth.py",
+    "lib/python3.11/site-packages/pephubclient/pephubclient.py",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/cli.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/constants.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/files_manager.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/models.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/modules/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/modules/__pycache__/sample.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/modules/__pycache__/view.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/const.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/models.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/pephub_oauth.cpython-311.pyc",
+    "lib/python3.11/site-packages/pephubclient/__pycache__/pephubclient.cpython-311.pyc",
+    "bin/phc"
+  ],
+  "fn": "pephubclient-0.4.4-pyhd8ed1ab_1.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/pephubclient-0.4.4-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "08d92912686d87b05d53ce04f00142c8",
+  "name": "pephubclient",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/pephubclient-0.4.4-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "89c03a73601f3a006f20dae6fca9710f2ba5cc9c948ba531264dacd521febc32",
+        "sha256_in_prefix": "89c03a73601f3a006f20dae6fca9710f2ba5cc9c948ba531264dacd521febc32",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "289fc7267a9c5dfda41bfc1d13922a9aa4a88df46fe9c3ec98d7c26f9d01259b",
+        "sha256_in_prefix": "289fc7267a9c5dfda41bfc1d13922a9aa4a88df46fe9c3ec98d7c26f9d01259b",
+        "size_in_bytes": 11390
+      },
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e03a7168287d4d6f8d660d9cf450af0e6d2c1a0c12a683f42d2603bfa623f10f",
+        "sha256_in_prefix": "e03a7168287d4d6f8d660d9cf450af0e6d2c1a0c12a683f42d2603bfa623f10f",
+        "size_in_bytes": 3327
+      },
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d260952b9070d1b8cc2f9699975c40675b5f1fd15fdf315af17c37504892a0f4",
+        "sha256_in_prefix": "d260952b9070d1b8cc2f9699975c40675b5f1fd15fdf315af17c37504892a0f4",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f632d5ac1f2258de6dccc81e39b9c01e56e10a7a25f31993f3c9b38984c10919",
+        "sha256_in_prefix": "f632d5ac1f2258de6dccc81e39b9c01e56e10a7a25f31993f3c9b38984c10919",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "site-packages/pephubclient-0.4.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1a877dd065c66dc580e776804d0ae4d3b58e5f1389c460ab2d742f257cd1365c",
+        "sha256_in_prefix": "1a877dd065c66dc580e776804d0ae4d3b58e5f1389c460ab2d742f257cd1365c",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/pephubclient/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c9cdcb924cf4e112fe332620be78a4e49f23074c6eef9af8b4492d199e0c9e07",
+        "sha256_in_prefix": "c9cdcb924cf4e112fe332620be78a4e49f23074c6eef9af8b4492d199e0c9e07",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "site-packages/pephubclient/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "80bac8385e9690d6513a1cbc8c792df9dad936c372839009b6533ed35fc0da26",
+        "sha256_in_prefix": "80bac8385e9690d6513a1cbc8c792df9dad936c372839009b6533ed35fc0da26",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "site-packages/pephubclient/cli.py",
+        "path_type": "hardlink",
+        "sha256": "c76ee180c722360a765abd243744a4c35fdb7ede52c6ee2fd3475ea9fa7d6d9c",
+        "sha256_in_prefix": "c76ee180c722360a765abd243744a4c35fdb7ede52c6ee2fd3475ea9fa7d6d9c",
+        "size_in_bytes": 2039
+      },
+      {
+        "_path": "site-packages/pephubclient/constants.py",
+        "path_type": "hardlink",
+        "sha256": "fa87a8a826b9b5a78622a7be32b42daaab483b7bf418dad3ccfdc8a5bbb2248d",
+        "sha256_in_prefix": "fa87a8a826b9b5a78622a7be32b42daaab483b7bf418dad3ccfdc8a5bbb2248d",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "site-packages/pephubclient/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "e748d6fec8d5fc8c4a6155551ccf8236ffbb7c039c071aa1e2b667102c594906",
+        "sha256_in_prefix": "e748d6fec8d5fc8c4a6155551ccf8236ffbb7c039c071aa1e2b667102c594906",
+        "size_in_bytes": 1083
+      },
+      {
+        "_path": "site-packages/pephubclient/files_manager.py",
+        "path_type": "hardlink",
+        "sha256": "510bc592ea198920c758d237219552dd9446e960ae0634306a0bcfbcdf7dc4c9",
+        "sha256_in_prefix": "510bc592ea198920c758d237219552dd9446e960ae0634306a0bcfbcdf7dc4c9",
+        "size_in_bytes": 3144
+      },
+      {
+        "_path": "site-packages/pephubclient/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "38e51724fcbf21fdde8bea0a6bc4c3f694c02bde1a83ef0f298c31a000c7d57d",
+        "sha256_in_prefix": "38e51724fcbf21fdde8bea0a6bc4c3f694c02bde1a83ef0f298c31a000c7d57d",
+        "size_in_bytes": 10186
+      },
+      {
+        "_path": "site-packages/pephubclient/models.py",
+        "path_type": "hardlink",
+        "sha256": "10757507d72a89c8cd54722225085838f1b0b48a2969d0fb179200978d85b1dc",
+        "sha256_in_prefix": "10757507d72a89c8cd54722225085838f1b0b48a2969d0fb179200978d85b1dc",
+        "size_in_bytes": 1399
+      },
+      {
+        "_path": "site-packages/pephubclient/modules/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pephubclient/modules/sample.py",
+        "path_type": "hardlink",
+        "sha256": "4cb653277ff2fbc276570a462634a2931e9dafaa41388a8d6fcf4568f0ffe0d8",
+        "sha256_in_prefix": "4cb653277ff2fbc276570a462634a2931e9dafaa41388a8d6fcf4568f0ffe0d8",
+        "size_in_bytes": 7009
+      },
+      {
+        "_path": "site-packages/pephubclient/modules/view.py",
+        "path_type": "hardlink",
+        "sha256": "42fea78ec9aa8ec5d19d8b80bf96667dce9f96494f228edc62644379fd04ee4a",
+        "sha256_in_prefix": "42fea78ec9aa8ec5d19d8b80bf96667dce9f96494f228edc62644379fd04ee4a",
+        "size_in_bytes": 9331
+      },
+      {
+        "_path": "site-packages/pephubclient/pephub_oauth/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pephubclient/pephub_oauth/const.py",
+        "path_type": "hardlink",
+        "sha256": "a8185004ee194a3a6bc44c3759be4e3d010240bf9b8a9e6366e7da3910b0c525",
+        "sha256_in_prefix": "a8185004ee194a3a6bc44c3759be4e3d010240bf9b8a9e6366e7da3910b0c525",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "site-packages/pephubclient/pephub_oauth/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "2bdd59465db2303f4329a2fbe41c387d1ffde24a9380b7277ef1a5b4a2ec11e9",
+        "sha256_in_prefix": "2bdd59465db2303f4329a2fbe41c387d1ffde24a9380b7277ef1a5b4a2ec11e9",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "site-packages/pephubclient/pephub_oauth/models.py",
+        "path_type": "hardlink",
+        "sha256": "2b9d91323ceb008953d8eaeff011f031c33eb57b816255ced930033afc3f6ab4",
+        "sha256_in_prefix": "2b9d91323ceb008953d8eaeff011f031c33eb57b816255ced930033afc3f6ab4",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "site-packages/pephubclient/pephub_oauth/pephub_oauth.py",
+        "path_type": "hardlink",
+        "sha256": "64c56209a9449863d1dd9057e9133ac42cf99828f9971f15a84109e8b2c4a882",
+        "sha256_in_prefix": "64c56209a9449863d1dd9057e9133ac42cf99828f9971f15a84109e8b2c4a882",
+        "size_in_bytes": 3787
+      },
+      {
+        "_path": "site-packages/pephubclient/pephubclient.py",
+        "path_type": "hardlink",
+        "sha256": "48702189719717a7923580aa8d008b9036e7212d98b0fdb436667f07d75894e9",
+        "sha256_in_prefix": "48702189719717a7923580aa8d008b9036e7212d98b0fdb436667f07d75894e9",
+        "size_in_bytes": 12457
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/cli.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/constants.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/files_manager.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/models.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/modules/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/modules/__pycache__/sample.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/modules/__pycache__/view.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/const.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/models.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/pephub_oauth/__pycache__/pephub_oauth.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/pephubclient/__pycache__/pephubclient.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/phc",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fe53097b62d73a991a9233659d47aac28e973e055d931ae5bfbcce4d824c03ee",
+  "size": 22295,
+  "subdir": "noarch",
+  "timestamp": 1735078284000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pephubclient-0.4.4-pyhd8ed1ab_1.conda",
+  "version": "0.4.4"
+}

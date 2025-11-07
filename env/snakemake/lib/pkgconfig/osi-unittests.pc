@@ -1,0 +1,12 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=/home/enes/miniconda3/envs/snakemake
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/coin
+
+Name: OsiUnitTests
+Description: COIN-OR Open Solver Interface Common Unit Tests
+URL: https://projects.coin-or.org/Osi
+Version: 0.108.11
+Libs: -L${libdir} -lOsiCommonTests
+Cflags: -I${includedir}
+Requires: osi

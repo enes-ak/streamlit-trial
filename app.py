@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import os
+import subprocess
+import time
+
 
 # -----------------------------
 # Demo kullanıcı bilgileri
@@ -23,10 +26,10 @@ def authenticate(user, pwd):
 # Login ekranı
 # -----------------------------
 def login_screen():
-    st.title("TUSEB GENOME ANALYSER - Login Page")
+    st.title("TUSEB Genome Analyser - Login Page")
 
-    user = st.text_input("Kullanıcı Adı")
-    pwd = st.text_input("Parola", type="password")
+    user = st.text_input("User Name")
+    pwd = st.text_input("Password", type="password")
 
     if st.button("Giriş Yap"):
         if authenticate(user, pwd):
@@ -41,14 +44,14 @@ def login_screen():
     st.markdown("---")
     demo_box = st.container(border=True)
     with demo_box:
-        st.markdown("### Demo Hesaplar")
+        st.markdown("### Demo Accounts")
         st.table(pd.DataFrame(DEMO_ACCOUNTS))
 
 
 # -----------------------------
 # Page config
 # -----------------------------
-st.set_page_config(page_title="TUSEB GENOME ANALYSER", layout="wide")
+st.set_page_config(page_title="TUSEB Genome Analyser", layout="wide")
 
 # -----------------------------
 # Login kontrol
@@ -66,16 +69,16 @@ if not st.session_state["logged_in"]:
 # ======================================================
 header = st.container()
 with header:
-    col1, col2, col3 = st.columns([1, 6, 2])
+    col1, col2, col3 = st.columns([1, 9, 1])
 
     with col1:
-        st.image("logo/logo.png", width=90)
+        st.image("logo/logo.png", width=100)
 
     with col2:
         st.markdown(
             """
             <h2 style='text-align: center; margin-top: 10px;'>
-            TUSEB GENOME ANALYSER
+            TUSEB Genome Analyser
             </h2>
             """,
             unsafe_allow_html=True
@@ -96,8 +99,8 @@ st.markdown("""
     <style>
         /* Sidebar genişliğini küçültme */
         [data-testid="stSidebar"] {
-            min-width: 130px;
-            max-width: 130px;
+            min-width: 145px;
+            max-width: 145px;
         }
 
         /* Sidebar içindeki widget padding’i azaltma */
@@ -109,7 +112,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 with st.sidebar:
-    menu = st.radio("Select", ["Profile", "Run"])
+    menu = st.radio("Select", ["Profile", "Results", "New Run"])
 st.session_state["page"] = menu
 
 # ======================================================
@@ -128,12 +131,12 @@ if st.session_state["page"] == "Profile":
 # ======================================================
 # ✅ RUN SAYFASI – Projeler + Tablo Görüntüleme
 # ======================================================
-if st.session_state["page"] == "Run":
+if st.session_state["page"] == "Results":
     st.title("Run")
     st.write("### Run Results")
 
     # data/ klasöründeki tüm .tsv dosyalarını listele
-    tsv_files = [f for f in os.listdir("data") if f.endswith(".tsv")]
+    tsv_files = [f for f in os.listdir("data/variant_table") if f.endswith(".tsv")]
 
     if len(tsv_files) == 0:
         st.warning("No project found")
@@ -149,26 +152,88 @@ if st.session_state["page"] == "Run":
     with col2:
         if st.session_state.get("selected_table"):
             selected = st.session_state["selected_table"]
+            barcode_id = selected.replace(".tsv", "")
+            stats_path = f"data/statistics/{barcode_id}_fraction_coverage.txt"
             st.success(f"Selected Table: **{selected}**")
-
+            df = pd.read_csv(f"data/variant_table/{selected}", sep="\t")
+            st.write(f"Unique Row Size: {len(df)}")
             tabs = st.tabs(["Variant Table", "Statistics"])
-
+            
             # ✅ Variant Table
             with tabs[0]:
-                df = pd.read_csv(f"data/{selected}", sep="\t")
                 st.dataframe(df, height=700, use_container_width=True)
-
+            
             # ✅ Statistics Tab
             with tabs[1]:
-                stats_path = "data/genome_fraction_coverage.txt"
                 if os.path.exists(stats_path):
                     genome_fraction = pd.read_csv(stats_path, sep="\t")
                     st.bar_chart(genome_fraction.set_index("#Coverage (X)"))
                     st.dataframe(
-                        genome_fraction, height=700, use_container_width=True
-                    )
+                        genome_fraction, height=700, use_container_width=True)
                 else:
                     st.warning("Statistics file not found")
 
         else:
             st.info("Select a run")
+            
+
+elif st.session_state["page"] == "New Run":
+    st.title("Create New Project")
+
+    project_name = st.text_input("Project Name")
+    input_path = st.text_input("Input VCF Path")
+    kit = st.selectbox("Select Kit", ["WES", "CES", "WGS"])
+
+    outdir = f"projects/{project_name}"
+
+    if st.button("Run"):
+        if not project_name or not input_path:
+            st.error("Please provide project name and input path.")
+            st.stop()
+
+        st.info("Pipeline started... this may take time.")
+        st.write("Running Snakemake...")
+
+        SNAKEMAKE = "env/snakemake/bin/snakemake"
+
+        snake_cmd = [
+            SNAKEMAKE,
+            "-s", "single_sample/snakefile_germline_vcf.smk",
+            "-j", "16",
+            "--configfile", "single_sample/config.yaml",
+            f"input={input_path}",
+            f"kit={kit}",
+            f"outdir={outdir}"
+        ]
+
+        process = subprocess.Popen(
+            snake_cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            bufsize=1
+        )
+
+        # ✅ CANLI LOG GÖSTERİMİ
+        log_box = st.empty()
+        full_log = ""
+
+        # stdout satırlarını canlı aktar
+        for line in process.stdout:
+            full_log += line
+            log_box.text(full_log)
+
+        # pipeline bittiyse stderr’i ekle
+        stderr_output = process.stderr.read()
+        if stderr_output:
+            full_log += "\n--- STDERR OUTPUT ---\n" + stderr_output
+            log_box.text(full_log)
+
+        return_code = process.wait()
+
+        if return_code == 0:
+            st.success("Pipeline finished successfully!")
+            st.session_state["last_project"] = project_name
+        else:
+            st.error("Pipeline failed! Check log above.")
+            st.stop()

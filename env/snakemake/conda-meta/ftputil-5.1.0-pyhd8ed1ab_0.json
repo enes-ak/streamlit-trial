@@ -1,0 +1,281 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/ftputil-5.1.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/ftputil-5.1.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/ftputil-5.1.0.dist-info/LICENSE",
+    "lib/python3.11/site-packages/ftputil-5.1.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/ftputil-5.1.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/ftputil-5.1.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/ftputil-5.1.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/ftputil-5.1.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/ftputil-5.1.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/ftputil/__init__.py",
+    "lib/python3.11/site-packages/ftputil/error.py",
+    "lib/python3.11/site-packages/ftputil/file.py",
+    "lib/python3.11/site-packages/ftputil/file_transfer.py",
+    "lib/python3.11/site-packages/ftputil/host.py",
+    "lib/python3.11/site-packages/ftputil/lrucache.py",
+    "lib/python3.11/site-packages/ftputil/path.py",
+    "lib/python3.11/site-packages/ftputil/path_encoding.py",
+    "lib/python3.11/site-packages/ftputil/session.py",
+    "lib/python3.11/site-packages/ftputil/stat.py",
+    "lib/python3.11/site-packages/ftputil/stat_cache.py",
+    "lib/python3.11/site-packages/ftputil/sync.py",
+    "lib/python3.11/site-packages/ftputil/tool.py",
+    "lib/python3.11/site-packages/ftputil/version.py",
+    "lib/python3.11/site-packages/ftputil/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/error.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/file.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/file_transfer.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/host.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/lrucache.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/path.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/path_encoding.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/session.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/stat.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/stat_cache.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/sync.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/tool.cpython-311.pyc",
+    "lib/python3.11/site-packages/ftputil/__pycache__/version.cpython-311.pyc"
+  ],
+  "fn": "ftputil-5.1.0-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/ftputil-5.1.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "33531fd156b65cd5e38c401f6c1d3fc8",
+  "name": "ftputil",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/ftputil-5.1.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/ftputil-5.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ftputil-5.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "acda6b5c98d389b6d9245a8b892baabbc70ce134b645895d5a5d9c518e649b0a",
+        "sha256_in_prefix": "acda6b5c98d389b6d9245a8b892baabbc70ce134b645895d5a5d9c518e649b0a",
+        "size_in_bytes": 11363
+      },
+      {
+        "_path": "site-packages/ftputil-5.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a5034835e357799b8babbabc27c219e06e9b85e3568e3de3e38f98ddc0f52533",
+        "sha256_in_prefix": "a5034835e357799b8babbabc27c219e06e9b85e3568e3de3e38f98ddc0f52533",
+        "size_in_bytes": 1504
+      },
+      {
+        "_path": "site-packages/ftputil-5.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ca6a3bf49c0ef8d5515feb9e3565d5348a63f4984380e70048648c1bd2d4291c",
+        "sha256_in_prefix": "ca6a3bf49c0ef8d5515feb9e3565d5348a63f4984380e70048648c1bd2d4291c",
+        "size_in_bytes": 2381
+      },
+      {
+        "_path": "site-packages/ftputil-5.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ftputil-5.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "sha256_in_prefix": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/ftputil-5.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "65e8b6e92b7382a5e062e8784d70acc183006bfdea778ae1f4becb78911e0dc3",
+        "sha256_in_prefix": "65e8b6e92b7382a5e062e8784d70acc183006bfdea778ae1f4becb78911e0dc3",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/ftputil-5.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cae14d07d5ae50d79aa217fc328c1b76e548bbadef138b85899572ad4eecce42",
+        "sha256_in_prefix": "cae14d07d5ae50d79aa217fc328c1b76e548bbadef138b85899572ad4eecce42",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/ftputil/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b7eed08ae049b4f17b6a7d597f7c692e00487cf27dc1fedda835d5fbcd4b8bc4",
+        "sha256_in_prefix": "b7eed08ae049b4f17b6a7d597f7c692e00487cf27dc1fedda835d5fbcd4b8bc4",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "site-packages/ftputil/error.py",
+        "path_type": "hardlink",
+        "sha256": "fe5be55bdd77f1b2a58eecb70412b91e913efb35e6e0e860ffd1d5ed5ff9b821",
+        "sha256_in_prefix": "fe5be55bdd77f1b2a58eecb70412b91e913efb35e6e0e860ffd1d5ed5ff9b821",
+        "size_in_bytes": 5731
+      },
+      {
+        "_path": "site-packages/ftputil/file.py",
+        "path_type": "hardlink",
+        "sha256": "30500fcc7f319bc9ffb9446815be9e4174e97e23ee474a3b1f810d60b5107804",
+        "sha256_in_prefix": "30500fcc7f319bc9ffb9446815be9e4174e97e23ee474a3b1f810d60b5107804",
+        "size_in_bytes": 6934
+      },
+      {
+        "_path": "site-packages/ftputil/file_transfer.py",
+        "path_type": "hardlink",
+        "sha256": "4c1e680ae7b1d5a82ea26be15a42ac0d4452630cd442c8ce75711410cec28426",
+        "sha256_in_prefix": "4c1e680ae7b1d5a82ea26be15a42ac0d4452630cd442c8ce75711410cec28426",
+        "size_in_bytes": 6469
+      },
+      {
+        "_path": "site-packages/ftputil/host.py",
+        "path_type": "hardlink",
+        "sha256": "d6b93611cb7116915131e03df0bfb6605021fbac8f2b1e8d2d5281199c757c5d",
+        "sha256_in_prefix": "d6b93611cb7116915131e03df0bfb6605021fbac8f2b1e8d2d5281199c757c5d",
+        "size_in_bytes": 46098
+      },
+      {
+        "_path": "site-packages/ftputil/lrucache.py",
+        "path_type": "hardlink",
+        "sha256": "5a75a33a85966f103bd1f45004932d1d30ec801012d589bbd6b5193aaf07cfcf",
+        "sha256_in_prefix": "5a75a33a85966f103bd1f45004932d1d30ec801012d589bbd6b5193aaf07cfcf",
+        "size_in_bytes": 10091
+      },
+      {
+        "_path": "site-packages/ftputil/path.py",
+        "path_type": "hardlink",
+        "sha256": "ff810a38242b5523db3990c73d751447cda26a1c373283f6ea3f1bdc059e8730",
+        "sha256_in_prefix": "ff810a38242b5523db3990c73d751447cda26a1c373283f6ea3f1bdc059e8730",
+        "size_in_bytes": 8083
+      },
+      {
+        "_path": "site-packages/ftputil/path_encoding.py",
+        "path_type": "hardlink",
+        "sha256": "14513c9090e9bd0a20e5db625eed98cfeda47060d5053c594cf3e1816ebd1f9d",
+        "sha256_in_prefix": "14513c9090e9bd0a20e5db625eed98cfeda47060d5053c594cf3e1816ebd1f9d",
+        "size_in_bytes": 1013
+      },
+      {
+        "_path": "site-packages/ftputil/session.py",
+        "path_type": "hardlink",
+        "sha256": "d194027149518757275bc999ea64ad1b25da2e23793d8e87894fed052f4590fe",
+        "sha256_in_prefix": "d194027149518757275bc999ea64ad1b25da2e23793d8e87894fed052f4590fe",
+        "size_in_bytes": 6088
+      },
+      {
+        "_path": "site-packages/ftputil/stat.py",
+        "path_type": "hardlink",
+        "sha256": "449919e0c8130760c00d2be9107a96c927f8f348c9ff5211f963d7148875611d",
+        "sha256_in_prefix": "449919e0c8130760c00d2be9107a96c927f8f348c9ff5211f963d7148875611d",
+        "size_in_bytes": 33621
+      },
+      {
+        "_path": "site-packages/ftputil/stat_cache.py",
+        "path_type": "hardlink",
+        "sha256": "356c23726f56a28b8672cfa2a41cc069bc65ef6273c6d3e2209e74714015bcc7",
+        "sha256_in_prefix": "356c23726f56a28b8672cfa2a41cc069bc65ef6273c6d3e2209e74714015bcc7",
+        "size_in_bytes": 5655
+      },
+      {
+        "_path": "site-packages/ftputil/sync.py",
+        "path_type": "hardlink",
+        "sha256": "4a84338c9c9514ec4c568c43e716b32a233930124be41d403ca04d7019cbeba7",
+        "sha256_in_prefix": "4a84338c9c9514ec4c568c43e716b32a233930124be41d403ca04d7019cbeba7",
+        "size_in_bytes": 5868
+      },
+      {
+        "_path": "site-packages/ftputil/tool.py",
+        "path_type": "hardlink",
+        "sha256": "16efe53c38a99b1bf4fe74811c4fc0164cf7aab7d3ff87564f08e5b20521d71c",
+        "sha256_in_prefix": "16efe53c38a99b1bf4fe74811c4fc0164cf7aab7d3ff87564f08e5b20521d71c",
+        "size_in_bytes": 2500
+      },
+      {
+        "_path": "site-packages/ftputil/version.py",
+        "path_type": "hardlink",
+        "sha256": "28f956ab6a4386bd8315b490c4c0693ec172e9e62f173924d698ac19135e61f4",
+        "sha256_in_prefix": "28f956ab6a4386bd8315b490c4c0693ec172e9e62f173924d698ac19135e61f4",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/error.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/file.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/file_transfer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/host.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/lrucache.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/path.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/path_encoding.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/session.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/stat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/stat_cache.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/sync.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/tool.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/ftputil/__pycache__/version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4ecf6ccfb3e008f5401fcaef97e62fbe8bb59d6bfc3b62aa330ffa183a4b96a8",
+  "size": 46749,
+  "subdir": "noarch",
+  "timestamp": 1704576673000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ftputil-5.1.0-pyhd8ed1ab_0.conda",
+  "version": "5.1.0"
+}

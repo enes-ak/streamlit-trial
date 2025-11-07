@@ -1,0 +1,12 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=${prefix}
+libdir=/home/enes/miniconda3/envs/snakemake/lib
+includedir=/home/enes/miniconda3/envs/snakemake/include
+
+Name: absl_random_internal_randen_engine
+Description: Abseil random_internal_randen_engine library
+URL: https://abseil.io/
+Version: 20250814
+Requires: absl_endian = 20250814, absl_random_internal_iostream_state_saver = 20250814, absl_random_internal_randen = 20250814, absl_raw_logging_internal = 20250814, absl_type_traits = 20250814
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

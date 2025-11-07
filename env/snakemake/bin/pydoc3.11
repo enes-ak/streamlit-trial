@@ -1,0 +1,5 @@
+#!/home/enes/miniconda3/envs/snakemake/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

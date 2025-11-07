@@ -1,0 +1,108 @@
+{
+  "build": "py311h49ec1c0_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "python_abi 3.11.* *_cp311",
+    "python >=3.11,<3.12.0a0",
+    "libgcc >=14"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/datrie-0.8.3-py311h49ec1c0_0",
+  "files": [
+    "lib/python3.11/site-packages/datrie-0.8.3.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/datrie-0.8.3.dist-info/METADATA",
+    "lib/python3.11/site-packages/datrie-0.8.3.dist-info/RECORD",
+    "lib/python3.11/site-packages/datrie-0.8.3.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/datrie-0.8.3.dist-info/WHEEL",
+    "lib/python3.11/site-packages/datrie-0.8.3.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/datrie-0.8.3.dist-info/licenses/COPYING",
+    "lib/python3.11/site-packages/datrie-0.8.3.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/datrie.cpython-311-x86_64-linux-gnu.so"
+  ],
+  "fn": "datrie-0.8.3-py311h49ec1c0_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/datrie-0.8.3-py311h49ec1c0_0",
+    "type": 1
+  },
+  "md5": "8636645eb9489cece9337c563d0c7281",
+  "name": "datrie",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/datrie-0.8.3-py311h49ec1c0_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/datrie-0.8.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/datrie-0.8.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5d8dbb0110c759636c94aa8605e52916e5149629a988ca2474761ece66ee022b",
+        "sha256_in_prefix": "5d8dbb0110c759636c94aa8605e52916e5149629a988ca2474761ece66ee022b",
+        "size_in_bytes": 15364
+      },
+      {
+        "_path": "lib/python3.11/site-packages/datrie-0.8.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f1154ae1b7a433332e85f9e1b76fd42d1e10a9119c752382d0795b9505d7de79",
+        "sha256_in_prefix": "f1154ae1b7a433332e85f9e1b76fd42d1e10a9119c752382d0795b9505d7de79",
+        "size_in_bytes": 764
+      },
+      {
+        "_path": "lib/python3.11/site-packages/datrie-0.8.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/datrie-0.8.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "21355d6298931a7af2a886ce4748b5c1c7484a8f183c9ce5c7cac0ca871a6f33",
+        "sha256_in_prefix": "21355d6298931a7af2a886ce4748b5c1c7484a8f183c9ce5c7cac0ca871a6f33",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.11/site-packages/datrie-0.8.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "121980e319d689526b6babac84717662f662d2664fa080d0d2218b4b9a12f22b",
+        "sha256_in_prefix": "121980e319d689526b6babac84717662f662d2664fa080d0d2218b4b9a12f22b",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.11/site-packages/datrie-0.8.3.dist-info/licenses/COPYING",
+        "path_type": "hardlink",
+        "sha256": "fad175986818e974b7e9f104de3566c8a174b4298c2ea71f98681dfc269f4032",
+        "sha256_in_prefix": "fad175986818e974b7e9f104de3566c8a174b4298c2ea71f98681dfc269f4032",
+        "size_in_bytes": 26524
+      },
+      {
+        "_path": "lib/python3.11/site-packages/datrie-0.8.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "350f62b15d82f3db0804c34e2031de59a77f77d32a75e50405a4f151822214d6",
+        "sha256_in_prefix": "350f62b15d82f3db0804c34e2031de59a77f77d32a75e50405a4f151822214d6",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.11/site-packages/datrie.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "ee464def8831ba1b145c829024623130d63b8b65cde1b66c7d2b3a4544ee5069",
+        "sha256_in_prefix": "ee464def8831ba1b145c829024623130d63b8b65cde1b66c7d2b3a4544ee5069",
+        "size_in_bytes": 419704
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2e294b269a07a6bff8a710b2d4e6be156c0670a610659cbdb1ea31f276950761",
+  "size": 154061,
+  "subdir": "linux-64",
+  "timestamp": 1756408507000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/datrie-0.8.3-py311h49ec1c0_0.conda",
+  "version": "0.8.3"
+}

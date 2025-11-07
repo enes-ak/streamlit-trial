@@ -1,0 +1,753 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.10",
+    "jmespath >=0.7.1,<2.0.0",
+    "s3transfer >=0.14.0,<0.15.0",
+    "botocore >=1.40.64,<1.41.0"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/boto3-1.40.64-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/METADATA",
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/RECORD",
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/WHEEL",
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/licenses/NOTICE",
+    "lib/python3.11/site-packages/boto3-1.40.64.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/boto3/__init__.py",
+    "lib/python3.11/site-packages/boto3/compat.py",
+    "lib/python3.11/site-packages/boto3/crt.py",
+    "lib/python3.11/site-packages/boto3/data/cloudformation/2010-05-15/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/cloudwatch/2010-08-01/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/dynamodb/2012-08-10/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/ec2/2014-10-01/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/ec2/2015-03-01/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/ec2/2015-04-15/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/ec2/2015-10-01/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/ec2/2016-04-01/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/ec2/2016-09-15/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/ec2/2016-11-15/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/glacier/2012-06-01/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/iam/2010-05-08/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/s3/2006-03-01/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/sns/2010-03-31/resources-1.json",
+    "lib/python3.11/site-packages/boto3/data/sqs/2012-11-05/resources-1.json",
+    "lib/python3.11/site-packages/boto3/docs/__init__.py",
+    "lib/python3.11/site-packages/boto3/docs/action.py",
+    "lib/python3.11/site-packages/boto3/docs/attr.py",
+    "lib/python3.11/site-packages/boto3/docs/base.py",
+    "lib/python3.11/site-packages/boto3/docs/client.py",
+    "lib/python3.11/site-packages/boto3/docs/collection.py",
+    "lib/python3.11/site-packages/boto3/docs/docstring.py",
+    "lib/python3.11/site-packages/boto3/docs/method.py",
+    "lib/python3.11/site-packages/boto3/docs/resource.py",
+    "lib/python3.11/site-packages/boto3/docs/service.py",
+    "lib/python3.11/site-packages/boto3/docs/subresource.py",
+    "lib/python3.11/site-packages/boto3/docs/utils.py",
+    "lib/python3.11/site-packages/boto3/docs/waiter.py",
+    "lib/python3.11/site-packages/boto3/dynamodb/__init__.py",
+    "lib/python3.11/site-packages/boto3/dynamodb/conditions.py",
+    "lib/python3.11/site-packages/boto3/dynamodb/table.py",
+    "lib/python3.11/site-packages/boto3/dynamodb/transform.py",
+    "lib/python3.11/site-packages/boto3/dynamodb/types.py",
+    "lib/python3.11/site-packages/boto3/ec2/__init__.py",
+    "lib/python3.11/site-packages/boto3/ec2/createtags.py",
+    "lib/python3.11/site-packages/boto3/ec2/deletetags.py",
+    "lib/python3.11/site-packages/boto3/examples/cloudfront.rst",
+    "lib/python3.11/site-packages/boto3/examples/s3.rst",
+    "lib/python3.11/site-packages/boto3/exceptions.py",
+    "lib/python3.11/site-packages/boto3/resources/__init__.py",
+    "lib/python3.11/site-packages/boto3/resources/action.py",
+    "lib/python3.11/site-packages/boto3/resources/base.py",
+    "lib/python3.11/site-packages/boto3/resources/collection.py",
+    "lib/python3.11/site-packages/boto3/resources/factory.py",
+    "lib/python3.11/site-packages/boto3/resources/model.py",
+    "lib/python3.11/site-packages/boto3/resources/params.py",
+    "lib/python3.11/site-packages/boto3/resources/response.py",
+    "lib/python3.11/site-packages/boto3/s3/__init__.py",
+    "lib/python3.11/site-packages/boto3/s3/constants.py",
+    "lib/python3.11/site-packages/boto3/s3/inject.py",
+    "lib/python3.11/site-packages/boto3/s3/transfer.py",
+    "lib/python3.11/site-packages/boto3/session.py",
+    "lib/python3.11/site-packages/boto3/utils.py",
+    "lib/python3.11/site-packages/boto3/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/__pycache__/compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/__pycache__/crt.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/action.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/attr.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/base.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/client.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/collection.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/docstring.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/method.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/resource.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/service.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/subresource.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/docs/__pycache__/waiter.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/conditions.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/table.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/transform.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/types.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/ec2/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/ec2/__pycache__/createtags.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/ec2/__pycache__/deletetags.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/resources/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/resources/__pycache__/action.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/resources/__pycache__/base.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/resources/__pycache__/collection.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/resources/__pycache__/factory.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/resources/__pycache__/model.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/resources/__pycache__/params.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/resources/__pycache__/response.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/s3/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/s3/__pycache__/constants.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/s3/__pycache__/inject.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/s3/__pycache__/transfer.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/__pycache__/session.cpython-311.pyc",
+    "lib/python3.11/site-packages/boto3/__pycache__/utils.cpython-311.pyc"
+  ],
+  "fn": "boto3-1.40.64-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/boto3-1.40.64-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "adbe3d3809b41ca9de9b72e63c20a22a",
+  "name": "boto3",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/boto3-1.40.64-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "26ac956728cfdcb956b3ba03b73dfa90945d9a4beb98e40b1538fda9ca95fd7d",
+        "sha256_in_prefix": "26ac956728cfdcb956b3ba03b73dfa90945d9a4beb98e40b1538fda9ca95fd7d",
+        "size_in_bytes": 6769
+      },
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "870c1c2cc5df7ba8ccae49a6b76e00a11add5db9eb1beccfa3a5c6f493fa9539",
+        "sha256_in_prefix": "870c1c2cc5df7ba8ccae49a6b76e00a11add5db9eb1beccfa3a5c6f493fa9539",
+        "size_in_bytes": 7555
+      },
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0de093656c267f875e1172f1e5880ac5b269e8fd392a4ddb26762965fd98105d",
+        "sha256_in_prefix": "0de093656c267f875e1172f1e5880ac5b269e8fd392a4ddb26762965fd98105d",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "sha256_in_prefix": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "size_in_bytes": 10174
+      },
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/licenses/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "04fb1e61484a7810f1ba09bb42bc01ca58c9af33927d7c5a21556e4c4d1c7fa4",
+        "sha256_in_prefix": "04fb1e61484a7810f1ba09bb42bc01ca58c9af33927d7c5a21556e4c4d1c7fa4",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/boto3-1.40.64.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "30febf488d4670fb1e5e875ddd892de45fe6081b2b524b22ce22f18c464a1945",
+        "sha256_in_prefix": "30febf488d4670fb1e5e875ddd892de45fe6081b2b524b22ce22f18c464a1945",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/boto3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "455df423bd04d4e31d3a9861a02f9ded4b9293476301bdefa9786c266884415a",
+        "sha256_in_prefix": "455df423bd04d4e31d3a9861a02f9ded4b9293476301bdefa9786c266884415a",
+        "size_in_bytes": 3367
+      },
+      {
+        "_path": "site-packages/boto3/compat.py",
+        "path_type": "hardlink",
+        "sha256": "4401bd9e0492fb89817f425938daa06328c47dbdd9cb97b07cf1982e7e758dc5",
+        "sha256_in_prefix": "4401bd9e0492fb89817f425938daa06328c47dbdd9cb97b07cf1982e7e758dc5",
+        "size_in_bytes": 3083
+      },
+      {
+        "_path": "site-packages/boto3/crt.py",
+        "path_type": "hardlink",
+        "sha256": "545b2d52d1cc66b67a787249f987576f8bea7c839c1dbbf5979d5f75e639712d",
+        "sha256_in_prefix": "545b2d52d1cc66b67a787249f987576f8bea7c839c1dbbf5979d5f75e639712d",
+        "size_in_bytes": 5407
+      },
+      {
+        "_path": "site-packages/boto3/data/cloudformation/2010-05-15/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "e6615528956d6d5a07c8f7474b235f6799a9920080c2ce4f867bde4aee2acdd2",
+        "sha256_in_prefix": "e6615528956d6d5a07c8f7474b235f6799a9920080c2ce4f867bde4aee2acdd2",
+        "size_in_bytes": 5110
+      },
+      {
+        "_path": "site-packages/boto3/data/cloudwatch/2010-08-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "ab802013c178a5bb1c77ed94dcd612180ccae79ce93323901abf37254c5b6572",
+        "sha256_in_prefix": "ab802013c178a5bb1c77ed94dcd612180ccae79ce93323901abf37254c5b6572",
+        "size_in_bytes": 11690
+      },
+      {
+        "_path": "site-packages/boto3/data/dynamodb/2012-08-10/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "8412dad49b7b6dd4f9e7b53d03b51c4a2f120a938d2b375bb43453ce3335f98d",
+        "sha256_in_prefix": "8412dad49b7b6dd4f9e7b53d03b51c4a2f120a938d2b375bb43453ce3335f98d",
+        "size_in_bytes": 3849
+      },
+      {
+        "_path": "site-packages/boto3/data/ec2/2014-10-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "sha256_in_prefix": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "size_in_bytes": 68469
+      },
+      {
+        "_path": "site-packages/boto3/data/ec2/2015-03-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "sha256_in_prefix": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "size_in_bytes": 68469
+      },
+      {
+        "_path": "site-packages/boto3/data/ec2/2015-04-15/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "sha256_in_prefix": "b4c1b500c60fda4b273d663afb797c0c1f8484ab1236d00ef581e1bc7a812aed",
+        "size_in_bytes": 68469
+      },
+      {
+        "_path": "site-packages/boto3/data/ec2/2015-10-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "sha256_in_prefix": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "size_in_bytes": 76564
+      },
+      {
+        "_path": "site-packages/boto3/data/ec2/2016-04-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "sha256_in_prefix": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "size_in_bytes": 76564
+      },
+      {
+        "_path": "site-packages/boto3/data/ec2/2016-09-15/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "sha256_in_prefix": "48e7d85f67352a0be7c4c3b6142749a55e36ac958d33056194501786f50f4f30",
+        "size_in_bytes": 76564
+      },
+      {
+        "_path": "site-packages/boto3/data/ec2/2016-11-15/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "bf1ed888bfac52f0457a8e1267cd46ed06b61f2fb2eb1638cf66254b1effc04c",
+        "sha256_in_prefix": "bf1ed888bfac52f0457a8e1267cd46ed06b61f2fb2eb1638cf66254b1effc04c",
+        "size_in_bytes": 76922
+      },
+      {
+        "_path": "site-packages/boto3/data/glacier/2012-06-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "193e6a5902c6797b6b1e04c3346db732ba72c1e83a3b451d81dd77f41b8d4d5b",
+        "sha256_in_prefix": "193e6a5902c6797b6b1e04c3346db732ba72c1e83a3b451d81dd77f41b8d4d5b",
+        "size_in_bytes": 19940
+      },
+      {
+        "_path": "site-packages/boto3/data/iam/2010-05-08/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "3ec393f7206a489b65b8114709546c83a93a2f2d9591260e0e76314a5d0354e7",
+        "sha256_in_prefix": "3ec393f7206a489b65b8114709546c83a93a2f2d9591260e0e76314a5d0354e7",
+        "size_in_bytes": 50357
+      },
+      {
+        "_path": "site-packages/boto3/data/s3/2006-03-01/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "55e2802e1311aafedfc831cc2ce339fd1cd7504b83760fe7e8e2118b7b1d07ea",
+        "sha256_in_prefix": "55e2802e1311aafedfc831cc2ce339fd1cd7504b83760fe7e8e2118b7b1d07ea",
+        "size_in_bytes": 37204
+      },
+      {
+        "_path": "site-packages/boto3/data/sns/2010-03-31/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "ef398a42169f82c443bb8535ca2c373571f3fb32611caace9adba8625c503feb",
+        "sha256_in_prefix": "ef398a42169f82c443bb8535ca2c373571f3fb32611caace9adba8625c503feb",
+        "size_in_bytes": 9091
+      },
+      {
+        "_path": "site-packages/boto3/data/sqs/2012-11-05/resources-1.json",
+        "path_type": "hardlink",
+        "sha256": "2d1208af90487775037ae05f2e7faf4625ac49908cf7fca7a9dc45f2ecc7832f",
+        "sha256_in_prefix": "2d1208af90487775037ae05f2e7faf4625ac49908cf7fca7a9dc45f2ecc7832f",
+        "size_in_bytes": 6545
+      },
+      {
+        "_path": "site-packages/boto3/docs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c4451f9297f3de71a7f3eb2239ffd0d5da8fb8f18ffd6a541950ad7e727e5c67",
+        "sha256_in_prefix": "c4451f9297f3de71a7f3eb2239ffd0d5da8fb8f18ffd6a541950ad7e727e5c67",
+        "size_in_bytes": 1844
+      },
+      {
+        "_path": "site-packages/boto3/docs/action.py",
+        "path_type": "hardlink",
+        "sha256": "9825bd214bd94b5792b40d03ad2a83d41fe1641cfa61376b4266c8e5dd89cdba",
+        "sha256_in_prefix": "9825bd214bd94b5792b40d03ad2a83d41fe1641cfa61376b4266c8e5dd89cdba",
+        "size_in_bytes": 8122
+      },
+      {
+        "_path": "site-packages/boto3/docs/attr.py",
+        "path_type": "hardlink",
+        "sha256": "0671b7b51d4a290bef639f1a7898964395b90e232727ff63523986ead0db1625",
+        "sha256_in_prefix": "0671b7b51d4a290bef639f1a7898964395b90e232727ff63523986ead0db1625",
+        "size_in_bytes": 2500
+      },
+      {
+        "_path": "site-packages/boto3/docs/base.py",
+        "path_type": "hardlink",
+        "sha256": "9cead048279448864f927f88e7da3b09f8c4b6181d9290adfeb5ed13dcd09d77",
+        "sha256_in_prefix": "9cead048279448864f927f88e7da3b09f8c4b6181d9290adfeb5ed13dcd09d77",
+        "size_in_bytes": 2103
+      },
+      {
+        "_path": "site-packages/boto3/docs/client.py",
+        "path_type": "hardlink",
+        "sha256": "1de34c326d28282969933635cb2553fc96d2164185f769fb367bf6279bb76c98",
+        "sha256_in_prefix": "1de34c326d28282969933635cb2553fc96d2164185f769fb367bf6279bb76c98",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "site-packages/boto3/docs/collection.py",
+        "path_type": "hardlink",
+        "sha256": "97cc76a96d471e742c4436d1d327949da3866e0a36a00ab10f2872adb7f96deb",
+        "sha256_in_prefix": "97cc76a96d471e742c4436d1d327949da3866e0a36a00ab10f2872adb7f96deb",
+        "size_in_bytes": 11296
+      },
+      {
+        "_path": "site-packages/boto3/docs/docstring.py",
+        "path_type": "hardlink",
+        "sha256": "a0fba06ae6dd01763a68d6be917188e7594fd71136b380277d3b0b8626dfefe1",
+        "sha256_in_prefix": "a0fba06ae6dd01763a68d6be917188e7594fd71136b380277d3b0b8626dfefe1",
+        "size_in_bytes": 2511
+      },
+      {
+        "_path": "site-packages/boto3/docs/method.py",
+        "path_type": "hardlink",
+        "sha256": "3055fa2f74b35e82fc273d5f92e0cb67e39730c9cab88048da4900f3e351bcd8",
+        "sha256_in_prefix": "3055fa2f74b35e82fc273d5f92e0cb67e39730c9cab88048da4900f3e351bcd8",
+        "size_in_bytes": 2725
+      },
+      {
+        "_path": "site-packages/boto3/docs/resource.py",
+        "path_type": "hardlink",
+        "sha256": "8ec16ccd77ddbe7097ee15713f2011a8f53b1f87390ffcdf5018b837cbf26d9c",
+        "sha256_in_prefix": "8ec16ccd77ddbe7097ee15713f2011a8f53b1f87390ffcdf5018b837cbf26d9c",
+        "size_in_bytes": 15134
+      },
+      {
+        "_path": "site-packages/boto3/docs/service.py",
+        "path_type": "hardlink",
+        "sha256": "6c27762cf7d939e4e40ce2a0813c972585d73e4b98532f75c79298caa3cf4271",
+        "sha256_in_prefix": "6c27762cf7d939e4e40ce2a0813c972585d73e4b98532f75c79298caa3cf4271",
+        "size_in_bytes": 8544
+      },
+      {
+        "_path": "site-packages/boto3/docs/subresource.py",
+        "path_type": "hardlink",
+        "sha256": "5a4100e2a9906eb37b3b3f687f2a4938f7c04d72338f06a6a408b69b8df435b1",
+        "sha256_in_prefix": "5a4100e2a9906eb37b3b3f687f2a4938f7c04d72338f06a6a408b69b8df435b1",
+        "size_in_bytes": 5766
+      },
+      {
+        "_path": "site-packages/boto3/docs/utils.py",
+        "path_type": "hardlink",
+        "sha256": "1f451e56f9956d8059e85f8254453156080b301388a00e6af32f21c4116744a1",
+        "sha256_in_prefix": "1f451e56f9956d8059e85f8254453156080b301388a00e6af32f21c4116744a1",
+        "size_in_bytes": 5436
+      },
+      {
+        "_path": "site-packages/boto3/docs/waiter.py",
+        "path_type": "hardlink",
+        "sha256": "116d0317d5c3b5b015cf15198f7908db47c2a132499c5f598da051ac220b070b",
+        "sha256_in_prefix": "116d0317d5c3b5b015cf15198f7908db47c2a132499c5f598da051ac220b070b",
+        "size_in_bytes": 5165
+      },
+      {
+        "_path": "site-packages/boto3/dynamodb/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "sha256_in_prefix": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "site-packages/boto3/dynamodb/conditions.py",
+        "path_type": "hardlink",
+        "sha256": "b2391dd2422a14ffe1f1a52fcac6507a5d33b6ce47176da882a2a2bf4b74291c",
+        "sha256_in_prefix": "b2391dd2422a14ffe1f1a52fcac6507a5d33b6ce47176da882a2a2bf4b74291c",
+        "size_in_bytes": 15045
+      },
+      {
+        "_path": "site-packages/boto3/dynamodb/table.py",
+        "path_type": "hardlink",
+        "sha256": "ba2f282fadf8a44e9474c88de8ccf9d30023450902175a65abd5ec6d41206d6c",
+        "sha256_in_prefix": "ba2f282fadf8a44e9474c88de8ccf9d30023450902175a65abd5ec6d41206d6c",
+        "size_in_bytes": 6340
+      },
+      {
+        "_path": "site-packages/boto3/dynamodb/transform.py",
+        "path_type": "hardlink",
+        "sha256": "2675b96733c87f111c0eccd2bd7294666a7fd6bc38e39b6c75d4b7146fbe2700",
+        "sha256_in_prefix": "2675b96733c87f111c0eccd2bd7294666a7fd6bc38e39b6c75d4b7146fbe2700",
+        "size_in_bytes": 12909
+      },
+      {
+        "_path": "site-packages/boto3/dynamodb/types.py",
+        "path_type": "hardlink",
+        "sha256": "721d2f20a68061ec632f8d92fce256caf8d631c6f451b36b9a4286733efa3b77",
+        "sha256_in_prefix": "721d2f20a68061ec632f8d92fce256caf8d631c6f451b36b9a4286733efa3b77",
+        "size_in_bytes": 9541
+      },
+      {
+        "_path": "site-packages/boto3/ec2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "sha256_in_prefix": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "site-packages/boto3/ec2/createtags.py",
+        "path_type": "hardlink",
+        "sha256": "a543c93989fb9b425c721f542fe0c454681b407a3201e98408f061cf2071dbc7",
+        "sha256_in_prefix": "a543c93989fb9b425c721f542fe0c454681b407a3201e98408f061cf2071dbc7",
+        "size_in_bytes": 1577
+      },
+      {
+        "_path": "site-packages/boto3/ec2/deletetags.py",
+        "path_type": "hardlink",
+        "sha256": "29a61ca92b7c14533f4d6d20d29675e2a0e356799108f574b0c7ba0e9ac4b6fa",
+        "sha256_in_prefix": "29a61ca92b7c14533f4d6d20d29675e2a0e356799108f574b0c7ba0e9ac4b6fa",
+        "size_in_bytes": 1217
+      },
+      {
+        "_path": "site-packages/boto3/examples/cloudfront.rst",
+        "path_type": "hardlink",
+        "sha256": "2beb01599c682e30010991eba8066ce7b71879fc0f9838abd37a66e8f13f9a1e",
+        "sha256_in_prefix": "2beb01599c682e30010991eba8066ce7b71879fc0f9838abd37a66e8f13f9a1e",
+        "size_in_bytes": 1390
+      },
+      {
+        "_path": "site-packages/boto3/examples/s3.rst",
+        "path_type": "hardlink",
+        "sha256": "6b799b4a5ec46cd6f077618a6253fd9d7ad31d922d65541174c1b781a999b52a",
+        "sha256_in_prefix": "6b799b4a5ec46cd6f077618a6253fd9d7ad31d922d65541174c1b781a999b52a",
+        "size_in_bytes": 5528
+      },
+      {
+        "_path": "site-packages/boto3/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "8b5dd0a46c68162cf10060b3036aa617d95d6c8e487c1a67dfb0c7ef975d445f",
+        "sha256_in_prefix": "8b5dd0a46c68162cf10060b3036aa617d95d6c8e487c1a67dfb0c7ef975d445f",
+        "size_in_bytes": 4127
+      },
+      {
+        "_path": "site-packages/boto3/resources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/boto3/resources/action.py",
+        "path_type": "hardlink",
+        "sha256": "bcf7d51d5817886aa1c298114820bb952b18def1a382c4a26215dad7808c02ac",
+        "sha256_in_prefix": "bcf7d51d5817886aa1c298114820bb952b18def1a382c4a26215dad7808c02ac",
+        "size_in_bytes": 9600
+      },
+      {
+        "_path": "site-packages/boto3/resources/base.py",
+        "path_type": "hardlink",
+        "sha256": "96430f59381287d1353d156d1be5700ab7ac1db43cf84567f51a80aafd239ce1",
+        "sha256_in_prefix": "96430f59381287d1353d156d1be5700ab7ac1db43cf84567f51a80aafd239ce1",
+        "size_in_bytes": 5012
+      },
+      {
+        "_path": "site-packages/boto3/resources/collection.py",
+        "path_type": "hardlink",
+        "sha256": "69589f6685151d46ab185f52e0887ca8151f76a28a38100477405a21229a2e2a",
+        "sha256_in_prefix": "69589f6685151d46ab185f52e0887ca8151f76a28a38100477405a21229a2e2a",
+        "size_in_bytes": 19113
+      },
+      {
+        "_path": "site-packages/boto3/resources/factory.py",
+        "path_type": "hardlink",
+        "sha256": "89757997b51978f3487e491432050d0b4b48749871affeb99bd29877020e7ca0",
+        "sha256_in_prefix": "89757997b51978f3487e491432050d0b4b48749871affeb99bd29877020e7ca0",
+        "size_in_bytes": 22708
+      },
+      {
+        "_path": "site-packages/boto3/resources/model.py",
+        "path_type": "hardlink",
+        "sha256": "92cb10cf009c94732616197485c03386ed79e3cf43f888567e5e0ec09ef8688b",
+        "sha256_in_prefix": "92cb10cf009c94732616197485c03386ed79e3cf43f888567e5e0ec09ef8688b",
+        "size_in_bytes": 20336
+      },
+      {
+        "_path": "site-packages/boto3/resources/params.py",
+        "path_type": "hardlink",
+        "sha256": "8ba2808cece3ce8bbba2e56261b4590b3d02c2a07a7c0ffa80e2450c8aee4d5f",
+        "sha256_in_prefix": "8ba2808cece3ce8bbba2e56261b4590b3d02c2a07a7c0ffa80e2450c8aee4d5f",
+        "size_in_bytes": 6112
+      },
+      {
+        "_path": "site-packages/boto3/resources/response.py",
+        "path_type": "hardlink",
+        "sha256": "6880139327abfeb979aaca7e3850b17b7eb086f6382738e035cf6a37ebd83318",
+        "sha256_in_prefix": "6880139327abfeb979aaca7e3850b17b7eb086f6382738e035cf6a37ebd83318",
+        "size_in_bytes": 11638
+      },
+      {
+        "_path": "site-packages/boto3/s3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "sha256_in_prefix": "1a44aaf96c5759f547bb548470cae525bce47f0f400a017751d08be9f3e94e66",
+        "size_in_bytes": 562
+      },
+      {
+        "_path": "site-packages/boto3/s3/constants.py",
+        "path_type": "hardlink",
+        "sha256": "65a6249cdc2a1b0b0910690bf76197681b3d9237d16f208316df3dc1e8bcb7b1",
+        "sha256_in_prefix": "65a6249cdc2a1b0b0910690bf76197681b3d9237d16f208316df3dc1e8bcb7b1",
+        "size_in_bytes": 690
+      },
+      {
+        "_path": "site-packages/boto3/s3/inject.py",
+        "path_type": "hardlink",
+        "sha256": "d1466208f7eeacd5497013af2f564998a10ff1f478b323f4add5ee694ba52a9d",
+        "sha256_in_prefix": "d1466208f7eeacd5497013af2f564998a10ff1f478b323f4add5ee694ba52a9d",
+        "size_in_bytes": 30377
+      },
+      {
+        "_path": "site-packages/boto3/s3/transfer.py",
+        "path_type": "hardlink",
+        "sha256": "87bb2cf7f21480658ef804cdce9f497dcfbe6e63f9ac6d9321a471c6736b78a2",
+        "sha256_in_prefix": "87bb2cf7f21480658ef804cdce9f497dcfbe6e63f9ac6d9321a471c6736b78a2",
+        "size_in_bytes": 15993
+      },
+      {
+        "_path": "site-packages/boto3/session.py",
+        "path_type": "hardlink",
+        "sha256": "93e39cbd3be43e09703d85d2f1a7830ca2bdd98100084260e62a6a58c421a243",
+        "sha256_in_prefix": "93e39cbd3be43e09703d85d2f1a7830ca2bdd98100084260e62a6a58c421a243",
+        "size_in_bytes": 22136
+      },
+      {
+        "_path": "site-packages/boto3/utils.py",
+        "path_type": "hardlink",
+        "sha256": "741c3412edb74ce843b0fd4b92ba78b8e54c9f90d2f2cd24446c15462083fca3",
+        "sha256_in_prefix": "741c3412edb74ce843b0fd4b92ba78b8e54c9f90d2f2cd24446c15462083fca3",
+        "size_in_bytes": 3141
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/__pycache__/compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/__pycache__/crt.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/action.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/attr.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/client.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/collection.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/docstring.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/method.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/resource.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/service.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/subresource.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/docs/__pycache__/waiter.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/conditions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/table.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/transform.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/dynamodb/__pycache__/types.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/ec2/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/ec2/__pycache__/createtags.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/ec2/__pycache__/deletetags.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/resources/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/resources/__pycache__/action.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/resources/__pycache__/base.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/resources/__pycache__/collection.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/resources/__pycache__/factory.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/resources/__pycache__/model.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/resources/__pycache__/params.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/resources/__pycache__/response.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/s3/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/s3/__pycache__/constants.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/s3/__pycache__/inject.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/s3/__pycache__/transfer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/__pycache__/session.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/boto3/__pycache__/utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c571ad05f9705b1a69e2328caf8d80b20167af133baa73bf4e7c0e9e579ba876",
+  "size": 83985,
+  "subdir": "noarch",
+  "timestamp": 1761953719000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/boto3-1.40.64-pyhd8ed1ab_0.conda",
+  "version": "1.40.64"
+}

@@ -1,0 +1,316 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.10",
+    "botocore >=1.37.4,<2.0a.0"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/s3transfer-0.14.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/licenses/LICENSE.txt",
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/licenses/NOTICE.txt",
+    "lib/python3.11/site-packages/s3transfer-0.14.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/s3transfer/__init__.py",
+    "lib/python3.11/site-packages/s3transfer/bandwidth.py",
+    "lib/python3.11/site-packages/s3transfer/compat.py",
+    "lib/python3.11/site-packages/s3transfer/constants.py",
+    "lib/python3.11/site-packages/s3transfer/copies.py",
+    "lib/python3.11/site-packages/s3transfer/crt.py",
+    "lib/python3.11/site-packages/s3transfer/delete.py",
+    "lib/python3.11/site-packages/s3transfer/download.py",
+    "lib/python3.11/site-packages/s3transfer/exceptions.py",
+    "lib/python3.11/site-packages/s3transfer/futures.py",
+    "lib/python3.11/site-packages/s3transfer/manager.py",
+    "lib/python3.11/site-packages/s3transfer/processpool.py",
+    "lib/python3.11/site-packages/s3transfer/subscribers.py",
+    "lib/python3.11/site-packages/s3transfer/tasks.py",
+    "lib/python3.11/site-packages/s3transfer/upload.py",
+    "lib/python3.11/site-packages/s3transfer/utils.py",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/bandwidth.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/constants.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/copies.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/crt.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/delete.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/download.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/futures.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/manager.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/processpool.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/subscribers.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/tasks.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/upload.cpython-311.pyc",
+    "lib/python3.11/site-packages/s3transfer/__pycache__/utils.cpython-311.pyc"
+  ],
+  "fn": "s3transfer-0.14.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/s3transfer-0.14.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "4e3089ce93822a25408c480dd53561b6",
+  "name": "s3transfer",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/s3transfer-0.14.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "880ee6f817d7f87a51ee82c9beb3fbfd3e15384199f59df9eb2e0c901ca240f2",
+        "sha256_in_prefix": "880ee6f817d7f87a51ee82c9beb3fbfd3e15384199f59df9eb2e0c901ca240f2",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "43b5d200ee6f91a567cd8b5377aec0316a1f914f9a38428e90f691223d5bae78",
+        "sha256_in_prefix": "43b5d200ee6f91a567cd8b5377aec0316a1f914f9a38428e90f691223d5bae78",
+        "size_in_bytes": 2897
+      },
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "94fa6c55a2b45a76b4a57907640437095fe32499d054a08f212a3f35d45753fa",
+        "sha256_in_prefix": "94fa6c55a2b45a76b4a57907640437095fe32499d054a08f212a3f35d45753fa",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/licenses/NOTICE.txt",
+        "path_type": "hardlink",
+        "sha256": "d8354e0fa7fb762da7bc054a8a6774a0b310dfbbc78006393ee573a0e57612b5",
+        "sha256_in_prefix": "d8354e0fa7fb762da7bc054a8a6774a0b310dfbbc78006393ee573a0e57612b5",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/s3transfer-0.14.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "713ec90eca35556cd01895c05c89a7c88e8950afc5c3bce3345b22822c08b0d9",
+        "sha256_in_prefix": "713ec90eca35556cd01895c05c89a7c88e8950afc5c3bce3345b22822c08b0d9",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/s3transfer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "26b42e75bc51e04d5fc314ceae64cde35fce1593b28ffd74b6f899f253f1d24e",
+        "sha256_in_prefix": "26b42e75bc51e04d5fc314ceae64cde35fce1593b28ffd74b6f899f253f1d24e",
+        "size_in_bytes": 29558
+      },
+      {
+        "_path": "site-packages/s3transfer/bandwidth.py",
+        "path_type": "hardlink",
+        "sha256": "4340f2d18368c480dc99bb3d746ea65d405464ba5f9eb046c27c99379fc8acf4",
+        "sha256_in_prefix": "4340f2d18368c480dc99bb3d746ea65d405464ba5f9eb046c27c99379fc8acf4",
+        "size_in_bytes": 15603
+      },
+      {
+        "_path": "site-packages/s3transfer/compat.py",
+        "path_type": "hardlink",
+        "sha256": "4de89faa2e5dee4b80daa11b398bc793b279996eaaae0d0e279d9cb4a6729b4f",
+        "sha256_in_prefix": "4de89faa2e5dee4b80daa11b398bc793b279996eaaae0d0e279d9cb4a6729b4f",
+        "size_in_bytes": 2970
+      },
+      {
+        "_path": "site-packages/s3transfer/constants.py",
+        "path_type": "hardlink",
+        "sha256": "512e44a3846b1759bedf6899f8fb697449d9dfaaa1d572cffdbbe9c60cb10436",
+        "sha256_in_prefix": "512e44a3846b1759bedf6899f8fb697449d9dfaaa1d572cffdbbe9c60cb10436",
+        "size_in_bytes": 1049
+      },
+      {
+        "_path": "site-packages/s3transfer/copies.py",
+        "path_type": "hardlink",
+        "sha256": "ad967c8b2eda257e9d2e0a3c4ee5b484116ca95089700116b8961a314857dcf4",
+        "sha256_in_prefix": "ad967c8b2eda257e9d2e0a3c4ee5b484116ca95089700116b8961a314857dcf4",
+        "size_in_bytes": 14465
+      },
+      {
+        "_path": "site-packages/s3transfer/crt.py",
+        "path_type": "hardlink",
+        "sha256": "082f905f22f80cd131d24f6892a472bbc0f6201c22ec370a856764a8f90fa1d9",
+        "sha256_in_prefix": "082f905f22f80cd131d24f6892a472bbc0f6201c22ec370a856764a8f90fa1d9",
+        "size_in_bytes": 36234
+      },
+      {
+        "_path": "site-packages/s3transfer/delete.py",
+        "path_type": "hardlink",
+        "sha256": "083fdaac7e2aea4a57e378908df656afd63b3048f798f7d70a9169ff0de9245e",
+        "sha256_in_prefix": "083fdaac7e2aea4a57e378908df656afd63b3048f798f7d70a9169ff0de9245e",
+        "size_in_bytes": 2557
+      },
+      {
+        "_path": "site-packages/s3transfer/download.py",
+        "path_type": "hardlink",
+        "sha256": "30b414367888a4253f6f5f823dfba96dd95646d86c8e5a258c9c8e0687e0f42c",
+        "sha256_in_prefix": "30b414367888a4253f6f5f823dfba96dd95646d86c8e5a258c9c8e0687e0f42c",
+        "size_in_bytes": 31698
+      },
+      {
+        "_path": "site-packages/s3transfer/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ae21961fd5fea8e44b683558e3ded8ff5d4b7c0e89728deaade5730ab382f4b9",
+        "sha256_in_prefix": "ae21961fd5fea8e44b683558e3ded8ff5d4b7c0e89728deaade5730ab382f4b9",
+        "size_in_bytes": 1163
+      },
+      {
+        "_path": "site-packages/s3transfer/futures.py",
+        "path_type": "hardlink",
+        "sha256": "229b31455a3701bf92d00a3352c8865e65b5eab333c40e5dfd0f451c6162c5a2",
+        "sha256_in_prefix": "229b31455a3701bf92d00a3352c8865e65b5eab333c40e5dfd0f451c6162c5a2",
+        "size_in_bytes": 21810
+      },
+      {
+        "_path": "site-packages/s3transfer/manager.py",
+        "path_type": "hardlink",
+        "sha256": "7ecdc7dd4eaf12654d8e332d1b5f24056d2228074e1dd99416577c79f4937ef7",
+        "sha256_in_prefix": "7ecdc7dd4eaf12654d8e332d1b5f24056d2228074e1dd99416577c79f4937ef7",
+        "size_in_bytes": 28875
+      },
+      {
+        "_path": "site-packages/s3transfer/processpool.py",
+        "path_type": "hardlink",
+        "sha256": "6fac18fab9f40721da10fb46a28171f0ba87e21a5de76e022ee9bbb372d6d1a1",
+        "sha256_in_prefix": "6fac18fab9f40721da10fb46a28171f0ba87e21a5de76e022ee9bbb372d6d1a1",
+        "size_in_bytes": 36306
+      },
+      {
+        "_path": "site-packages/s3transfer/subscribers.py",
+        "path_type": "hardlink",
+        "sha256": "364c0e5e44d3a5ef62be4c769d68d9be1b71f22057688e5b54fe25f5b04f302d",
+        "sha256_in_prefix": "364c0e5e44d3a5ef62be4c769d68d9be1b71f22057688e5b54fe25f5b04f302d",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "site-packages/s3transfer/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "941bc9ed044ce87d6ce7c3e0219d022328414af07ee8567bc329cc59e7014266",
+        "sha256_in_prefix": "941bc9ed044ce87d6ce7c3e0219d022328414af07ee8567bc329cc59e7014266",
+        "size_in_bytes": 16430
+      },
+      {
+        "_path": "site-packages/s3transfer/upload.py",
+        "path_type": "hardlink",
+        "sha256": "8e1df5789f3498ef365ea28787bde20b0ff3018f01460e2dd2f65a03ce82cf8b",
+        "sha256_in_prefix": "8e1df5789f3498ef365ea28787bde20b0ff3018f01460e2dd2f65a03ce82cf8b",
+        "size_in_bytes": 31757
+      },
+      {
+        "_path": "site-packages/s3transfer/utils.py",
+        "path_type": "hardlink",
+        "sha256": "80a3283126c16fc68825644b7ebd37bd386b4cdcda3b2a59877750bbfb56c121",
+        "sha256_in_prefix": "80a3283126c16fc68825644b7ebd37bd386b4cdcda3b2a59877750bbfb56c121",
+        "size_in_bytes": 28975
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/bandwidth.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/constants.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/copies.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/crt.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/delete.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/download.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/futures.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/manager.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/processpool.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/subscribers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/tasks.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/upload.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/s3transfer/__pycache__/utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e401e1d3effaaaaefb388df7488b309f737bc3a6fe69be0ff8b826093b5ecb2f",
+  "size": 65987,
+  "subdir": "noarch",
+  "timestamp": 1757487748000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/s3transfer-0.14.0-pyhd8ed1ab_0.conda",
+  "version": "0.14.0"
+}

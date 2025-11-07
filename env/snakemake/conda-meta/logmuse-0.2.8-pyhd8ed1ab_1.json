@@ -1,0 +1,138 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/logmuse-0.2.8-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.11/site-packages/logmuse-0.2.8.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/logmuse-0.2.8.dist-info/LICENSE.txt",
+    "lib/python3.11/site-packages/logmuse-0.2.8.dist-info/METADATA",
+    "lib/python3.11/site-packages/logmuse-0.2.8.dist-info/RECORD",
+    "lib/python3.11/site-packages/logmuse-0.2.8.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/logmuse-0.2.8.dist-info/WHEEL",
+    "lib/python3.11/site-packages/logmuse-0.2.8.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/logmuse-0.2.8.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/logmuse/__init__.py",
+    "lib/python3.11/site-packages/logmuse/_version.py",
+    "lib/python3.11/site-packages/logmuse/est.py",
+    "lib/python3.11/site-packages/logmuse/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/logmuse/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/logmuse/__pycache__/est.cpython-311.pyc"
+  ],
+  "fn": "logmuse-0.2.8-pyhd8ed1ab_1.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/logmuse-0.2.8-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "7966fa985b84beb9ec674cf123f726f0",
+  "name": "logmuse",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/logmuse-0.2.8-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/logmuse-0.2.8.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/logmuse-0.2.8.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a01e991836b891cce7ce724a26c2cb14570e6728bc63a7b626fd2b268ce0a7e2",
+        "sha256_in_prefix": "a01e991836b891cce7ce724a26c2cb14570e6728bc63a7b626fd2b268ce0a7e2",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/logmuse-0.2.8.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2fefe819cfe4ccdc5c32ca32bc9db492210d2095907c44dc3b9526c504ff8e53",
+        "sha256_in_prefix": "2fefe819cfe4ccdc5c32ca32bc9db492210d2095907c44dc3b9526c504ff8e53",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "site-packages/logmuse-0.2.8.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "357ddd74cdce9181f0f65f99e33db075a643c5d727e5603f8a1a24dd0c12a7a5",
+        "sha256_in_prefix": "357ddd74cdce9181f0f65f99e33db075a643c5d727e5603f8a1a24dd0c12a7a5",
+        "size_in_bytes": 1026
+      },
+      {
+        "_path": "site-packages/logmuse-0.2.8.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/logmuse-0.2.8.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/logmuse-0.2.8.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1817380a93d952728e085ef700e34afe05b695b6b23e0de5c31fdcd0b33e2bd1",
+        "sha256_in_prefix": "1817380a93d952728e085ef700e34afe05b695b6b23e0de5c31fdcd0b33e2bd1",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/logmuse-0.2.8.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5a57d271702837224a60ad023c19d2996c33639ad8e73c86fb205a89e2288258",
+        "sha256_in_prefix": "5a57d271702837224a60ad023c19d2996c33639ad8e73c86fb205a89e2288258",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/logmuse/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3d4c36518bee9dcc3d87e52f95f1a084d74549e14bbc00092e919a09896cc250",
+        "sha256_in_prefix": "3d4c36518bee9dcc3d87e52f95f1a084d74549e14bbc00092e919a09896cc250",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/logmuse/_version.py",
+        "path_type": "hardlink",
+        "sha256": "1ba0dbc6adb0b3ed59017c030fcab4296b9e62db28fd8e94cafb63f2c456b0f2",
+        "sha256_in_prefix": "1ba0dbc6adb0b3ed59017c030fcab4296b9e62db28fd8e94cafb63f2c456b0f2",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/logmuse/est.py",
+        "path_type": "hardlink",
+        "sha256": "33a6928713e068cef3d948dcfa99c1194ad8be14dfe868f1d6932d1930888430",
+        "sha256_in_prefix": "33a6928713e068cef3d948dcfa99c1194ad8be14dfe868f1d6932d1930888430",
+        "size_in_bytes": 14801
+      },
+      {
+        "_path": "lib/python3.11/site-packages/logmuse/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/logmuse/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/logmuse/__pycache__/est.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e15dbb3a63f967fb0b68a98952b0c6fa3a0743fce8e946a6c186e4af920d7ddd",
+  "size": 13601,
+  "subdir": "noarch",
+  "timestamp": 1735078264000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/logmuse-0.2.8-pyhd8ed1ab_1.conda",
+  "version": "0.2.8"
+}

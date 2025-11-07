@@ -1,0 +1,12 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=${prefix}
+libdir=/home/enes/miniconda3/envs/snakemake/lib
+includedir=/home/enes/miniconda3/envs/snakemake/include
+
+Name: absl_log
+Description: Abseil log library
+URL: https://abseil.io/
+Version: 20250814
+Requires: absl_log_internal_log_impl = 20250814, absl_vlog_is_on = 20250814
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

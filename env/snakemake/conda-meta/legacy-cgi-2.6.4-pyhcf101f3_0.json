@@ -1,0 +1,100 @@
+{
+  "build": "pyhcf101f3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "python >=3.10,<3.13"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/legacy-cgi-2.6.4-pyhcf101f3_0",
+  "files": [
+    "lib/python3.11/site-packages/legacy_cgi-2.6.4.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/legacy_cgi-2.6.4.dist-info/METADATA",
+    "lib/python3.11/site-packages/legacy_cgi-2.6.4.dist-info/RECORD",
+    "lib/python3.11/site-packages/legacy_cgi-2.6.4.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/legacy_cgi-2.6.4.dist-info/WHEEL",
+    "lib/python3.11/site-packages/legacy_cgi-2.6.4.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/legacy_cgi-2.6.4.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/legacy_cgi-2.6.4.dist-info/top_level.txt"
+  ],
+  "fn": "legacy-cgi-2.6.4-pyhcf101f3_0.conda",
+  "license": "PSF-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/legacy-cgi-2.6.4-pyhcf101f3_0",
+    "type": 1
+  },
+  "md5": "b22fe9a3d53bc833659823e48f879db9",
+  "name": "legacy-cgi",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/legacy-cgi-2.6.4-pyhcf101f3_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/legacy_cgi-2.6.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/legacy_cgi-2.6.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "67f735571fdbb028e9c87170139ec1b759c3006d60469beb09e9be1fea04fff6",
+        "sha256_in_prefix": "67f735571fdbb028e9c87170139ec1b759c3006d60469beb09e9be1fea04fff6",
+        "size_in_bytes": 2280
+      },
+      {
+        "_path": "site-packages/legacy_cgi-2.6.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ebc92165456a05b842d89eddb36aebb1eff8dba21d54a2c0c212a9153552e7c0",
+        "sha256_in_prefix": "ebc92165456a05b842d89eddb36aebb1eff8dba21d54a2c0c212a9153552e7c0",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "site-packages/legacy_cgi-2.6.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/legacy_cgi-2.6.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/legacy_cgi-2.6.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c3520e37bf9716990ac030d583a7468e23d23c57c6dae64d5ab45b4463267c36",
+        "sha256_in_prefix": "c3520e37bf9716990ac030d583a7468e23d23c57c6dae64d5ab45b4463267c36",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/legacy_cgi-2.6.4.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f03e17cd594c2085f66a454e695c7ebe5b4d3c0eff534f4f194abc2fd164621b",
+        "sha256_in_prefix": "f03e17cd594c2085f66a454e695c7ebe5b4d3c0eff534f4f194abc2fd164621b",
+        "size_in_bytes": 13931
+      },
+      {
+        "_path": "site-packages/legacy_cgi-2.6.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "403f11e1a3a9f539aceb009c6f0939098075d2b2efdc6dd9c0d0dd02eb404fc4",
+  "size": 19854,
+  "subdir": "noarch",
+  "timestamp": 1761574469000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/legacy-cgi-2.6.4-pyhcf101f3_0.conda",
+  "version": "2.6.4"
+}

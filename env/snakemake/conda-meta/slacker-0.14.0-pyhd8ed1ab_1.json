@@ -1,0 +1,118 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "requests",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/slacker-0.14.0-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.11/site-packages/slacker-0.14.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/slacker-0.14.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/slacker-0.14.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/slacker-0.14.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/slacker-0.14.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/slacker-0.14.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/slacker-0.14.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/slacker/__init__.py",
+    "lib/python3.11/site-packages/slacker/utilities.py",
+    "lib/python3.11/site-packages/slacker/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/slacker/__pycache__/utilities.cpython-311.pyc"
+  ],
+  "fn": "slacker-0.14.0-pyhd8ed1ab_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/slacker-0.14.0-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "183e82fe4f53490c0dedebe0aab0feaf",
+  "name": "slacker",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/slacker-0.14.0-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "21150700a9d0828dd847c051c18c3a0574d64b19beb5f81e0b3f572144db2165",
+        "sha256_in_prefix": "21150700a9d0828dd847c051c18c3a0574d64b19beb5f81e0b3f572144db2165",
+        "size_in_bytes": 2949
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2ea0ea5d9772c6c8897df9cf1c1ef2d83ae2f1a459d5011685331989c6e4c73e",
+        "sha256_in_prefix": "2ea0ea5d9772c6c8897df9cf1c1ef2d83ae2f1a459d5011685331989c6e4c73e",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "dd0fc848aca94db666f2006a4c94c29d96a487e19b37e8034dca9e6cc886f910",
+        "sha256_in_prefix": "dd0fc848aca94db666f2006a4c94c29d96a487e19b37e8034dca9e6cc886f910",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/slacker-0.14.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7b88e2be5dfbb24d256b438806cbf60c40f23d3c0a42204309829f2ca06119be",
+        "sha256_in_prefix": "7b88e2be5dfbb24d256b438806cbf60c40f23d3c0a42204309829f2ca06119be",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/slacker/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3e2f121bc5acf1141ab7477aee4b9187268af78a7ad37e7665836ec8056c51b9",
+        "sha256_in_prefix": "3e2f121bc5acf1141ab7477aee4b9187268af78a7ad37e7665836ec8056c51b9",
+        "size_in_bytes": 42863
+      },
+      {
+        "_path": "site-packages/slacker/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "ead76ced0fcd71d20e6faa9643fada794d491f33046875ef55371759cdedb2ce",
+        "sha256_in_prefix": "ead76ced0fcd71d20e6faa9643fada794d491f33046875ef55371759cdedb2ce",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/python3.11/site-packages/slacker/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/slacker/__pycache__/utilities.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "207cced02f26bb133bf2d2e413e8b13c2595ccbca58acf4a1eaad9d3569f4e1a",
+  "size": 21178,
+  "subdir": "noarch",
+  "timestamp": 1735042552000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/slacker-0.14.0-pyhd8ed1ab_1.conda",
+  "version": "0.14.0"
+}

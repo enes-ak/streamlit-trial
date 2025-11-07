@@ -1,0 +1,237 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/smmap-5.0.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/LICENSE",
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/METADATA",
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/RECORD",
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/WHEEL",
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/smmap-5.0.2.dist-info/zip-safe",
+    "lib/python3.11/site-packages/smmap/__init__.py",
+    "lib/python3.11/site-packages/smmap/buf.py",
+    "lib/python3.11/site-packages/smmap/mman.py",
+    "lib/python3.11/site-packages/smmap/test/__init__.py",
+    "lib/python3.11/site-packages/smmap/test/lib.py",
+    "lib/python3.11/site-packages/smmap/test/test_buf.py",
+    "lib/python3.11/site-packages/smmap/test/test_mman.py",
+    "lib/python3.11/site-packages/smmap/test/test_tutorial.py",
+    "lib/python3.11/site-packages/smmap/test/test_util.py",
+    "lib/python3.11/site-packages/smmap/util.py",
+    "lib/python3.11/site-packages/smmap/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/__pycache__/buf.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/__pycache__/mman.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/test/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/test/__pycache__/lib.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/test/__pycache__/test_buf.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/test/__pycache__/test_mman.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/test/__pycache__/test_tutorial.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/test/__pycache__/test_util.cpython-311.pyc",
+    "lib/python3.11/site-packages/smmap/__pycache__/util.cpython-311.pyc"
+  ],
+  "fn": "smmap-5.0.2-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/smmap-5.0.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "87f47a78808baf2fa1ea9c315a1e48f1",
+  "name": "smmap",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/smmap-5.0.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "88e9d93f708d110b328a834302dd1d5c6afbda530e7721d15d80b3511d86f235",
+        "sha256_in_prefix": "88e9d93f708d110b328a834302dd1d5c6afbda530e7721d15d80b3511d86f235",
+        "size_in_bytes": 1519
+      },
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "96b6aed0a259423267dfd9b32cfa7fdd49f3fe74821670285174684fce5132a0",
+        "sha256_in_prefix": "96b6aed0a259423267dfd9b32cfa7fdd49f3fe74821670285174684fce5132a0",
+        "size_in_bytes": 4515
+      },
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6be826583e24d8a84ed6ab7ac342298de53b23a45e449dfeb955844f55bdda8f",
+        "sha256_in_prefix": "6be826583e24d8a84ed6ab7ac342298de53b23a45e449dfeb955844f55bdda8f",
+        "size_in_bytes": 1967
+      },
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "sha256_in_prefix": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3441a8e1c1d433e09d00612c8579db69fac9fb24e85096e30e2043859de838bb",
+        "sha256_in_prefix": "3441a8e1c1d433e09d00612c8579db69fac9fb24e85096e30e2043859de838bb",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8744e9d5475a44e0b2d9b8d63616b5305a70815821c44510b1a2c76d9b3de86c",
+        "sha256_in_prefix": "8744e9d5475a44e0b2d9b8d63616b5305a70815821c44510b1a2c76d9b3de86c",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/smmap-5.0.2.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/smmap/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "05ff4a5a6fb3af9fff4a8484117236d29a8a389169500a6276f6ab74bba544b6",
+        "sha256_in_prefix": "05ff4a5a6fb3af9fff4a8484117236d29a8a389169500a6276f6ab74bba544b6",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "site-packages/smmap/buf.py",
+        "path_type": "hardlink",
+        "sha256": "c0496775435ae0d8e19deb3a258988fd7a78cf06a8862acb76bede551f5760d5",
+        "sha256_in_prefix": "c0496775435ae0d8e19deb3a258988fd7a78cf06a8862acb76bede551f5760d5",
+        "size_in_bytes": 5762
+      },
+      {
+        "_path": "site-packages/smmap/mman.py",
+        "path_type": "hardlink",
+        "sha256": "1d8c68865959aa93d8e0a81117f0ff94da787f1d1a919f8d428b2eb4b0eb43ad",
+        "sha256_in_prefix": "1d8c68865959aa93d8e0a81117f0ff94da787f1d1a919f8d428b2eb4b0eb43ad",
+        "size_in_bytes": 24022
+      },
+      {
+        "_path": "site-packages/smmap/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/smmap/test/lib.py",
+        "path_type": "hardlink",
+        "sha256": "8d8213e2b29c907c36b3bfa5e65c32b1fb758eaaf00c5923b7234b28da6efe3d",
+        "sha256_in_prefix": "8d8213e2b29c907c36b3bfa5e65c32b1fb758eaaf00c5923b7234b28da6efe3d",
+        "size_in_bytes": 1489
+      },
+      {
+        "_path": "site-packages/smmap/test/test_buf.py",
+        "path_type": "hardlink",
+        "sha256": "04283d15bbac6a489836ce4c50da094a2cae4cfe4770c625eb91f3be963d48da",
+        "sha256_in_prefix": "04283d15bbac6a489836ce4c50da094a2cae4cfe4770c625eb91f3be963d48da",
+        "size_in_bytes": 5439
+      },
+      {
+        "_path": "site-packages/smmap/test/test_mman.py",
+        "path_type": "hardlink",
+        "sha256": "a3770f83989dc98269ab7db35e00f2d6ab43d74440fdef3cfb5ccf6015a2e0cb",
+        "sha256_in_prefix": "a3770f83989dc98269ab7db35e00f2d6ab43d74440fdef3cfb5ccf6015a2e0cb",
+        "size_in_bytes": 10822
+      },
+      {
+        "_path": "site-packages/smmap/test/test_tutorial.py",
+        "path_type": "hardlink",
+        "sha256": "6700a98426ca00662dfdf9ff0a2389f655b0a56c29a84e3ecc1529faffadf5e3",
+        "sha256_in_prefix": "6700a98426ca00662dfdf9ff0a2389f655b0a56c29a84e3ecc1529faffadf5e3",
+        "size_in_bytes": 3174
+      },
+      {
+        "_path": "site-packages/smmap/test/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "de12725bd2a6ee4ed74a0c71b433a41bc7956a0937948ccfe07da94744b67b08",
+        "sha256_in_prefix": "de12725bd2a6ee4ed74a0c71b433a41bc7956a0937948ccfe07da94744b67b08",
+        "size_in_bytes": 3468
+      },
+      {
+        "_path": "site-packages/smmap/util.py",
+        "path_type": "hardlink",
+        "sha256": "fd297749dd8a59d77ee679a151e80531f4fa2f58f9046721453e33e774a86ee8",
+        "sha256_in_prefix": "fd297749dd8a59d77ee679a151e80531f4fa2f58f9046721453e33e774a86ee8",
+        "size_in_bytes": 7476
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/__pycache__/buf.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/__pycache__/mman.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/test/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/test/__pycache__/lib.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/test/__pycache__/test_buf.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/test/__pycache__/test_mman.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/test/__pycache__/test_tutorial.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/test/__pycache__/test_util.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/smmap/__pycache__/util.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "eb92d0ad94b65af16c73071cc00cc0e10f2532be807beb52758aab2b06eb21e2",
+  "size": 26051,
+  "subdir": "noarch",
+  "timestamp": 1739781801000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/smmap-5.0.2-pyhd8ed1ab_0.conda",
+  "version": "5.0.2"
+}

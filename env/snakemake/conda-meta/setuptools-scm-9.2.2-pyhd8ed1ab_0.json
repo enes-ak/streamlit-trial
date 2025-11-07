@@ -1,0 +1,593 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "typing-extensions",
+    "importlib-metadata",
+    "python >=3.10",
+    "packaging >=20.0",
+    "tomli >=1.0.0",
+    "setuptools >=45"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/setuptools-scm-9.2.2-pyhd8ed1ab_0",
+  "files": [
+    "bin/setuptools-scm",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/METADATA",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/RECORD",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/WHEEL",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/setuptools_scm-9.2.2.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/setuptools_scm/.git_archival.txt",
+    "lib/python3.11/site-packages/setuptools_scm/__init__.py",
+    "lib/python3.11/site-packages/setuptools_scm/__main__.py",
+    "lib/python3.11/site-packages/setuptools_scm/_cli.py",
+    "lib/python3.11/site-packages/setuptools_scm/_compat.py",
+    "lib/python3.11/site-packages/setuptools_scm/_config.py",
+    "lib/python3.11/site-packages/setuptools_scm/_entrypoints.py",
+    "lib/python3.11/site-packages/setuptools_scm/_file_finders/__init__.py",
+    "lib/python3.11/site-packages/setuptools_scm/_file_finders/git.py",
+    "lib/python3.11/site-packages/setuptools_scm/_file_finders/hg.py",
+    "lib/python3.11/site-packages/setuptools_scm/_file_finders/pathtools.py",
+    "lib/python3.11/site-packages/setuptools_scm/_get_version_impl.py",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__init__.py",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/deprecation.py",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/dump_version.py",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/pyproject_reading.py",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/setup_cfg.py",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/setuptools.py",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/toml.py",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/version_inference.py",
+    "lib/python3.11/site-packages/setuptools_scm/_log.py",
+    "lib/python3.11/site-packages/setuptools_scm/_modify_version.py",
+    "lib/python3.11/site-packages/setuptools_scm/_node_utils.py",
+    "lib/python3.11/site-packages/setuptools_scm/_overrides.py",
+    "lib/python3.11/site-packages/setuptools_scm/_requirement_cls.py",
+    "lib/python3.11/site-packages/setuptools_scm/_run_cmd.py",
+    "lib/python3.11/site-packages/setuptools_scm/_types.py",
+    "lib/python3.11/site-packages/setuptools_scm/_version_cls.py",
+    "lib/python3.11/site-packages/setuptools_scm/discover.py",
+    "lib/python3.11/site-packages/setuptools_scm/fallbacks.py",
+    "lib/python3.11/site-packages/setuptools_scm/git.py",
+    "lib/python3.11/site-packages/setuptools_scm/hg.py",
+    "lib/python3.11/site-packages/setuptools_scm/hg_git.py",
+    "lib/python3.11/site-packages/setuptools_scm/integration.py",
+    "lib/python3.11/site-packages/setuptools_scm/py.typed",
+    "lib/python3.11/site-packages/setuptools_scm/scm_workdir.py",
+    "lib/python3.11/site-packages/setuptools_scm/version.py",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_cli.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_config.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_entrypoints.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_file_finders/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_file_finders/__pycache__/git.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_file_finders/__pycache__/hg.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_file_finders/__pycache__/pathtools.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_get_version_impl.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/deprecation.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/dump_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/pyproject_reading.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/setup_cfg.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/setuptools.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/toml.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/version_inference.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_log.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_modify_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_node_utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_overrides.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_requirement_cls.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_run_cmd.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_types.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/_version_cls.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/discover.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/fallbacks.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/git.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/hg.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/hg_git.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/integration.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/scm_workdir.cpython-311.pyc",
+    "lib/python3.11/site-packages/setuptools_scm/__pycache__/version.cpython-311.pyc"
+  ],
+  "fn": "setuptools-scm-9.2.2-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/setuptools-scm-9.2.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "e2e4d7094d0580ccd62e2a41947444f3",
+  "name": "setuptools-scm",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/setuptools-scm-9.2.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/setuptools-scm",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/setuptools_scm_1760964989229/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "80355cd037d728b735f9b35350a2cc8bea9cb3b1fe04f6294a94f2467438f859",
+        "sha256_in_prefix": "5ff089f9b334ba56cb67f4b00016019328a9c8bf56096ac1279afc146ddaa034",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fce1996f68b110835ed9ff8f5760f369d1e99218056ece7b6c23c22e2de4b5cc",
+        "sha256_in_prefix": "fce1996f68b110835ed9ff8f5760f369d1e99218056ece7b6c23c22e2de4b5cc",
+        "size_in_bytes": 7749
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "aab434b8bdf2f99fffcec170c8cfc63b17fd48c332a5497357d5aebe3b462c4c",
+        "sha256_in_prefix": "aab434b8bdf2f99fffcec170c8cfc63b17fd48c332a5497357d5aebe3b462c4c",
+        "size_in_bytes": 6330
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5e8bfad5548fef7417d32210c26ed42d4d71598d0725983333887436734d7dd3",
+        "sha256_in_prefix": "5e8bfad5548fef7417d32210c26ed42d4d71598d0725983333887436734d7dd3",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "72aa8d0aeab95fdfa13b71e7c76cb372bddca3f89e8d48c94836cdc005ea7851",
+        "sha256_in_prefix": "72aa8d0aeab95fdfa13b71e7c76cb372bddca3f89e8d48c94836cdc005ea7851",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "b1d1cb3c4a6c07cc7a2af5a57a4c391b5aa8fa1b9096b9a1f8b93e11f22e7311",
+        "sha256_in_prefix": "b1d1cb3c4a6c07cc7a2af5a57a4c391b5aa8fa1b9096b9a1f8b93e11f22e7311",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "89807acf2309bd285f033404ee78581602f3cd9b819a16ac2f0e5f60ff4a473e",
+        "sha256_in_prefix": "89807acf2309bd285f033404ee78581602f3cd9b819a16ac2f0e5f60ff4a473e",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "site-packages/setuptools_scm-9.2.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "922bbef75ab7feb24b528736c25f3f942e1c225a60b60743ff835a0a117884e0",
+        "sha256_in_prefix": "922bbef75ab7feb24b528736c25f3f942e1c225a60b60743ff835a0a117884e0",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/setuptools_scm/.git_archival.txt",
+        "path_type": "hardlink",
+        "sha256": "dbff7491d4b53ce49032e65f042530eaa36339bbbb223a7c0e6a6d1009a51a45",
+        "sha256_in_prefix": "dbff7491d4b53ce49032e65f042530eaa36339bbbb223a7c0e6a6d1009a51a45",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/setuptools_scm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9388e324af1e8c523de5a988a0b58d085102588416f4d97117d1da77846a3873",
+        "sha256_in_prefix": "9388e324af1e8c523de5a988a0b58d085102588416f4d97117d1da77846a3873",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "site-packages/setuptools_scm/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "0219edcdd347dc985c8a8fce86873afc45bb0ae20dd3638cfb48aba461175e1d",
+        "sha256_in_prefix": "0219edcdd347dc985c8a8fce86873afc45bb0ae20dd3638cfb48aba461175e1d",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_cli.py",
+        "path_type": "hardlink",
+        "sha256": "6ed3fd189eba348ca65f0689355fcca4783fd95e6f678e384d65842e7a07a654",
+        "sha256_in_prefix": "6ed3fd189eba348ca65f0689355fcca4783fd95e6f678e384d65842e7a07a654",
+        "size_in_bytes": 9427
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "08db7c4d3def75a1cdb315aa21a488a153a8bdf8e7ca9aebc7d44bc820faf9fd",
+        "sha256_in_prefix": "08db7c4d3def75a1cdb315aa21a488a153a8bdf8e7ca9aebc7d44bc820faf9fd",
+        "size_in_bytes": 2193
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_config.py",
+        "path_type": "hardlink",
+        "sha256": "bf6a51c56089e1dcd32fc6b8a7fb4ab23bf12530e430303fa142c2c1294009d7",
+        "sha256_in_prefix": "bf6a51c56089e1dcd32fc6b8a7fb4ab23bf12530e430303fa142c2c1294009d7",
+        "size_in_bytes": 10769
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_entrypoints.py",
+        "path_type": "hardlink",
+        "sha256": "e62c7417c440a9168fee47ad9b43bf21fb0e7582b066a0da28d53580e2872260",
+        "sha256_in_prefix": "e62c7417c440a9168fee47ad9b43bf21fb0e7582b066a0da28d53580e2872260",
+        "size_in_bytes": 3697
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_file_finders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "58f796b1bcab18e1aab23c5cfdd918914cd61d7c544050b3c4cac0b126f2fa38",
+        "sha256_in_prefix": "58f796b1bcab18e1aab23c5cfdd918914cd61d7c544050b3c4cac0b126f2fa38",
+        "size_in_bytes": 3732
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_file_finders/git.py",
+        "path_type": "hardlink",
+        "sha256": "e08b271624f3fa2cab9b74798a1e8702bac62732262d5758f73b263221123a0f",
+        "sha256_in_prefix": "e08b271624f3fa2cab9b74798a1e8702bac62732262d5758f73b263221123a0f",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_file_finders/hg.py",
+        "path_type": "hardlink",
+        "sha256": "7cafe64d7f9f7964b21983bc59637f85556ddb08ae96a5cb3b5a9e3cb6798760",
+        "sha256_in_prefix": "7cafe64d7f9f7964b21983bc59637f85556ddb08ae96a5cb3b5a9e3cb6798760",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_file_finders/pathtools.py",
+        "path_type": "hardlink",
+        "sha256": "0203a5e6efd61f10907a2502c2537c6d4137078bece41c522442b52c9badcaeb",
+        "sha256_in_prefix": "0203a5e6efd61f10907a2502c2537c6d4137078bece41c522442b52c9badcaeb",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_get_version_impl.py",
+        "path_type": "hardlink",
+        "sha256": "fc5185917ca4f000945a29e9034ecbed9e37ab9141b1ae63bb0ea4e063d6656c",
+        "sha256_in_prefix": "fc5185917ca4f000945a29e9034ecbed9e37ab9141b1ae63bb0ea4e063d6656c",
+        "size_in_bytes": 9000
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_integration/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_integration/deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "6670bc62bf110540868e5c0f019074463d1fb1491b6edf66a9f808932618537d",
+        "sha256_in_prefix": "6670bc62bf110540868e5c0f019074463d1fb1491b6edf66a9f808932618537d",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_integration/dump_version.py",
+        "path_type": "hardlink",
+        "sha256": "df32444acd13f97252daa9b4ca2c8c59f87c30df67e65196f3fa954bd33c130f",
+        "sha256_in_prefix": "df32444acd13f97252daa9b4ca2c8c59f87c30df67e65196f3fa954bd33c130f",
+        "size_in_bytes": 3219
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_integration/pyproject_reading.py",
+        "path_type": "hardlink",
+        "sha256": "448a5af36c4547827f6c2e2b590b6983ecd61a5b7cf26d1aa8af39230288cf97",
+        "sha256_in_prefix": "448a5af36c4547827f6c2e2b590b6983ecd61a5b7cf26d1aa8af39230288cf97",
+        "size_in_bytes": 9252
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_integration/setup_cfg.py",
+        "path_type": "hardlink",
+        "sha256": "78cf3c947a721bb1e45144372f3ef969e85af234bfbc084b24a20be257c92e1a",
+        "sha256_in_prefix": "78cf3c947a721bb1e45144372f3ef969e85af234bfbc084b24a20be257c92e1a",
+        "size_in_bytes": 1302
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_integration/setuptools.py",
+        "path_type": "hardlink",
+        "sha256": "a5c6def89f8ffc42cda36156f32db4127946af3a7d366081eb889d9e92cec0d8",
+        "sha256_in_prefix": "a5c6def89f8ffc42cda36156f32db4127946af3a7d366081eb889d9e92cec0d8",
+        "size_in_bytes": 5142
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_integration/toml.py",
+        "path_type": "hardlink",
+        "sha256": "f4f20919405101dc43c8a3395ecc1e4d20c44525027560507d760e0170905462",
+        "sha256_in_prefix": "f4f20919405101dc43c8a3395ecc1e4d20c44525027560507d760e0170905462",
+        "size_in_bytes": 1882
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_integration/version_inference.py",
+        "path_type": "hardlink",
+        "sha256": "dba88f22af38d367417fa152ee5a3921fa8da8783003113f4fa7cb2a72a495cf",
+        "sha256_in_prefix": "dba88f22af38d367417fa152ee5a3921fa8da8783003113f4fa7cb2a72a495cf",
+        "size_in_bytes": 4195
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_log.py",
+        "path_type": "hardlink",
+        "sha256": "ba54706e51336219246f24dbd8ffb6d7b18fa709fecff4f3fe5b1df694cbd114",
+        "sha256_in_prefix": "ba54706e51336219246f24dbd8ffb6d7b18fa709fecff4f3fe5b1df694cbd114",
+        "size_in_bytes": 2070
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_modify_version.py",
+        "path_type": "hardlink",
+        "sha256": "f5553e8ee160d88663adccb3f642c645f06ae11c996449618cf322a6a8c1dd77",
+        "sha256_in_prefix": "f5553e8ee160d88663adccb3f642c645f06ae11c996449618cf322a6a8c1dd77",
+        "size_in_bytes": 1738
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_node_utils.py",
+        "path_type": "hardlink",
+        "sha256": "391c6ee76e8ee2bb845181c41e073197aa6e9ca7566392b89160397bacd453c6",
+        "sha256_in_prefix": "391c6ee76e8ee2bb845181c41e073197aa6e9ca7566392b89160397bacd453c6",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_overrides.py",
+        "path_type": "hardlink",
+        "sha256": "017602a41e0e0a014146769159c6d0039ee34a66abe1201607eb861c96742fa7",
+        "sha256_in_prefix": "017602a41e0e0a014146769159c6d0039ee34a66abe1201607eb861c96742fa7",
+        "size_in_bytes": 10520
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_requirement_cls.py",
+        "path_type": "hardlink",
+        "sha256": "d6adbbeabb7865869f4a2c8dfdca08596dde1d91b4d384ccfa2675df40c4a090",
+        "sha256_in_prefix": "d6adbbeabb7865869f4a2c8dfdca08596dde1d91b4d384ccfa2675df40c4a090",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_run_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "f3879d639411a8a75227191d8e553021bd33b653a2d5b30f0b5b8ec6d612ccfd",
+        "sha256_in_prefix": "f3879d639411a8a75227191d8e553021bd33b653a2d5b30f0b5b8ec6d612ccfd",
+        "size_in_bytes": 6193
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_types.py",
+        "path_type": "hardlink",
+        "sha256": "ef2b4e95de8b649cc37a069a9990b8fbaba4421571f1bd4e7496f2ce97127952",
+        "sha256_in_prefix": "ef2b4e95de8b649cc37a069a9990b8fbaba4421571f1bd4e7496f2ce97127952",
+        "size_in_bytes": 1765
+      },
+      {
+        "_path": "site-packages/setuptools_scm/_version_cls.py",
+        "path_type": "hardlink",
+        "sha256": "6220f420cb5c290abe7967eb4070192d3e552ace7df271e9d24ccb9826a8c6aa",
+        "sha256_in_prefix": "6220f420cb5c290abe7967eb4070192d3e552ace7df271e9d24ccb9826a8c6aa",
+        "size_in_bytes": 3256
+      },
+      {
+        "_path": "site-packages/setuptools_scm/discover.py",
+        "path_type": "hardlink",
+        "sha256": "91e96b607cbf2d2b0cb8537b421627ee2abac627d60883c12386c11b197c008f",
+        "sha256_in_prefix": "91e96b607cbf2d2b0cb8537b421627ee2abac627d60883c12386c11b197c008f",
+        "size_in_bytes": 2069
+      },
+      {
+        "_path": "site-packages/setuptools_scm/fallbacks.py",
+        "path_type": "hardlink",
+        "sha256": "c775efd69f3d02a262057ea8c6ea28f038b4c91e628ce14ec0a0491807964db6",
+        "sha256_in_prefix": "c775efd69f3d02a262057ea8c6ea28f038b4c91e628ce14ec0a0491807964db6",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "site-packages/setuptools_scm/git.py",
+        "path_type": "hardlink",
+        "sha256": "67b072bad8cc138241fa1ecb5ebc88692318f8b6ea1ec6cab2a14dad95d98243",
+        "sha256_in_prefix": "67b072bad8cc138241fa1ecb5ebc88692318f8b6ea1ec6cab2a14dad95d98243",
+        "size_in_bytes": 14964
+      },
+      {
+        "_path": "site-packages/setuptools_scm/hg.py",
+        "path_type": "hardlink",
+        "sha256": "08ea516c71e031c3cc9eb8cfdd13a633c9eb1a6a506fa1887c74f31cc3fe7ad6",
+        "sha256_in_prefix": "08ea516c71e031c3cc9eb8cfdd13a633c9eb1a6a506fa1887c74f31cc3fe7ad6",
+        "size_in_bytes": 10733
+      },
+      {
+        "_path": "site-packages/setuptools_scm/hg_git.py",
+        "path_type": "hardlink",
+        "sha256": "24b4c5bd430c26737ee7367034e7ab324be5a8f26b90a4d10254d34cd97a9de3",
+        "sha256_in_prefix": "24b4c5bd430c26737ee7367034e7ab324be5a8f26b90a4d10254d34cd97a9de3",
+        "size_in_bytes": 5540
+      },
+      {
+        "_path": "site-packages/setuptools_scm/integration.py",
+        "path_type": "hardlink",
+        "sha256": "9f7165794ff3942a88a7aa6fd0f2ab531f37abc02573d12be36d2efda52846a2",
+        "sha256_in_prefix": "9f7165794ff3942a88a7aa6fd0f2ab531f37abc02573d12be36d2efda52846a2",
+        "size_in_bytes": 806
+      },
+      {
+        "_path": "site-packages/setuptools_scm/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/setuptools_scm/scm_workdir.py",
+        "path_type": "hardlink",
+        "sha256": "1d42dd598daf9985b3fa70f7b1989b78cb125ef6de98d818f42a07e2d1af1ca5",
+        "sha256_in_prefix": "1d42dd598daf9985b3fa70f7b1989b78cb125ef6de98d818f42a07e2d1af1ca5",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "site-packages/setuptools_scm/version.py",
+        "path_type": "hardlink",
+        "sha256": "bd7d9fa7036b9416a2f4c42d91af5f40bf37cf207d65392fbba460481813baf7",
+        "sha256_in_prefix": "bd7d9fa7036b9416a2f4c42d91af5f40bf37cf207d65392fbba460481813baf7",
+        "size_in_bytes": 19474
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_cli.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_config.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_entrypoints.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_file_finders/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_file_finders/__pycache__/git.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_file_finders/__pycache__/hg.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_file_finders/__pycache__/pathtools.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_get_version_impl.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/deprecation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/dump_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/pyproject_reading.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/setup_cfg.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/setuptools.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/toml.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/_integration/__pycache__/version_inference.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_log.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_modify_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_node_utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_overrides.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_requirement_cls.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_run_cmd.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_types.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/_version_cls.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/discover.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/fallbacks.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/git.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/hg.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/hg_git.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/integration.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/scm_workdir.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/setuptools_scm/__pycache__/version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2161ac35fc22770b248bab0be2cc3b5bd765f528a9e60e7f3be784fd8d0d605a",
+  "size": 52539,
+  "subdir": "noarch",
+  "timestamp": 1760965125000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/setuptools-scm-9.2.2-pyhd8ed1ab_0.conda",
+  "version": "9.2.2"
+}

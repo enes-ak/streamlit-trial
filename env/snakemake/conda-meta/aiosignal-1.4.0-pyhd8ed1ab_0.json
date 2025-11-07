@@ -1,0 +1,122 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "typing_extensions >=4.2",
+    "frozenlist >=1.1.0"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/aiosignal-1.4.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/aiosignal-1.4.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/aiosignal/__init__.py",
+    "lib/python3.11/site-packages/aiosignal/py.typed",
+    "lib/python3.11/site-packages/aiosignal/__pycache__/__init__.cpython-311.pyc"
+  ],
+  "fn": "aiosignal-1.4.0-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/aiosignal-1.4.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "421a865222cd0c9d83ff08bc78bf3a61",
+  "name": "aiosignal",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/aiosignal-1.4.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/aiosignal-1.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/aiosignal-1.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "09247ef1da8bc696728d47130e702e4307f6f7d101d6c485bff9f3a71ce7008d",
+        "sha256_in_prefix": "09247ef1da8bc696728d47130e702e4307f6f7d101d6c485bff9f3a71ce7008d",
+        "size_in_bytes": 3662
+      },
+      {
+        "_path": "site-packages/aiosignal-1.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "65c4323f238df8cfef2e19c8ebbea39ee4df64bbad9887866180e77ad4e22a9c",
+        "sha256_in_prefix": "65c4323f238df8cfef2e19c8ebbea39ee4df64bbad9887866180e77ad4e22a9c",
+        "size_in_bytes": 890
+      },
+      {
+        "_path": "site-packages/aiosignal-1.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aiosignal-1.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/aiosignal-1.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5ac0f78c481e03f52abdce876bc31072211c374b0d2d0e54c5afe7abd2a54406",
+        "sha256_in_prefix": "5ac0f78c481e03f52abdce876bc31072211c374b0d2d0e54c5afe7abd2a54406",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/aiosignal-1.4.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6",
+        "sha256_in_prefix": "6fd5243e92dd7f98ec69c7ac377728e74905709ff527a5bf98d6d0263c04f5b6",
+        "size_in_bytes": 11332
+      },
+      {
+        "_path": "site-packages/aiosignal-1.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cf8e5a34e2860ddac8d6ba2a658dc1197436da42453c706655dc2d2d82ed5c2d",
+        "sha256_in_prefix": "cf8e5a34e2860ddac8d6ba2a658dc1197436da42453c706655dc2d2d82ed5c2d",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/aiosignal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4c8926506f474c1b7875fab69c8498062662441db1c2f16d119c9d2cfd073cbe",
+        "sha256_in_prefix": "4c8926506f474c1b7875fab69c8498062662441db1c2f16d119c9d2cfd073cbe",
+        "size_in_bytes": 1537
+      },
+      {
+        "_path": "site-packages/aiosignal/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/aiosignal/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8dc149a6828d19bf104ea96382a9d04dae185d4a03cc6beb1bc7b84c428e3ca2",
+  "size": 13688,
+  "subdir": "noarch",
+  "timestamp": 1751626573000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/aiosignal-1.4.0-pyhd8ed1ab_0.conda",
+  "version": "1.4.0"
+}

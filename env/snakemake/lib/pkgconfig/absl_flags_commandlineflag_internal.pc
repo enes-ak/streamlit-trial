@@ -1,0 +1,12 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=${prefix}
+libdir=/home/enes/miniconda3/envs/snakemake/lib
+includedir=/home/enes/miniconda3/envs/snakemake/include
+
+Name: absl_flags_commandlineflag_internal
+Description: Abseil flags_commandlineflag_internal library
+URL: https://abseil.io/
+Version: 20250814
+Requires: absl_config = 20250814, absl_dynamic_annotations = 20250814, absl_fast_type_id = 20250814
+Libs: -L${libdir}  -labsl_flags_commandlineflag_internal 
+Cflags: -I${includedir} -DNOMINMAX

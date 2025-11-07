@@ -1,0 +1,773 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.10"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/invoke-2.2.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/invoke-2.2.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/invoke/__init__.py",
+    "lib/python3.11/site-packages/invoke/__main__.py",
+    "lib/python3.11/site-packages/invoke/_version.py",
+    "lib/python3.11/site-packages/invoke/collection.py",
+    "lib/python3.11/site-packages/invoke/completion/__init__.py",
+    "lib/python3.11/site-packages/invoke/completion/bash.completion",
+    "lib/python3.11/site-packages/invoke/completion/complete.py",
+    "lib/python3.11/site-packages/invoke/completion/fish.completion",
+    "lib/python3.11/site-packages/invoke/completion/zsh.completion",
+    "lib/python3.11/site-packages/invoke/config.py",
+    "lib/python3.11/site-packages/invoke/context.py",
+    "lib/python3.11/site-packages/invoke/env.py",
+    "lib/python3.11/site-packages/invoke/exceptions.py",
+    "lib/python3.11/site-packages/invoke/executor.py",
+    "lib/python3.11/site-packages/invoke/loader.py",
+    "lib/python3.11/site-packages/invoke/main.py",
+    "lib/python3.11/site-packages/invoke/parser/__init__.py",
+    "lib/python3.11/site-packages/invoke/parser/argument.py",
+    "lib/python3.11/site-packages/invoke/parser/context.py",
+    "lib/python3.11/site-packages/invoke/parser/parser.py",
+    "lib/python3.11/site-packages/invoke/program.py",
+    "lib/python3.11/site-packages/invoke/py.typed",
+    "lib/python3.11/site-packages/invoke/runners.py",
+    "lib/python3.11/site-packages/invoke/tasks.py",
+    "lib/python3.11/site-packages/invoke/terminals.py",
+    "lib/python3.11/site-packages/invoke/util.py",
+    "lib/python3.11/site-packages/invoke/vendor/__init__.py",
+    "lib/python3.11/site-packages/invoke/vendor/fluidity/__init__.py",
+    "lib/python3.11/site-packages/invoke/vendor/fluidity/backwardscompat.py",
+    "lib/python3.11/site-packages/invoke/vendor/fluidity/machine.py",
+    "lib/python3.11/site-packages/invoke/vendor/lexicon/__init__.py",
+    "lib/python3.11/site-packages/invoke/vendor/lexicon/_version.py",
+    "lib/python3.11/site-packages/invoke/vendor/lexicon/alias_dict.py",
+    "lib/python3.11/site-packages/invoke/vendor/lexicon/attribute_dict.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__init__.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/composer.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/constructor.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/cyaml.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/dumper.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/emitter.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/error.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/events.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/loader.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/nodes.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/parser.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/reader.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/representer.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/resolver.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/scanner.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/serializer.py",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/tokens.py",
+    "lib/python3.11/site-packages/invoke/watchers.py",
+    "lib/python3.11/site-packages/invoke/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/collection.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/completion/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/completion/__pycache__/complete.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/config.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/context.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/env.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/executor.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/loader.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/main.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/parser/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/parser/__pycache__/argument.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/parser/__pycache__/context.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/parser/__pycache__/parser.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/program.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/runners.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/tasks.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/terminals.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/util.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/fluidity/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/fluidity/__pycache__/backwardscompat.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/fluidity/__pycache__/machine.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/lexicon/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/lexicon/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/lexicon/__pycache__/alias_dict.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/lexicon/__pycache__/attribute_dict.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/composer.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/constructor.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/cyaml.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/dumper.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/emitter.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/error.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/events.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/loader.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/nodes.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/parser.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/reader.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/representer.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/resolver.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/scanner.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/serializer.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/tokens.cpython-311.pyc",
+    "lib/python3.11/site-packages/invoke/__pycache__/watchers.cpython-311.pyc",
+    "bin/invoke",
+    "bin/inv"
+  ],
+  "fn": "invoke-2.2.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/invoke-2.2.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3a804714ed59be1969ffca10f703ec2a",
+  "name": "invoke",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/invoke-2.2.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b34b3bd38672d8e6d3eca4e208cb234c7a883845fd920ff7a452851f0dfd9743",
+        "sha256_in_prefix": "b34b3bd38672d8e6d3eca4e208cb234c7a883845fd920ff7a452851f0dfd9743",
+        "size_in_bytes": 3470
+      },
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4179da12d88cd4d16de8591ffcb086023c8fc49f0af1264afbbd0d1ff3a7fa23",
+        "sha256_in_prefix": "4179da12d88cd4d16de8591ffcb086023c8fc49f0af1264afbbd0d1ff3a7fa23",
+        "size_in_bytes": 7844
+      },
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "aca2270477264acf16cb178b67a48fb505fc804a42d89657c0a8c980c8900d0c",
+        "sha256_in_prefix": "aca2270477264acf16cb178b67a48fb505fc804a42d89657c0a8c980c8900d0c",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "7f3ee50cf8a9c3f5759e7ba4e3508dc5aef7f5d06927c4cef5ca4ab945d50cfb",
+        "sha256_in_prefix": "7f3ee50cf8a9c3f5759e7ba4e3508dc5aef7f5d06927c4cef5ca4ab945d50cfb",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7922f97f896f1d161e1ebf47083e304a23638361b255c6902b5e4f34eeda0dad",
+        "sha256_in_prefix": "7922f97f896f1d161e1ebf47083e304a23638361b255c6902b5e4f34eeda0dad",
+        "size_in_bytes": 1314
+      },
+      {
+        "_path": "site-packages/invoke-2.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6654e501531df25ce7dec5f20210918b42cdb2509ab00eeb96e7111eaf70efdc",
+        "sha256_in_prefix": "6654e501531df25ce7dec5f20210918b42cdb2509ab00eeb96e7111eaf70efdc",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/invoke/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5c15eb2d5f48f3536ae842c4a0dfd7004e2f4cd98ce818a0fb5796b757501f79",
+        "sha256_in_prefix": "5c15eb2d5f48f3536ae842c4a0dfd7004e2f4cd98ce818a0fb5796b757501f79",
+        "size_in_bytes": 2229
+      },
+      {
+        "_path": "site-packages/invoke/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "9f0c9e3c097c75e75c7ad8350a2110342d3e0871123740c9cb9b4ad9812a19ea",
+        "sha256_in_prefix": "9f0c9e3c097c75e75c7ad8350a2110342d3e0871123740c9cb9b4ad9812a19ea",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "site-packages/invoke/_version.py",
+        "path_type": "hardlink",
+        "sha256": "c283446b50be99276f23887c80a128b6c73e6c1eeb005ed6643a453bca15ec2d",
+        "sha256_in_prefix": "c283446b50be99276f23887c80a128b6c73e6c1eeb005ed6643a453bca15ec2d",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/invoke/collection.py",
+        "path_type": "hardlink",
+        "sha256": "d10bfd6e77ca7946e401a4cb20dc6bcc6f4c06b863c2b85ded1bfabfa5a074a2",
+        "sha256_in_prefix": "d10bfd6e77ca7946e401a4cb20dc6bcc6f4c06b863c2b85ded1bfabfa5a074a2",
+        "size_in_bytes": 23060
+      },
+      {
+        "_path": "site-packages/invoke/completion/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/invoke/completion/bash.completion",
+        "path_type": "hardlink",
+        "sha256": "3af251551be85bb68c0dfe6a30a89d8bcc7e343f8a908339252e7eea22777871",
+        "sha256_in_prefix": "3af251551be85bb68c0dfe6a30a89d8bcc7e343f8a908339252e7eea22777871",
+        "size_in_bytes": 1356
+      },
+      {
+        "_path": "site-packages/invoke/completion/complete.py",
+        "path_type": "hardlink",
+        "sha256": "8f74efda836b2b2b901cf8b9b5abc0518379be8f2fe2f001365fd3f6dff460e6",
+        "sha256_in_prefix": "8f74efda836b2b2b901cf8b9b5abc0518379be8f2fe2f001365fd3f6dff460e6",
+        "size_in_bytes": 5222
+      },
+      {
+        "_path": "site-packages/invoke/completion/fish.completion",
+        "path_type": "hardlink",
+        "sha256": "1b6f20d5da40f90f7e43a2a695c19dffa5ccc3c87b1311e3009ea7cb4e2e7ebf",
+        "sha256_in_prefix": "1b6f20d5da40f90f7e43a2a695c19dffa5ccc3c87b1311e3009ea7cb4e2e7ebf",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "site-packages/invoke/completion/zsh.completion",
+        "path_type": "hardlink",
+        "sha256": "6227a4292ed90c222a2e6942df51edf47f794b69fc68db1f9e7e1b8c170544b4",
+        "sha256_in_prefix": "6227a4292ed90c222a2e6942df51edf47f794b69fc68db1f9e7e1b8c170544b4",
+        "size_in_bytes": 1429
+      },
+      {
+        "_path": "site-packages/invoke/config.py",
+        "path_type": "hardlink",
+        "sha256": "3460409875a8508fcf1c1c5301936d46dd97e0fd3da2e59147305d563dcc4da7",
+        "sha256_in_prefix": "3460409875a8508fcf1c1c5301936d46dd97e0fd3da2e59147305d563dcc4da7",
+        "size_in_bytes": 49653
+      },
+      {
+        "_path": "site-packages/invoke/context.py",
+        "path_type": "hardlink",
+        "sha256": "93529b993da10e4f38e92bb8c14b84959e275c8617623a9e231b92d20ff4fe57",
+        "sha256_in_prefix": "93529b993da10e4f38e92bb8c14b84959e275c8617623a9e231b92d20ff4fe57",
+        "size_in_bytes": 25486
+      },
+      {
+        "_path": "site-packages/invoke/env.py",
+        "path_type": "hardlink",
+        "sha256": "4ff7a3b2c6fe966759c0f1c58c9187eb62a78502a29bece289607133ef1e8d6f",
+        "sha256_in_prefix": "4ff7a3b2c6fe966759c0f1c58c9187eb62a78502a29bece289607133ef1e8d6f",
+        "size_in_bytes": 4394
+      },
+      {
+        "_path": "site-packages/invoke/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "7b9bf0a7d7094bcb5e40adf458b638202294f1ab5e4947b153a06e1671259430",
+        "sha256_in_prefix": "7b9bf0a7d7094bcb5e40adf458b638202294f1ab5e4947b153a06e1671259430",
+        "size_in_bytes": 12227
+      },
+      {
+        "_path": "site-packages/invoke/executor.py",
+        "path_type": "hardlink",
+        "sha256": "4ff890eae3530b667f2c1ed6595c55e1a6f48ef6152a828eff7842150dc50650",
+        "sha256_in_prefix": "4ff890eae3530b667f2c1ed6595c55e1a6f48ef6152a828eff7842150dc50650",
+        "size_in_bytes": 8855
+      },
+      {
+        "_path": "site-packages/invoke/loader.py",
+        "path_type": "hardlink",
+        "sha256": "0b976db9b6517e311d685f16522ddb9598d0c6ff32182b6f8a95eb30c3121b86",
+        "sha256_in_prefix": "0b976db9b6517e311d685f16522ddb9598d0c6ff32182b6f8a95eb30c3121b86",
+        "size_in_bytes": 6005
+      },
+      {
+        "_path": "site-packages/invoke/main.py",
+        "path_type": "hardlink",
+        "sha256": "9e3618a366a72b892b004e26095f59f48d5b44915a382a7e5012f5bd113e5aae",
+        "sha256_in_prefix": "9e3618a366a72b892b004e26095f59f48d5b44915a382a7e5012f5bd113e5aae",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "site-packages/invoke/parser/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1e9481fecc76699ac2394cb90a5fcb3327c206e1b0ac1f7e775392e3cdb50f3b",
+        "sha256_in_prefix": "1e9481fecc76699ac2394cb90a5fcb3327c206e1b0ac1f7e775392e3cdb50f3b",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "site-packages/invoke/parser/argument.py",
+        "path_type": "hardlink",
+        "sha256": "7b220668eb63c84cf633604c888cf472f9fc27ace29e9521831a177b12731e99",
+        "sha256_in_prefix": "7b220668eb63c84cf633604c888cf472f9fc27ace29e9521831a177b12731e99",
+        "size_in_bytes": 6045
+      },
+      {
+        "_path": "site-packages/invoke/parser/context.py",
+        "path_type": "hardlink",
+        "sha256": "35aaaf70de04f56fbb126b38f2d27321e741a9cad99db478d5303fad2139246a",
+        "sha256_in_prefix": "35aaaf70de04f56fbb126b38f2d27321e741a9cad99db478d5303fad2139246a",
+        "size_in_bytes": 9815
+      },
+      {
+        "_path": "site-packages/invoke/parser/parser.py",
+        "path_type": "hardlink",
+        "sha256": "83df4d720cc719f123b0dcf0c85980a3f31186a9467fcd925d70733995ebe91c",
+        "sha256_in_prefix": "83df4d720cc719f123b0dcf0c85980a3f31186a9467fcd925d70733995ebe91c",
+        "size_in_bytes": 19809
+      },
+      {
+        "_path": "site-packages/invoke/program.py",
+        "path_type": "hardlink",
+        "sha256": "a01aed0a3b40772733dd40c224ce6f4eb747137ed22fb50fc3e033cdcc16b115",
+        "sha256_in_prefix": "a01aed0a3b40772733dd40c224ce6f4eb747137ed22fb50fc3e033cdcc16b115",
+        "size_in_bytes": 38177
+      },
+      {
+        "_path": "site-packages/invoke/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/invoke/runners.py",
+        "path_type": "hardlink",
+        "sha256": "e16247a23f14160803e9ef85d76845b138874c704ee5f1c465900876e14d58da",
+        "sha256_in_prefix": "e16247a23f14160803e9ef85d76845b138874c704ee5f1c465900876e14d58da",
+        "size_in_bytes": 65509
+      },
+      {
+        "_path": "site-packages/invoke/tasks.py",
+        "path_type": "hardlink",
+        "sha256": "1418ff112b4c5df43463d370f203dcb51c702a9e0bc9af10767ac39255552559",
+        "sha256_in_prefix": "1418ff112b4c5df43463d370f203dcb51c702a9e0bc9af10767ac39255552559",
+        "size_in_bytes": 19946
+      },
+      {
+        "_path": "site-packages/invoke/terminals.py",
+        "path_type": "hardlink",
+        "sha256": "08eb332629b31b203b15c3e8f2480e9950e5e2fe64722536c37f93b372cea388",
+        "sha256_in_prefix": "08eb332629b31b203b15c3e8f2480e9950e5e2fe64722536c37f93b372cea388",
+        "size_in_bytes": 8148
+      },
+      {
+        "_path": "site-packages/invoke/util.py",
+        "path_type": "hardlink",
+        "sha256": "34a8c9a190384dbf15cc0bebe7c808016bd005a4c50ca460ddb8d14b175e31cb",
+        "sha256_in_prefix": "34a8c9a190384dbf15cc0bebe7c808016bd005a4c50ca460ddb8d14b175e31cb",
+        "size_in_bytes": 10018
+      },
+      {
+        "_path": "site-packages/invoke/vendor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/invoke/vendor/fluidity/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7f9485dec318a3bd7cd3c9d7fbd6c9b74a5be7e042676b2b8a45f5682a9cce9c",
+        "sha256_in_prefix": "7f9485dec318a3bd7cd3c9d7fbd6c9b74a5be7e042676b2b8a45f5682a9cce9c",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "site-packages/invoke/vendor/fluidity/backwardscompat.py",
+        "path_type": "hardlink",
+        "sha256": "3ffa82d5d221207aba2d06031b159e77e57ca37be231c3ce62fe26c74358e765",
+        "sha256_in_prefix": "3ffa82d5d221207aba2d06031b159e77e57ca37be231c3ce62fe26c74358e765",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "site-packages/invoke/vendor/fluidity/machine.py",
+        "path_type": "hardlink",
+        "sha256": "f5987398083edd0ff98c25873a28755ada133002a19204f611e3e45d6fb6e7c3",
+        "sha256_in_prefix": "f5987398083edd0ff98c25873a28755ada133002a19204f611e3e45d6fb6e7c3",
+        "size_in_bytes": 8686
+      },
+      {
+        "_path": "site-packages/invoke/vendor/lexicon/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "885b2c3f659f2f25b9a66a7810316f77feb7cef03267fed82a1da7adf6ef9476",
+        "sha256_in_prefix": "885b2c3f659f2f25b9a66a7810316f77feb7cef03267fed82a1da7adf6ef9476",
+        "size_in_bytes": 1133
+      },
+      {
+        "_path": "site-packages/invoke/vendor/lexicon/_version.py",
+        "path_type": "hardlink",
+        "sha256": "185804ade447813fbc525c0cf7be1560421dd568f5f5fa8c024fa1a4e6c08de2",
+        "sha256_in_prefix": "185804ade447813fbc525c0cf7be1560421dd568f5f5fa8c024fa1a4e6c08de2",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/invoke/vendor/lexicon/alias_dict.py",
+        "path_type": "hardlink",
+        "sha256": "82c4a554fcb7c2de471894b38e174188c55c3e722e54b5374a5d556f26d5b39c",
+        "sha256_in_prefix": "82c4a554fcb7c2de471894b38e174188c55c3e722e54b5374a5d556f26d5b39c",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "site-packages/invoke/vendor/lexicon/attribute_dict.py",
+        "path_type": "hardlink",
+        "sha256": "8f69b2a266e9dd91f77d33b2e11855032657acfffed62c15a9d7a712f636bbe4",
+        "sha256_in_prefix": "8f69b2a266e9dd91f77d33b2e11855032657acfffed62c15a9d7a712f636bbe4",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "81fa7609b4558739278219228890f697a674a48fa6bff8991cf489e1a8f4fa76",
+        "sha256_in_prefix": "81fa7609b4558739278219228890f697a674a48fa6bff8991cf489e1a8f4fa76",
+        "size_in_bytes": 13170
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/composer.py",
+        "path_type": "hardlink",
+        "sha256": "fcaa37d16afa783594794a5ab94193dcb720f503c19ce3d59539c8311189f453",
+        "sha256_in_prefix": "fcaa37d16afa783594794a5ab94193dcb720f503c19ce3d59539c8311189f453",
+        "size_in_bytes": 4883
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/constructor.py",
+        "path_type": "hardlink",
+        "sha256": "90d8247da78b524c10618fd0e857f54f3d97570fe91b5c5513d024ef3faf88b0",
+        "sha256_in_prefix": "90d8247da78b524c10618fd0e857f54f3d97570fe91b5c5513d024ef3faf88b0",
+        "size_in_bytes": 28639
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/cyaml.py",
+        "path_type": "hardlink",
+        "sha256": "e99ac01bd7c062f7557b614aff0d21997a06ed962ca185306a91bc0a20bbd87d",
+        "sha256_in_prefix": "e99ac01bd7c062f7557b614aff0d21997a06ed962ca185306a91bc0a20bbd87d",
+        "size_in_bytes": 3851
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/dumper.py",
+        "path_type": "hardlink",
+        "sha256": "3cb72d66563064ba7b5e679477046ebf89d8399d940670c8532f3e94a7cb17ea",
+        "sha256_in_prefix": "3cb72d66563064ba7b5e679477046ebf89d8399d940670c8532f3e94a7cb17ea",
+        "size_in_bytes": 2837
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/emitter.py",
+        "path_type": "hardlink",
+        "sha256": "8e086d694ede170837d5b1b407b45979aff6f40762f422a65eafd08e04290a44",
+        "sha256_in_prefix": "8e086d694ede170837d5b1b407b45979aff6f40762f422a65eafd08e04290a44",
+        "size_in_bytes": 43006
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/error.py",
+        "path_type": "hardlink",
+        "sha256": "021f73fada072546c4f63f8cf18a7181244ce4280b09cc15cc980b2d1176171a",
+        "sha256_in_prefix": "021f73fada072546c4f63f8cf18a7181244ce4280b09cc15cc980b2d1176171a",
+        "size_in_bytes": 2533
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/events.py",
+        "path_type": "hardlink",
+        "sha256": "e74fd392c810884e2ea7e94aa3f57e9c1cbeb402319083d0c58e6a0e1282787c",
+        "sha256_in_prefix": "e74fd392c810884e2ea7e94aa3f57e9c1cbeb402319083d0c58e6a0e1282787c",
+        "size_in_bytes": 2445
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/loader.py",
+        "path_type": "hardlink",
+        "sha256": "5156becc8aa6905482218abf3e04869b835226db4763645fff3438fdbd5f1cdd",
+        "sha256_in_prefix": "5156becc8aa6905482218abf3e04869b835226db4763645fff3438fdbd5f1cdd",
+        "size_in_bytes": 2061
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/nodes.py",
+        "path_type": "hardlink",
+        "sha256": "80f28d8fca4a09d87677882bde021820d9cf39a3b11a12405226211919cf13ce",
+        "sha256_in_prefix": "80f28d8fca4a09d87677882bde021820d9cf39a3b11a12405226211919cf13ce",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/parser.py",
+        "path_type": "hardlink",
+        "sha256": "8a55a9e6fbe0a07146cef3990c8b45a068c3e83e369e1959ad9ca30306b4a09a",
+        "sha256_in_prefix": "8a55a9e6fbe0a07146cef3990c8b45a068c3e83e369e1959ad9ca30306b4a09a",
+        "size_in_bytes": 25495
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/reader.py",
+        "path_type": "hardlink",
+        "sha256": "d1d9b38ab3a20c6e17a38d519ee412ecaf6b918df18c78956ac7c330d4ea08dc",
+        "sha256_in_prefix": "d1d9b38ab3a20c6e17a38d519ee412ecaf6b918df18c78956ac7c330d4ea08dc",
+        "size_in_bytes": 6794
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/representer.py",
+        "path_type": "hardlink",
+        "sha256": "f3650cdd9c5440aaac28017896d58ec424ba8c63c816d5e91acee6beacafe17b",
+        "sha256_in_prefix": "f3650cdd9c5440aaac28017896d58ec424ba8c63c816d5e91acee6beacafe17b",
+        "size_in_bytes": 14184
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/resolver.py",
+        "path_type": "hardlink",
+        "sha256": "6755bc00e300e8fae8cb88083b63a150ee083d2fdb14d025d026b7af00a1a4f8",
+        "sha256_in_prefix": "6755bc00e300e8fae8cb88083b63a150ee083d2fdb14d025d026b7af00a1a4f8",
+        "size_in_bytes": 8999
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/scanner.py",
+        "path_type": "hardlink",
+        "sha256": "29e4082863654b23c4f100f08a89c7c72f4281ba84e6d789133d39151f7e9c08",
+        "sha256_in_prefix": "29e4082863654b23c4f100f08a89c7c72f4281ba84e6d789133d39151f7e9c08",
+        "size_in_bytes": 51277
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "0a1b85826854d35863e31808f0668abfabdf33606e8f06bd8bb7761401e3edc0",
+        "sha256_in_prefix": "0a1b85826854d35863e31808f0668abfabdf33606e8f06bd8bb7761401e3edc0",
+        "size_in_bytes": 4165
+      },
+      {
+        "_path": "site-packages/invoke/vendor/yaml/tokens.py",
+        "path_type": "hardlink",
+        "sha256": "953408cd2570f0c83dc2fe39f7e4e388e41eeb05738aa69196a5f6ffcf6ba79e",
+        "sha256_in_prefix": "953408cd2570f0c83dc2fe39f7e4e388e41eeb05738aa69196a5f6ffcf6ba79e",
+        "size_in_bytes": 2573
+      },
+      {
+        "_path": "site-packages/invoke/watchers.py",
+        "path_type": "hardlink",
+        "sha256": "13c081f229225c5c3ed79b27b059db663c2af9ec4532a36a14eaa41a072ca8bb",
+        "sha256_in_prefix": "13c081f229225c5c3ed79b27b059db663c2af9ec4532a36a14eaa41a072ca8bb",
+        "size_in_bytes": 5097
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/collection.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/completion/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/completion/__pycache__/complete.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/config.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/context.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/env.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/executor.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/loader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/main.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/parser/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/parser/__pycache__/argument.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/parser/__pycache__/context.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/parser/__pycache__/parser.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/program.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/runners.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/tasks.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/terminals.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/util.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/fluidity/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/fluidity/__pycache__/backwardscompat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/fluidity/__pycache__/machine.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/lexicon/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/lexicon/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/lexicon/__pycache__/alias_dict.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/lexicon/__pycache__/attribute_dict.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/composer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/constructor.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/cyaml.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/dumper.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/emitter.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/error.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/events.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/loader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/nodes.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/parser.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/reader.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/representer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/resolver.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/scanner.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/serializer.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/vendor/yaml/__pycache__/tokens.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/invoke/__pycache__/watchers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/invoke",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/inv",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5a4e3a01f626c8de15ddada622d364e94ff28e8d6bdedf1665442ef03a4e0140",
+  "size": 132825,
+  "subdir": "noarch",
+  "timestamp": 1760146119000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/invoke-2.2.1-pyhd8ed1ab_0.conda",
+  "version": "2.2.1"
+}

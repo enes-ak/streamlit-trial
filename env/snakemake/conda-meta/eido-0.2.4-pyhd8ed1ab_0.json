@@ -1,0 +1,285 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8",
+    "jsonschema >=3.0.1",
+    "logmuse >=0.2.5",
+    "ubiquerg >=0.6.2",
+    "peppy >=0.40.6"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/eido-0.2.4-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/LICENSE.txt",
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/METADATA",
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/RECORD",
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/WHEEL",
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/eido-0.2.4.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/eido/__init__.py",
+    "lib/python3.11/site-packages/eido/__main__.py",
+    "lib/python3.11/site-packages/eido/_version.py",
+    "lib/python3.11/site-packages/eido/argparser.py",
+    "lib/python3.11/site-packages/eido/cli.py",
+    "lib/python3.11/site-packages/eido/const.py",
+    "lib/python3.11/site-packages/eido/conversion.py",
+    "lib/python3.11/site-packages/eido/conversion_plugins.py",
+    "lib/python3.11/site-packages/eido/exceptions.py",
+    "lib/python3.11/site-packages/eido/inspection.py",
+    "lib/python3.11/site-packages/eido/output_formatters.py",
+    "lib/python3.11/site-packages/eido/schema.py",
+    "lib/python3.11/site-packages/eido/validation.py",
+    "lib/python3.11/site-packages/eido/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/__main__.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/argparser.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/cli.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/const.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/conversion.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/conversion_plugins.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/inspection.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/output_formatters.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/schema.cpython-311.pyc",
+    "lib/python3.11/site-packages/eido/__pycache__/validation.cpython-311.pyc",
+    "bin/eido"
+  ],
+  "fn": "eido-0.2.4-pyhd8ed1ab_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/eido-0.2.4-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "fc815854ab62482e2f2f0d8fab786a1c",
+  "name": "eido",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/eido-0.2.4-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a01e991836b891cce7ce724a26c2cb14570e6728bc63a7b626fd2b268ce0a7e2",
+        "sha256_in_prefix": "a01e991836b891cce7ce724a26c2cb14570e6728bc63a7b626fd2b268ce0a7e2",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5157770e3dccbe5592038bda4bbd51c7f689279ab601fec8a98242a274b10281",
+        "sha256_in_prefix": "5157770e3dccbe5592038bda4bbd51c7f689279ab601fec8a98242a274b10281",
+        "size_in_bytes": 1524
+      },
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "efcb9a3212ac4a2b0c39dfc4ce44c329dce706ab01416f2157803f51de2c404f",
+        "sha256_in_prefix": "efcb9a3212ac4a2b0c39dfc4ce44c329dce706ab01416f2157803f51de2c404f",
+        "size_in_bytes": 2389
+      },
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "sha256_in_prefix": "195f5a3138703ffe28342b6f102d9e737a9462eb6059e033925ae8ff49b85894",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0114d71fbe8fddcab377f34c805253165afccff1aede9300f27016cf0692d123",
+        "sha256_in_prefix": "0114d71fbe8fddcab377f34c805253165afccff1aede9300f27016cf0692d123",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "a6ed88c3e2148d56bf6ca460b74c54b4f4fd8b07d1d32da77d16326919642d95",
+        "sha256_in_prefix": "a6ed88c3e2148d56bf6ca460b74c54b4f4fd8b07d1d32da77d16326919642d95",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "site-packages/eido-0.2.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a25b6e31e940a6a727259d3d46b837945ee49939265396dc03aa11bd784dbba0",
+        "sha256_in_prefix": "a25b6e31e940a6a727259d3d46b837945ee49939265396dc03aa11bd784dbba0",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/eido/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0f7083f4179fc98e58724cfe2ecc0f71afd51ff448719a6be77fec89791b8b5e",
+        "sha256_in_prefix": "0f7083f4179fc98e58724cfe2ecc0f71afd51ff448719a6be77fec89791b8b5e",
+        "size_in_bytes": 612
+      },
+      {
+        "_path": "site-packages/eido/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "2f5c279c4adea98bf6ed969a0b0c0898220764ad0ccf92314bcd19b0d712d738",
+        "sha256_in_prefix": "2f5c279c4adea98bf6ed969a0b0c0898220764ad0ccf92314bcd19b0d712d738",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "site-packages/eido/_version.py",
+        "path_type": "hardlink",
+        "sha256": "48197610f156fa5b4fbd0eef6d5588b7202ccf768a608a633bbbdc7ebf381a45",
+        "sha256_in_prefix": "48197610f156fa5b4fbd0eef6d5588b7202ccf768a608a633bbbdc7ebf381a45",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/eido/argparser.py",
+        "path_type": "hardlink",
+        "sha256": "bf1e7d78ef020a5690a577a1716d39db2e075b99adb464ea33de8fa092705a41",
+        "sha256_in_prefix": "bf1e7d78ef020a5690a577a1716d39db2e075b99adb464ea33de8fa092705a41",
+        "size_in_bytes": 4806
+      },
+      {
+        "_path": "site-packages/eido/cli.py",
+        "path_type": "hardlink",
+        "sha256": "7573daa85eae5189c63255b61fd31ceb6f027e10a5de91229f15989d0f784957",
+        "sha256_in_prefix": "7573daa85eae5189c63255b61fd31ceb6f027e10a5de91229f15989d0f784957",
+        "size_in_bytes": 5814
+      },
+      {
+        "_path": "site-packages/eido/const.py",
+        "path_type": "hardlink",
+        "sha256": "4dbf9f0cabe77b2657dea2e02d8556b461ace07c38b51a20077397225c2da5d6",
+        "sha256_in_prefix": "4dbf9f0cabe77b2657dea2e02d8556b461ace07c38b51a20077397225c2da5d6",
+        "size_in_bytes": 1109
+      },
+      {
+        "_path": "site-packages/eido/conversion.py",
+        "path_type": "hardlink",
+        "sha256": "30ab895af2c1d74a29abf9e84e2392be28a226030b63b9fc076b2d7c28c410b1",
+        "sha256_in_prefix": "30ab895af2c1d74a29abf9e84e2392be28a226030b63b9fc076b2d7c28c410b1",
+        "size_in_bytes": 4002
+      },
+      {
+        "_path": "site-packages/eido/conversion_plugins.py",
+        "path_type": "hardlink",
+        "sha256": "9d910fd7a585483d9423a3ca800dd3357fad533acecd7835d502782bc3e2c838",
+        "sha256_in_prefix": "9d910fd7a585483d9423a3ca800dd3357fad533acecd7835d502782bc3e2c838",
+        "size_in_bytes": 2493
+      },
+      {
+        "_path": "site-packages/eido/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "0bd81cfd79f16174fcb87ef15e887534deca5055db46f2e9e1537b1f50ea17dc",
+        "sha256_in_prefix": "0bd81cfd79f16174fcb87ef15e887534deca5055db46f2e9e1537b1f50ea17dc",
+        "size_in_bytes": 1213
+      },
+      {
+        "_path": "site-packages/eido/inspection.py",
+        "path_type": "hardlink",
+        "sha256": "adfb979c06b0181590173fe16c90365583ffb05be9631cedc4e8972fab7ad74a",
+        "sha256_in_prefix": "adfb979c06b0181590173fe16c90365583ffb05be9631cedc4e8972fab7ad74a",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "site-packages/eido/output_formatters.py",
+        "path_type": "hardlink",
+        "sha256": "8264be508463450f04836e14132a767e6534e3a4836c84bb8e1e3338b14795c1",
+        "sha256_in_prefix": "8264be508463450f04836e14132a767e6534e3a4836c84bb8e1e3338b14795c1",
+        "size_in_bytes": 4485
+      },
+      {
+        "_path": "site-packages/eido/schema.py",
+        "path_type": "hardlink",
+        "sha256": "23be6395495476cc249dee97ab65cb0fcce6f9ff29ed52134088fb27fc7b687f",
+        "sha256_in_prefix": "23be6395495476cc249dee97ab65cb0fcce6f9ff29ed52134088fb27fc7b687f",
+        "size_in_bytes": 2664
+      },
+      {
+        "_path": "site-packages/eido/validation.py",
+        "path_type": "hardlink",
+        "sha256": "b3597cac94498c1706241cb0443569cb790f0693c4d04b2c7c0989c34ea9d077",
+        "sha256_in_prefix": "b3597cac94498c1706241cb0443569cb790f0693c4d04b2c7c0989c34ea9d077",
+        "size_in_bytes": 8687
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/__main__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/argparser.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/cli.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/const.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/conversion.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/conversion_plugins.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/inspection.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/output_formatters.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/schema.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/eido/__pycache__/validation.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/eido",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f4875fa1fc8feab88bdfc05f7a705b2416dfdd974f3eb19608af18c38691779e",
+  "size": 20005,
+  "subdir": "noarch",
+  "timestamp": 1729011115000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/eido-0.2.4-pyhd8ed1ab_0.conda",
+  "version": "0.2.4"
+}

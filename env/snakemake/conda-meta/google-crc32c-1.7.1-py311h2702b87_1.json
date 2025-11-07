@@ -1,0 +1,205 @@
+{
+  "build": "py311h2702b87_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "python_abi 3.11.* *_cp311",
+    "python >=3.11,<3.12.0a0",
+    "libgcc >=14",
+    "libcrc32c >=1.1.2,<1.2.0a0"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/google-crc32c-1.7.1-py311h2702b87_1",
+  "files": [
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/zip-safe",
+    "lib/python3.11/site-packages/google_crc32c/__config__.py",
+    "lib/python3.11/site-packages/google_crc32c/__init__.py",
+    "lib/python3.11/site-packages/google_crc32c/__pycache__/__config__.cpython-311.pyc",
+    "lib/python3.11/site-packages/google_crc32c/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/google_crc32c/__pycache__/_checksum.cpython-311.pyc",
+    "lib/python3.11/site-packages/google_crc32c/__pycache__/cext.cpython-311.pyc",
+    "lib/python3.11/site-packages/google_crc32c/__pycache__/python.cpython-311.pyc",
+    "lib/python3.11/site-packages/google_crc32c/_checksum.py",
+    "lib/python3.11/site-packages/google_crc32c/_crc32c.cpython-311-x86_64-linux-gnu.so",
+    "lib/python3.11/site-packages/google_crc32c/cext.py",
+    "lib/python3.11/site-packages/google_crc32c/py.typed",
+    "lib/python3.11/site-packages/google_crc32c/python.py"
+  ],
+  "fn": "google-crc32c-1.7.1-py311h2702b87_1.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/google-crc32c-1.7.1-py311h2702b87_1",
+    "type": 1
+  },
+  "md5": "7bf171dd64094e39fa6b508979680c8f",
+  "name": "google-crc32c",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/google-crc32c-1.7.1-py311h2702b87_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "dad17d6740a6f1a3ae70e70cab4175106b708a6130d249ca563561eea1d4d76b",
+        "sha256_in_prefix": "dad17d6740a6f1a3ae70e70cab4175106b708a6130d249ca563561eea1d4d76b",
+        "size_in_bytes": 2339
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "157c72d12d767acc1990dff3e4ddd3b21cec464b76cc7cf8166cba48e4687132",
+        "sha256_in_prefix": "157c72d12d767acc1990dff3e4ddd3b21cec464b76cc7cf8166cba48e4687132",
+        "size_in_bytes": 1684
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "21355d6298931a7af2a886ce4748b5c1c7484a8f183c9ce5c7cac0ca871a6f33",
+        "sha256_in_prefix": "21355d6298931a7af2a886ce4748b5c1c7484a8f183c9ce5c7cac0ca871a6f33",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0bdb02d0992d012396b32fd7190f485723cacc35549913816adfdcd526d46633",
+        "sha256_in_prefix": "0bdb02d0992d012396b32fd7190f485723cacc35549913816adfdcd526d46633",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "afb3cb3e52a37e13192ea791b0a5c841d2336dedc5aefff6fdbf1799cbd9e054",
+        "sha256_in_prefix": "afb3cb3e52a37e13192ea791b0a5c841d2336dedc5aefff6fdbf1799cbd9e054",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c-1.7.1.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/__config__.py",
+        "path_type": "hardlink",
+        "sha256": "da2d0aa4aa3eca998c4bf3fd8b7a8e6c05b679e9825adae6bbf3c95e4b631cef",
+        "sha256_in_prefix": "da2d0aa4aa3eca998c4bf3fd8b7a8e6c05b679e9825adae6bbf3c95e4b631cef",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0ee9fa5611b143ef1fc9d191fe15f853d2b79fc5cf6170832a6a080406ada733",
+        "sha256_in_prefix": "0ee9fa5611b143ef1fc9d191fe15f853d2b79fc5cf6170832a6a080406ada733",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/__pycache__/__config__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "57f1d756d75b4cf94b3c4d3ff3b1f67b94938f1e0cd85416934df00276588bb4",
+        "sha256_in_prefix": "57f1d756d75b4cf94b3c4d3ff3b1f67b94938f1e0cd85416934df00276588bb4",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "158e0acb0b49e2a603430288a8b4afcd7dc0df2a029e8ce7bd4e3174713e5cbb",
+        "sha256_in_prefix": "158e0acb0b49e2a603430288a8b4afcd7dc0df2a029e8ce7bd4e3174713e5cbb",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/__pycache__/_checksum.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a67fedffcbb4892d6b25c62b064cea1154c48aefdf97b23143a87ea44331a6d",
+        "sha256_in_prefix": "0a67fedffcbb4892d6b25c62b064cea1154c48aefdf97b23143a87ea44331a6d",
+        "size_in_bytes": 3353
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/__pycache__/cext.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "181f7fa1da9aa92c4ac1234070af442d78680a3d45d7b87670a6e2bedfb7165b",
+        "sha256_in_prefix": "181f7fa1da9aa92c4ac1234070af442d78680a3d45d7b87670a6e2bedfb7165b",
+        "size_in_bytes": 1550
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/__pycache__/python.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1e78f87a87ef5114f8dede533449b769388e15571b423cdaf11ee1e6cf7afad",
+        "sha256_in_prefix": "e1e78f87a87ef5114f8dede533449b769388e15571b423cdaf11ee1e6cf7afad",
+        "size_in_bytes": 5080
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/_checksum.py",
+        "path_type": "hardlink",
+        "sha256": "affd8f7242b5a705a55bd13a7bdc72b38a9d4f867b2597b659f6031733506cd2",
+        "sha256_in_prefix": "affd8f7242b5a705a55bd13a7bdc72b38a9d4f867b2597b659f6031733506cd2",
+        "size_in_bytes": 2636
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/_crc32c.cpython-311-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "851ad0d22afb2337628d1734c000f4bf3a556cd8e73b1035b674bc972d684630",
+        "sha256_in_prefix": "851ad0d22afb2337628d1734c000f4bf3a556cd8e73b1035b674bc972d684630",
+        "size_in_bytes": 15816
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/cext.py",
+        "path_type": "hardlink",
+        "sha256": "a05ecd16929650e128c9895b546200255a3c48d0e25914ff558c82235e3ee63a",
+        "sha256_in_prefix": "a05ecd16929650e128c9895b546200255a3c48d0e25914ff558c82235e3ee63a",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/py.typed",
+        "path_type": "hardlink",
+        "sha256": "dab4ffc2d8b3c762709a7cc0afab57766b04744e4f229e24ba6ed8b0384ec3fc",
+        "sha256_in_prefix": "dab4ffc2d8b3c762709a7cc0afab57766b04744e4f229e24ba6ed8b0384ec3fc",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/python3.11/site-packages/google_crc32c/python.py",
+        "path_type": "hardlink",
+        "sha256": "f73cba001001fca33c24945c6671386faf15aa7384151366086b9fae371beea7",
+        "sha256_in_prefix": "f73cba001001fca33c24945c6671386faf15aa7384151366086b9fae371beea7",
+        "size_in_bytes": 5661
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "edd0dd67a6e7e7a76a70fc45b58e604a0b4a171d38b8a9b5f31218d590d63bf3",
+  "size": 25050,
+  "subdir": "linux-64",
+  "timestamp": 1755850341000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/google-crc32c-1.7.1-py311h2702b87_1.conda",
+  "version": "1.7.1"
+}

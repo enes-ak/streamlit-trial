@@ -1,0 +1,159 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.10"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/iniconfig-2.3.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/iniconfig-2.3.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/iniconfig-2.3.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/iniconfig-2.3.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/iniconfig-2.3.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/iniconfig-2.3.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/iniconfig-2.3.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/iniconfig-2.3.0.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/iniconfig-2.3.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/iniconfig/__init__.py",
+    "lib/python3.11/site-packages/iniconfig/_parse.py",
+    "lib/python3.11/site-packages/iniconfig/_version.py",
+    "lib/python3.11/site-packages/iniconfig/exceptions.py",
+    "lib/python3.11/site-packages/iniconfig/py.typed",
+    "lib/python3.11/site-packages/iniconfig/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/iniconfig/__pycache__/_parse.cpython-311.pyc",
+    "lib/python3.11/site-packages/iniconfig/__pycache__/_version.cpython-311.pyc",
+    "lib/python3.11/site-packages/iniconfig/__pycache__/exceptions.cpython-311.pyc"
+  ],
+  "fn": "iniconfig-2.3.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/iniconfig-2.3.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "9614359868482abba1bd15ce465e3c42",
+  "name": "iniconfig",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/iniconfig-2.3.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/iniconfig-2.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/iniconfig-2.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "40d773f84e4e112f495bbf4f1be9cbd2d456c0aeb6ef5311f75d1bf322f2165b",
+        "sha256_in_prefix": "40d773f84e4e112f495bbf4f1be9cbd2d456c0aeb6ef5311f75d1bf322f2165b",
+        "size_in_bytes": 2526
+      },
+      {
+        "_path": "site-packages/iniconfig-2.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "2d922fb78770faf101091dcc12a46ff24519cba76c84584722bc736115decb97",
+        "sha256_in_prefix": "2d922fb78770faf101091dcc12a46ff24519cba76c84584722bc736115decb97",
+        "size_in_bytes": 1275
+      },
+      {
+        "_path": "site-packages/iniconfig-2.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/iniconfig-2.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/iniconfig-2.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "963af9f7f040af5a1312ebb57e5458deb00fad62a6fb4bc44c9b428637594bef",
+        "sha256_in_prefix": "963af9f7f040af5a1312ebb57e5458deb00fad62a6fb4bc44c9b428637594bef",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/iniconfig-2.3.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4",
+        "sha256_in_prefix": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "site-packages/iniconfig-2.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "eca7ccd1fba07654e88fd516ede9ca5e4d876002d00fca878b22ad8e14b380df",
+        "sha256_in_prefix": "eca7ccd1fba07654e88fd516ede9ca5e4d876002d00fca878b22ad8e14b380df",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/iniconfig/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5cbe5ea94623e26b2400ea2b6798df4408a726f2734c8f9f271a4fe317d7b5ac",
+        "sha256_in_prefix": "5cbe5ea94623e26b2400ea2b6798df4408a726f2734c8f9f271a4fe317d7b5ac",
+        "size_in_bytes": 7497
+      },
+      {
+        "_path": "site-packages/iniconfig/_parse.py",
+        "path_type": "hardlink",
+        "sha256": "e6770197b30042268f367a51aecf45478b7a1ba0e480e52ce39f0e63fd42476f",
+        "sha256_in_prefix": "e6770197b30042268f367a51aecf45478b7a1ba0e480e52ce39f0e63fd42476f",
+        "size_in_bytes": 5223
+      },
+      {
+        "_path": "site-packages/iniconfig/_version.py",
+        "path_type": "hardlink",
+        "sha256": "28d1587be56d76ded9fa81f297c8e60c043da97a0234c0045e2823e814754142",
+        "sha256_in_prefix": "28d1587be56d76ded9fa81f297c8e60c043da97a0234c0045e2823e814754142",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "site-packages/iniconfig/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "9a2a50fda3310fd0af4af156375a135d8e10b919ca00c6757f7b027668c34d4d",
+        "sha256_in_prefix": "9a2a50fda3310fd0af4af156375a135d8e10b919ca00c6757f7b027668c34d4d",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "site-packages/iniconfig/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/iniconfig/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/iniconfig/__pycache__/_parse.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/iniconfig/__pycache__/_version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/iniconfig/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e1a9e3b1c8fe62dc3932a616c284b5d8cbe3124bbfbedcf4ce5c828cb166ee19",
+  "size": 13387,
+  "subdir": "noarch",
+  "timestamp": 1760831448000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/iniconfig-2.3.0-pyhd8ed1ab_0.conda",
+  "version": "2.3.0"
+}

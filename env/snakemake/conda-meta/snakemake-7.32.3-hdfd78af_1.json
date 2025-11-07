@@ -1,0 +1,49 @@
+{
+  "build": "hdfd78af_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "pandas",
+    "pygments",
+    "boto3",
+    "peppy",
+    "google-cloud-storage",
+    "python-irodsclient",
+    "aioeasywebdav",
+    "google-api-python-client",
+    "oauth2client",
+    "slacker",
+    "google-crc32c",
+    "eido",
+    "pysftp >=0.2.8",
+    "filechunkio >=1.6",
+    "dropbox >=7.2.1",
+    "ftputil >=3.2",
+    "snakemake-minimal 7.32.3.*"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/snakemake-7.32.3-hdfd78af_1",
+  "files": [],
+  "fn": "snakemake-7.32.3-hdfd78af_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/snakemake-7.32.3-hdfd78af_1",
+    "type": 1
+  },
+  "md5": "5f61e896c2f4a82dc9a719c13ae057d4",
+  "name": "snakemake",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/snakemake-7.32.3-hdfd78af_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "snakemake=7.32.3",
+  "sha256": "7d633de32a7a16da3dc180f3f851aee5c916a21d2058970c9eaf07b848900e3e",
+  "size": 8872,
+  "subdir": "noarch",
+  "timestamp": 1694037158000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/snakemake-7.32.3-hdfd78af_1.tar.bz2",
+  "version": "7.32.3"
+}

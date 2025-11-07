@@ -1,0 +1,11 @@
+prefix=/home/enes/miniconda3/envs/snakemake
+exec_prefix=/home/enes/miniconda3/envs/snakemake
+libdir=/home/enes/miniconda3/envs/snakemake/lib
+includedir=/home/enes/miniconda3/envs/snakemake/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.41.2
+Cflags: -I${includedir}/uuid
+Libs.private:  -lpthread
+Libs: -L${libdir} -luuid

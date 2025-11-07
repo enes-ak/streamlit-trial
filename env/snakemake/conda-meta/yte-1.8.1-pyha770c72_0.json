@@ -1,0 +1,198 @@
+{
+  "build": "pyha770c72_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pyyaml",
+    "plac",
+    "dpath",
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/yte-1.8.1-pyha770c72_0",
+  "files": [
+    "lib/python3.11/site-packages/yte-1.8.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/yte-1.8.1.dist-info/LICENSE",
+    "lib/python3.11/site-packages/yte-1.8.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/yte-1.8.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/yte-1.8.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/yte-1.8.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/yte-1.8.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/yte-1.8.1.dist-info/entry_points.txt",
+    "lib/python3.11/site-packages/yte/__init__.py",
+    "lib/python3.11/site-packages/yte/code_handler.py",
+    "lib/python3.11/site-packages/yte/context.py",
+    "lib/python3.11/site-packages/yte/document.py",
+    "lib/python3.11/site-packages/yte/exceptions.py",
+    "lib/python3.11/site-packages/yte/process.py",
+    "lib/python3.11/site-packages/yte/value_handler.py",
+    "lib/python3.11/site-packages/yte/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/yte/__pycache__/code_handler.cpython-311.pyc",
+    "lib/python3.11/site-packages/yte/__pycache__/context.cpython-311.pyc",
+    "lib/python3.11/site-packages/yte/__pycache__/document.cpython-311.pyc",
+    "lib/python3.11/site-packages/yte/__pycache__/exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/yte/__pycache__/process.cpython-311.pyc",
+    "lib/python3.11/site-packages/yte/__pycache__/value_handler.cpython-311.pyc",
+    "bin/yte"
+  ],
+  "fn": "yte-1.8.1-pyha770c72_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/yte-1.8.1-pyha770c72_0",
+    "type": 1
+  },
+  "md5": "55a52c71e7919a4951cfc6cccf4fa16f",
+  "name": "yte",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/yte-1.8.1-pyha770c72_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/yte-1.8.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/yte-1.8.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7fe9ef7f72ef56432dc497b1ff722630ea222604eb525fdc8c6fb612a2064241",
+        "sha256_in_prefix": "7fe9ef7f72ef56432dc497b1ff722630ea222604eb525fdc8c6fb612a2064241",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "site-packages/yte-1.8.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "82029181bde6bcdefa8c71d8eb4249236359c2bfb320ab5e873055c33fdfadd3",
+        "sha256_in_prefix": "82029181bde6bcdefa8c71d8eb4249236359c2bfb320ab5e873055c33fdfadd3",
+        "size_in_bytes": 3462
+      },
+      {
+        "_path": "site-packages/yte-1.8.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "674c07e7289b8f94bf1dbe428b3a90863178a95fcc02d8bed97215401588b739",
+        "sha256_in_prefix": "674c07e7289b8f94bf1dbe428b3a90863178a95fcc02d8bed97215401588b739",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "site-packages/yte-1.8.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/yte-1.8.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6f82bf85e95ffa3950a170411137f09dfe01d38602ebb2ce7afd23a387d7e66f",
+        "sha256_in_prefix": "6f82bf85e95ffa3950a170411137f09dfe01d38602ebb2ce7afd23a387d7e66f",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/yte-1.8.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "60f787f5a30b3d4cc2423ca6114e2d1c79eb02016dbc504e0ae13fa530a0ef07",
+        "sha256_in_prefix": "60f787f5a30b3d4cc2423ca6114e2d1c79eb02016dbc504e0ae13fa530a0ef07",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "site-packages/yte-1.8.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4a07a1ae46db3f4cdb4bc7519e96a83ff274547e12c22f5c1e1bb1f4607feab3",
+        "sha256_in_prefix": "4a07a1ae46db3f4cdb4bc7519e96a83ff274547e12c22f5c1e1bb1f4607feab3",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/yte/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "450944c0156fd60f96879620439f93e49c17687c4b6c7ae0b9772f89cd048757",
+        "sha256_in_prefix": "450944c0156fd60f96879620439f93e49c17687c4b6c7ae0b9772f89cd048757",
+        "size_in_bytes": 3499
+      },
+      {
+        "_path": "site-packages/yte/code_handler.py",
+        "path_type": "hardlink",
+        "sha256": "50daba70c349f1749f024a5254260202971aabad42c95a3dee39d867fda8795e",
+        "sha256_in_prefix": "50daba70c349f1749f024a5254260202971aabad42c95a3dee39d867fda8795e",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "site-packages/yte/context.py",
+        "path_type": "hardlink",
+        "sha256": "5cb464381c4b34ac3be3a477b647d001bbc5b2c2ce128dc0d1276d6658b200d3",
+        "sha256_in_prefix": "5cb464381c4b34ac3be3a477b647d001bbc5b2c2ce128dc0d1276d6658b200d3",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "site-packages/yte/document.py",
+        "path_type": "hardlink",
+        "sha256": "50f76944b60f176c4e1c398a903547903b8e105fb3409580ac7f9cdebb42d55a",
+        "sha256_in_prefix": "50f76944b60f176c4e1c398a903547903b8e105fb3409580ac7f9cdebb42d55a",
+        "size_in_bytes": 2066
+      },
+      {
+        "_path": "site-packages/yte/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "61b09a49306b5e94991dd4d91853c857df04611fa604fcfe8775dd931d55834d",
+        "sha256_in_prefix": "61b09a49306b5e94991dd4d91853c857df04611fa604fcfe8775dd931d55834d",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "site-packages/yte/process.py",
+        "path_type": "hardlink",
+        "sha256": "602d1a89aa61745c4da66ea9053cb44672786adab229508014f2e39dd4b50f70",
+        "sha256_in_prefix": "602d1a89aa61745c4da66ea9053cb44672786adab229508014f2e39dd4b50f70",
+        "size_in_bytes": 11345
+      },
+      {
+        "_path": "site-packages/yte/value_handler.py",
+        "path_type": "hardlink",
+        "sha256": "7db74d2534e9687a01338ee5a356075c33376c20f35cb428886fccc8a4f50b1e",
+        "sha256_in_prefix": "7db74d2534e9687a01338ee5a356075c33376c20f35cb428886fccc8a4f50b1e",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yte/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yte/__pycache__/code_handler.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yte/__pycache__/context.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yte/__pycache__/document.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yte/__pycache__/exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yte/__pycache__/process.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/yte/__pycache__/value_handler.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/yte",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "439ebef131ef2e4711f286375240f8d779fce2fe54b4ec786fb58c6c9141b17b",
+  "size": 15805,
+  "subdir": "noarch",
+  "timestamp": 1749657286000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/yte-1.8.1-pyha770c72_0.conda",
+  "version": "1.8.1"
+}

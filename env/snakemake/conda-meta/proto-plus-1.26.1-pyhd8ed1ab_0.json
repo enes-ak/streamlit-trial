@@ -1,0 +1,438 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "protobuf >=3.19.0,<7.0.0"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/proto-plus-1.26.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/proto/__init__.py",
+    "lib/python3.11/site-packages/proto/_file_info.py",
+    "lib/python3.11/site-packages/proto/_package_info.py",
+    "lib/python3.11/site-packages/proto/datetime_helpers.py",
+    "lib/python3.11/site-packages/proto/enums.py",
+    "lib/python3.11/site-packages/proto/fields.py",
+    "lib/python3.11/site-packages/proto/marshal/__init__.py",
+    "lib/python3.11/site-packages/proto/marshal/collections/__init__.py",
+    "lib/python3.11/site-packages/proto/marshal/collections/maps.py",
+    "lib/python3.11/site-packages/proto/marshal/collections/repeated.py",
+    "lib/python3.11/site-packages/proto/marshal/compat.py",
+    "lib/python3.11/site-packages/proto/marshal/marshal.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/__init__.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/bytes.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/dates.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/enums.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/field_mask.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/message.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/stringy_numbers.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/struct.py",
+    "lib/python3.11/site-packages/proto/marshal/rules/wrappers.py",
+    "lib/python3.11/site-packages/proto/message.py",
+    "lib/python3.11/site-packages/proto/modules.py",
+    "lib/python3.11/site-packages/proto/primitives.py",
+    "lib/python3.11/site-packages/proto/utils.py",
+    "lib/python3.11/site-packages/proto/version.py",
+    "lib/python3.11/site-packages/proto_plus-1.26.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/proto_plus-1.26.1.dist-info/LICENSE",
+    "lib/python3.11/site-packages/proto_plus-1.26.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/proto_plus-1.26.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/proto_plus-1.26.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/proto_plus-1.26.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/proto_plus-1.26.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/proto_plus-1.26.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/proto/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/_file_info.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/_package_info.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/datetime_helpers.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/enums.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/fields.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/collections/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/collections/__pycache__/maps.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/collections/__pycache__/repeated.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/__pycache__/compat.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/__pycache__/marshal.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/bytes.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/dates.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/enums.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/field_mask.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/message.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/stringy_numbers.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/struct.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/wrappers.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/message.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/modules.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/primitives.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/proto/__pycache__/version.cpython-311.pyc"
+  ],
+  "fn": "proto-plus-1.26.1-pyhd8ed1ab_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/proto-plus-1.26.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "6fcfcf4432cd80d05ee9c6e20830bd36",
+  "name": "proto-plus",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/proto-plus-1.26.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/proto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "52daea47d1870b13d17ff5bac292d8ba230ecbbe17c98c85e8bb9a7c03967b90",
+        "sha256_in_prefix": "52daea47d1870b13d17ff5bac292d8ba230ecbbe17c98c85e8bb9a7c03967b90",
+        "size_in_bytes": 1712
+      },
+      {
+        "_path": "site-packages/proto/_file_info.py",
+        "path_type": "hardlink",
+        "sha256": "e1a47b159ca7674a1851ee7cead6b4e0ceff790f177ee97ef93f80094b40177d",
+        "sha256_in_prefix": "e1a47b159ca7674a1851ee7cead6b4e0ceff790f177ee97ef93f80094b40177d",
+        "size_in_bytes": 7914
+      },
+      {
+        "_path": "site-packages/proto/_package_info.py",
+        "path_type": "hardlink",
+        "sha256": "51d17e579135f7792f3adfc8a94a9eca527377163507f45161cefe68230c97ce",
+        "sha256_in_prefix": "51d17e579135f7792f3adfc8a94a9eca527377163507f45161cefe68230c97ce",
+        "size_in_bytes": 1906
+      },
+      {
+        "_path": "site-packages/proto/datetime_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "7e8323f1703fe9af598216f07d32b80e99579a970c9861d05367c499d839e31f",
+        "sha256_in_prefix": "7e8323f1703fe9af598216f07d32b80e99579a970c9861d05367c499d839e31f",
+        "size_in_bytes": 7371
+      },
+      {
+        "_path": "site-packages/proto/enums.py",
+        "path_type": "hardlink",
+        "sha256": "e9cc8762a7431bb7be8d0493ebb93c5359feeec53ca4671bd0806f67428315c3",
+        "sha256_in_prefix": "e9cc8762a7431bb7be8d0493ebb93c5359feeec53ca4671bd0806f67428315c3",
+        "size_in_bytes": 5961
+      },
+      {
+        "_path": "site-packages/proto/fields.py",
+        "path_type": "hardlink",
+        "sha256": "a81a10fd397b65185e0f5ecfce6651e835e46c44ff9d9604191a5052d31f8b11",
+        "sha256_in_prefix": "a81a10fd397b65185e0f5ecfce6651e835e46c44ff9d9604191a5052d31f8b11",
+        "size_in_bytes": 5372
+      },
+      {
+        "_path": "site-packages/proto/marshal/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ba085dc41813a59fc6b4e5a74b659acf5c9511b0a7a3eeb59b97915266316d2a",
+        "sha256_in_prefix": "ba085dc41813a59fc6b4e5a74b659acf5c9511b0a7a3eeb59b97915266316d2a",
+        "size_in_bytes": 630
+      },
+      {
+        "_path": "site-packages/proto/marshal/collections/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "997d9b3be1d3be9e2f716c350ee7bd58c7fbd7bf903fded984d787be45c626cc",
+        "sha256_in_prefix": "997d9b3be1d3be9e2f716c350ee7bd58c7fbd7bf903fded984d787be45c626cc",
+        "size_in_bytes": 755
+      },
+      {
+        "_path": "site-packages/proto/marshal/collections/maps.py",
+        "path_type": "hardlink",
+        "sha256": "3de0452e7187c87770463b99584c88becd99ad6b6d60dfdc364f19e87520ba7a",
+        "sha256_in_prefix": "3de0452e7187c87770463b99584c88becd99ad6b6d60dfdc364f19e87520ba7a",
+        "size_in_bytes": 2921
+      },
+      {
+        "_path": "site-packages/proto/marshal/collections/repeated.py",
+        "path_type": "hardlink",
+        "sha256": "62e9b9e1201aab05120a6b49e3eed26c026300abb08d39878f83bb7d5f08f902",
+        "sha256_in_prefix": "62e9b9e1201aab05120a6b49e3eed26c026300abb08d39878f83bb7d5f08f902",
+        "size_in_bytes": 6934
+      },
+      {
+        "_path": "site-packages/proto/marshal/compat.py",
+        "path_type": "hardlink",
+        "sha256": "30b03f0b7cd73bc414240dd578c5c18324a66aaae81aa8cdf136b9db44a4665c",
+        "sha256_in_prefix": "30b03f0b7cd73bc414240dd578c5c18324a66aaae81aa8cdf136b9db44a4665c",
+        "size_in_bytes": 2349
+      },
+      {
+        "_path": "site-packages/proto/marshal/marshal.py",
+        "path_type": "hardlink",
+        "sha256": "a47e3b36c34ff9ad719c3f84e04ba618b775f00de82bf08199f1acf99a1ea063",
+        "sha256_in_prefix": "a47e3b36c34ff9ad719c3f84e04ba618b775f00de82bf08199f1acf99a1ea063",
+        "size_in_bytes": 12030
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "addb6d8ff8b47b8229459617f686524ece409e3016e1997ffc1a0d1df5141e95",
+        "sha256_in_prefix": "addb6d8ff8b47b8229459617f686524ece409e3016e1997ffc1a0d1df5141e95",
+        "size_in_bytes": 575
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/bytes.py",
+        "path_type": "hardlink",
+        "sha256": "01fdba986e5ed47aa7d2dcb93710b186ad26ec2c5a7985936ad390f214cdd233",
+        "sha256_in_prefix": "01fdba986e5ed47aa7d2dcb93710b186ad26ec2c5a7985936ad390f214cdd233",
+        "size_in_bytes": 1593
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/dates.py",
+        "path_type": "hardlink",
+        "sha256": "5db54017839889f4009d52eb6225169dd32532868bf956336afe7656dbb5e372",
+        "sha256_in_prefix": "5db54017839889f4009d52eb6225169dd32532868bf956336afe7656dbb5e372",
+        "size_in_bytes": 3135
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/enums.py",
+        "path_type": "hardlink",
+        "sha256": "f4d648436d78b2063745cc91eb8d134569ca2c7e2b977ea64561b2539e8403ee",
+        "sha256_in_prefix": "f4d648436d78b2063745cc91eb8d134569ca2c7e2b977ea64561b2539e8403ee",
+        "size_in_bytes": 2213
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/field_mask.py",
+        "path_type": "hardlink",
+        "sha256": "fc21bd92f95ae3edf6a6a1d5633a172433df0bdcb2489cc424200a6500bed88a",
+        "sha256_in_prefix": "fc21bd92f95ae3edf6a6a1d5633a172433df0bdcb2489cc424200a6500bed88a",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/message.py",
+        "path_type": "hardlink",
+        "sha256": "d4d696f7e1ef57c76d7d6c96cef259e42360b876f2ec4ed6f2992627137debb5",
+        "sha256_in_prefix": "d4d696f7e1ef57c76d7d6c96cef259e42360b876f2ec4ed6f2992627137debb5",
+        "size_in_bytes": 2364
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/stringy_numbers.py",
+        "path_type": "hardlink",
+        "sha256": "b0eb02a25f9d07b7a96d50a3fc066ed59118a39b9a966839ce6e219345f59255",
+        "sha256_in_prefix": "b0eb02a25f9d07b7a96d50a3fc066ed59118a39b9a966839ce6e219345f59255",
+        "size_in_bytes": 1787
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/struct.py",
+        "path_type": "hardlink",
+        "sha256": "918da21993b473c231a23805f0e9657ee0dbeb79667698c7fb9b41a1de732e84",
+        "sha256_in_prefix": "918da21993b473c231a23805f0e9657ee0dbeb79667698c7fb9b41a1de732e84",
+        "size_in_bytes": 5226
+      },
+      {
+        "_path": "site-packages/proto/marshal/rules/wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "14356ec0bc570a7866efb8f4919f85d615466383e596681085afd31fdbe31377",
+        "sha256_in_prefix": "14356ec0bc570a7866efb8f4919f85d615466383e596681085afd31fdbe31377",
+        "size_in_bytes": 2280
+      },
+      {
+        "_path": "site-packages/proto/message.py",
+        "path_type": "hardlink",
+        "sha256": "d0f33a50b62f78567494f33b8e019d3ac8c8e36980c7ef6677dd810e37e2e37e",
+        "sha256_in_prefix": "d0f33a50b62f78567494f33b8e019d3ac8c8e36980c7ef6677dd810e37e2e37e",
+        "size_in_bytes": 38971
+      },
+      {
+        "_path": "site-packages/proto/modules.py",
+        "path_type": "hardlink",
+        "sha256": "d60dc70195b4256071ecb0ab94c3da99438c1f169a7fe405c1b61aeb3822a658",
+        "sha256_in_prefix": "d60dc70195b4256071ecb0ab94c3da99438c1f169a7fe405c1b61aeb3822a658",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "site-packages/proto/primitives.py",
+        "path_type": "hardlink",
+        "sha256": "170bba290767d62eaf54f3c3dccc505c72af6f3ef3e41e364253b049391c89d2",
+        "sha256_in_prefix": "170bba290767d62eaf54f3c3dccc505c72af6f3ef3e41e364253b049391c89d2",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "site-packages/proto/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e7e0ea7b658e3c943482c4f931388c88f4c36bcab9e957c3f8472a2090f8783d",
+        "sha256_in_prefix": "e7e0ea7b658e3c943482c4f931388c88f4c36bcab9e957c3f8472a2090f8783d",
+        "size_in_bytes": 1651
+      },
+      {
+        "_path": "site-packages/proto/version.py",
+        "path_type": "hardlink",
+        "sha256": "385ee3f6e2d12555949e5c3139f583c081b07fc4744dee2c8c1e20a0f684b554",
+        "sha256_in_prefix": "385ee3f6e2d12555949e5c3139f583c081b07fc4744dee2c8c1e20a0f684b554",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "site-packages/proto_plus-1.26.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/proto_plus-1.26.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/proto_plus-1.26.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d19a01293708e198801e947857644f148ba09e0efb1cb14d228b1a5f7554da7d",
+        "sha256_in_prefix": "d19a01293708e198801e947857644f148ba09e0efb1cb14d228b1a5f7554da7d",
+        "size_in_bytes": 2170
+      },
+      {
+        "_path": "site-packages/proto_plus-1.26.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e85c54cfb4c461499ae982b56ea6dae021d2ec2a95db26d7ce81de609417d7c0",
+        "sha256_in_prefix": "e85c54cfb4c461499ae982b56ea6dae021d2ec2a95db26d7ce81de609417d7c0",
+        "size_in_bytes": 4225
+      },
+      {
+        "_path": "site-packages/proto_plus-1.26.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/proto_plus-1.26.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8c1ef367737d84833d69d5bbaa54c0cb270b616f67a5a58a2d1cdaa1570b29c3",
+        "sha256_in_prefix": "8c1ef367737d84833d69d5bbaa54c0cb270b616f67a5a58a2d1cdaa1570b29c3",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/proto_plus-1.26.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2f6a3add197b75fc1e6d2a4f0b4268b6b66d6b99d1d8cca0942374188123fdb2",
+        "sha256_in_prefix": "2f6a3add197b75fc1e6d2a4f0b4268b6b66d6b99d1d8cca0942374188123fdb2",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/proto_plus-1.26.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1c583f356f55c610f24b3a860e6531a9487ac3c4199552e1e190c8c5892c4c23",
+        "sha256_in_prefix": "1c583f356f55c610f24b3a860e6531a9487ac3c4199552e1e190c8c5892c4c23",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/_file_info.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/_package_info.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/datetime_helpers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/enums.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/fields.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/collections/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/collections/__pycache__/maps.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/collections/__pycache__/repeated.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/__pycache__/compat.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/__pycache__/marshal.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/bytes.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/dates.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/enums.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/field_mask.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/message.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/stringy_numbers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/struct.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/marshal/rules/__pycache__/wrappers.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/message.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/modules.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/primitives.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/proto/__pycache__/version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88217ba299be4a56c0534ccdef676390b76ca10b07ac26d16940d9a944d6212c",
+  "size": 42466,
+  "subdir": "noarch",
+  "timestamp": 1741676252000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/proto-plus-1.26.1-pyhd8ed1ab_0.conda",
+  "version": "1.26.1"
+}

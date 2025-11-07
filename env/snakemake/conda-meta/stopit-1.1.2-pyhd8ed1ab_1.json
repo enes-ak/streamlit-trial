@@ -1,0 +1,144 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "setuptools",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/enes/miniconda3/pkgs/stopit-1.1.2-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.11/site-packages/stopit-1.1.2.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/stopit-1.1.2.dist-info/METADATA",
+    "lib/python3.11/site-packages/stopit-1.1.2.dist-info/RECORD",
+    "lib/python3.11/site-packages/stopit-1.1.2.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/stopit-1.1.2.dist-info/WHEEL",
+    "lib/python3.11/site-packages/stopit-1.1.2.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/stopit-1.1.2.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/stopit/__init__.py",
+    "lib/python3.11/site-packages/stopit/signalstop.py",
+    "lib/python3.11/site-packages/stopit/threadstop.py",
+    "lib/python3.11/site-packages/stopit/utils.py",
+    "lib/python3.11/site-packages/stopit/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/stopit/__pycache__/signalstop.cpython-311.pyc",
+    "lib/python3.11/site-packages/stopit/__pycache__/threadstop.cpython-311.pyc",
+    "lib/python3.11/site-packages/stopit/__pycache__/utils.cpython-311.pyc"
+  ],
+  "fn": "stopit-1.1.2-pyhd8ed1ab_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/enes/miniconda3/pkgs/stopit-1.1.2-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "1a75f7cf86fb7549c7a275b498f8d50d",
+  "name": "stopit",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/enes/miniconda3/pkgs/stopit-1.1.2-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/stopit-1.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/stopit-1.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6ad224b41f0ba866681c18d91b0f29fddacba17b2148d4abfa0a53919751f90b",
+        "sha256_in_prefix": "6ad224b41f0ba866681c18d91b0f29fddacba17b2148d4abfa0a53919751f90b",
+        "size_in_bytes": 21002
+      },
+      {
+        "_path": "site-packages/stopit-1.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4ed1c33ea2e8ed1633554ddc8c7ee2fc909590a341c8a36c71a24cd7fc5c39a8",
+        "sha256_in_prefix": "4ed1c33ea2e8ed1633554ddc8c7ee2fc909590a341c8a36c71a24cd7fc5c39a8",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "site-packages/stopit-1.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/stopit-1.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "sha256_in_prefix": "3d9504c5d7fbd548bfb28ebb417a724ae1ed0a2dfe277c2f1783912ba93f4bc5",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/stopit-1.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "00e99445d5cc8bb02296915248244a253f5cbd8f933e70ab17f0643ebe8cd7a0",
+        "sha256_in_prefix": "00e99445d5cc8bb02296915248244a253f5cbd8f933e70ab17f0643ebe8cd7a0",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "site-packages/stopit-1.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "454d80899f721cff3e8bbb4b79c6846967f6e8b826e7264748533fcd0cbe223e",
+        "sha256_in_prefix": "454d80899f721cff3e8bbb4b79c6846967f6e8b826e7264748533fcd0cbe223e",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "site-packages/stopit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c011d5a36c1232b6c5393b313a704c9ed0ba555a0b7ed94eea5901262e03cadd",
+        "sha256_in_prefix": "c011d5a36c1232b6c5393b313a704c9ed0ba555a0b7ed94eea5901262e03cadd",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "site-packages/stopit/signalstop.py",
+        "path_type": "hardlink",
+        "sha256": "7ea45d45bae6a79ebfc5c028832b72b6ca7a57754ff2f2e5142f728d372e6f7c",
+        "sha256_in_prefix": "7ea45d45bae6a79ebfc5c028832b72b6ca7a57754ff2f2e5142f728d372e6f7c",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "site-packages/stopit/threadstop.py",
+        "path_type": "hardlink",
+        "sha256": "cb434b9af22218cc97b388c85563ba64c9e812b160e05fd40d9f383ab58de2f6",
+        "sha256_in_prefix": "cb434b9af22218cc97b388c85563ba64c9e812b160e05fd40d9f383ab58de2f6",
+        "size_in_bytes": 2637
+      },
+      {
+        "_path": "site-packages/stopit/utils.py",
+        "path_type": "hardlink",
+        "sha256": "99476b4b8dee491955ff7f19b1c07c25798e2f245baa0ca85f37849fe725a17c",
+        "sha256_in_prefix": "99476b4b8dee491955ff7f19b1c07c25798e2f245baa0ca85f37849fe725a17c",
+        "size_in_bytes": 5024
+      },
+      {
+        "_path": "lib/python3.11/site-packages/stopit/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/stopit/__pycache__/signalstop.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/stopit/__pycache__/threadstop.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/stopit/__pycache__/utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "897802f14de8de4c61a50b17c489c2f44a465dd78286c2a6b55f696092c8807b",
+  "size": 17656,
+  "subdir": "noarch",
+  "timestamp": 1734809458000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/stopit-1.1.2-pyhd8ed1ab_1.conda",
+  "version": "1.1.2"
+}
