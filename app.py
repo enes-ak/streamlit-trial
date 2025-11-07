@@ -32,7 +32,7 @@ def login_screen():
         if authenticate(user, pwd):
             st.session_state["logged_in"] = True
             st.session_state["username"] = user
-            st.session_state["page"] = "Profil"
+            st.session_state["page"] = "Profile"
             st.session_state["selected_table"] = None
             st.rerun()
         else:
@@ -62,17 +62,55 @@ if not st.session_state["logged_in"]:
 
 
 # ======================================================
-# ✅ SOL FRAME (SIDEBAR)
+# ✅ ÜST HEADER
 # ======================================================
-# st.sidebar.title("Men")
+header = st.container()
+with header:
+    col1, col2, col3 = st.columns([1, 6, 2])
 
-if st.sidebar.button("Log Out"):
-    st.session_state["logged_in"] = False
-    st.rerun()
+    with col1:
+        st.image("logo/logo.png", width=90)
 
-menu = st.sidebar.radio("Select", ["Profile", "Run"])
+    with col2:
+        st.markdown(
+            """
+            <h2 style='text-align: center; margin-top: 10px;'>
+            TUSEB GENOME ANALYSER
+            </h2>
+            """,
+            unsafe_allow_html=True
+        )
+
+    with col3:
+        st.write(f"**{st.session_state['username']}**")
+        if st.button("Log Out"):
+            st.session_state["logged_in"] = False
+            st.rerun()
+
+
+# ======================================================
+# ✅ SOL MENÜ
+# ======================================================
+
+st.markdown("""
+    <style>
+        /* Sidebar genişliğini küçültme */
+        [data-testid="stSidebar"] {
+            min-width: 130px;
+            max-width: 130px;
+        }
+
+        /* Sidebar içindeki widget padding’i azaltma */
+        [data-testid="stSidebar"] .block-container {
+            padding-top: 1rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    </style>
+""", unsafe_allow_html=True)
+with st.sidebar:
+    menu = st.radio("Select", ["Profile", "Run"])
 st.session_state["page"] = menu
-
 
 # ======================================================
 # ✅ PROFIL SAYFASI
@@ -88,11 +126,10 @@ if st.session_state["page"] == "Profile":
 
 
 # ======================================================
-# ✅ RUN SAYFASI — TIKLANABİLİR TABLO LİSTESİ
+# ✅ RUN SAYFASI – Projeler + Tablo Görüntüleme
 # ======================================================
 if st.session_state["page"] == "Run":
     st.title("Run")
-
     st.write("### Run Results")
 
     # data/ klasöründeki tüm .tsv dosyalarını listele
@@ -102,36 +139,36 @@ if st.session_state["page"] == "Run":
         st.warning("No project found")
         st.stop()
 
-    # Sol sütunda tablolar listesi
-    col1, col2 = st.columns([1, 3])
+    col1, col2 = st.columns([0.4,3.6])
 
     with col1:
-        # st.write("#### Dosya Listesi")
         for file in tsv_files:
-            if st.button(file):  
+            if st.button(file):
                 st.session_state["selected_table"] = file
 
-    # Sağ tarafta seçilen tablo görüntülenecek
     with col2:
         if st.session_state.get("selected_table"):
             selected = st.session_state["selected_table"]
-
             st.success(f"Selected Table: **{selected}**")
 
-            # Sekmeler: Variant Table + Statistics
             tabs = st.tabs(["Variant Table", "Statistics"])
 
+            # ✅ Variant Table
             with tabs[0]:
                 df = pd.read_csv(f"data/{selected}", sep="\t")
-                st.dataframe(df, width="stretch", height=700)
+                st.dataframe(df, height=700, use_container_width=True)
 
+            # ✅ Statistics Tab
             with tabs[1]:
                 stats_path = "data/genome_fraction_coverage.txt"
                 if os.path.exists(stats_path):
                     genome_fraction = pd.read_csv(stats_path, sep="\t")
                     st.bar_chart(genome_fraction.set_index("#Coverage (X)"))
-                    st.dataframe(genome_fraction, width="stretch", height=700)
+                    st.dataframe(
+                        genome_fraction, height=700, use_container_width=True
+                    )
                 else:
                     st.warning("Statistics file not found")
+
         else:
             st.info("Select a run")
