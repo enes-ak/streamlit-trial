@@ -1,3 +1,4 @@
 streamlit
-pandas
 st-aggrid
+python==3.11
+snakemake==7.32.3
