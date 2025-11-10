@@ -1,4 +1,3 @@
-from st_aggrid import AgGrid, GridOptionsBuilder
 import streamlit as st
 import pandas as pd
 import os
@@ -162,11 +161,8 @@ elif page == "Results":
 
             tabs = st.tabs(["Variant Table", "Statistics"])
             with tabs[0]:
-                gb = GridOptionsBuilder.from_dataframe(df)
-                gb.configure_default_column(filterable=True, sortable=True, resizable=True, minWidth=150)
-                for col in ["Main.variant_class", "Main.gene_symbol"]:
-                    gb.configure_column(col, filter="agTextColumnFilter", width=150)
-                AgGrid(df, gridOptions=gb.build(), height=700, enable_enterprise_modules=False, theme="alpine")
+                # st-aggrid yerine basit dataframe gösterimi
+                st.dataframe(df, height=700, use_container_width=True)
             with tabs[1]:
                 if os.path.exists(stats_path):
                     genome_fraction = pd.read_csv(stats_path, sep="\t")
@@ -210,9 +206,6 @@ elif page == "New Run":
     if "pipeline_process" in st.session_state and st.session_state["pipeline_process"].poll() is None:
         if st.button("Stop Pipeline"):
             stop_pipeline()
-
-
-
 
 
 
