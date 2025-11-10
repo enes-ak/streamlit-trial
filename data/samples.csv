@@ -1,0 +1,2 @@
+sample,vcf_path,kit,external_kit,allel_count_db,region_allel_number_db,freq_opt,primary_tissue,primary_histology,genes,hpo_terms
+deneme,input_files/barcode07.vcf,nexome_plus_panel_target,-,static/input_file_allel_count_germline.tsv,static/input_file_region_allel_number_germline.tsv,False,-,-,-,-
