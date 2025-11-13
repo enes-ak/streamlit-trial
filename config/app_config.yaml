@@ -1,0 +1,23 @@
+docker:
+  image: mypipeline
+  mounts:
+    - host: /home/enes/Desktop/dbs5_4_dev
+      container: /pipeline/dbs
+
+    - host: /home/enes/Desktop/denemeler/streamlit-trial/single_sample/data
+      container: /pipeline/data
+
+    - host: /home/enes/Desktop/denemeler/streamlit-trial/single_sample/config_docker.yaml
+      container: /pipeline/config_docker.yaml
+
+    - host: /home/enes/Desktop/pipelines/single_sample/.snakemake/conda
+      container: /pipeline/.snakemake/conda
+
+    - host: /home/enes/Desktop/denemeler/streamlit-trial/single_sample/samples_vcf.csv
+      container: /pipeline/samples_vcf.csv
+
+    - host: /home/enes/Desktop/denemeler/streamlit-trial/input_files
+      container: /pipeline/input_files
+
+snakemake:
+  cmd: "snakemake -s snakefile_germline_vcf.smk --configfile config_docker.yaml --use-conda --conda-frontend mamba -j12 -c12 -F"

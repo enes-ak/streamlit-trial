@@ -1,29 +1,29 @@
 ##fileformat=VCFv4.2
-##source=Clair3
-##clair3_version=1.0.4
-##cmdline=/home/enes/Desktop/pipelines/single_sample/.snakemake/conda/8455cdd3be82a27bce8084bfb68a009f_/bin/run_clair3.sh -t 2 --min_coverage=10 --platform=ont --snp_min_af=0.2 --indel_min_af=0.15 --model_path=/home/enes/Desktop/dbs5_4_dev/nanopore/clair_model/r1041_e82_400bps_sup_v520 --bam_fn=data/recal/barcode07.bam --bed_fn=data/annotate_bed/barcode07_expanded.bed --ref_fn=data/mask_reference/barcode07_reference.fasta --sample_name=barcode07 --var_pct_full=0.8 --ref_pct_full=0.8 --var_pct_phasing=0.8 --output=data/clair_variant/barcode07
-##reference=/home/enes/Desktop/pipelines/single_sample/data/mask_reference/barcode07_reference.fasta
-##bcftools_annotateVersion=1.16+htslib-1.21
-##bcftools_annotateCommand=annotate --threads 2 --set-id . --output data/variant/barcode07_annotated.vcf data/start_process_vcf/barcode07.vcf; Date=Mon Nov  3 20:57:17 2025
-##bcftools_normVersion=1.16+htslib-1.21
-##bcftools_normCommand=norm -m - --output data/start_process_vcf/barcode07.norm.vcf --output-type v data/variant/barcode07_annotated.vcf; Date=Mon Nov  3 20:57:17 2025
-##bcftools_filterVersion=1.16+htslib-1.21
-##bcftools_filterCommand=filter -i 'QUAL>=20 && INFO/DP>=10 && FORMAT/AF>=0.2' -o data/filter/barcode07.vcf data/set_id_vcf/barcode07.vcf; Date=Mon Nov  3 20:57:18 2025
-##INFO=<ID=P,Number=0,Type=Flag,Description="Result from pileup calling">
-##INFO=<ID=F,Number=0,Type=Flag,Description="Result from full-alignment calling">
-##INFO=<ID=SVBASEDHET,Number=0,Type=Flag,Description="Short variant zygosity switched from HOM to HET given an overlapping HET SV">
-##INFO=<ID=ORG_CLAIR3_SCORE,Number=1,Type=Float,Description="The original Clair3 quality score">
-##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
-##INFO=<ID=AD,Number=2,Type=Integer,Description="Allel Depth">
-##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
-##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
-##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth (reads with MQ<20 or selected by 'samtools view -F 2316' are filtered)">
-##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
-##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
-##FORMAT=<ID=AF,Number=1,Type=Float,Description="Observed allele frequency in reads, for each ALT allele, in the same order as listed, or the REF allele for a RefCall">
 ##FILTER=<ID=PASS,Description="All filters passed">
-##FILTER=<ID=LowQual,Description="Low quality variant">
-##FILTER=<ID=RefCall,Description="Reference call">
+##FILTER=<ID=LowQual,Description="Low quality">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth (reads with MQ=255 or with bad mates are filtered)">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##FORMAT=<ID=SB,Number=4,Type=Integer,Description="Per-sample component statistics which comprise the Fisher's Exact Test to detect strand bias.">
+##GATKCommandLine=<ID=HaplotypeCaller,CommandLine="HaplotypeCaller --dbsnp /media/databases/hg38_pipeline_based/gatk/dbsnp138.vcf --bam-output data/haplotype_caller/AA-1210982_haplotypecaller.bam --output data/haplotype_caller/AA-1210982_haplotypecaller.vcf --intervals data/bed/AA-1210982.bed --input data/recal/AA-1210982.bam --reference /media/databases/hg38/resources_broad_hg38_v0_Homo_sapiens_assembly38.fasta --annotation StrandBiasBySample --use-posteriors-to-calculate-qual false --dont-use-dragstr-priors false --use-new-qual-calculator true --annotate-with-num-discovered-alleles false --heterozygosity 0.001 --indel-heterozygosity 1.25E-4 --heterozygosity-stdev 0.01 --standard-min-confidence-threshold-for-calling 30.0 --max-alternate-alleles 6 --max-genotype-count 1024 --sample-ploidy 2 --num-reference-samples-if-no-call 0 --genotype-assignment-method USE_PLS_TO_ASSIGN --contamination-fraction-to-filter 0.0 --output-mode EMIT_VARIANTS_ONLY --all-site-pls false --gvcf-gq-bands 1 --gvcf-gq-bands 2 --gvcf-gq-bands 3 --gvcf-gq-bands 4 --gvcf-gq-bands 5 --gvcf-gq-bands 6 --gvcf-gq-bands 7 --gvcf-gq-bands 8 --gvcf-gq-bands 9 --gvcf-gq-bands 10 --gvcf-gq-bands 11 --gvcf-gq-bands 12 --gvcf-gq-bands 13 --gvcf-gq-bands 14 --gvcf-gq-bands 15 --gvcf-gq-bands 16 --gvcf-gq-bands 17 --gvcf-gq-bands 18 --gvcf-gq-bands 19 --gvcf-gq-bands 20 --gvcf-gq-bands 21 --gvcf-gq-bands 22 --gvcf-gq-bands 23 --gvcf-gq-bands 24 --gvcf-gq-bands 25 --gvcf-gq-bands 26 --gvcf-gq-bands 27 --gvcf-gq-bands 28 --gvcf-gq-bands 29 --gvcf-gq-bands 30 --gvcf-gq-bands 31 --gvcf-gq-bands 32 --gvcf-gq-bands 33 --gvcf-gq-bands 34 --gvcf-gq-bands 35 --gvcf-gq-bands 36 --gvcf-gq-bands 37 --gvcf-gq-bands 38 --gvcf-gq-bands 39 --gvcf-gq-bands 40 --gvcf-gq-bands 41 --gvcf-gq-bands 42 --gvcf-gq-bands 43 --gvcf-gq-bands 44 --gvcf-gq-bands 45 --gvcf-gq-bands 46 --gvcf-gq-bands 47 --gvcf-gq-bands 48 --gvcf-gq-bands 49 --gvcf-gq-bands 50 --gvcf-gq-bands 51 --gvcf-gq-bands 52 --gvcf-gq-bands 53 --gvcf-gq-bands 54 --gvcf-gq-bands 55 --gvcf-gq-bands 56 --gvcf-gq-bands 57 --gvcf-gq-bands 58 --gvcf-gq-bands 59 --gvcf-gq-bands 60 --gvcf-gq-bands 70 --gvcf-gq-bands 80 --gvcf-gq-bands 90 --gvcf-gq-bands 99 --floor-blocks false --indel-size-to-eliminate-in-ref-model 10 --disable-optimizations false --dragen-mode false --apply-bqd false --apply-frd false --disable-spanning-event-genotyping false --transform-dragen-mapping-quality false --mapping-quality-threshold-for-genotyping 20 --max-effective-depth-adjustment-for-frd 0 --just-determine-active-regions false --dont-genotype false --do-not-run-physical-phasing false --do-not-correct-overlapping-quality false --use-filtered-reads-for-annotations false --adaptive-pruning false --do-not-recover-dangling-branches false --recover-dangling-heads false --kmer-size 10 --kmer-size 25 --dont-increase-kmer-sizes-for-cycles false --allow-non-unique-kmers-in-ref false --num-pruning-samples 1 --min-dangling-branch-length 4 --recover-all-dangling-branches false --max-num-haplotypes-in-population 128 --min-pruning 2 --adaptive-pruning-initial-error-rate 0.001 --pruning-lod-threshold 2.302585092994046 --pruning-seeding-lod-threshold 9.210340371976184 --max-unpruned-variants 100 --linked-de-bruijn-graph false --disable-artificial-haplotype-recovery false --enable-legacy-graph-cycle-detection false --debug-assembly false --debug-graph-transformations false --capture-assembly-failure-bam false --num-matching-bases-in-dangling-end-to-recover -1 --error-correction-log-odds -Infinity --error-correct-reads false --kmer-length-for-read-error-correction 25 --min-observations-for-kmer-to-be-solid 20 --base-quality-score-threshold 18 --dragstr-het-hom-ratio 2 --dont-use-dragstr-pair-hmm-scores false --pair-hmm-gap-continuation-penalty 10 --expected-mismatch-rate-for-read-disqualification 0.02 --pair-hmm-implementation FASTEST_AVAILABLE --pcr-indel-model CONSERVATIVE --phred-scaled-global-read-mismapping-rate 45 --disable-symmetric-hmm-normalizing false --disable-cap-base-qualities-to-map-quality false --enable-dynamic-read-disqualification-for-genotyping false --dynamic-read-disqualification-threshold 1.0 --native-pair-hmm-threads 4 --native-pair-hmm-use-double-precision false --bam-writer-type CALLED_HAPLOTYPES --dont-use-soft-clipped-bases false --min-base-quality-score 10 --smith-waterman JAVA --emit-ref-confidence NONE --max-mnp-distance 0 --force-call-filtered-alleles false --soft-clip-low-quality-ends false --allele-informative-reads-overlap-margin 2 --min-assembly-region-size 50 --max-assembly-region-size 300 --active-probability-threshold 0.002 --max-prob-propagation-distance 50 --force-active false --assembly-region-padding 100 --padding-around-indels 75 --padding-around-snps 20 --padding-around-strs 75 --max-extension-into-assembly-region-padding-legacy 25 --max-reads-per-alignment-start 50 --enable-legacy-assembly-region-trimming false --interval-set-rule UNION --interval-padding 0 --interval-exclusion-padding 0 --interval-merging-rule ALL --read-validation-stringency SILENT --seconds-between-progress-updates 10.0 --disable-sequence-dictionary-validation false --create-output-bam-index true --create-output-bam-md5 false --create-output-variant-index true --create-output-variant-md5 false --lenient false --add-output-sam-program-record true --add-output-vcf-command-line true --cloud-prefetch-buffer 40 --cloud-index-prefetch-buffer -1 --disable-bam-index-caching false --sites-only-vcf-output false --help false --version false --showHidden false --verbosity INFO --QUIET false --use-jdk-deflater false --use-jdk-inflater false --gcs-max-retries 20 --gcs-project-for-requester-pays  --disable-tool-default-read-filters false --minimum-mapping-quality 20 --disable-tool-default-annotations false --enable-all-annotations false --allow-old-rms-mapping-quality-annotation-data false",Version="4.2.0.0",Date="28 October 2025 14:04:07 UTC">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes, for each ALT allele, in the same order as listed">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency, for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=BaseQRankSum,Number=1,Type=Float,Description="Z-score from Wilcoxon rank sum test of Alt Vs. Ref base qualities">
+##INFO=<ID=DB,Number=0,Type=Flag,Description="dbSNP Membership">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth; some reads may have been filtered">
+##INFO=<ID=ExcessHet,Number=1,Type=Float,Description="Phred-scaled p-value for exact test of excess heterozygosity">
+##INFO=<ID=FS,Number=1,Type=Float,Description="Phred-scaled p-value using Fisher's exact test to detect strand bias">
+##INFO=<ID=InbreedingCoeff,Number=1,Type=Float,Description="Inbreeding coefficient as estimated from the genotype likelihoods per-sample when compared against the Hardy-Weinberg expectation">
+##INFO=<ID=MLEAC,Number=A,Type=Integer,Description="Maximum likelihood expectation (MLE) for the allele counts (not necessarily the same as the AC), for each ALT allele, in the same order as listed">
+##INFO=<ID=MLEAF,Number=A,Type=Float,Description="Maximum likelihood expectation (MLE) for the allele frequency (not necessarily the same as the AF), for each ALT allele, in the same order as listed">
+##INFO=<ID=MQ,Number=1,Type=Float,Description="RMS Mapping Quality">
+##INFO=<ID=MQRankSum,Number=1,Type=Float,Description="Z-score From Wilcoxon rank sum test of Alt vs. Ref read mapping qualities">
+##INFO=<ID=QD,Number=1,Type=Float,Description="Variant Confidence/Quality by Depth">
+##INFO=<ID=ReadPosRankSum,Number=1,Type=Float,Description="Z-score from Wilcoxon rank sum test of Alt vs. Ref read position bias">
+##INFO=<ID=SOR,Number=1,Type=Float,Description="Symmetric Odds Ratio of 2x2 contingency table to detect strand bias">
 ##contig=<ID=chr1,length=248956422>
 ##contig=<ID=chr2,length=242193529>
 ##contig=<ID=chr3,length=198295559>
@@ -3390,248 +3390,25 @@
 ##contig=<ID=HLA-DRB1*15:03:01:01,length=11567>
 ##contig=<ID=HLA-DRB1*15:03:01:02,length=11569>
 ##contig=<ID=HLA-DRB1*16:02:01,length=11005>
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	barcode07
-chr21	39530184	.	A	T	30.35	PASS	DP=28;AD=0,26	GT:GQ:DP:AD:AF	1/1:30:28:0,26:0.9286
-chr21	39530185	.	T	C	27.9	PASS	DP=28;AD=0,28	GT:GQ:DP:AD:AF	1/1:27:28:0,28:1.0
-chr21	39530186	.	G	A	30.07	PASS	DP=28;AD=0,28	GT:GQ:DP:AD:AF	1/1:30:28:0,28:1.0
-chr21	39530189	.	T	C	29.4	PASS	DP=28;AD=0,28	GT:GQ:DP:AD:AF	1/1:29:28:0,28:1.0
-chr21	39530247	.	T	C	28.07	PASS	DP=34;AD=2,30	GT:GQ:DP:AD:AF	1/1:28:34:2,30:0.8824
-chr21	39530254	.	T	C	27.96	PASS	DP=34;AD=2,32	GT:GQ:DP:AD:AF	1/1:27:34:2,32:0.9412
-chr21	39530258	.	A	G	27.54	PASS	DP=34;AD=0,34	GT:GQ:DP:AD:AF	1/1:27:34:0,34:1.0
-chr21	39530280	.	G	A	24.91	PASS	DP=36;AD=2,34	GT:GQ:DP:AD:AF	1/1:24:36:2,34:0.9444
-chr21	39530283	.	C	T	27.45	PASS	DP=36;AD=2,34	GT:GQ:DP:AD:AF	1/1:27:36:2,34:0.9444
-chr21	39530284	.	A	G	30.33	PASS	DP=36;AD=2,34	GT:GQ:DP:AD:AF	1/1:30:36:2,34:0.9444
-chr21	39530330	.	T	C	29.15	PASS	DP=36;AD=0,36	GT:GQ:DP:AD:AF	1/1:29:36:0,36:1.0
-chr21	39530331	.	T	C	26.7	PASS	DP=36;AD=2,34	GT:GQ:DP:AD:AF	1/1:26:36:2,34:0.9444
-chr21	39530358	.	T	G	27.25	PASS	DP=36;AD=0,30	GT:GQ:DP:AD:AF	1/1:27:36:0,30:0.8333
-chr21	39530359	.	GTGAT	G	27.85	PASS	DP=36;AD=6,30	GT:GQ:DP:AD:AF	1/1:27:36:6,30:0.8333
-chr21	39530451	.	A	C	28.95	PASS	DP=30;AD=0,28	GT:GQ:DP:AD:AF	1/1:28:30:0,28:0.9333
-chr21	39530452	.	C	T	30.47	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:30:30:0,30:1.0
-chr21	39530458	.	C	T	27.63	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:27:30:0,30:1.0
-chr21	39530463	.	T	C	27.88	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:27:30:0,30:1.0
-chr21	39530464	.	G	A	30.47	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:30:30:0,30:1.0
-chr21	39530470	.	C	G	27.45	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:27:30:0,30:1.0
-chr21	39530471	.	T	C	27.19	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:27:30:0,30:1.0
-chr21	39530483	.	C	CA	25.85	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:25:30:0,30:1.0
-chr21	39530484	.	G	A	24.92	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:24:30:0,30:1.0
-chr21	39530493	.	G	C	29.26	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:29:30:0,30:1.0
-chr21	39530497	.	T	A	28.98	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:28:30:0,30:1.0
-chr21	39530501	.	A	G	27.81	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:27:30:0,30:1.0
-chr21	39530503	.	T	TTTGC	24.26	PASS	DP=30;AD=0,30	GT:GQ:DP:AD:AF	1/1:24:30:0,30:1.0
-chr21	39539697	.	A	C	26.45	PASS	DP=14;AD=0,14	GT:GQ:DP:AD:AF	1/1:26:14:0,14:1.0
-chr21	39540059	.	A	G	23.31	PASS	DP=18;AD=0,18	GT:GQ:DP:AD:AF	1/1:23:18:0,18:1.0
-chr21	39540062	.	G	GGT	23.88	PASS	DP=18;AD=2,16	GT:GQ:DP:AD:AF	1/1:23:18:2,16:0.8889
-chr21	39540174	.	C	G	26.28	PASS	DP=22;AD=2,20	GT:GQ:DP:AD:AF	1/1:26:22:2,20:0.9091
-chr21	39540176	.	C	G	27.35	PASS	DP=22;AD=0,20	GT:GQ:DP:AD:AF	1/1:27:22:0,20:0.9091
-chr21	39540317	.	T	G	29.77	PASS	DP=22;AD=0,22	GT:GQ:DP:AD:AF	1/1:29:22:0,22:1.0
-chr21	39540399	.	G	A	21.22	PASS	DP=12;AD=0,12	GT:GQ:DP:AD:AF	1/1:21:12:0,12:1.0
-chr21	39540402	.	A	G	23.48	PASS	DP=24;AD=0,24	GT:GQ:DP:AD:AF	1/1:23:24:0,24:1.0
-chr21	39540825	.	C	G	26.79	PASS	DP=24;AD=0,24	GT:GQ:DP:AD:AF	1/1:26:24:0,24:1.0
-chr21	39541100	.	G	T	21.3	PASS	DP=12;AD=0,12	GT:GQ:DP:AD:AF	1/1:21:12:0,12:1.0
-chr21	39541125	.	A	G	26.81	PASS	DP=24;AD=0,20	GT:GQ:DP:AD:AF	1/1:26:24:0,20:0.8333
-chr21	39543387	.	A	G	30.14	PASS	DP=78;AD=0,77	GT:GQ:DP:AD:AF	1/1:30:78:0,77:0.9872
-chr21	39543459	.	T	C	23.58	PASS	DP=156;AD=2,150	GT:GQ:DP:AD:AF	1/1:23:156:2,150:0.9615
-chr21	39543464	.	T	C	34.55	PASS	DP=156;AD=4,148	GT:GQ:DP:AD:AF	1/1:34:156:4,148:0.9487
-chr21	39543468	.	G	A	26.6	PASS	DP=78;AD=1,75	GT:GQ:DP:AD:AF	1/1:26:78:1,75:0.9615
-chr21	39543519	.	G	C	30.56	PASS	DP=154;AD=0,128	GT:GQ:DP:AD:AF	1/1:30:154:0,128:0.8312
-chr21	39543525	.	T	G	30.77	PASS	DP=154;AD=0,148	GT:GQ:DP:AD:AF	1/1:30:154:0,148:0.961
-chr21	39550511	.	A	T	23.61	PASS	DP=18;AD=0,18	GT:GQ:DP:AD:AF	1/1:23:18:0,18:1.0
-chr21	39550626	.	T	G	27.49	PASS	DP=18;AD=0,16	GT:GQ:DP:AD:AF	1/1:27:18:0,16:0.8889
-chr21	39555267	.	G	A	53.14	PASS	DP=74;AD=0,72	GT:GQ:DP:AD:AF	1/1:53:74:0,72:0.973
-chr21	39555408	.	A	G	33.81	PASS	DP=66;AD=0,65	GT:GQ:DP:AD:AF	1/1:33:66:0,65:0.9848
-chr21	39555546	.	T	C	40.87	PASS	DP=29;AD=0,29	GT:GQ:DP:AD:AF	1/1:40:29:0,29:1.0
-chr21	39555639	.	T	A	29.52	PASS	DP=23;AD=0,22	GT:GQ:DP:AD:AF	1/1:29:23:0,22:0.9565
-chr21	39555740	.	A	G	36.45	PASS	DP=21;AD=0,21	GT:GQ:DP:AD:AF	1/1:36:21:0,21:1.0
-chr21	39555767	.	T	G	23.25	PASS	DP=20;AD=0,19	GT:GQ:DP:AD:AF	1/1:23:20:0,19:0.95
-chr21	39556922	.	T	C	37.49	PASS	DP=12;AD=6,6	GT:GQ:DP:AD:AF	0/1:37:12:6,6:0.5
-chr21	39556937	.	G	A	26.22	PASS	DP=24;AD=0,24	GT:GQ:DP:AD:AF	1/1:26:24:0,24:1.0
-chr21	39556942	.	A	G	44.6	PASS	DP=12;AD=0,12	GT:GQ:DP:AD:AF	1/1:44:12:0,12:1.0
-chr21	39556948	.	A	G	40.6	PASS	DP=12;AD=0,12	GT:GQ:DP:AD:AF	1/1:40:12:0,12:1.0
-chr21	39556951	.	T	A	26.84	PASS	DP=24;AD=12,12	GT:GQ:DP:AD:AF	0/1:26:24:12,12:0.5
-chr21	39556959	.	G	A	47.78	PASS	DP=12;AD=0,12	GT:GQ:DP:AD:AF	1/1:47:12:0,12:1.0
-chr21	39557004	.	C	A	33.11	PASS	DP=12;AD=1,10	GT:GQ:DP:AD:AF	1/1:33:12:1,10:0.8333
-chr21	39557008	.	A	AG	25.23	PASS	DP=12;AD=7,5	GT:GQ:DP:AD:AF	0/1:25:12:7,5:0.4167
-chr21	39557070	.	T	A	22.08	PASS	DP=12;AD=7,5	GT:GQ:DP:AD:AF	0/1:22:12:7,5:0.4167
-chr21	39557071	.	A	G	54.99	PASS	DP=12;AD=0,12	GT:GQ:DP:AD:AF	1/1:54:12:0,12:1.0
-chr21	39557097	.	T	A	30.32	PASS	DP=13;AD=6,6	GT:GQ:DP:AD:AF	0/1:30:13:6,6:0.4615
-chr21	39557109	.	A	G	24.92	PASS	DP=26;AD=0,26	GT:GQ:DP:AD:AF	1/1:24:26:0,26:1.0
-chr21	39557129	.	A	T	23.53	PASS	DP=26;AD=0,26	GT:GQ:DP:AD:AF	1/1:23:26:0,26:1.0
-chr21	39557139	.	T	C	23.71	PASS	DP=26;AD=0,26	GT:GQ:DP:AD:AF	1/1:23:26:0,26:1.0
-chr21	39557149	.	C	T	54.88	PASS	DP=13;AD=0,12	GT:GQ:DP:AD:AF	1/1:54:13:0,12:0.9231
-chr21	39565778	.	G	A	23.74	PASS	DP=46;AD=0,38	GT:GQ:DP:AD:AF	1/1:23:46:0,38:0.8261
-chr21	39589382	.	T	C	24.63	PASS	DP=112;AD=8,104	GT:GQ:DP:AD:AF	1/1:24:112:8,104:0.9286
-chr21	39589389	.	C	CTT	24.72	PASS	DP=56;AD=3,49	GT:GQ:DP:AD:AF	1/1:24:56:3,49:0.875
-chr21	39589411	.	T	G	30.99	PASS	DP=112;AD=4,106	GT:GQ:DP:AD:AF	1/1:30:112:4,106:0.9464
-chr21	39589422	.	C	A	33.97	PASS	DP=114;AD=0,114	GT:GQ:DP:AD:AF	1/1:33:114:0,114:1.0
-chr21	39589426	.	T	C	34.62	PASS	DP=114;AD=6,108	GT:GQ:DP:AD:AF	1/1:34:114:6,108:0.9474
-chr21	39589427	.	G	A	24.42	PASS	DP=114;AD=8,106	GT:GQ:DP:AD:AF	1/1:24:114:8,106:0.9298
-chr21	39589475	.	A	G	27.9	PASS	DP=116;AD=6,108	GT:GQ:DP:AD:AF	1/1:27:116:6,108:0.931
-chr21	39589478	.	T	C	36.43	PASS	DP=116;AD=4,110	GT:GQ:DP:AD:AF	1/1:36:116:4,110:0.9483
-chr21	39589479	.	G	A	27.38	PASS	DP=116;AD=6,110	GT:GQ:DP:AD:AF	1/1:27:116:6,110:0.9483
-chr21	39589486	.	A	T	31.42	PASS	DP=116;AD=6,102	GT:GQ:DP:AD:AF	1/1:31:116:6,102:0.8793
-chr21	39589488	.	T	C	29.37	PASS	DP=116;AD=2,112	GT:GQ:DP:AD:AF	1/1:29:116:2,112:0.9655
-chr21	39589524	.	G	T	24.98	PASS	DP=116;AD=0,114	GT:GQ:DP:AD:AF	1/1:24:116:0,114:0.9828
-chr21	39589531	.	A	T	20.81	PASS	DP=58;AD=3,53	GT:GQ:DP:AD:AF	1/1:20:58:3,53:0.9138
-chr21	39589536	.	G	T	24.47	PASS	DP=116;AD=8,106	GT:GQ:DP:AD:AF	1/1:24:116:8,106:0.9138
-chr21	39589537	.	C	T	24.28	PASS	DP=116;AD=6,110	GT:GQ:DP:AD:AF	1/1:24:116:6,110:0.9483
-chr21	39589549	.	G	C	29.26	PASS	DP=116;AD=4,98	GT:GQ:DP:AD:AF	1/1:29:116:4,98:0.8448
-chr21	39589555	.	T	A	26.91	PASS	DP=114;AD=0,106	GT:GQ:DP:AD:AF	1/1:26:114:0,106:0.9298
-chr21	39589560	.	A	C	28.77	PASS	DP=114;AD=0,108	GT:GQ:DP:AD:AF	1/1:28:114:0,108:0.9474
-chr21	39589561	.	G	A	28.31	PASS	DP=114;AD=8,104	GT:GQ:DP:AD:AF	1/1:28:114:8,104:0.9123
-chr21	39589565	.	T	C	33.51	PASS	DP=114;AD=0,110	GT:GQ:DP:AD:AF	1/1:33:114:0,110:0.9649
-chr21	39589576	.	A	AG	33.47	PASS	DP=114;AD=4,110	GT:GQ:DP:AD:AF	1/1:33:114:4,110:0.9649
-chr21	39589580	.	T	G	29.92	PASS	DP=114;AD=4,110	GT:GQ:DP:AD:AF	1/1:29:114:4,110:0.9649
-chr21	39589587	.	G	A	34.04	PASS	DP=114;AD=0,114	GT:GQ:DP:AD:AF	1/1:34:114:0,114:1.0
-chr21	39589599	.	C	T	24.03	PASS	DP=114;AD=2,112	GT:GQ:DP:AD:AF	1/1:24:114:2,112:0.9825
-chr21	39589600	.	A	G	27.97	PASS	DP=57;AD=1,56	GT:GQ:DP:AD:AF	1/1:27:57:1,56:0.9825
-chr21	39596737	.	C	G	24.85	PASS	DP=972;AD=32,934	GT:GQ:DP:AD:AF	1/1:24:972:32,934:0.9609
-chr21	39596738	.	A	G	31.72	PASS	DP=972;AD=22,948	GT:GQ:DP:AD:AF	1/1:31:972:22,948:0.9753
-chr21	39596747	.	C	T	27.19	PASS	DP=980;AD=54,918	GT:GQ:DP:AD:AF	1/1:27:980:54,918:0.9367
-chr21	39596748	.	C	T	25.95	PASS	DP=980;AD=30,946	GT:GQ:DP:AD:AF	1/1:25:980:30,946:0.9653
-chr21	39596765	.	T	C	59.15	PASS	DP=499;AD=5,453	GT:GQ:DP:AD:AF	1/1:59:499:5,453:0.9078
-chr21	39596766	.	G	A	25.72	PASS	DP=998;AD=82,902	GT:GQ:DP:AD:AF	1/1:25:998:82,902:0.9038
-chr21	39596775	.	G	T	25.42	PASS	DP=998;AD=74,852	GT:GQ:DP:AD:AF	1/1:25:998:74,852:0.8537
-chr21	39596776	.	A	G	24.37	PASS	DP=998;AD=52,846	GT:GQ:DP:AD:AF	1/1:24:998:52,846:0.8477
-chr21	39596780	.	T	A	29.75	PASS	DP=499;AD=2,449	GT:GQ:DP:AD:AF	1/1:29:499:2,449:0.8998
-chr21	39596789	.	T	C	27	PASS	DP=1018;AD=4,1008	GT:GQ:DP:AD:AF	1/1:27:1018:4,1008:0.9902
-chr21	39596790	.	G	A	59.07	PASS	DP=509;AD=7,502	GT:GQ:DP:AD:AF	1/1:59:509:7,502:0.9862
-chr21	39596811	.	C	G	24.36	PASS	DP=1028;AD=22,1004	GT:GQ:DP:AD:AF	1/1:24:1028:22,1004:0.9767
-chr21	39596819	.	A	G	25.26	PASS	DP=1030;AD=2,1022	GT:GQ:DP:AD:AF	1/1:25:1030:2,1022:0.9922
-chr21	39596824	.	A	G	24.16	PASS	DP=1032;AD=42,986	GT:GQ:DP:AD:AF	1/1:24:1032:42,986:0.9554
-chr21	39596846	.	A	ACACACAC	28.71	PASS	DP=521;AD=17,421	GT:GQ:DP:AD:AF	1/1:28:521:17,421:0.8081
-chr21	39596857	.	A	AG	23.38	PASS	DP=1056;AD=14,1034	GT:GQ:DP:AD:AF	1/1:23:1056:14,1034:0.9792
-chr21	39596876	.	G	T	28.15	PASS	DP=1060;AD=26,1006	GT:GQ:DP:AD:AF	1/1:28:1060:26,1006:0.9491
-chr21	39596879	.	G	A	79.23	PASS	DP=530;AD=3,525	GT:GQ:DP:AD:AF	1/1:79:530:3,525:0.9906
-chr21	39596883	.	A	C	23.49	PASS	DP=1060;AD=0,1056	GT:GQ:DP:AD:AF	1/1:23:1060:0,1056:0.9962
-chr21	39596889	.	T	C	26.63	PASS	DP=1060;AD=6,1052	GT:GQ:DP:AD:AF	1/1:26:1060:6,1052:0.9925
-chr21	39596897	.	G	A	57.01	PASS	DP=530;AD=14,514	GT:GQ:DP:AD:AF	1/1:57:530:14,514:0.9698
-chr21	39596915	.	C	T	67.48	PASS	DP=530;AD=13,515	GT:GQ:DP:AD:AF	1/1:67:530:13,515:0.9717
-chr21	39596926	.	G	A	51.31	PASS	DP=530;AD=40,490	GT:GQ:DP:AD:AF	1/1:51:530:40,490:0.9245
-chr21	39596928	.	C	G	23.44	PASS	DP=1060;AD=32,1006	GT:GQ:DP:AD:AF	1/1:23:1060:32,1006:0.9491
-chr21	39596931	.	G	A	26.14	PASS	DP=1060;AD=22,998	GT:GQ:DP:AD:AF	1/1:26:1060:22,998:0.9415
-chr21	39596954	.	T	A	31.06	PASS	DP=1060;AD=2,1044	GT:GQ:DP:AD:AF	1/1:31:1060:2,1044:0.9849
-chr21	39596956	.	A	G	27.38	PASS	DP=1060;AD=16,1042	GT:GQ:DP:AD:AF	1/1:27:1060:16,1042:0.983
-chr21	39596978	.	G	A	24.56	PASS	DP=530;AD=25,501	GT:GQ:DP:AD:AF	1/1:24:530:25,501:0.9453
-chr21	39596979	.	G	A	26.86	PASS	DP=1060;AD=12,1040	GT:GQ:DP:AD:AF	1/1:26:1060:12,1040:0.9811
-chr21	39596985	.	T	A	27.02	PASS	DP=1060;AD=8,938	GT:GQ:DP:AD:AF	1/1:27:1060:8,938:0.8849
-chr21	39596986	.	A	G	24.05	PASS	DP=1060;AD=20,940	GT:GQ:DP:AD:AF	1/1:24:1060:20,940:0.8868
-chr21	39608594	.	A	G	23.63	PASS	DP=21358;AD=10493,8737	GT:GQ:DP:AD:AF	0/1:23:21358:10493,8737:0.4091
-chr21	39608639	.	C	T	37.5	PASS	DP=21349;AD=9842,10870	GT:GQ:DP:AD:AF	0/1:37:21349:9842,10870:0.5092
-chr21	39609134	.	T	C	52.33	PASS	DP=21241;AD=10713,10209	GT:GQ:DP:AD:AF	0/1:52:21241:10713,10209:0.4806
-chr21	39609682	.	A	G	24.12	PASS	DP=21284;AD=10201,10726	GT:GQ:DP:AD:AF	0/1:24:21284:10201,10726:0.5039
-chr21	39609848	.	A	T	28.11	PASS	DP=21268;AD=10171,10121	GT:GQ:DP:AD:AF	0/1:28:21268:10171,10121:0.4759
-chr21	39610221	.	G	A	36.19	PASS	DP=21204;AD=10036,10560	GT:GQ:DP:AD:AF	0/1:36:21204:10036,10560:0.498
-chr21	39632225	.	A	G	55.15	PASS	DP=8414;AD=4257,4036	GT:GQ:DP:AD:AF	0/1:55:8414:4257,4036:0.4797
-chr21	39632299	.	G	A	36.07	PASS	DP=8421;AD=4252,4028	GT:GQ:DP:AD:AF	0/1:36:8421:4252,4028:0.4783
-chr21	39633621	.	T	G	39.68	PASS	DP=8065;AD=3986,3894	GT:GQ:DP:AD:AF	0/1:39:8065:3986,3894:0.4828
-chr21	39633951	.	T	C	26.19	PASS	DP=7998;AD=4352,3291	GT:GQ:DP:AD:AF	0/1:26:7998:4352,3291:0.4115
-chr21	39634298	.	A	G	38.86	PASS	DP=7940;AD=4033,3723	GT:GQ:DP:AD:AF	0/1:38:7940:4033,3723:0.4689
-chr21	39635224	.	G	C	43.71	PASS	DP=7884;AD=3939,3699	GT:GQ:DP:AD:AF	0/1:43:7884:3939,3699:0.4692
-chr21	39635571	.	T	C	47.82	PASS	DP=7892;AD=3982,3823	GT:GQ:DP:AD:AF	0/1:47:7892:3982,3823:0.4844
-chr21	39637029	.	T	C	41.57	PASS	DP=7563;AD=4070,3095	GT:GQ:DP:AD:AF	0/1:41:7563:4070,3095:0.4092
-chr21	39638324	.	C	G	24.2	PASS	DP=7600;AD=3800,3615	GT:GQ:DP:AD:AF	0/1:24:7600:3800,3615:0.4757
-chr21	39656270	.	A	G	26.33	PASS	DP=8024;AD=34,7889	GT:GQ:DP:AD:AF	1/1:26:8024:34,7889:0.9832
-chr21	39656448	.	C	T	34.46	PASS	DP=8136;AD=46,8012	GT:GQ:DP:AD:AF	1/1:34:8136:46,8012:0.9848
-chr21	39656606	.	G	A	35.12	PASS	DP=8201;AD=77,8009	GT:GQ:DP:AD:AF	1/1:35:8201:77,8009:0.9766
-chr21	39656644	.	C	T	34.5	PASS	DP=8211;AD=852,7093	GT:GQ:DP:AD:AF	1/1:34:8211:852,7093:0.8638
-chr21	39657659	.	ATCTG	A	49.98	PASS	DP=30720;AD=4692,24476	GT:GQ:DP:AD:AF	1/1:49:30720:4692,24476:0.7967
-chr21	39657904	.	T	C	27.33	PASS	DP=8564;AD=429,7346	GT:GQ:DP:AD:AF	1/1:27:8564:429,7346:0.8578
-chr21	39658830	.	C	T	33.13	PASS	DP=8719;AD=163,8155	GT:GQ:DP:AD:AF	1/1:33:8719:163,8155:0.9353
-chr21	39658868	.	TA	T	28.66	PASS	DP=8728;AD=446,8005	GT:GQ:DP:AD:AF	1/1:28:8728:446,8005:0.9172
-chr21	39658873	.	C	A	31.16	PASS	DP=8726;AD=46,8241	GT:GQ:DP:AD:AF	1/1:31:8726:46,8241:0.9444
-chr21	39658875	.	A	G	25.39	PASS	DP=8726;AD=237,8255	GT:GQ:DP:AD:AF	1/1:25:8726:237,8255:0.946
-chr21	39659683	.	C	T	33.38	PASS	DP=8730;AD=48,8578	GT:GQ:DP:AD:AF	1/1:33:8730:48,8578:0.9826
-chr21	39660101	.	C	CT	34.9	PASS	DP=30792;AD=16384,12092	GT:GQ:DP:AD:AF	0/1:34:30792:16384,12092:0.3927
-chr21	39660813	.	T	C	32.3	PASS	DP=8619;AD=92,8311	GT:GQ:DP:AD:AF	1/1:32:8619:92,8311:0.9643
-chr21	39660877	.	G	A	31.48	PASS	DP=8604;AD=155,7883	GT:GQ:DP:AD:AF	1/1:31:8604:155,7883:0.9162
-chr21	39674957	.	T	C	27.13	PASS	DP=8243;AD=23,8070	GT:GQ:DP:AD:AF	1/1:27:8243:23,8070:0.979
-chr21	39675450	.	C	G	23.5	PASS	DP=12658;AD=6379,5850	GT:GQ:DP:AD:AF	0/1:23:12658:6379,5850:0.4622
-chr21	39675823	.	G	A	23.48	PASS	DP=12704;AD=6744,5541	GT:GQ:DP:AD:AF	0/1:23:12704:6744,5541:0.4362
-chr21	39675949	.	A	G	44.69	PASS	DP=12725;AD=6407,5642	GT:GQ:DP:AD:AF	0/1:44:12725:6407,5642:0.4434
-chr21	39676197	.	G	A	40.38	PASS	DP=12653;AD=6050,6337	GT:GQ:DP:AD:AF	0/1:40:12653:6050,6337:0.5008
-chr21	39676734	.	A	G	42.1	PASS	DP=12553;AD=6735,5591	GT:GQ:DP:AD:AF	0/1:42:12553:6735,5591:0.4454
-chr21	39677118	.	G	A	32.84	PASS	DP=12461;AD=5968,5588	GT:GQ:DP:AD:AF	0/1:32:12461:5968,5588:0.4484
-chr21	39677417	.	GC	G	46.97	PASS	DP=12344;AD=6606,5523	GT:GQ:DP:AD:AF	0/1:46:12344:6606,5523:0.4474
-chr21	39677485	.	TTTTG	T	37.91	PASS	DP=12317;AD=7313,4633	GT:GQ:DP:AD:AF	0/1:37:12317:7313,4633:0.3761
-chr21	39677545	.	A	G	52.13	PASS	DP=12294;AD=6102,6145	GT:GQ:DP:AD:AF	0/1:52:12294:6102,6145:0.4998
-chr21	39680889	.	A	T	33.47	PASS	DP=1596;AD=0,1592	GT:GQ:DP:AD:AF	1/1:33:1596:0,1592:0.9975
-chr21	39680899	.	T	G	31.87	PASS	DP=1596;AD=2,1582	GT:GQ:DP:AD:AF	1/1:31:1596:2,1582:0.9912
-chr21	39680901	.	C	T	34.44	PASS	DP=1596;AD=24,1566	GT:GQ:DP:AD:AF	1/1:34:1596:24,1566:0.9812
-chr21	39680906	.	T	C	37.34	PASS	DP=1596;AD=2,1584	GT:GQ:DP:AD:AF	1/1:37:1596:2,1584:0.9925
-chr21	39680911	.	C	T	29.41	PASS	DP=1596;AD=4,1590	GT:GQ:DP:AD:AF	1/1:29:1596:4,1590:0.9962
-chr21	39680939	.	CA	C	28.9	PASS	DP=1596;AD=12,1578	GT:GQ:DP:AD:AF	1/1:28:1596:12,1578:0.9887
-chr21	39680952	.	G	A	28.21	PASS	DP=1596;AD=12,1576	GT:GQ:DP:AD:AF	1/1:28:1596:12,1576:0.9875
-chr21	39680953	.	G	A	26.26	PASS	DP=1596;AD=26,1556	GT:GQ:DP:AD:AF	1/1:26:1596:26,1556:0.9749
-chr21	39680968	.	G	A	31.54	PASS	DP=1598;AD=10,1582	GT:GQ:DP:AD:AF	1/1:31:1598:10,1582:0.99
-chr21	39680975	.	G	A	29.85	PASS	DP=1598;AD=8,1590	GT:GQ:DP:AD:AF	1/1:29:1598:8,1590:0.995
-chr21	39681009	.	T	C	29.22	PASS	DP=1598;AD=46,1494	GT:GQ:DP:AD:AF	1/1:29:1598:46,1494:0.9349
-chr21	39681010	.	T	G	27.62	PASS	DP=1598;AD=36,1520	GT:GQ:DP:AD:AF	1/1:27:1598:36,1520:0.9512
-chr21	39681016	.	A	G	20.17	PASS	DP=799;AD=33,757	GT:GQ:DP:AD:AF	1/1:20:799:33,757:0.9474
-chr21	39681019	.	C	T	33.07	PASS	DP=1598;AD=8,1562	GT:GQ:DP:AD:AF	1/1:33:1598:8,1562:0.9775
-chr21	39681025	.	T	G	32.11	PASS	DP=1598;AD=12,1550	GT:GQ:DP:AD:AF	1/1:32:1598:12,1550:0.97
-chr21	39681028	.	G	T	30.58	PASS	DP=1598;AD=64,1516	GT:GQ:DP:AD:AF	1/1:30:1598:64,1516:0.9487
-chr21	39681032	.	T	C	37.68	PASS	DP=1598;AD=16,1572	GT:GQ:DP:AD:AF	1/1:37:1598:16,1572:0.9837
-chr21	39681035	.	C	T	33.46	PASS	DP=1596;AD=30,1558	GT:GQ:DP:AD:AF	1/1:33:1596:30,1558:0.9762
-chr21	39681043	.	C	T	31.15	PASS	DP=1596;AD=12,1574	GT:GQ:DP:AD:AF	1/1:31:1596:12,1574:0.9862
-chr21	39681047	.	A	G	24.85	PASS	DP=1594;AD=20,1522	GT:GQ:DP:AD:AF	1/1:24:1594:20,1522:0.9548
-chr21	39681049	.	C	T	29.58	PASS	DP=1594;AD=42,1496	GT:GQ:DP:AD:AF	1/1:29:1594:42,1496:0.9385
-chr21	39681050	.	A	G	25.33	PASS	DP=1594;AD=32,1506	GT:GQ:DP:AD:AF	1/1:25:1594:32,1506:0.9448
-chr21	39681051	.	C	A	31.8	PASS	DP=1594;AD=24,1482	GT:GQ:DP:AD:AF	1/1:31:1594:24,1482:0.9297
-chr21	39681052	.	G	A	28.67	PASS	DP=1594;AD=30,1536	GT:GQ:DP:AD:AF	1/1:28:1594:30,1536:0.9636
-chr21	39681059	.	C	T	30.93	PASS	DP=1594;AD=20,1566	GT:GQ:DP:AD:AF	1/1:30:1594:20,1566:0.9824
-chr21	39681081	.	T	A	26.31	PASS	DP=1586;AD=10,1522	GT:GQ:DP:AD:AF	1/1:26:1586:10,1522:0.9596
-chr21	39681084	.	G	A	25.42	PASS	DP=1586;AD=48,1516	GT:GQ:DP:AD:AF	1/1:25:1586:48,1516:0.9559
-chr21	39681087	.	T	C	26.32	PASS	DP=1586;AD=16,1552	GT:GQ:DP:AD:AF	1/1:26:1586:16,1552:0.9786
-chr21	39681094	.	CAA	C	30.47	PASS	DP=1586;AD=210,1344	GT:GQ:DP:AD:AF	1/1:30:1586:210,1344:0.8474
-chr21	39681106	.	A	T	24.27	PASS	DP=1544;AD=192,1350	GT:GQ:DP:AD:AF	1/1:24:1544:192,1350:0.8744
-chr21	39703942	.	G	A	32.56	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:32:62:0,62:1.0
-chr21	39703943	.	A	G	26.64	PASS	DP=62;AD=2,60	GT:GQ:DP:AD:AF	1/1:26:62:2,60:0.9677
-chr21	39703945	.	A	G	28.77	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:28:62:0,62:1.0
-chr21	39703956	.	G	C	34.54	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:34:62:0,62:1.0
-chr21	39703960	.	A	G	26.68	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:26:62:0,62:1.0
-chr21	39703974	.	C	A	35.56	PASS	DP=62;AD=0,58	GT:GQ:DP:AD:AF	1/1:35:62:0,58:0.9355
-chr21	39703995	.	G	T	33.98	PASS	DP=62;AD=2,60	GT:GQ:DP:AD:AF	1/1:33:62:2,60:0.9677
-chr21	39704004	.	C	T	30.12	PASS	DP=62;AD=2,60	GT:GQ:DP:AD:AF	1/1:30:62:2,60:0.9677
-chr21	39704012	.	T	A	33.17	PASS	DP=62;AD=0,60	GT:GQ:DP:AD:AF	1/1:33:62:0,60:0.9677
-chr21	39704017	.	C	T	27.32	PASS	DP=62;AD=4,58	GT:GQ:DP:AD:AF	1/1:27:62:4,58:0.9355
-chr21	39704024	.	C	T	32.66	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:32:62:0,62:1.0
-chr21	39704026	.	C	A	24.98	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:24:62:0,62:1.0
-chr21	39704073	.	C	T	25.53	PASS	DP=62;AD=20,36	GT:GQ:DP:AD:AF	0/1:25:62:20,36:0.5806
-chr21	39704086	.	A	C	30.55	PASS	DP=62;AD=0,58	GT:GQ:DP:AD:AF	1/1:30:62:0,58:0.9355
-chr21	39704102	.	T	TG	34.79	PASS	DP=62;AD=0,60	GT:GQ:DP:AD:AF	1/1:34:62:0,60:0.9677
-chr21	39704105	.	C	T	24.84	PASS	DP=62;AD=0,60	GT:GQ:DP:AD:AF	1/1:24:62:0,60:0.9677
-chr21	39704110	.	C	T	24.86	PASS	DP=62;AD=4,58	GT:GQ:DP:AD:AF	1/1:24:62:4,58:0.9355
-chr21	39704113	.	G	A	25.89	PASS	DP=62;AD=4,54	GT:GQ:DP:AD:AF	1/1:25:62:4,54:0.871
-chr21	39704114	.	T	G	25.79	PASS	DP=62;AD=2,54	GT:GQ:DP:AD:AF	1/1:25:62:2,54:0.871
-chr21	39704115	.	A	G	25.95	PASS	DP=62;AD=4,56	GT:GQ:DP:AD:AF	1/1:25:62:4,56:0.9032
-chr21	39704132	.	C	T	34.94	PASS	DP=62;AD=2,56	GT:GQ:DP:AD:AF	1/1:34:62:2,56:0.9032
-chr21	39704139	.	T	C	37.28	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:37:62:0,62:1.0
-chr21	39704156	.	T	C	33.56	PASS	DP=62;AD=0,60	GT:GQ:DP:AD:AF	1/1:33:62:0,60:0.9677
-chr21	39704157	.	G	A	27.4	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:27:62:0,62:1.0
-chr21	39704170	.	C	T	31.97	PASS	DP=62;AD=0,58	GT:GQ:DP:AD:AF	1/1:31:62:0,58:0.9355
-chr21	39704174	.	T	C	25.01	PASS	DP=62;AD=6,56	GT:GQ:DP:AD:AF	1/1:25:62:6,56:0.9032
-chr21	39704176	.	C	T	29.04	PASS	DP=62;AD=0,58	GT:GQ:DP:AD:AF	1/1:29:62:0,58:0.9355
-chr21	39704181	.	T	A	31.61	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:31:62:0,62:1.0
-chr21	39704201	.	G	A	35.71	PASS	DP=62;AD=0,60	GT:GQ:DP:AD:AF	1/1:35:62:0,60:0.9677
-chr21	39704215	.	C	T	33.14	PASS	DP=62;AD=0,62	GT:GQ:DP:AD:AF	1/1:33:62:0,62:1.0
-chr21	42314401	.	T	C	46.64	PASS	DP=10;AD=0,10	GT:GQ:DP:AD:AF	1/1:46:10:0,10:1.0
-chr21	42314403	.	C	T	21.32	PASS	DP=10;AD=8,2	GT:GQ:DP:AD:AF	0/1:21:10:8,2:0.2
-chr21	42314419	.	C	T	21.46	PASS	DP=10;AD=6,4	GT:GQ:DP:AD:AF	0/1:21:10:6,4:0.4
-chr21	42314420	.	A	G	21.2	PASS	DP=10;AD=5,5	GT:GQ:DP:AD:AF	0/1:21:10:5,5:0.5
-chr21	42314442	.	C	T	24.67	PASS	DP=10;AD=1,9	GT:GQ:DP:AD:AF	1/1:24:10:1,9:0.9
-chr21	42314451	.	T	C	44.54	PASS	DP=10;AD=0,10	GT:GQ:DP:AD:AF	1/1:44:10:0,10:1.0
-chr21	42314452	.	G	A	25.45	PASS	DP=10;AD=4,6	GT:GQ:DP:AD:AF	0/1:25:10:4,6:0.6
-chr21	42314461	.	T	C	26.35	PASS	DP=10;AD=3,7	GT:GQ:DP:AD:AF	0/1:26:10:3,7:0.7
-chr21	42314480	.	T	C	31.57	PASS	DP=10;AD=1,9	GT:GQ:DP:AD:AF	1/1:31:10:1,9:0.9
-chr21	42314483	.	A	G	21.44	PASS	DP=10;AD=5,5	GT:GQ:DP:AD:AF	0/1:21:10:5,5:0.5
-chr21	42314498	.	C	A	30.71	PASS	DP=10;AD=0,9	GT:GQ:DP:AD:AF	1/1:30:10:0,9:0.9
-chr21	42314526	.	A	G	23.86	PASS	DP=10;AD=6,4	GT:GQ:DP:AD:AF	0/1:23:10:6,4:0.4
-chr21	42314532	.	G	A	24.08	PASS	DP=10;AD=7,3	GT:GQ:DP:AD:AF	0/1:24:10:7,3:0.3
-chr21	42314560	.	C	G	20.23	PASS	DP=10;AD=1,9	GT:GQ:DP:AD:AF	1/1:20:10:1,9:0.9
-chr21	42314561	.	A	G	21.18	PASS	DP=10;AD=1,9	GT:GQ:DP:AD:AF	1/1:21:10:1,9:0.9
-chr21	42314567	.	T	C	23.29	PASS	DP=20;AD=0,18	GT:GQ:DP:AD:AF	1/1:23:20:0,18:0.9
-chr21	42314578	.	A	G	26.97	PASS	DP=10;AD=0,9	GT:GQ:DP:AD:AF	1/1:26:10:0,9:0.9
-chr21	42314608	.	G	A	26.84	PASS	DP=10;AD=6,4	GT:GQ:DP:AD:AF	0/1:26:10:6,4:0.4
-chr21	42314614	.	C	T	22.04	PASS	DP=10;AD=6,4	GT:GQ:DP:AD:AF	0/1:22:10:6,4:0.4
-chr21	42314637	.	A	G	26.75	PASS	DP=10;AD=0,8	GT:GQ:DP:AD:AF	1/1:26:10:0,8:0.8
-chr21	42314874	.	A	G	46.91	PASS	DP=19816;AD=6980,12387	GT:GQ:DP:AD:AF	0/1:46:19816:6980,12387:0.6251
+##source=HaplotypeCaller
+##bcftools_annotateVersion=1.16+htslib-1.21
+##bcftools_annotateCommand=annotate --threads 1 --set-id . --output data/variant/AA-1210982_annotated.vcf data/filter_vcf_based_on_bed_file/AA-1210982.vcf; Date=Tue Oct 28 14:13:24 2025
+##bcftools_normVersion=1.16+htslib-1.21
+##bcftools_normCommand=norm -m - --output data/filter_vcf_based_on_bed_file/AA-1210982.norm.vcf --output-type v data/variant/AA-1210982_annotated.vcf; Date=Tue Oct 28 14:13:24 2025
+##bcftools_viewVersion=1.22+htslib-1.22.1
+##bcftools_viewCommand=view -r chr1 AA-1210982.vcf.gz; Date=Mon Nov 10 19:45:54 2025
+##bcftools_viewCommand=view -r chr1:1010000-1050000 -Oz -o filtered.vcf.gz small_vcf2.vcf.gz; Date=Wed Nov 12 16:59:29 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	AA-1210982
+chr1	1013541	.	T	C	1317.06	.	AC=2;AF=1;AN=2;DB;DP=44;ExcessHet=3.0103;FS=0;MLEAC=2;MLEAF=1;MQ=60;QD=30.63;SOR=1.312	GT:AD:DP:GQ:PL:SB	1/1:0,43:43:99:1331,128,0:0,0,27,16
+chr1	1014228	.	G	A	1471.64	.	AC=1;AF=0.5;AN=2;BaseQRankSum=-0.605;DB;DP=118;ExcessHet=3.0103;FS=3.5;MLEAC=1;MLEAF=0.5;MQ=60;MQRankSum=0;QD=13.26;ReadPosRankSum=0.188;SOR=0.434	GT:AD:DP:GQ:PL:SB	0/1:57,54:111:99:1479,0,1487:22,35,25,29
+chr1	1014274	.	A	G	3523.06	.	AC=2;AF=1;AN=2;DB;DP=108;ExcessHet=3.0103;FS=0;MLEAC=2;MLEAF=1;MQ=60;QD=32.93;SOR=0.789	GT:AD:DP:GQ:PL:SB	1/1:0,107:107:99:3537,312,0:0,0,51,56
+chr1	1020217	.	G	T	698.64	.	AC=1;AF=0.5;AN=2;BaseQRankSum=0.678;DB;DP=38;ExcessHet=3.0103;FS=6.505;MLEAC=1;MLEAF=0.5;MQ=60;MQRankSum=0;QD=18.88;ReadPosRankSum=0.77;SOR=0.102	GT:AD:DP:GQ:PL:SB	0/1:10,27:37:99:706,0,155:9,1,17,10
+chr1	1041950	.	T	C	1392.06	.	AC=2;AF=1;AN=2;DB;DP=43;ExcessHet=3.0103;FS=0;MLEAC=2;MLEAF=1;MQ=60;QD=32.37;SOR=2.147	GT:AD:DP:GQ:PL:SB	1/1:0,43:43:99:1406,126,0:0,0,32,11
+chr1	1043223	.	CCT	C	1772.6	.	AC=1;AF=0.5;AN=2;BaseQRankSum=0.84;DB;DP=99;ExcessHet=3.0103;FS=3.019;MLEAC=1;MLEAF=0.5;MQ=60;MQRankSum=0;QD=17.91;ReadPosRankSum=-0.848;SOR=1.13	GT:AD:DP:GQ:PL:SB	0/1:48,51:99:99:1780,0,1805:33,15,39,12
+chr1	1044368	.	A	T	862.64	.	AC=1;AF=0.5;AN=2;BaseQRankSum=-2.747;DB;DP=71;ExcessHet=3.0103;FS=1.976;MLEAC=1;MLEAF=0.5;MQ=60;MQRankSum=0;QD=12.15;ReadPosRankSum=-1.555;SOR=0.644	GT:AD:DP:GQ:PL:SB	0/1:31,40:71:99:870,0,849:17,14,19,21
+chr1	1045707	.	A	G	1672.06	.	AC=2;AF=1;AN=2;DB;DP=60;ExcessHet=3.0103;FS=0;MLEAC=2;MLEAF=1;MQ=60;QD=30.4;SOR=1.609	GT:AD:DP:GQ:PL:SB	1/1:0,55:55:99:1686,164,0:0,0,37,18
+chr1	1046551	.	A	G	1544.06	.	AC=2;AF=1;AN=2;DB;DP=51;ExcessHet=3.0103;FS=0;MLEAC=2;MLEAF=1;MQ=60;QD=32.17;SOR=2.03	GT:AD:DP:GQ:PL:SB	1/1:0,48:48:99:1558,143,0:0,0,35,13
+chr1	1047561	.	T	C	1120.06	.	AC=2;AF=1;AN=2;DB;DP=38;ExcessHet=3.0103;FS=0;MLEAC=2;MLEAF=1;MQ=60;QD=32;SOR=1.002	GT:AD:DP:GQ:PL:SB	1/1:0,35:35:99:1134,102,0:0,0,20,15
+chr1	1047614	.	T	C	1313.06	.	AC=2;AF=1;AN=2;DB;DP=48;ExcessHet=3.0103;FS=0;MLEAC=2;MLEAF=1;MQ=60;QD=27.36;SOR=0.866	GT:AD:DP:GQ:PL:SB	1/1:0,48:48:99:1327,134,0:0,0,26,22
+chr1	1048922	.	T	C	843.64	.	AC=1;AF=0.5;AN=2;BaseQRankSum=-1.428;DB;DP=68;ExcessHet=3.0103;FS=0;MLEAC=1;MLEAF=0.5;MQ=60;MQRankSum=0;QD=12.78;ReadPosRankSum=0.456;SOR=0.673	GT:AD:DP:GQ:PL:SB	0/1:32,34:66:99:851,0,885:13,19,14,20
+chr1	1049886	.	C	T	1031.64	.	AC=1;AF=0.5;AN=2;BaseQRankSum=2.1;DB;DP=89;ExcessHet=3.0103;FS=4.267;MLEAC=1;MLEAF=0.5;MQ=60;MQRankSum=0;QD=12.28;ReadPosRankSum=-0.345;SOR=0.338	GT:AD:DP:GQ:PL:SB	0/1:43,41:84:99:1039,0,1096:15,28,19,22
