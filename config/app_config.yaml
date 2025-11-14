@@ -18,6 +18,9 @@ docker:
 
     - host: /home/enes/Desktop/denemeler/streamlit-trial/input_files
       container: /pipeline/input_files
-
+      
+    - host: /
+      container: /host
+      read_only: true
 snakemake:
   cmd: "snakemake -s snakefile_germline_vcf.smk --configfile config_docker.yaml --use-conda --conda-frontend mamba -j12 -c12 -F"

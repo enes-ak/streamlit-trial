@@ -1,13 +1,24 @@
 import streamlit as st
 import pandas as pd
 from modules.input_select import input_vcf_selector
-from modules.pipeline import run_pipeline, stop_pipeline
+from modules.pipeline import run_pipeline, stop_pipeline, log_run, to_container_path
 from streamlit_autorefresh import st_autorefresh
 
 
 def new_run_page():
     st.title("⚙️ Yeni Çalışma Oluştur")
+    st.markdown("""
+    <div style='background-color:#ecf2f7; padding:15px; border-radius:8px; border:1px solid #d0d8e0;'>
+    <b>💡 Not:</b> Lütfen örnek adını, boşluksuz, ve sonunda <code>_sonuc</code> yazacak şekilde giriniz.
+    <br>
+    Bu sayede oluşturulan varyant tablosu dosyası <code>ornek1_sonuc.tsv</code> olarak kaydedilecek ve
+    sonuçlar sayfasında otomatik olarak listelenecektir. <code>_sonuc</code> eki eklenmediği takdirde otomatik eklenecektir.
+    <br><br>
+    <b>Örnek:</b> <code>ornek1_sonuc</code> şeklinde bir isimlendirme yapınız.
+    <br><br>
 
+    </div>
+    """, unsafe_allow_html=True)
     sample = st.text_input("Örnek adı")
     vcf_path = input_vcf_selector()
     kit = st.text_input("Kit")
@@ -27,9 +38,13 @@ def new_run_page():
         if not kit:
             st.error("❗ Kit alanı boş bırakılamaz.")
             st.stop()
+
+
+        container_vcf_path = to_container_path(vcf_path)
+
         df = pd.DataFrame([{
             "sample": sample if sample.endswith("_sonuc") else f"{sample}_sonuc",
-            "vcf_path": vcf_path,
+            "vcf_path": container_vcf_path,     # 🔥 artık her zaman doğru path
             "kit": kit,
             "external_kit": "-",
             "allel_count_db": "input_file_allel_count_germline.tsv",
@@ -42,6 +57,34 @@ def new_run_page():
         }])
 
         df.to_csv("single_sample/samples_vcf.csv", sep="\t", index=False)
+        row = df.iloc[0]
+
+        # İlk log_run denemesi, overwrite kapalı
+        res = log_run(
+            sample_name = row["sample"],
+            kit = row["kit"],
+            hpo_term = row["hpo_terms"],
+            genes = row["genes"],
+            base_dir = "single_sample"
+        )
+
+        if res == "exists":
+            st.warning(f"⚠️ '{row['sample']}' isimli örnek zaten mevcut. "
+                    "Lütfen örnek ismini değiştirin ya da üzerine yazın.")
+
+            if st.button("🔁 Üzerine yaz"):
+                log_run(
+                    sample_name=row["sample"],
+                    kit=row["kit"],
+                    hpo_term=row["hpo_terms"],
+                    genes=row["genes"],
+                    base_dir="single_sample",
+                    overwrite=True
+                )
+                st.success("✔ Eski çalışma silindi, yenisi kaydedildi.")
+                st.stop()
+
+            st.stop()
 
         st.session_state["last_config_df"] = df
         st.session_state["config_ready"] = True
@@ -62,7 +105,7 @@ def new_run_page():
         st.session_state["pipeline_process"].poll() is None
     )
 
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns([0.38, 0.62])
 
     # BAŞLAT
     with col1:

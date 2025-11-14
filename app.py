@@ -26,7 +26,7 @@ section[data-testid="stSidebar"] > div {
 }
 .sidebar-bottom {
     flex-shrink: 0;
-    padding-top: 430px;
+    padding-top: 360px;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -40,8 +40,9 @@ with st.sidebar:
 
     # --- TOP (logo + menu) ---
     st.markdown('<div class="sidebar-top">', unsafe_allow_html=True)
-
-    st.image("logo/logo.png", width=150)
+    st.markdown("<h3 style='text-align:center;'>TKE - Somatik Analiz Platformu</h3>", 
+            unsafe_allow_html=True)
+    st.image("logo/logo.png", width=160)
 
     menu = st.radio(
         "Menü",
