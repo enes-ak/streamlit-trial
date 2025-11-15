@@ -2,11 +2,32 @@ import os
 import streamlit as st
 import pandas as pd
 from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
+from modules.utils import advanced_filtered_paginated_aggrid
+import math
 
 
 RETURN_FILES_DIR = "single_sample/data/return_files"
-STAT_DIR = "data/statistics"
+STAT_DIR = "static/statistics"
 RUN_HISTORY = "single_sample/run_history.csv"
+
+
+ADVANCED_FILTER_COLS = [
+    "Main.variation",
+    "Main.gene_symbol",
+    "Main.variant_class",
+    "Main.consequence",
+    "Main.allele_fraction",
+    "Main.total_depth",
+    "Main.pathogenicity",
+    "Main.genotype",
+    "Details3.af_exac",
+    "Details3.af_1000g",
+    "Details3.max_af",
+    "Details4.clinvar_clinical_significance",
+    "Details6.phenotype_information"
+    # ne istersen ekleyebilirsin
+]
+
 
 def show_variant_table(df):
 
@@ -113,7 +134,7 @@ def results_page():
     # ---------------------------
     with tabs[0]:
         st.write(f"Toplam satır: {len(df)}")
-        show_variant_table(df)
+        advanced_filtered_paginated_aggrid(df, ADVANCED_FILTER_COLS)
 
         st.download_button(
             label="📥 Sonuçları İndir",
@@ -126,11 +147,12 @@ def results_page():
     #  İSTATİSTİKLER
     # ---------------------------
     with tabs[1]:
-        stat_path = os.path.join(STAT_DIR, f"{sample_name}_fraction_coverage.txt")
+        # st.write(sample_name)
+        stat_path = os.path.join(RETURN_FILES_DIR, f"{sample_name}_het_hom_ratio_res.tsv")
 
         if os.path.exists(stat_path):
-            stat_df = pd.read_csv(stat_path, sep="\t")
-            st.bar_chart(stat_df.set_index("#Coverage (X)"))
-            st.dataframe(stat_df, width="stretch", height=500)
+            stat_df = pd.read_csv(stat_path, sep="\t", header=None)
+            for idx, row in stat_df.iterrows():
+                st.metric(row[0], row[1])
         else:
             st.warning("İstatistik bulunamadı.")

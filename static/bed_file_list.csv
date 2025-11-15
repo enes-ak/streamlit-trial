@@ -1,0 +1,128 @@
+capture	kit_name	kit	gene_count	kit_class	kit_length	usage	capture_6tab	cnv_model	cnv_model_dir_name	umi
+CAPA_gene_panel_nanopore.bed	CAPA Nanopore Gene Panel	capa_gene_panel	21	targeted_panel	523895	Global	CAPA_gene_panel_nanopore.bed	False	-	-
+S33266340_Covered_edited.bed	Agile HS WES V8 S33266340	ag_S33266340	21996	wes	41623190	Global	S33266340_Covered_edited.bed	False	-	-
+KAPA_HyperExome_plus_primary_targets_6tab.bed	KAPA HyperExome Plus (WES)	kapa_hyper_plus	21029	wes	35793681	Global	KAPA_HyperExome_plus_primary_targets_6tab.bed	False	-	-
+DHS-102Z_target_regions_hg38_liftover_6tab.bed	Qiagen-BRCA	qiagen_brca	2	single_gene	16447	Global	DHS-102Z_target_regions_hg38_liftover_6tab.bed	False	-	-
+myeloid_lymphoma_hg38_probes_capture_targets_genes_6tab.bed	rKAPA Myeloid Lymphoma	kapa_myeloid_lymphoma	139	targeted_panel	339622	Global	myeloid_lymphoma_hg38_probes_capture_targets_genes_6tab.bed	False	-	-
+hglft_over_hg19_UCSC_Invitrotek_BRCA1_2_TE-95972865_hg38_liftover_6tab.bed	iTwist BRCA	inv_twist_brca	3	single_gene	32021	Global	hglft_over_hg19_UCSC_Invitrotek_BRCA1_2_TE-95972865_hg38_liftover_6tab.bed	False	-	-
+NanoHema_Research_Panel_v10_Covered_hg19_hg38_liftover_6tab.bed	NanoHema	inv_nanohema	396	targeted_panel	1033050	Global	NanoHema_Research_Panel_v10_Covered_hg19_hg38_liftover_6tab.bed	False	-	-
+Twist_Comprehensive_Exome_Covered_Targets_hg38_6tab.bed	Twist Comprehensive Exome	twist_comp	23061	wes	36510182	Global	Twist_Comprehensive_Exome_Covered_Targets_hg38_6tab.bed	False	-	-
+UCSC_Invitrotek_UpdatedCancer_1X_TE-95342101_hg19_210917162853_hg38_liftover_6tab.bed	iTwist Cancer v2	inv_twist_cancer_v2	183	targeted_panel	539542	Global	UCSC_Invitrotek_UpdatedCancer_1X_TE-95342101_hg19_210917162853_hg38_liftover_6tab.bed	False	-	-
+Invitrotek_omer_850genes_TE93059079_hg38_liftover_6tab.bed	iTwist 850 Genes	Inv_850	996	targeted_panel	2332307	Global	Invitrotek_omer_850genes_TE93059079_hg38_liftover_6tab.bed	False	-	-
+Onco_Plus_Research_Panel_v2.0_Covered_hg38.bed	iOncoPlus v2	oncoplus	695	targeted_panel	2558943	Global	Onco_Plus_Research_Panel_v2.0_Covered_hg38.bed	False	-	-
+KAPAHyperPETENewbornScreeningPanel_hg38_capture_targets_6tab.bed	rKapa Hyperpete Newborn Screening	kapa_hyperpete_newbornscreening	107	targeted_panel	293581	Global	KAPAHyperPETENewbornScreeningPanel_hg38_capture_targets_6tab.bed	False	-	-
+nanopore_gene_panel.bed	Nanopore Massive Gene Panel	nanopore_gene_panel	5	single_gene	205749	Global	nanopore_gene_panel.bed	False	-	-
+Invitrotek_Cancer_Update_v2_TE97305798_210125215125_hg38_liftover_6tab.bed	iTwist Cancer	inv_cancer	84	targeted_panel	211015	Global	Invitrotek_Cancer_Update_v2_TE97305798_210125215125_hg38_liftover_6tab.bed	False	-	-
+LungCancer_Panel_v10_Covered_hg19_hg38_liftover_6tab.bed	NanoLung	inv_nanolung	28	targeted_panel	218331	Global	LungCancer_Panel_v10_Covered_hg19_hg38_liftover_6tab.bed	False	-	-
+KAPA_HyperCap_Heredity_capture_targets_hg38_6tab.bed	rKapa Hypercap Heredity	kapa_hypercap_hereditary	3948	ces	9979442	Global	KAPA_HyperCap_Heredity_capture_targets_hg38_6tab.bed	False	-	-
+KAPA_HyperExome_prep_primary_targets_6tab.bed	KAPA HyperExome Prep (WES)	kapa_hyper_prep	21029	wes	35793681	Global	KAPA_HyperExome_prep_primary_targets_6tab.bed	False	-	-
+KAPA_HyperCap_DS_NeuroDegeneration_Panel_capture_targets_6tab.bed	rKapa Hypercap DS Neurodegeneration	kapa_hypercap_ds_neurodegeneration	115	targeted_panel	335006	Global	KAPA_HyperCap_DS_NeuroDegeneration_Panel_capture_targets_6tab.bed	False	-	-
+Invitrotek_Neuro_TE97012465_210121212825_hg38_liftover_6tab.bed	iTwist Neuro	inv_neuro	243	targeted_panel	543475	Global	Invitrotek_Neuro_TE97012465_210121212825_hg38_liftover_6tab.bed	False	-	-
+pillar_oncoreveal_multicancer_v4_hg38converted_genes_6tab.bed	Pillar OncoReveal Multicancer v4	pillar_multicancer_panel	60	targeted_panel	33148	Global	pillar_oncoreveal_multicancer_v4_hg38converted_genes_6tab.bed	False	-	-
+KAPA_HyperCap_DS_CES4100_IDP_capture_targets_6tab.bed	rKapa Hypercap DS CES4100	kapa_hypercap_ds_ces4100	4472	ces	12256095	Global	KAPA_HyperCap_DS_CES4100_IDP_capture_targets_6tab.bed	False	-	-
+Combined_MergedProbes_Invitrotek_CES-V2_1X_2X_TE-94095266_hg19_hg38_liftover_6tab.bed	Twist CES v2	inv_twist_ces_v2	5530	ces	12260455	Global	Combined_MergedProbes_Invitrotek_CES-V2_1X_2X_TE-94095266_hg19_hg38_liftover_6tab.bed	False	-	-
+carnitine_cycle.bed	Carnitine Cycle Panel	carnitine	4	single_gene	107511	Global	carnitine_cycle.bed	False	-	-
+KAPA_HyperCap_DS_Sudden_Cardiac_Death_Panel_capture_targets_6tab.bed	rKappa Hypercap DS Sudden Cardiac Death	kapa_hypercap_ds_sudden_cardiac_death	188	targeted_panel	772260	Global	KAPA_HyperCap_DS_Sudden_Cardiac_Death_Panel_capture_targets_6tab.bed	False	-	-
+OnCT_Research_Panel_v10_Probe_covered_hg19_hg38_liftover_6tab.bed	iOnCT v1	oncoct	90	targeted_panel	382468	Global	OnCT_Research_Panel_v10_Probe_covered_hg19_hg38_liftover_6tab.bed	False	-	-
+S33266436_Covered_edited.bed	Agile WES V8 S33266436	ag_S33266436	22004	wes	41638207	Global	S33266436_Covered_edited.bed	False	-	-
+S33613271_Covered_edited.bed	Agile HS WES V8+UTR S33613271	ag_S33613271	26080	wes	85390017	Global	S33613271_Covered_edited.bed	False	-	-
+nonacus_cell3_target_nexome_grch38_covered_6tab.bed	Massive WES-Adv	nonacus_nexome	22528	wes	51974274	Global	nonacus_cell3_target_nexome_grch38_covered_6tab.bed	False	-	-
+Invitrotek_Alt_Panel_v2_TE96600852_210125211505_Alt3_hg38_liftover_6tab.bed	iTwist Alt3	inv_alt3_panel	48	targeted_panel	113028	Global	Invitrotek_Alt_Panel_v2_TE96600852_210125211505_Alt3_hg38_liftover_6tab.bed	False	-	-
+hglft_over_hg19_UCSC_Eu_Genetics_Alt_Panel_1_TE-94228179_hg38_liftover_6tab.bed	iTwist Alt1	inv_eu_genetics_alt1_panel	25	targeted_panel	80505	Global	hglft_over_hg19_UCSC_Eu_Genetics_Alt_Panel_1_TE-94228179_hg38_liftover_6tab.bed	False	-	-
+CES_v1_TE91140134_hg19_v3_190620042957_hg38_liftover.bed	Twist (CES)	ces	4897	ces	19942634	Global	CES_v1_TE91140134_hg19_v3_190620042957_hg38_liftover.bed	False	-	-
+Twist_Exome_RefSeq_targets_hg19_liftOver_hg38.bed	Twist (WES)	twist	26850	wes	36732578	Global	Twist_Exome_RefSeq_targets_hg19_liftOver_hg38.bed	False	-	-
+pillar_oncoreveal_brca_panel_hg38converted_genes_6tab.bed	Pillar OncoReveal BRCA Panel	pillar_brca_panel	2	single_gene	20123	Global	pillar_oncoreveal_brca_panel_hg38converted_genes_6tab.bed	False	-	-
+celemics_pancancer_405_panel_hg38converted_genes_6tab.bed	Celemics PanCancer 405 Panel	celemics_pancancer	405	targeted_panel	1127712	Global	celemics_pancancer_405_panel_hg38converted_genes_6tab.bed	False	-	-
+sophia_ces_v3_hg38_genes_6tab.bed	Sophia CES v3	sophia_ces_v3	26850	wes	36732578	Global	sophia_ces_v3_hg38_genes_6tab.bed	False	-	-
+KAPAHyperPETEHereditaryOncologyPanel_hg38_capture_targets_6tab.bed	rKapa Hyperpete Hereditary Oncology	kapa_hyperpete_hereditary_oncology	47	targeted_panel	202715	Global	KAPAHyperPETEHereditaryOncologyPanel_hg38_capture_targets_6tab.bed	False	-	-
+UCSC_Invitrotek_Updated-Alt1_TE-96509228_hg19_210902154508_hg38_liftover_6tab.bed	iTwist Alt1 v2	inv_eu_genetics_alt1_v2_panel	29	targeted_panel	96729	Global	UCSC_Invitrotek_Updated-Alt1_TE-96509228_hg19_210902154508_hg38_liftover_6tab.bed	False	-	-
+QIAseqExomehg380720_6tab.bed	QIAseq Exome	qiaseq_exome	21278	wes	33936165	Global	QIAseqExomehg380720_6tab.bed	False	-	-
+KAPAHyperPETELungCancerFusionPanel_hg38_capture_targets_6tab.bed	rKapa Hyperpete Lung Cancer Fusion	kapa_hyperpete_lungcancerfusion	41	targeted_panel	17591	Global	KAPAHyperPETELungCancerFusionPanel_hg38_capture_targets_6tab.bed	False	-	-
+Eu_Genetics_Alt_Panel_2_TE91669671_hg38_liftover_6tab.bed	iTwist Alt2	inv_eu_genetics_alt2_panel	20	targeted_panel	35617	Global	Eu_Genetics_Alt_Panel_2_TE91669671_hg38_liftover_6tab.bed	False	-	-
+KAPAHyperPETEPanCancerPanel_hg38_capture_targets_6tab.bed	rKapa Hyperpete Pancancer	kapa_hyperpete_pancancer	89	targeted_panel	300589	Global	KAPAHyperPETEPanCancerPanel_hg38_capture_targets_6tab.bed	False	-	-
+KAPAHyperPETEHotSpotPanel_hg38_capture_targets_6tab.bed	rKapa Hyperpete Hotspot	kapa_hyperpete_hotspotpanel	37	targeted_panel	36462	Global	KAPAHyperPETEHotSpotPanel_hg38_capture_targets_6tab.bed	False	-	-
+Invitrotek_Muscle_Update_v2_TE98933552_210125222640_hg38_liftover_6tab.bed	iTwist Muscle v2	inv_muscle	241	targeted_panel	576263	Global	Invitrotek_Muscle_Update_v2_TE98933552_210125222640_hg38_liftover_6tab.bed	False	-	-
+KAPA_HyperCap_DS_Hereditary_Cancer_Research_Panel_capture_targets.bed	KAPA HyperCap DS Hereditary Cancer	kapa_hypercap_ds_hereditary_cancer	253	targeted_panel	743836	Global	KAPA_HyperCap_DS_Hereditary_Cancer_Research_Panel_capture_targets.bed	False	-	-
+NE_Heredity_CR_capture_targets_6tab.bed	Roche HCS Panel	roche_hcs	61	targeted_panel	292202	Gazi Genetik	NE_Heredity_CR_capture_targets_6tab.bed	False	-	-
+ish-tekgen-design.bed	ISH Panel	ish_panel	277	single_gene	2835606	İzmir ŞH	ISH-TekGen-V6.bed	False	-	-
+Nucleus_NM_290_capture_targets.bed	M_Custom_Design	m_custom_design	290	targeted_panel	1165540	Nucleus Genetik – Antalya EAH – Konya Selçuk Üniversitesi – EgeGenetik – Gazi Genetik – Necmettin Erbakan Üniversitesi	Nucleus_NM_290_capture_targets.bed	False	-	-
+FOXE1.bed	Tek_Gen	Tek_Gen	1	single_gene	1920	Nucleus Genetik – Antalya EAH – Konya Selçuk Üniversitesi – EgeGenetik – Gazi Genetik – Necmettin Erbakan Üniversitesi	FOXE1.bed	False	-	-
+Gentan_ortak_capture_targets_6tab.bed	gOrtak	gt_ortak	525	targeted_panel	2919998	Gentan – Gelişim – Batman EAH – Başakşehir Çam ve Sakura Şehir Hastanesi Genetik Hastalıkları Değerlendirme Merkezi	Gentan_ortak_capture_targets_6tab.bed	False	-	-
+Gentan_Epileps_capture_targets_6tab.bed	gEpilepsy	gt_epileps	86	targeted_panel	709446	Gentan – Gelişim – Batman EAH – Başakşehir Çam ve Sakura Şehir Hastanesi Genetik Hastalıkları Değerlendirme Merkezi	Gentan_Epileps_capture_targets_6tab.bed	False	-	-
+Gentan_CES_IDP2_REZ_capture_targets_6tab.bed	gIDP2	gt_idp	3953	ces	11785466	Gentan – Gelişim – Batman EAH – Başakşehir Çam ve Sakura Şehir Hastanesi Genetik Hastalıkları Değerlendirme Merkezi	Gentan_CES_IDP2_REZ_capture_targets_6tab.bed	False	-	-
+Gentan_Mody_DM_capture_targets_6tab.bed	gMody	gt_mody	112	targeted_panel	624448	Gentan – Gelişim – Batman EAH – Başakşehir Çam ve Sakura Şehir Hastanesi Genetik Hastalıkları Değerlendirme Merkezi	Gentan_Mody_DM_capture_targets_6tab.bed	False	-	-
+Gentan_Kardiyo_capture_targets_6tab.bed	gCardio	gt_kardiyo	304	targeted_panel	2108936	Gentan – Gelişim – Batman EAH – Başakşehir Çam ve Sakura Şehir Hastanesi Genetik Hastalıkları Değerlendirme Merkezi	Gentan_Kardiyo_capture_targets_6tab.bed	False	-	-
+Gentan_KIKP_capture_targets_6tab.bed	gKikp	gt_kikp	206	targeted_panel	1223442	Gentan – Gelişim – Batman EAH – Başakşehir Çam ve Sakura Şehir Hastanesi Genetik Hastalıkları Değerlendirme Merkezi	Gentan_KIKP_capture_targets_6tab.bed	False	-	-
+Gentan_Pankans_capture_targets_6tab.bed	gPankans	gt_pankans	153	targeted_panel	805345	Gentan – Gelişim – Batman EAH – Başakşehir Çam ve Sakura Şehir Hastanesi Genetik Hastalıkları Değerlendirme Merkezi	Gentan_Pankans_capture_targets_6tab.bed	False	-	-
+Nonacus_Galeas_Bladder_target_merged.bed	galeas_bladder	galeas_bladder	54	targeted_panel	6994	Massive Bioinformatics	Nonacus_Galeas_Bladder_target_merged.bed	False	-	+
+twist_illumina_wes.bed	Twist-Illumina WES 2.5 Enrichment	twist_exome_2	21932	wes	37453133	Global	twist_illumina_wes.bed	False	-	-
+MEFV_hg38.bed	MEFV Panel	mefv_panel	1	single_gene	5983	Ahenk Laboratuvarları	MEFV_hg38.bed	False	-	-
+HBA1_hg38.bed	HBA1 Panel	hba_panel	1	single_gene	1403	Ahenk Laboratuvarları	HBA1_hg38.bed	False	-	-
+agilent_sureselect_human_all_exon_v8.bed	Agilent SureSelectXT HS Human All Exon V8	agilent_all_exon	21996	wes	41623190	agilent_sureselect_human_all_exon_v8.bed	agilent_sureselect_human_all_exon_v8.bed	False	-	-
+twist_hcs_panel_sorted.bed	Twist HCS Panel	twist_hcs	61	targeted_panel	213114	Global	twist_hcs_panel_sorted.bed	False	-	-
+Qiagen_Familial_Cancer_Panel_hg38_6tab.bed	test	qiagen_familial	61	targeted_panel	519788	Global	Qiagen_Familial_Cancer_Panel_hg38_6tab.bed	False	-	-
+twist_ksh_epilepsi_panel_sorted_hg38.bed	Twist KSH Epilepsi Panel	ksh_epilepsi	739	targeted_panel	2383397	Kocaeli ŞH	twist_ksh_epilepsi_panel_sorted_hg38.bed	False	-	-
+twist_ksh_herediter_panel_sorted_hg38.bed	Twist KSH Herediter Panel	ksh_herediter	113	targeted_panel	427242	Kocaeli ŞH	twist_ksh_herediter_panel_sorted_hg38.bed	False	-	-
+twist_ksh_immun_panel_sorted_hg38.bed	Twist KSH İmmun Panel	ksh_immun	426	targeted_panel	1429723	Kocaeli ŞH	twist_ksh_immun_panel_sorted_hg38.bed	False	-	-
+twist_ksh_otizm_panel_sorted_hg38.bed	Twist KSH Otizm Panel	ksh_otizm	312	targeted_panel	1862178	Kocaeli ŞH	twist_ksh_otizm_panel_sorted_hg38.bed	False	-	-
+GRCh38_whole_genome.bed	WGS	wgs	25000	wgs	3088286401	Massive Bioinformatics	GRCh38_whole_genome.bed	False	-	-
+twist_agir_immun_yetmezlik.bed	Twist Ağır Immun Yetmezlik Panel	twist_agir_immun_yetmezlik	50	targeted_panel	154091	Gazi Genetik	twist_agir_immun_yetmezlik.bed	False	-	-
+twist_boy_kisaligi.bed	Twist Boy Kısalığı Panel	twist_boy_kisaligi	73	targeted_panel	304056	Gazi Genetik	twist_boy_kisaligi.bed	False	-	-
+twist_cinsiyet_bozukluklari.bed	Twist Cinsiyet Bozuklukları Panel	twist_cinsiyet_bozukluklari	43	targeted_panel	124242	Gazi Genetik	twist_cinsiyet_bozukluklari.bed	False	-	-
+twist_epilepsi.bed	Twist Epilepsi Panel	twist_epilepsi	142	targeted_panel	629349	Gazi Genetik	twist_epilepsi.bed	False	-	-
+twist_hiper_ig2_tip2.bed	Twist Hiper IG2 Tip 2 Panel	twist_hiper_ig2_tip2	290	targeted_panel	965390	Gazi Genetik	twist_hiper_ig2_tip2.bed	False	-	-
+twist_hiperlipidemi.bed	Twist Hiperlipidemi Panel	twist_hiperlipidemi	68	targeted_panel	198823	Gazi Genetik	twist_hiperlipidemi.bed	False	-	-
+twist_kanama_bozuklugu.bed	Twist Kanama Bozukluğu Panel	twist_kanama_bozuklugu	85	targeted_panel	278623	Gazi Genetik	twist_kanama_bozuklugu.bed	False	-	-
+twist_meram_custom.bed	Twist Meram Custom Panel	twist_meram_custom	236	targeted_panel	665381	Gazi Genetik	twist_meram_custom.bed	False	-	-
+twist_n_litiazis.bed	Twist N Litiazis Panel	twist_n_litiazis	44	targeted_panel	126498	Gazi Genetik	twist_n_litiazis.bed	False	-	-
+twist_obezite.bed	Twist Obezite Panel	twist_obezite	45	targeted_panel	187338	Gazi Genetik	twist_obezite.bed	False	-	-
+twist_otoinflamatuar.bed	Twist Otoinflamatuar Panel	twist_otoinflamatuar	40	targeted_panel	101606	Gazi Genetik	twist_otoinflamatuar.bed	False	-	-
+twist_pankreatit.bed	Twist Pankreatit Panel	twist_pankreatit	54	targeted_panel	231993	Gazi Genetik	twist_pankreatit.bed	False	-	-
+twist_rcc_mody.bed	Twist RCC MODY Panel	twist_rcc_mody	39	targeted_panel	133861	Gazi Genetik	twist_rcc_mody.bed	False	-	-
+twist_retinitis.bed	Twist Retinitis Panel	twist_retinitis	80	targeted_panel	286742	Gazi Genetik	twist_retinitis.bed	False	-	-
+twist_exome_2_0.bed	Twist Exome 2.0	twist_exome_2_0	19901	wes	36458262	Global	twist_exome_2_0.bed	False	-	-
+twist_non_sendromik_isitme_kaybi.bed	Twist Non-Sendromik İşitme Kaybı Panel	twist_non_sendromik_isitme_kaybi.bed	147	targeted_panel	610404	Gazi Genetik	twist_non_sendromik_isitme_kaybi.bed	False	-	-
+twist_tiroid.bed	Twist Tiroid Panel	twist_tiroid.bed	45	targeted_panel	147919	Gazi Genetik	twist_tiroid.bed	False	-	-
+twist_oncorisk.bed	Twist Oncorisk Panel	twist_oncorisk.bed	47	targeted_panel	201134	Gazi Genetik	twist_oncorisk.bed	False	-	-
+twist_aortopati.bed	Twist Aortopati Panel	twist_aortopati.bed	75	targeted_panel	353087	Gazi Genetik	twist_aortopati.bed	False	-	-
+twist_hypopigmentation.bed	Twist Hypopigmentation Panel	twist_hypopigmentation.bed	33	targeted_panel	114803	Gazi Genetik	twist_hypopigmentation.bed	False 	-	-
+twist_alzheimer_demans.bed	Twist Alzheimer Demans Panel	twist_alzheimer_demans.bed	79	targeted_panel	301805	Gazi Genetik	twist_alzheimer_demans.bed	False 	-	-
+twist_aritmi.bed	Twist Aritmi Panel	twist_aritmi.bed	47	targeted_panel	190638	Gazi Genetik	twist_aritmi.bed	False 	-	-
+twist_ciliopthy_bb.bed	Twist Ciliopathy-BB Panel	twist_ciliopthy_bb.bed	102	targeted_panel	470817	Gazi Genetik	twist_ciliopthy_bb.bed	False 	-	-
+twist_cmt.bed	Twist CMT Panel	twist_cmt.bed	77	targeted_panel	293917	Gazi Genetik	twist_cmt.bed	False 	-	-
+twist_congenital_ichthyosis.bed	Twist Congenital Ichthyosis Panel	twist_congenital_ichthyosis.bed	42	targeted_panel	102795	Gazi Genetik	twist_congenital_ichthyosis.bed	False 	-	-
+twist_distoni_cdls.bed	Twist Distoni-CDLS Panel	twist_distoni_cdls.bed	19	targeted_panel	75480	Gazi Genetik	twist_distoni_cdls.bed	False 	-	-
+twist_epidermosis_bullosa.bed	Twist Epidermolsis Bullosa Panel	twist_epidermosis_bullosa.bed	34	targeted_panel	204903	Gazi Genetik	twist_epidermosis_bullosa.bed	False 	-	-
+twist_fankoni_anemi.bed	Twist Fankoni Anemi Panel	twist_fankoni_anemi.bed	42	targeted_panel	144389	Gazi Genetik	twist_fankoni_anemi.bed	False 	-	-
+twist_fgfr.bed	Twist FGFR Panel	twist_fgfr.bed	60	targeted_panel	195228	Gazi Genetik	twist_fgfr.bed	False 	-	-
+twist_herediter_spastik.bed	Twist Herediter Spastik Panel	twist_herediter_spastik.bed	64	targeted_panel	206600	Gazi Genetik	twist_herediter_spastik.bed	False 	-	-
+twist_hipofiz.bed	Twist Hipofiz Panel	twist_hipofiz.bed	46	targeted_panel	147344	Gazi Genetik	twist_hipofiz.bed	False 	-	-
+twist_iskelet.bed	Twist İskelet Panel	twist_iskelet.bed	142	targeted_panel	566202	Gazi Genetik	twist_iskelet.bed	False 	-	-
+twist_nefro.bed	Twist Nefro Panel	twist_nefro.bed	57	targeted_panel	239342	Gazi Genetik	twist_nefro.bed	False 	-	-
+twist_cardiomyopathy.bed	Twist Cardiomyopathy Panel	twist_cardiomyopathy.bed	43	targeted_panel	320684	Gazi Genetik	twist_cardiomyopathy.bed	False 	-	-
+twist_kolestaz_1_2.bed	Twist Kolestaz1-2 Panel	twist_kolestaz_1_2.bed	66	targeted_panel	240736	Gazi Genetik	twist_kolestaz_1_2.bed	False 	-	-
+twist_konjenital_glikolizasyon.bed	Twist Konjenital Glikolizasyon Panel	twist_konjenital_glikolizasyon.bed	144	targeted_panel	375887	Gazi Genetik	twist_konjenital_glikolizasyon.bed	False 	-	-
+twist_konjenital_miyasteni.bed	Twist Konjenital Miyasteni Panel	twist_konjenital_miyasteni.bed	35	targeted_panel	175766	Gazi Genetik	twist_konjenital_miyasteni.bed	False 	-	-
+twist_konjenital_müsküler_distrofi.bed	Twist Konjenital Müsküler Distrofi Panel	twist_konjenital_müsküler_distrofi.bed	51	targeted_panel	244719	Gazi Genetik	twist_konjenital_müsküler_distrofi.bed	False 	-	-
+twist_konjenital_myopati.bed	Twist Konjenitel Myopati Panel 	twist_konjenital_myopati.bed	62	targeted_panel	453977	Gazi Genetik	twist_konjenital_myopati.bed	False 	-	-
+twist_lizozomal_depo.bed	Twist Lizozomal Depo Panel	twist_lizozomal_depo.bed	61	targeted_panel	172391	Gazi Genetik	twist_lizozomal_depo.bed	False 	-	-
+twist_long_qt.bed	Twist LONG-QT Panel	twist_long_qt.bed	23	targeted_panel	105722	Gazi Genetik	twist_long_qt.bed	False 	-	-
+twist_mikrosefali.bed	Twist Mikrosefali Panel	twist_mikrosefali.bed	30	targeted_panel	167842	Gazi Genetik	twist_mikrosefali.bed	False 	-	-
+twist_müsküler_distrofi.bed	Twist Müsküler Distrofi Panel	twist_müsküler_distrofi.bed	59	targeted_panel	451616	Gazi Genetik	twist_müsküler_distrofi.bed	False 	-	-
+twist_alport_sendromu.bed	Twist Alport Sendromu Panel	twist_alport_sendromu.bed	41	targeted_panel	186568	Gazi Genetik	twist_alport_sendromu.bed	False 	-	-
+twist_obezite_2.bed	Twist Obezite-2 Panel	twist_obezite_2.bed	72	targeted_panel	322629	Gazi Genetik	twist_obezite_2.bed	False 	-	-
+twist_primer_siliyer.bed	Twist Pimer Siliyer Panel	twist_primer_siliyer.bed	55	targeted_panel	245306	Gazi Genetik	twist_primer_siliyer.bed	False 	-	-
+twist_tubuler.bed	Twist Tubuler Panel	twist_tubuler.bed	45	targeted_panel	160898	Gazi Genetik	twist_tubuler.bed	False 	-	-
+faod_panel_pcr.bed	FAOD Panel  (PCR)	faod_panel_pcr	12	targeted_panel	473153	Çapa Nadir Hastalıklar	faod_panel_pcr.bed	False 	-	-
+NEXome_Mini_Panel_v1.0.covered.hg38.bed	Nexome Mini Panel	nexome_mini_panel	6026	ces	16074193	Viagen	NEXome_Mini_Panel_v1.0.covered.hg38.bed	False 	-	-
+NEXome_Plus_Panel_v1.probe.hg38.bed	Nexome Plus Panel Probe	nexome_plus_panel_probe	19550	wes	43268772	Viagen	NEXome_Plus_Panel_v1.probe.hg38.bed	False 	-	-
+NEXome_Plus_Panel_v1.target.hg38.bed	Nexome Plus Panel Target	nexome_plus_panel_target	19813	wes	35174504	Viagen	NEXome_Plus_Panel_v1.target.hg38.bed	False 	-	-
+Target_CLMXPD037-V2_WES_mtDNA.GRCh38.bed	Celemics WES / mtDNA	celemics_wes_mtdna	24554	wes	36793504	Global	Target_CLMXPD037-V2_WES_mtDNA.GRCh38.bed	False 	-	-
+gazi_kit.bed	gazi_kit	gazi_kit	55555	targeted_panel	555555	Global	gazi_kit.bed	False 	-	-
+sureselect_cgp_assay_A3416642.bed	SureSelect CGP Assay A3416642	sureselect_cgp_assay_A3416642	1086	targeted_panel	2653900	Global	sureselect_cgp_assay_A3416642.bed	False 	-	-
+hematoloji_panel.bed	Hematoloji Panel	hematoloji_panel	44	targeted_panel	65234	Global	hematoloji_panel.bed	False 	-	-
+faod_probe_based.bed	FAOD Probe Based	faod_probe_based	18	targeted_panel	173098	Global	faod_probe_based.bed	False 	-	-
+oncofu_elite.bed	OncoFu Elite	oncofu_elite	105	targeted_panel	296478	Global	oncofu_elite.bed	False 	-	-
+twist_hcs_v2.bed	Twist HCS V2	twist_hcs_v2	112	targeted_panel	296478	Global	twist_hcs_v2.bed	False 	-	-
+detagen_exome.bed	Detagen Exome	detagen_exome	19524	wes	34128352	DNA Lab	detagen_exome.bed	False 	-	-
+bayram_hoca_2gen.bed	bayram_hoca	bayram_hoca	2	targeted_panel	0	bayram_hoca	bayram_hoca	False 	-	-
