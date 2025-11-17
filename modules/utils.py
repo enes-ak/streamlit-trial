@@ -15,58 +15,84 @@ def advanced_filter_panel(df, filter_columns, reset=False):
     for col in filter_columns:
         col_data = df[col]
 
-        st.markdown(f"**🧩 {col}**")
+        with st.expander(f"🧩 {col}", expanded=False):
 
-        # STRING
-        if col_data.dtype == object:
-            default = "" if reset else st.session_state.get(f"adv_txt_{col}", "")
-            val = st.text_input(f"{col} içerir:", value=default, key=f"adv_txt_{col}")
-            if val:
-                mask = filtered_df[col].astype(str).str.contains(val, case=False, na=False)
+            # -----------------------------
+            # STRING FILTER
+            # -----------------------------
+            if col_data.dtype == object:
+                # Reset mode → empty string
+                if reset:
+                    default = ""
+                else:
+                    default = st.session_state.get(f"adv_txt_{col}", "")
+
+                val = st.text_input(
+                    f"{col} içerir:",
+                    value=default,
+                    key=f"adv_txt_{col}"
+                )
+
+                if val:
+                    mask = filtered_df[col].astype(str).str.contains(val, case=False, na=False)
+                    filtered_df = filtered_df[mask]
+
+
+            # -----------------------------
+            # NUMERIC FILTER
+            # -----------------------------
+            elif pd.api.types.is_numeric_dtype(col_data):
+                true_min = float(df[col].min())
+                true_max = float(df[col].max())
+
+                # Reset mode → full range
+                if reset:
+                    default_range = (true_min, true_max)
+                else:
+                    default_range = st.session_state.get(
+                        f"adv_rng_{col}", (true_min, true_max)
+                    )
+
+                a, b = st.slider(
+                    f"{col} aralığı",
+                    min_value=true_min,
+                    max_value=true_max,
+                    value=default_range,
+                    key=f"adv_rng_{col}"
+                )
+
+                mask = (filtered_df[col].between(a, b)) | (filtered_df[col].isna())
                 filtered_df = filtered_df[mask]
 
-        # NUMBER
-        elif pd.api.types.is_numeric_dtype(col_data):
-            # ✔ Her zaman tüm dataset üzerinden gerçek min-max al
-            true_min = float(df[col].min())
-            true_max = float(df[col].max())
 
-            # ✔ Reset modunda slider full range açık olacak
-            if reset:
-                default = (true_min, true_max)
-            else:
-                default = st.session_state.get(f"adv_rng_{col}", (true_min, true_max))
+            # -----------------------------
+            # CATEGORY FILTER
+            # -----------------------------
+            elif df[col].nunique() <= 30:
+                options = sorted(df[col].dropna().unique().tolist())
 
-            # ✔ Slider her zaman gerçek dataset aralığında çalışıyor
-            a, b = st.slider(
-                f"{col} aralığı",
-                true_min, true_max,
-                default,
-                key=f"adv_rng_{col}"
-            )
+                # Reset mode → empty selection
+                if reset:
+                    default_vals = []
+                else:
+                    default_vals = st.session_state.get(f"adv_cat_{col}", [])
 
-            mask = (filtered_df[col].between(a, b)) | (filtered_df[col].isna())
-            filtered_df = filtered_df[mask]
+                selected = st.multiselect(
+                    f"{col} seç",
+                    options,
+                    default=default_vals,
+                    key=f"adv_cat_{col}"
+                )
 
+                if selected:
+                    mask = filtered_df[col].isin(selected) | filtered_df[col].isna()
+                else:
+                    mask = pd.Series([True] * len(filtered_df))
 
-        # CATEGORY
-        elif df[col].nunique() <= 30:
-            default = [] if reset else st.session_state.get(f"adv_cat_{col}", [])
-            opts = st.multiselect(
-                f"{col} seç",
-                sorted(df[col].dropna().unique().tolist()),
-                default,
-                key=f"adv_cat_{col}"
-            )
-            if opts:
-                mask = filtered_df[col].isin(opts)
-            else:
-                mask = pd.Series([True] * len(filtered_df))  # hiçbir filtre yok
-            filtered_df = filtered_df[mask]
-
-        st.markdown("---")
+                filtered_df = filtered_df[mask]
 
     return filtered_df
+
 
 
 
