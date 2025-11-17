@@ -21,7 +21,6 @@ def advanced_filter_panel(df, filter_columns, reset=False):
             # STRING FILTER
             # -----------------------------
             if col_data.dtype == object:
-                # Reset mode → empty string
                 if reset:
                     default = ""
                 else:
@@ -42,8 +41,14 @@ def advanced_filter_panel(df, filter_columns, reset=False):
             # NUMERIC FILTER
             # -----------------------------
             elif pd.api.types.is_numeric_dtype(col_data):
+
                 true_min = float(df[col].min())
                 true_max = float(df[col].max())
+
+                # Eğer tüm değerler aynıysa slider YASAK → info göster
+                if true_min == true_max:
+                    st.info(f"{col} için filtre uygulanamaz (tüm değerler = {true_min})")
+                    continue
 
                 # Reset mode → full range
                 if reset:
@@ -71,7 +76,6 @@ def advanced_filter_panel(df, filter_columns, reset=False):
             elif df[col].nunique() <= 30:
                 options = sorted(df[col].dropna().unique().tolist())
 
-                # Reset mode → empty selection
                 if reset:
                     default_vals = []
                 else:
